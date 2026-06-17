@@ -1,0 +1,665 @@
+[
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_66044",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay between psychological resilience, philosophical adaptability, and literary themes of endurance in familial narratives, particularly within *The Family*, and their broader implications for understanding human adaptability",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the philosophical concept of distraction influence psychological outcomes in characters from The Family: The Real Story of the Bush Dynasty and America's Secret War? A. Enhanced focus B. Increased despair C. Improved relationships D. Greater self-awareness?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.29,
+          "philosophy": 0.36,
+          "psychology": 0.35
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might literary themes of resilience in The Family intersect with philosophical notions of distraction and psychological adaptability?",
+        "answer": [
+          "Resilience enhances psychological adaptability",
+          "Resilience counters distraction, fosters adaptability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.4,
+          "philosophy": 0.28,
+          "psychology": 0.32
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How might psychological adaptability in The Family reflect philosophical views on distraction and literary themes of resilience?",
+        "answer": [
+          "Adapting through distraction fosters resilience",
+          "Adaptability fosters resilience amidst distractions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.35,
+          "philosophy": 0.31,
+          "psychology": 0.34
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 4,
+        "prompt": "How might psychological resilience in The Family connect to philosophical views on distraction and literary depictions of adaptability?",
+        "answer": [
+          "Resilience mirrors philosophical adaptability",
+          "Resilience adapts through distraction"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.31,
+          "philosophy": 0.27,
+          "psychology": 0.42
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 5,
+        "prompt": "How do psychological theories of resilience in The Family align with philosophical concepts of distraction and literary portrayals of adaptability?",
+        "answer": [
+          "Adaptability mirrors distraction resilience",
+          "Resilience aligns adaptability distracts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.79,
+        "domain_weights": {
+          "literature": 0.29,
+          "philosophy": 0.34,
+          "psychology": 0.37
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 6,
+        "prompt": "How do psychological resilience models and philosophical adaptability concepts influence literary portrayals of family endurance?",
+        "answer": [
+          "Shapes narratives of familial resilience",
+          "Resilience and adaptability shape enduring family narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.32,
+          "philosophy": 0.26,
+          "psychology": 0.42
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_42557",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay between psychological concepts of empathy and altruism, philosophical ethics, and literary themes of mutual assistance, sacrifice, and moral courage",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What psychological theory explains altruism, and how does it connect to philosophical ethics and literary depictions of selflessness?",
+        "answer": [
+          "Reciprocal altruism theory connects ethics",
+          "Empathy-altruism hypothesis connects ethics, literature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "literature": 0.3,
+          "philosophy": 0.2,
+          "psychology": 0.5
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 2,
+        "prompt": "Which psychological theory of altruism aligns with philosophical virtue ethics and literary depictions of moral courage?",
+        "answer": [
+          "Empathy-Altruism Hypothesis",
+          "Empathy-altruism hypothesis aligns with virtue ethics and literary courage"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "literature": 0.3,
+          "philosophy": 0.39,
+          "psychology": 0.31
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How does psychological altruism challenge philosophical utilitarianism and literary portrayals of sacrifice?",
+        "answer": [
+          "Undermines selfless sacrifice motives",
+          "Altruism complicates utilitarian sacrifice narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.3,
+          "philosophy": 0.41,
+          "psychology": 0.29
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_76810",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay between literary analysis (C) and its psychological (A) and philosophical (B) implications, exploring how literature informs self-awareness, ethics, identity, resilience, decision-making, authenticity, coping mechanisms, and human flourishing",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does interpreting symbolism in literature influence psychological self-awareness and philosophical introspection ?",
+        "answer": [
+          "Enhances self-understanding and reflection",
+          "Symbolism fosters introspection and self-awareness"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.28,
+          "psychology": 0.26
+        },
+        "theme_consistency_score": 0.52
+      },
+      {
+        "turn": 2,
+        "prompt": "How do literary depictions of moral dilemmas influence psychological decision-making processes and philosophical conceptions of justice ?",
+        "answer": [
+          "Shapes ethical reasoning and justice perceptions",
+          "Literary dilemmas shape psychological choices and philosophical justice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.41,
+          "philosophy": 0.35,
+          "psychology": 0.24
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 3,
+        "prompt": "How do literary portrayals of identity intersect with psychological theories of self-concept and philosophical notions of authenticity ?",
+        "answer": [
+          "Exploring self-awareness and authenticity",
+          "Identity reflects self-concept and authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.29,
+          "philosophy": 0.35,
+          "psychology": 0.36
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How do literary representations of resilience inform psychological theories of adaptation and philosophical perspectives on human flourishing ?",
+        "answer": [
+          "Inspires adaptive and flourishing theories",
+          "Resilience fosters adaptation and flourishing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.29,
+          "philosophy": 0.39,
+          "psychology": 0.32
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_47064",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay of distraction, existential dilemmas, and moral ambiguity in *The Family* reflects philosophical theories, psychological resilience, and literary techniques, shaping perceptions of reality and identity while achieving narrative closure",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the interplay of distraction, as explored philosophically, affect the psychological resilience of characters in The Family, and what literary techniques highlight this dynamic?",
+        "answer": [
+          "Distraction undermines emotional stability",
+          "Distraction undermines resilience, highlighted through symbolism and existential reflection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.48,
+          "philosophy": 0.3,
+          "psychology": 0.22
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 2,
+        "prompt": "Which literary work explores distraction philosophically while depicting psychological resilience through symbolism?",
+        "answer": [
+          "The Unbearable Lightness of Being",
+          "\"The Great Gatsby\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.47,
+          "philosophy": 0.33,
+          "psychology": 0.2
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How do literary depictions of distraction in The Family reflect philosophical theories and psychological impacts on decision-making?",
+        "answer": [
+          "Exploring existential distraction impacts",
+          "Distraction reflects existential conflict and cognitive overload"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "literature": 0.45,
+          "philosophy": 0.28,
+          "psychology": 0.27
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How do existential dilemmas in *The Family* reflect literary symbolism and psychological resilience?",
+        "answer": [
+          "Symbolism enhances psychological resilience",
+          "Existential dilemmas symbolize resilience through familial bonds"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "literature": 0.34,
+          "philosophy": 0.36,
+          "psychology": 0.3
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the tension between free will and determinism in *The Family* reflect literary irony and psychological defense mechanisms?",
+        "answer": [
+          "Irony highlights inevitable fate",
+          "Irony mirrors defense, free will debates"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "literature": 0.32,
+          "philosophy": 0.41,
+          "psychology": 0.27
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 6,
+        "prompt": "How does *The Family*'s depiction of moral ambiguity integrate literary motifs, philosophical ethics, and psychological identity formation?",
+        "answer": [
+          "Explores ethical dilemmas and identity conflicts",
+          "Moral ambiguity shapes identity through ethical dilemmas and literary symbolism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.26,
+          "philosophy": 0.4,
+          "psychology": 0.34
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 7,
+        "prompt": "How does *The Family*'s resolution illustrate philosophical reconciliation, psychological closure, and literary catharsis?",
+        "answer": [
+          "Emotional resolution and moral insight",
+          "Resolution unites truth, peace, and healing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.21,
+          "philosophy": 0.41,
+          "psychology": 0.38
+        },
+        "theme_consistency_score": 0.57
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_57738",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay between Sartrean existentialism, psychological resilience, and Freudian theory in \"The Family,\" exploring identity, moral choices, and freedom through literary symbolism and philosophical adaptability",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What psychological concept in \"The Family\" aligns with Sartre's notion of radical freedom?",
+        "answer": [
+          "Existential choice and responsibility",
+          "Family dynamics reflect existential choice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "literature": 0.29,
+          "philosophy": 0.4,
+          "psychology": 0.31
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the protagonist's psychological transformation in \"The Family\" reflect Sartre's existentialism and challenge Freudian psychoanalytic theory?",
+        "answer": [
+          "Embraces freedom, rejects determinism",
+          "Protagonist's freedom defies determinism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "literature": 0.28,
+          "philosophy": 0.38,
+          "psychology": 0.34
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How does \"The Family\" illustrate the interplay between Sartre's existential freedom, Freudian defense mechanisms, and literary symbolism?",
+        "answer": [
+          "Symbolic existential and psychological conflict",
+          "Family dynamics symbolize existential freedom, defense mechanisms, and literary motifs"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.31,
+          "philosophy": 0.4,
+          "psychology": 0.29
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_99918",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay of \"ear changes\" in *The Family* as a symbol of identity fluidity, psychological resilience, and philosophical selfhood theories, reflecting existential dilemmas and adaptive coping mechanisms",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the theme of \"ear changes\" in The Family reflect philosophical views on identity and psychological adaptation?",
+        "answer": [
+          "Identity fluidity and psychological resilience",
+          "Identity evolves through perception and adaptation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.28,
+          "philosophy": 0.45,
+          "psychology": 0.27
+        },
+        "theme_consistency_score": 0.54
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the recurring motif of \"ear changes\" in The Family illustrate philosophical theories of selfhood while reflecting psychological stages of identity development?",
+        "answer": [
+          "Symbolizes evolving personal identity",
+          "Ear changes symbolize evolving selfhood and identity stages"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.31,
+          "philosophy": 0.41,
+          "psychology": 0.28
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How might psychological identity integration, as influenced by philosophical dualism and reflected in The Family's \"ear changes,\" manifest in adaptive coping strategies?",
+        "answer": [
+          "Enhanced self-awareness and resilience",
+          "Integrated self fosters adaptive resilience through dualistic awareness and symbolic transformation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.26,
+          "philosophy": 0.36,
+          "psychology": 0.38
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the symbolism of \"ear changes\" in The Family reflect philosophical dualism and psychological identity theories?",
+        "answer": [
+          "Represents internal conflict and identity",
+          "Ear changes symbolize dualism and identity conflict"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.32,
+          "philosophy": 0.3,
+          "psychology": 0.38
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_literature_philosophy_psychology_80447",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13
+    ],
+    "topic_description": "The interplay between literary exploration of identity, meaning, and existential crises and their connections to philosophical theories and psychological models of self, authenticity, and coping mechanisms",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the purpose of understanding meaning in literature relate to the pursuit of knowledge and emotional fulfillment?",
+        "answer": [
+          "Enhances knowledge, emotional insight",
+          "Understand meaning, gain knowledge, feel elation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.38,
+          "psychology": 0.16
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do literary themes of identity connect to philosophical theories of self and psychological identity development?",
+        "answer": [
+          "Exploring self-concept and growth",
+          "Identity evolves through self-reflection and growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.39,
+          "philosophy": 0.33,
+          "psychology": 0.28
+        },
+        "theme_consistency_score": 0.5
+      },
+      {
+        "turn": 3,
+        "prompt": "How do literary characters' responses to existential dilemmas reflect philosophical views on suffering and psychological coping mechanisms?",
+        "answer": [
+          "Manifestations of existential philosophy",
+          "Characters embody existential resilience through philosophical acceptance and psychological adaptation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.33,
+          "philosophy": 0.4,
+          "psychology": 0.27
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How do literary depictions of identity crises reflect philosophical theories of self and psychological identity development models?",
+        "answer": [
+          "Exploring self-concept and growth",
+          "Identity crises mirror self-theories and developmental models"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.38,
+          "philosophy": 0.33,
+          "psychology": 0.29
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How do literary characters' philosophical quests for meaning align with psychological theories of motivation?",
+        "answer": [
+          "Exploration mirrors intrinsic motivations",
+          "Characters' quests mirror existential drives and intrinsic needs"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.32,
+          "philosophy": 0.39,
+          "psychology": 0.29
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  }
+]

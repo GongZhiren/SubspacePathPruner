@@ -1,0 +1,479 @@
+[
+  {
+    "scenario_id": "cross4_finance_sociology_economics_history_40374",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The interplay between 19th-century colonial Burma's economic policies, local socioeconomic resistance, and parallels to Hezbollah's strategies in resisting external control and influencing global trade dynamics",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the 19th-century economic policies in Burma, influenced by British colonialism, reflect social resistance similar to Hezbollah's actions, while also echoing debates over taxation without representation during the American Revolution and impacting the global art market exemplified by Andy",
+        "answer": [
+          "Colonial taxation sparked resistance, influencing global trade and cultural exchanges",
+          "British colonial policies in Burma fueled social resistance akin to Hezbollah's actions, paralleling debates over taxation without representation during the American Revolution and influencing the global art market through figures like Andy Warhol"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "history": 0.19,
+          "economics": 0.25,
+          "finance": 0.2,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What financial reforms in 19th-century colonial Burma reflected socioeconomic resistance and historical parallels to Hezbollah's strategies?",
+        "answer": [
+          "Land revenue system reform; parallel to Hezbollah's community financing",
+          "Colonial tax reforms fueled resistance, paralleling Hezbollah's economic tactics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "history": 0.18,
+          "economics": 0.31,
+          "finance": 0.17,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic reforms in 19th-century colonial Burma mirrored Hezbollah's resistance strategies and influenced global trade policies?",
+        "answer": [
+          "No such economic reforms in 19th-century colonial Burma exist",
+          "British tax reforms in Burma echoed Hezbollah's strategies, shaping global trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "history": 0.1,
+          "economics": 0.39,
+          "finance": 0.22,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_economics_history_99185",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The long-term impacts of British colonial economic and financial policies in Burma on trade dynamics, social hierarchies, economic disparities, and post-colonial sociopolitical structures",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did British colonial economic policies in Burma, which exacerbated internal dissent and trade imbalances, shape long-term sociopolitical structures and financial systems?",
+        "answer": [
+          "Colonial policies entrenched ethnic divisions and centralized financial control",
+          "Colonial extraction entrenched inequality, fostering dissent and fragile financial systems"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.29,
+          "economics": 0.11,
+          "finance": 0.27,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 2,
+        "prompt": "How did British colonial financial systems in Burma, which deepened economic disparities and social unrest, influence long-term trade policies and historical power structures?",
+        "answer": [
+          "Reinforced centralized control and protectionist trade barriers",
+          "Colonial finance systems entrenched disparities, shaping trade and power"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "history": 0.34,
+          "economics": 0.23,
+          "finance": 0.27,
+          "sociology": 0.16
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "How did British colonial financial policies in Burma, which widened economic disparities and fueled social unrest, affect long-term trade dynamics?",
+        "answer": [
+          "Reduced trade competitiveness and increased economic isolation",
+          "Colonial policies entrenched inequality, disrupted trade, and fostered enduring economic instability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "history": 0.27,
+          "economics": 0.26,
+          "finance": 0.3,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "How did British colonial financial reforms in Burma, which altered social hierarchies and economic policies, shape post-colonial trade and societal structures?",
+        "answer": [
+          "Colonial reforms centralized control, disrupted local economies, and shaped dependent trade structures",
+          "British colonial reforms reshaped trade and hierarchies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "history": 0.38,
+          "economics": 0.11,
+          "finance": 0.29,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "How did British colonial financial policies in Burma influence social hierarchies and economic disparities, shaping long-term trade dynamics?",
+        "answer": [
+          "Colonial policies centralized wealth, exacerbated ethnic divisions, and skewed trade favorably towards Britain",
+          "Colonial taxes entrenched hierarchies, widened disparities, and reshaped trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "history": 0.28,
+          "economics": 0.2,
+          "finance": 0.25,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.81
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_economics_history_53386",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The enduring impact of the Stamp Act on colonial trade, social structures, financial systems, and economic theories, and its legacy in shaping modern policies and societal dynamics",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Stamp Act’s disruption of colonial economies (history) affect social mobility (sociology), financial institutions (finance), and long-term economic theories (economics)?",
+        "answer": [
+          "Stifled economic growth, hindered development of financial institutions",
+          "Colonial economic strain hindered social mobility, weakened financial systems, and shaped laissez-faire theories"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "history": 0.24,
+          "economics": 0.2,
+          "finance": 0.26,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Stamp Act’s disruption of colonial trade (history) influence economic policies (economics), alter financial systems (finance), and reshape social class dynamics (sociology)?",
+        "answer": [
+          "Increased smuggling, hindered colonial businesses, and financial unrest",
+          "Colonial trade disruption reshaped policies, finances, and class dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.31,
+          "economics": 0.25,
+          "finance": 0.26,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Stamp Act’s economic impact (history) alter financial practices (finance), influence social structures (sociology), and reshape trade theories (economics)?",
+        "answer": [
+          "Increased taxation scrutiny, shifted investment strategies, and altered trade policies",
+          "Stamp Act spurred boycotts, shifted wealth, reshaped class dynamics, and redefined trade theories"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "history": 0.18,
+          "economics": 0.23,
+          "finance": 0.35,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Stamp Act’s disruption of colonial economies (history) influence social hierarchies (sociology), financial innovations (finance), and economic theories (economics)?",
+        "answer": [
+          "Increased reliance on local financial solutions and barter systems",
+          "Colonial unrest spurred financial tools, shifted hierarchies, and shaped economic thought"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "history": 0.34,
+          "economics": 0.16,
+          "finance": 0.24,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 5,
+        "prompt": "How did the Stamp Act’s legacy (history) influence modern financial systems (finance), economic theories (economics), and social class dynamics (sociology)?",
+        "answer": [
+          "Influenced tax resistance movements, shaping modern fiscal policies",
+          "Stamp Act's legacy shaped modern finance, economic theories, and class dynamics through historical tax resistance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "history": 0.31,
+          "economics": 0.28,
+          "finance": 0.15,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_economics_history_57791",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The influence of England's financial dominance and economic policies during the Napoleonic era on Italian societal structures and economic conditions amid historical turmoil",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the economic turmoil caused by French control in Italy influence societal structures and England's dominance, reflecting historical financial patterns?",
+        "answer": [
+          "Economic instability in Italy weakened societal structures, boosting England's trade dominance",
+          "French fiscal strain reshaped Italian society, bolstering England's economic rise"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "history": 0.21,
+          "economics": 0.3,
+          "finance": 0.24,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Napoleonic era's economic policies in Italy influence England's financial dominance and alter societal structures amid historical turmoil?",
+        "answer": [
+          "Napoleonic reforms in Italy indirectly strengthened British economic resilience and influence",
+          "Napoleon's Italian reforms boosted England's finance, reshaped societies, and altered trade dynamics amid wars"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "history": 0.26,
+          "economics": 0.37,
+          "finance": 0.21,
+          "sociology": 0.16
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 3,
+        "prompt": "How did England's financial strategies during the Napoleonic era influence societal structures in Italy and reshape economic policies amid historical turmoil?",
+        "answer": [
+          "England's financial strategies increased Italy's dependency, influencing economic reforms and social restructuring",
+          "England's financial strategies reshaped Italy's economy and society"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "history": 0.24,
+          "economics": 0.29,
+          "finance": 0.21,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.91
+      },
+      {
+        "turn": 4,
+        "prompt": "How did England’s financial dominance during the Napoleonic Wars influence Italian societal structures and economic policies?",
+        "answer": [
+          "England's financial power increased Italian dependence on foreign capital and trade",
+          "England's financial power reshaped Italian economies and societies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.2,
+          "economics": 0.25,
+          "finance": 0.31,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.81
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_economics_history_11683",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The impact of the Napoleonic Wars' economic disruptions on Rome's social structures, Liechtenstein's financial adaptations, and long-term European trade dynamics",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Napoleonic Wars' economic blockade influence Rome's social structures, Liechtenstein's financial systems, and broader historical trade patterns?",
+        "answer": [
+          "Disrupted trade, strained local economies, and shifted financial dependencies",
+          "Blockade reshaped trade, finance, and social hierarchies across Europe"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "history": 0.12,
+          "economics": 0.24,
+          "finance": 0.33,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Napoleonic Wars' economic blockade influence Rome's social hierarchies, impact Liechtenstein's banking adaptations, and reshape long-term trade dynamics in Europe?",
+        "answer": [
+          "Intensified class disparities in Rome, spurred financial sector growth in Liechtenstein, altered European trade routes",
+          "Blockade reshaped hierarchies, spurred banking, altered trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "history": 0.2,
+          "economics": 0.24,
+          "finance": 0.3,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Napoleonic Wars' economic disruptions influence Rome's social mobility, Liechtenstein's financial innovations, and long-term trade adaptations?",
+        "answer": [
+          "Stagnated Rome's social ascension, spurred Liechtenstein's banking growth, diversified European trade practices",
+          "Economic upheavals reshaped social hierarchies and trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "history": 0.2,
+          "economics": 0.24,
+          "finance": 0.26,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Napoleonic Wars' economic shifts influence Rome's social structures, Liechtenstein's financial adaptations, and long-term trade policies?",
+        "answer": [
+          "Economic shifts destabilized Rome's class structure, prompted Liechtenstein's banking focus, influenced global trade policies",
+          "Economic shifts reshaped social hierarchies and trade policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "history": 0.25,
+          "economics": 0.25,
+          "finance": 0.21,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.84
+      }
+    ]
+  }
+]

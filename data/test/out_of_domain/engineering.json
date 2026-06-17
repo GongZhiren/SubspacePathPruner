@@ -1,0 +1,935 @@
+[
+  {
+    "scenario_id": "engineering_55819",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores the brontometer's role in engineering, focusing on its measurement of vibrations, data capture, and applications in structural analysis and monitoring",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A brontometer records the activity of what?",
+        "answer": "lightning strikes",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What does a brontometer primarily measure in engineering applications?",
+        "answer": "vibration intensity",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary function of a brontometer in engineering?",
+        "answer": "measuring force",
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another term for the activity recorded by a brontometer?",
+        "answer": "seismic activity",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is another engineering application where a brontometer is essential?",
+        "answer": "Power grid protection",
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another term for the measurement recorded by a brontometer?",
+        "answer": "Thunderstorm record",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is another term for the data captured by a brontometer?",
+        "answer": "seismic data",
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is another engineering use where brontometer data analysis is critical?",
+        "answer": "Seismic activity monitoring",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is another term for the critical engineering application of brontometer data?",
+        "answer": "seismic analysis",
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What is another term for the engineering analysis of brontometer data?",
+        "answer": "Thunderstorm analysis",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_64299",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores the brontometer's role in engineering, focusing on its measurement of system vibrations, also known as vibrometry, and its applications in monitoring structural integrity and dynamic responses",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A brontometer records the activity of what?",
+        "answer": "lightning strikes",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What does a brontometer primarily measure in engineering applications?",
+        "answer": "vibration intensity",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What does a brontometer focus on measuring in engineering systems?",
+        "answer": "Thunderstorm phenomena",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What does a brontometer typically monitor in engineering systems?",
+        "answer": "vibration levels",
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is another term for the brontometer's primary measurement function?",
+        "answer": "Thunderstorm distance measurement",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another common application of a brontometer in engineering systems?",
+        "answer": "vibration measurement",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is another name for the brontometer in engineering systems?",
+        "answer": "name: seismometer",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_34014",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores alternative names and references for the Gang of Four, a group that seized power in China during the 1970s and led significant engineering and political reforms",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which country was power seized in the 70s by the Gang of Four?",
+        "answer": "China",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is another term for the group of four who seized power in engineering reforms?",
+        "answer": "leaders",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is another term for the group of four who led engineering reforms?",
+        "answer": "The Big Four",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another term for the group that led engineering reforms in the 70s?",
+        "answer": "The new engineers",
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is another term for the engineering reform group known as the quartet?",
+        "answer": "The Big Four",
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another term for the quartet that led engineering reforms in the 20th century?",
+        "answer": "The Big Four",
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is another term for the engineering reform group known as the quartet? A. The Four B. The Core C. The Leaders D. The Innovators?",
+        "answer": "B",
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_14590",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores the identification, materials, purpose, structural system, and function of a famous building located at PO Box 995, Kentucky, USA",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The postal address of which famous building is simply, PO Box 995, Kentucky, USA?",
+        "answer": "fort knox",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary material used in constructing the famous building at PO Box 995, Kentucky, USA? A. Steel B. Concrete C. Wood D. Glass?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.67,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main purpose of the building at PO Box 995, Kentucky, USA? A. Residential B. Commercial C. Industrial D. Recreational?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary structural system used in the building at PO Box 995, Kentucky, USA? A. Truss B. Arch C. Frame D. Shell?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary function of the building's structural system? A. Support B. Insulation C. Decoration D. Ventilation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_40810",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The structural properties and engineering principles explaining the strength, flexibility, and load-bearing capacity of Cavendish bananas compared to other banana varieties like Orinoco",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 7,
+    "task_type_change_frequency": 0.875,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Cavendish, Orinoco and Lady Finger are all varieties of which fruit?",
+        "answer": "banana",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What engineering principle explains the structural strength of Cavendish bananas compared to varieties?",
+        "answer": "Monocoque structure",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What property makes Cavendish bananas stronger than varieties?",
+        "answer": "thicker cell walls",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What engineering concept explains why Cavendish bananas resist bending better than Orinoco?",
+        "answer": "stiffer cell walls",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What factor primarily contributes to the structural integrity of Cavendish bananas?",
+        "answer": "cell wall composition",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What factor explains the difference in flexibility between Cavendish and Orinoco bananas?",
+        "answer": "genetic composition",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What property of Cavendish bananas contributes to their resistance to deformation under load?",
+        "answer": "stiffness property",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What property of Orinoco bananas affects their structural flexibility compared to Cavendish?",
+        "answer": "fiber composition",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What property primarily determines the load-bearing capacity of Cavendish bananas?",
+        "answer": "Compressive strength",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_99602",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores alternative terms for mistletoe, focusing on its use in engineering-themed designs and projects, while also examining the origin of its name",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "True or False? The word mistletoe comes from the gaelic words for kissing girl plant?",
+        "answer": "false",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is another term for the kissing plant often used in engineering design themes?",
+        "answer": "mistletoe plant",
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is another term for the plant often used in engineering-themed holiday designs?",
+        "answer": "term: gear flower",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another term for the plant used in engineering-themed designs?",
+        "answer": "Industrial facility",
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is another term for the plant commonly used in engineering-themed projects?",
+        "answer": "Industrial facility",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another term for the plant referenced in engineering-themed projects?",
+        "answer": "facility",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_18709",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores alternative energy-producing processes used by protists in various environmental and engineered conditions beyond photosynthesis, focusing on adaptations to light, oxygen, and nutrient availability",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In order to create food, what do photosynthetic protists use?",
+        "answer": "sunlight and carbon dioxide",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What process do photosynthetic protists use to create food besides capturing light energy?",
+        "answer": "Carbon fixation",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What process besides photosynthesis do protists use to create energy?",
+        "answer": "Cellular respiration",
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What method besides photosynthesis do protists use to generate energy in low-light conditions?",
+        "answer": "metabolic pathways",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "than photosynthesis, what process do protists use to produce energy in engineered bioreactors?",
+        "answer": "Cellular respiration",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What process besides photosynthesis do protists rely on in oxygen-limited bioreactors?",
+        "answer": "Anaerobic respiration",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "than photosynthesis, what process do protists use in nutrient-rich bioreactors?",
+        "answer": "metabolic pathways",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What process besides photosynthesis do protists use in engineered bioreactors with low oxygen?",
+        "answer": "Anaerobic respiration",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "than photosynthesis, what process do protists use in bioreactors with controlled oxygen levels?",
+        "answer": "Aerobic respiration",
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_41693",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The diverse industrial applications of water, including power generation, cooling, cleaning, engineering processes, and chemical reactions in chemical engineering",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What do industries use water to generate?",
+        "answer": "energy forms",
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is another way industries use water besides generating power?",
+        "answer": "As a coolant",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is another method industries use water for besides power generation?",
+        "answer": "cooling systems",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another engineering application of water besides power-related uses?",
+        "answer": "irrigation systems",
+        "task_type": "reasoning",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "than power generation, what is a primary use of water in chemical engineering?",
+        "answer": "Heat transfer fluid",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_96839",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The principles and terminology of electric motors and generators, focusing on energy conversion, coil rotation in magnetic fields, and related efficiency concepts",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The motor thus acts as a generator whenever its coil does what?",
+        "answer": "cuts magnetic flux lines",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What causes a motor to act as a generator when its coil rotates?",
+        "answer": "Electromagnetic induction",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What happens when a motor's coil rotates in a magnetic field?",
+        "answer": "induces current",
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another term for the rotational motion of a motor's coil in a magnetic field?",
+        "answer": "torque production",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is another name for the device that converts electrical energy into mechanical energy?",
+        "answer": "Electric motor",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another term for the efficiency of energy conversion in a motor?",
+        "answer": "Motor efficiency",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "engineering_78303",
+    "is_cross_domain": false,
+    "domain": "engineering",
+    "domain_id": 19,
+    "topic_description": "The scenario explores silver's chemical properties, atomic structure, and its role as an ideal conductor in electrical engineering due to its high efficiency and conductivity",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the chemical symbol for Silver?",
+        "answer": "Ag",
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the atomic number of Silver in the periodic table?",
+        "answer": "47",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the electron configuration of Silver in its ground state?",
+        "answer": "[Kr] 4d^10 5s^1",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary use of silver in electrical engineering applications?",
+        "answer": "Conducting electricity",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What property of silver makes it ideal for electrical contacts?",
+        "answer": "High electrical conductivity",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is another term for the ideal efficiency in electrical systems?",
+        "answer": "Carnot efficiency",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is another common application of silver in electrical systems?",
+        "answer": "electrical contacts",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is another term for the ideal conductor in electrical systems?",
+        "answer": "Superconductor",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is another term for the ideal material in electrical systems?",
+        "answer": "Superconductor",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "engineering": 1.0
+        }
+      }
+    ]
+  }
+]

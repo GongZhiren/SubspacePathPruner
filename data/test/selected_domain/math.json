@@ -1,0 +1,1758 @@
+[
+  {
+    "scenario_id": "math_82113",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores calculations involving the division of a 40-meter rope into parts based on ratios, equal segments, and further subdivisions, emphasizing proportional reasoning and length computations",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total length of the rope if it was cut into two parts in the ratio of 2:3 and the shorter part is 16 meters?",
+        "answer": "40 meters",
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If the shorter part of a rope cut in the ratio 2:3 is 16 meters, what is the length of the longer part?",
+        "answer": "24 meters",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total length of the rope if the longer part is 24 meters and the shorter part is 16 meters?",
+        "answer": "40 meters",
+        "task_type": "factual",
+        "difficulty": 0.12,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If the total length of the rope is 40 meters and it is cut into two parts in the ratio 2:3, what is the difference in length between the longer and shorter parts?",
+        "answer": "12 meters difference",
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If the rope is cut into 5 equal parts instead of a 2:3 ratio, what is the length of each part if the total length is 40 meters?",
+        "answer": "8 meters",
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If the rope is cut into 5 equal parts and each part is further divided into 3 smaller equal segments, what is the length of each smaller segment if the total rope length is 40 meters?",
+        "answer": "2.67 meters",
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_44886",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "This scenario explores the distribution, ratios, and percentages of students wearing checkered versus striped shirts in a class of 81, with variations in counts and proportions",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What fraction of the classroom is wearing checkered shirts if two-thirds are wearing striped shirts?",
+        "answer": "1/3",
+        "task_type": "reasoning",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the ratio of students wearing checkered shirts to those wearing striped shirts if two-thirds of the 81 students are wearing striped shirts?",
+        "answer": "1:2",
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total number of students wearing checkered shirts if the ratio of checkered to striped shirts is 1:2 in a class of 81 students?",
+        "answer": "27 students",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the percentage of students wearing checkered shirts if the class has 81 students and the ratio of checkered to striped shirts is 1:2?",
+        "answer": "33.33%",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If the number of students wearing checkered shirts increases by 25% while the total class size remains 81, what is the new ratio of checkered to striped shirts?",
+        "answer": "5:4",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If the number of students wearing checkered shirts decreases by 10% from the original count, how many students now wear checkered shirts?",
+        "answer": "90% of the original count",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If the number of students wearing checkered shirts doubles from the original count, what percentage of the class will wear checkered shirts?",
+        "answer": "Double the original percentage",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the total number of students wearing checkered shirts if the original count increases by 15%?",
+        "answer": "1.15 times the original count",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_61696",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "This scenario explores the dynamics of adding, losing, and combining balloons while accounting for losses due to popping or transport damage",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If Brooke adds eight balloons to his current 12, and Tracy adds 24 to her current 6, how many balloons will they have in total if Tracy pops half of her balloons?",
+        "answer": "30 balloons",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If Brooke adds eight balloons to his current 12, and Tracy adds 24 to her current 6 but loses 10% of her total due to popping, how many balloons do they have altogether?",
+        "answer": "38 balloons",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many balloons does Tracy have left if she adds 24 to her current 6 and loses 10% of her total?",
+        "answer": "27 balloons",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Tracy starts with 6 balloons, adds 24 more, and then loses 10% of her total, how many balloons does she have left?",
+        "answer": "27 balloons",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Brooke and Tracy combine their balloons from the previous steps, and 5% of the total balloons pop during transport, how many balloons remain intact?",
+        "answer": "95% of the balloons remain intact",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_52441",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "This scenario explores the sequential division, combination, and redistribution of jelly beans, focusing on arithmetic operations to calculate weights and proportions",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Alex had 36 ounces of jelly beans. He ate 6 ounces. Then he divided the rest equally into 3 piles. How much does each pile weigh?",
+        "answer": "10 ounces",
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If Alex combines two of the piles of jelly beans, how many ounces will the combined pile weigh?",
+        "answer": "12 ounces",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If Alex combines two piles of jelly beans, how many ounces will he have in total?",
+        "answer": "The sum of the weights of both piles",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the total weight of jelly beans if Alex combines all three piles?",
+        "answer": "Insufficient information provided",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Alex combines all three piles of jelly beans and then splits them equally into 2 bags, how many ounces will each bag weigh?",
+        "answer": "Half of the total weight",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_60206",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "Calculating Haley's height growth over time, exploring future height predictions, time required to reach specific heights, and growth rates",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Haley grows at the rate of 3 inches every year. If she is currently 20 inches tall, what will be her height after 10 years?",
+        "answer": "50 inches",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If Haley grows 3 inches every year and is currently 20 inches tall, how many years will it take for her to reach a height of 50 inches?",
+        "answer": "10 years",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many years will it take for Haley to grow from her current height of 20 inches to 35 inches if she grows 3 inches per year?",
+        "answer": "5 years",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many inches will Haley grow in 5 years if she continues to grow at the same rate of 3 inches per year?",
+        "answer": "15 inches",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Haley grows 3 inches every year, how many years will it take for her to double her current height of 20 inches?",
+        "answer": "13.33 years",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_45253",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores calculating and converting the combined lengths of Christina's snakes between inches and feet, involving addition, subtraction, and unit conversions",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total length of Christina's snakes in feet if 12 inches equal 1 foot?",
+        "answer": "Total inches divided by 12",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total length of Christina's snakes in inches if one snake is 24 inches long, another is 16 inches, and the last is 10 inches?",
+        "answer": "50 inches",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If Christina’s snakes are placed end-to-end to form a straight line, and one snake is 24 inches long, another is 16 inches, and the last is 10 inches, how many feet long is the combined line?",
+        "answer": "8.33 feet long",
+        "task_type": "reasoning",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Christina’s snakes are placed end-to-end to form a straight line, and the total length is 50 inches, how many additional inches are needed to reach a length of 6 feet?",
+        "answer": "22 inches",
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Christina’s snakes are placed end-to-end to form a straight line totaling 50 inches, and she adds another snake that is 18 inches long, what is the total length of the line in feet?",
+        "answer": "5.67 feet",
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If Christina’s snakes are placed end-to-end to form a straight line totaling 68 inches, and she removes the shortest snake (10 inches), what is the new total length in feet?",
+        "answer": "4.83 feet",
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If Christina’s snakes are placed end-to-end to form a straight line totaling 68 inches, and she removes the two shortest snakes (10 inches and 12 inches), what is the new total length in feet?",
+        "answer": "3.8 feet",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_93471",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores calculations involving Tiffany's running distances over a week, focusing on daily averages, totals for specific days, and adjustments based on given conditions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total number of miles Tiffany ran from Sunday to Thursday if she ran 3 miles less on Thursday than the daily average from Sunday to Friday?",
+        "answer": "15 miles",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total number of miles Tiffany ran from Sunday to Wednesday if she ran 1 mile less on Wednesday than the daily average from Sunday to Friday?",
+        "answer": "4 miles",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total number of miles Tiffany ran on Sunday if she ran 2 miles less than the daily average from Sunday to Friday?",
+        "answer": "Daily average minus 2 miles",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the total number of miles Tiffany ran on Friday if she ran 4 miles more than the daily average from Sunday to Thursday?",
+        "answer": "Average daily miles + 4 miles",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Tiffany ran a total of 30 miles from Sunday to Friday, and the daily average from Sunday to Thursday was 5 miles, how many miles did she run on Saturday if her weekly total was 40 miles?",
+        "answer": "10 miles",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_37986",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "Calculating the dimensions, perimeter, and area of a chalkboard based on relationships between its length and width",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the perimeter of the chalkboard Mark made, given its width is 3 feet and its length is 2 times its width?",
+        "answer": "18 feet",
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total length of all four sides of the chalkboard Mark made, if its width is 3 feet and its length is twice its width?",
+        "answer": "18 feet",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the width of the chalkboard if its perimeter is 18 feet and its length is twice its width?",
+        "answer": "3 feet",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the length of the chalkboard if its width is 3 feet and its perimeter is 18 feet?",
+        "answer": "6 feet",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the perimeter of a chalkboard if its width is 3 feet and its length is 6 feet?",
+        "answer": "18 feet",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If the perimeter of a chalkboard is 18 feet and its length is twice its width, what is the area of the chalkboard in square feet?",
+        "answer": "18 square feet",
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the width of a chalkboard if its length is 6 feet and its perimeter is 18 feet?",
+        "answer": "3 feet",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_37951",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "A scenario involving the calculation of book purchases, costs, and averages, focusing on Sarah and her brother's combined buying patterns and price differences between paperback and hardback books",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total cost if each paperback book costs $8 and each hardback book costs $15, based on the number of books Sarah and her brother bought?",
+        "answer": "8p + 15h",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total cost of Sarah's books if each paperback costs $8 and each hardback costs $15?",
+        "answer": "8p + 15h",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the average cost per book if Sarah and her brother combine their purchases, with each paperback costing $8 and each hardback costing $15?",
+        "answer": "$11.50",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the total number of books Sarah and her brother bought if they combined their purchases?",
+        "answer": "17 books",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Sarah and her brother combined their purchases, and the total cost was $246 while buying 18 books, what is the difference between the number of hardbacks and paperbacks they bought if each paperback costs $8 and each hardback costs $15?",
+        "answer": "6 hardbacks more than paperbacks",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_52872",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores the distribution and transfer of books among Elmo, Laura, and Stu, involving calculations of initial quantities, exchanges, and final totals",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How many books does Laura have if Elmo has 24 books and he has 3 times as many books as Laura?",
+        "answer": "Laura has 8 books",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If Laura has twice as many books as Stu, and Elmo has 24 books while having 3 times as many as Laura, how many books does Stu have?",
+        "answer": "4 books",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many books do Elmo, Laura, and Stu have combined if Elmo has 24 books, Laura has 8 books, and Stu has 4 books?",
+        "answer": "36 books",
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.99,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Elmo gives 4 books to Stu and 2 books to Laura, how many books does each person have now?",
+        "answer": "Stu 4 books, Laura 2 books",
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "After Elmo gives books to Stu and Laura, if Stu finds 3 more books, how many books does Stu have now?",
+        "answer": "The initial amount plus three",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many books does Laura have now after receiving 2 books from Elmo?",
+        "answer": "Two more than she had before",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_90724",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "This scenario explores mathematical problem-solving involving ratios and totals, focusing on determining the number of apples, oranges, and total fruits in a basket under various proportional relationships",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If a basket is capable of holding 40 fruit altogether, and there are 3 times as many apples as oranges, how many oranges are there?",
+        "answer": "10 oranges",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How many apples are in the basket if there are 3 times as many apples as oranges and the basket holds 40 fruit altogether?",
+        "answer": "30 apples",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many apples are in the basket if the total number of fruits is 40 and there are three times as many apples as oranges?",
+        "answer": "30 apples",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many oranges are in the basket if the total number of fruits is 40 and there are three times as many apples as oranges?",
+        "answer": "10 oranges",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How many fruits are in the basket if there are twice as many apples as oranges and the total is 40?",
+        "answer": "16 oranges, 24 apples",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many apples are in the basket if there are twice as many apples as oranges and the total number of fruits is 30?",
+        "answer": "20 apples in the basket",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If there are 12 oranges in the basket and twice as many apples as oranges, how many fruits are in the basket altogether?",
+        "answer": "36 fruits",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "If there are 8 oranges in the basket and the number of apples is twice the number of oranges, what is the total number of fruits in the basket?",
+        "answer": "24 fruits",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_47606",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores Lisa and Carly's spending on jeans, calculating amounts based on fractions and multiples of Lisa's $40 t-shirt expenditure",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.6,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Lisa and Carly go shopping together. Lisa spends $40 on t-shirts then spends half of this amount on jeans and twice this amount on coats. Carly spends only a quarter",
+        "answer": "$35",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total amount Lisa spends on jeans if she spends half of the $40 she spent on t-shirts?",
+        "answer": "$20",
+        "task_type": "reasoning",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If Lisa spends half of the $40 she spent on t-shirts for jeans, and Carly spends 3 times this amount on jeans, how much more does Carly spend on jeans compared to Lisa?",
+        "answer": "Carly spends $60 more",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Carly spends 3 times the amount Lisa spent on jeans, and Lisa spent half of $40 on jeans, what is the total amount Carly spends on jeans?",
+        "answer": "$60",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How much did Lisa spend on jeans if she spent half of the $40 she spent on t-shirts?",
+        "answer": "$20",
+        "task_type": "reasoning",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If Carly spent 3 times what Lisa spent on jeans, and Lisa spent half of $40, how much more did Carly spend than Lisa on jeans?",
+        "answer": "$40",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_89054",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores the changing quantities of paperclips Yun and Marion possess through a series of transactions involving losses, gifts, and findings",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Yun had 20 paperclips initially, but then lost 12. Marion",
+        "answer": "Yun has 8 paperclips left",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total number of paperclips Yun and Marion have together if Marion has 15 paperclips?",
+        "answer": "Insufficient information provided",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total number of paperclips Yun has after losing 12, if Marion has 15 paperclips?",
+        "answer": "Cannot be determined",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many paperclips does Marion have more than Yun after Yun lost 12 paperclips?",
+        "answer": "12 more than before",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How many paperclips does Yun have if Marion gives him 5 of her paperclips?",
+        "answer": "5 paperclips",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many paperclips does Yun have if he finds 3 more after Marion gives him 5?",
+        "answer": "Yun has 8 paperclips",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If Marion gives Yun 5 more paperclips, how many paperclips does Yun have after finding 3 additional ones?",
+        "answer": "Yun has 8 paperclips",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "How many paperclips does Yun have if Marion gives him 2 more after he already received 5 and found 3?",
+        "answer": "Yun has 10 paperclips",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "How many paperclips does Yun have if Marion gives him 1 more after he already received 5 and found 3?",
+        "answer": "Yun has 9 paperclips",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_79969",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario tracks the dynamic movement and changing population of seagulls between a roof and a McDonald's parking lot through successive departures and returns",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total number of seagulls that flew to McDonald's parking lot if 1/3 of the remaining birds after Step 1 decided to leave?",
+        "answer": "Depends on initial number",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How many seagulls remained on the roof after 1/4 were scared away and 1/3 of the remaining flew to McDonald's parking lot?",
+        "answer": "1/2 of the original number remained",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many seagulls are left on the roof if 1/5 of the remaining birds after Step 3 decide to fly away?",
+        "answer": "4/5 of the birds remain",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many seagulls are still in the parking lot if 1/2 of them flew away after Step 4?",
+        "answer": "Half of them",
+        "task_type": "reasoning",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How many seagulls are still in the parking lot if 1/4 of them flew back to the roof after Step 5?",
+        "answer": "3/4 of the seagulls are still in the parking lot",
+        "task_type": "reasoning",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many seagulls remain in the parking lot if 1/3 of those present after Step 6 decide to fly away?",
+        "answer": "2/3 of the seagulls remain",
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How many seagulls are left in the parking lot if 5 more flew away after Step 7?",
+        "answer": "2 seagulls",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "How many seagulls are still in the parking lot if 2 more flew away after Step 8?",
+        "answer": "0",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "How many seagulls are in the parking lot now if 3 more flew away after Step 9?",
+        "answer": "6 seagulls",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_96669",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario involves a father distributing candies among his three children during a picnic, focusing on tracking the number of candies given to each child and remaining after distribution",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How many candies did their father give to Andy after distributing some to Billy and Caleb?",
+        "answer": "3",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How many candies did their father distribute in total to Billy and Caleb before giving the rest to Andy?",
+        "answer": "12",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many candies did their father originally buy before distributing them to Billy, Caleb, and Andy?",
+        "answer": "36 candies",
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many candies did their father give to Andy if he distributed 12 candies to Billy and 8 candies to Caleb?",
+        "answer": "4",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How many candies did their father give to Andy if he had 20 candies left after distributing to Billy and Caleb?",
+        "answer": "Not enough information",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_17785",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "This scenario explores calculations involving quantities of bouncy balls, including comparisons, totals, distributions, and combinations across different colored packs",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Kate bought 7 packs of red bouncy balls and 6 packs of yellow bouncy balls. Each pack contained 18 bouncy balls. How many more red bouncy balls than yellow bouncy balls did Kate buy?",
+        "answer": "18 more red bouncy balls",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How many bouncy balls are in one pack if each pack contains the same number and Kate bought 7 packs of red bouncy balls?",
+        "answer": "7 packs contain the same number of bouncy balls",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many packs of bouncy balls did Kate buy in total if she purchased 7 packs of red and 6 packs of yellow?",
+        "answer": "13 packs",
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If each pack contains 12 bouncy balls, how many bouncy balls are in the 7 packs of red bouncy balls that Kate bought?",
+        "answer": "84 bouncy balls",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Kate gives 3 bouncy balls from each pack of red bouncy balls to her friends, how many bouncy balls does she have left from the 7 packs?",
+        "answer": "21 bouncy balls left",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many packs of red bouncy balls does Kate have left if she gives away 2 packs from the 7 packs she originally bought?",
+        "answer": "5 packs",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If Kate combines the remaining red bouncy balls with 5 packs of blue bouncy balls, each containing 10 balls, how many total bouncy balls does she have?",
+        "answer": "50 plus remaining red balls",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "How many bouncy balls does Kate have if she combines the remaining red bouncy balls with 3 packs of green bouncy balls, each containing 8 balls?",
+        "answer": "24 + remaining red balls",
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "How many packs of bouncy balls does Kate have if she combines 2 packs of red, 3 packs of blue, and 4 packs of green?",
+        "answer": "9 packs",
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_86904",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "Converting and dividing wire lengths into equal parts, calculating part lengths, and determining the number of parts needed for specific total lengths in inches",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total length of the wire in inches if it measures 5 feet 4 inches?",
+        "answer": "64 inches",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If the wire measuring 5 feet 4 inches is cut into 8 equal parts instead of 4, what is the length of each part in inches?",
+        "answer": "8 inches",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If the wire measuring 5 feet 4 inches is cut into 8 equal parts, how many inches long is one part?",
+        "answer": "8 inches",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If the wire measuring 5 feet 4 inches is cut into 8 equal parts, how many parts are needed to reach a total length of 40 inches?",
+        "answer": "5 parts",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If the wire measuring 5 feet 4 inches is cut into 8 equal parts, how many parts are needed to reach a length of 20 inches?",
+        "answer": "4 parts",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If the wire measuring 5 feet 4 inches is cut into 8 equal parts, how many inches long are three parts combined?",
+        "answer": "20 inches",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How many inches long is one part if the wire measuring 5 feet 4 inches is cut into 8 equal parts?",
+        "answer": "8 inches",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the total length in inches of five parts if each part is 8 inches long?",
+        "answer": "40 inches",
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "If each part of the wire is 8 inches long, how many total parts can be cut from a new wire measuring 10 feet?",
+        "answer": "15 parts",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_29492",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores the distribution and redistribution of tennis balls among Brian, Frodo, and Lily, involving calculations of totals, proportions, and changes in their collections",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How many tennis balls do Frodo and Lily have combined if Frodo has 8 more than Lily, who has 3 tennis balls?",
+        "answer": "14 tennis balls",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the total number of tennis balls that Frodo and Lily have together if Frodo has 8 more than Lily, who has 3 tennis balls?",
+        "answer": "14 tennis balls",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many tennis balls does Brian have if he has twice as many as Frodo and Lily combined?",
+        "answer": "2(Frodo + Lily)",
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How many tennis balls would Brian have if he gave away half of his current collection?",
+        "answer": "Half his collection",
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How many tennis balls would Frodo and Lily have together if Frodo gave away half of his collection?",
+        "answer": "Depends on Frodo's initial count",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If Frodo and Lily combine their remaining tennis balls after each gave away half, how many tennis balls do they have together?",
+        "answer": "Depends on initial count",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_98243",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores calculations involving the number of stairs climbed by Samir and Veronica, including totals, differences, adjustments, and extensions to a third person, Alex",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Samir climbed 318 stairs yesterday. Veronica climbed 18 more than half that amount. How many stairs did Veronica and Samir climb together yesterday?",
+        "answer": "477 stairs",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, how many more stairs did Samir climb than Veronica?",
+        "answer": "Samir climbed 141 more stairs",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total number of stairs Samir and Veronica would climb if Samir climbed 318 stairs and Veronica climbed half that amount plus 18, but they each climbed 5 fewer stairs today?",
+        "answer": "477 stairs",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.99,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, what is half the total number of stairs they climbed together?",
+        "answer": "237 stairs",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, what is the total number of stairs they climbed together minus 10?",
+        "answer": "477 stairs",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, what is the total number of stairs they would have climbed if each had climbed 20 more stairs than their current count?",
+        "answer": "756 stairs",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, what is the total number of stairs they climbed together divided by 3?",
+        "answer": "177",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "If Samir climbed 318 stairs and Veronica climbed half that amount plus 18, what is the total number of stairs they would have climbed if each had climbed 25% more stairs than their current count?",
+        "answer": "497.25 stairs",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "If Samir and Veronica climbed stairs as before, and a third person, Alex, climbed 20% fewer stairs than Veronica, what is the total number of stairs all three climbed together?",
+        "answer": "Depends on Veronica's stairs",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "math_91947",
+    "is_cross_domain": false,
+    "domain": "math",
+    "domain_id": 8,
+    "topic_description": "The scenario explores calculations involving fish characteristics, determining counts of blue, spotted, and non-blue/non-spotted fish in a tank of 30, using fractions and logical reasoning",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the total number of fish that are neither blue nor spotted if one third of the 30 fish are blue and half of the blue fish have spots?",
+        "answer": "15 fish",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How many fish in the tank are neither blue nor spotted if one third of the 30 fish are blue and half of the blue fish have spots?",
+        "answer": "20 fish",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the total number of fish that are blue if one third of the 30 fish are blue?",
+        "answer": "10 blue fish",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the total number of spotted fish if half of the blue fish have spots and one third of the 30 fish are blue?",
+        "answer": "5 spotted fish",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the total number of fish that are either blue or spotted if one third of the 30 fish are blue and half of the blue fish have spots?",
+        "answer": "20 fish",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How many fish are either blue or spotted if one third of the 30 fish are blue and half of the blue fish have spots?",
+        "answer": "20 fish",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "math": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How many fish are neither blue nor spotted if one third of the 30 fish are blue and half of the blue fish have spots?",
+        "answer": "15 fish",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "math": 1.0
+        }
+      }
+    ]
+  }
+]

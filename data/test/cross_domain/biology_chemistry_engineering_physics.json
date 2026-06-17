@@ -1,0 +1,1170 @@
+[
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_59971",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The interdisciplinary study of molecular stability, genetic mutations, and aerodynamic stress, influenced by lunar eclipse light refraction and explained through valence bond theory",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can valence bond theory, eclipse observation from the moon, genetic inheritance, and Airbus A320 design principles together explain molecular stability, celestial alignment, hereditary traits, and aerodynamic efficiency?",
+        "answer": "Valence bond theory explains molecular stability, eclipse observation from the moon reveals celestial alignment, genetic inheritance determines hereditary traits, and Airbus A320 design principles optimize aerodynamic efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.12,
+          "chemistry": 0.37,
+          "physics": 0.32,
+          "biology": 0.19
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can valence bond theory (chemistry), lunar eclipse observation (physics), genetic mutation rates (biology), and Airbus A320 aerodynamics (engineering) collectively explain molecular stability in varying environmental conditions?",
+        "answer": "These topics do not collectively explain molecular stability",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "engineering": 0.08,
+          "chemistry": 0.63,
+          "physics": 0.18,
+          "biology": 0.11
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How can valence bond theory (chemistry), lunar eclipse observation (physics), genetic mutation rates (biology), and Airbus A320 aerodynamics (engineering) together explain molecular stability under varying environmental conditions?",
+        "answer": "These topics are unrelated to molecular stability",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "engineering": 0.16,
+          "chemistry": 0.33,
+          "physics": 0.26,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.89
+      },
+      {
+        "turn": 4,
+        "prompt": "How can valence bond theory (chemistry), lunar eclipse light refraction (physics), genetic adaptation mechanisms (biology), and Airbus A320 wing stress distribution (engineering) collectively explain material resilience in extreme environments?",
+        "answer": "Interdisciplinary insights enhance material resilience understanding",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.25,
+          "chemistry": 0.23,
+          "physics": 0.27,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the effect of lunar eclipse light refraction (physics) on the observation of genetic mutation rates (biology) in organisms exposed to Airbus A320 aerodynamic stress (engineering) and valence bond theory interactions (chemistry)?",
+        "answer": "No observable effect or correlation exists",
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.16,
+          "chemistry": 0.2,
+          "physics": 0.35,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 6,
+        "prompt": "How might valence bond theory (chemistry) explain the effect of lunar eclipse light refraction (physics) on genetic mutation rates (biology) in organisms near an Airbus A320's flight path?",
+        "answer": "Valence bond theory does not explain this scenario",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.25,
+          "chemistry": 0.16,
+          "physics": 0.38,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.84
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_42389",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The impact of Airbus A320 wing optimization using molecular theories on seahorse habitats, buoyancy, and thermal convection during solar eclipses and varying solar conditions",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could an Airbus A320's wing design, optimized using valence bond theory for material strength, affect sea horse habitats during a solar eclipse viewed from the moon? A. Increased turbulence harms ecosystems B. No impact due to altitude C. Shadow effects alter sea temperatures D. Reverse light patterns disrupt migration",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.17,
+          "chemistry": 0.14,
+          "physics": 0.38,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the optimization of an Airbus A320's wing using valence bond theory alter thermal convection currents, impacting seahorse habitats during a solar eclipse?",
+        "answer": "No relevant connection between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.14,
+          "chemistry": 0.25,
+          "physics": 0.35,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the Airbus A320's wing optimization using valence bond theory influence thermal convection currents, alter seahorse habitat temperatures during a solar eclipse, and affect their reproductive biology?",
+        "answer": "No relevant connection or influence exists",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.08,
+          "chemistry": 0.26,
+          "physics": 0.46,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the Airbus A320's wing optimization using valence bond theory impact seahorse habitats during a solar eclipse?",
+        "answer": "No impact; unrelated topics",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.27,
+          "physics": 0.32,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the effect of optimizing an Airbus A320 wing with valence bond theory on thermal convection currents and seahorse metabolic rates during a solar eclipse?",
+        "answer": "Optimizing an Airbus A320 wing with valence bond theory minimally impacts thermal convection and seahorse metabolic rates during a solar eclipse",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.15,
+          "chemistry": 0.32,
+          "physics": 0.29,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 6,
+        "prompt": "How could optimizing an Airbus A320 wing with valence bond theory affect thermal convection, seahorse buoyancy mechanics, and solar panel efficiency during equinox conditions?",
+        "answer": "No relevant connection or impact",
+        "task_type": "factual",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "engineering": 0.38,
+          "chemistry": 0.21,
+          "physics": 0.28,
+          "biology": 0.13
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 7,
+        "prompt": "How does optimizing an Airbus A320 wing with valence bond theory influence seahorse buoyancy during thermal convection under a solar eclipse?",
+        "answer": "No scientific connection exists between these topics",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.22,
+          "physics": 0.36,
+          "biology": 0.16
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 8,
+        "prompt": "How might applying molecular orbital theory to optimize an Airbus A320 wing impact seahorse buoyancy, thermal convection patterns, and solar panel energy absorption during a solar eclipse?",
+        "answer": "No impact on seahorse buoyancy, thermal patterns, or solar absorption",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.28,
+          "physics": 0.34,
+          "biology": 0.16
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the effect of applying molecular orbital theory to optimize an Airbus A320 wing on seahorse buoyancy during thermal convection under a solar eclipse?",
+        "answer": "No effect; unrelated phenomena",
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.19,
+          "chemistry": 0.23,
+          "physics": 0.35,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.88
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_53884",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "Engineering biosensors with sp2-hybridized carbon lattices to optimize pH detection sensitivity during lunar eclipses via quantum tunneling, enzymatic activity, and enhanced quantum mechanical interactions",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can a biosensor, using an sp2-hybridized carbon lattice, detect pH changes during a lunar eclipse? A. Quantum tunneling B. Photoelectric effect C. Enzymatic activity D. Structural resonance",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.24,
+          "physics": 0.34,
+          "biology": 0.13
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might engineering a biosensor with sp2-hybridized carbon lattices enhance its sensitivity to pH changes during a lunar eclipse through quantum mechanical and biological interactions? A. Increased electron mobility B. Enhanced photoelectric response C. Strengthened hydrogen bonding D. Reduced thermal noise",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "engineering": 0.21,
+          "chemistry": 0.19,
+          "physics": 0.32,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How can engineering a biosensor with sp2-hybridized carbon lattices leverage quantum mechanical effects to improve pH detection sensitivity during a lunar eclipse? A. Enhanced electron mobility B. Increased photoelectric absorption C. Optimized lattice resonance D. Reduced thermal noise?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.25,
+          "physics": 0.32,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How can engineering a biosensor with sp2-hybridized carbon lattices optimize pH detection during a lunar eclipse?",
+        "answer": "Engineering a biosensor with sp2-hybridized carbon lattices enhances pH sensitivity via quantum conductivity, optimized during lunar eclipses by reduced solar interference",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.27,
+          "chemistry": 0.26,
+          "physics": 0.34,
+          "biology": 0.13
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 5,
+        "prompt": "How can engineering a biosensor with sp2-hybridized carbon lattices, influenced by quantum tunneling and enzymatic specificity, optimize pH detection sensitivity during a lunar eclipse?",
+        "answer": "Engineering sp2-hybridized carbon lattices with quantum tunneling and enzymatic specificity optimizes pH detection sensitivity during lunar eclipses",
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "engineering": 0.25,
+          "chemistry": 0.25,
+          "physics": 0.23,
+          "biology": 0.27
+        },
+        "theme_consistency_score": 0.81
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_37808",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The interplay between benzene's resonance energy (chemistry) and cartilage's mechanical properties (biology) is examined to optimize biomimetic material design (engineering) for enhanced energy absorption and strength under dynamic loading (physics)",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the structural stability of a benzene ring (chemistry) relate to the mechanical properties of cartilaginous arcualia (engineering), while considering the role of cellular integrity (biology) and the effects of gravitational forces during a lunar eclipse (physics)?",
+        "answer": "No direct relationship exists between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "engineering": 0.18,
+          "chemistry": 0.28,
+          "physics": 0.31,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the resonance energy of a benzene ring (chemistry) influence the tensile strength of cartilage (biology), considering stress distribution (physics) and material design (engineering)?",
+        "answer": "No direct influence; different scientific domains",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.08,
+          "chemistry": 0.28,
+          "physics": 0.28,
+          "biology": 0.36
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the resonance energy of a benzene ring (chemistry) affect the elasticity of cartilage (biology) under mechanical stress (physics), and what engineering principles optimize this interaction?",
+        "answer": "No direct relationship between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "engineering": 0.35,
+          "chemistry": 0.2,
+          "physics": 0.25,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the delocalized electron structure of benzene (chemistry) play in determining the shock absorption capacity of cartilage (biology) under dynamic loading conditions (physics), and how can this principle inform biomimetic material design (engineering)?",
+        "answer": "No direct relationship between benzene structure and cartilage shock absorption",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.37,
+          "chemistry": 0.17,
+          "physics": 0.29,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of benzene's resonance energy (chemistry) in optimizing cartilage's mechanical strength (biology) under dynamic loading (physics) for biomimetic material design (engineering)?",
+        "answer": "No direct role in cartilage strength optimization",
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.23,
+          "physics": 0.2,
+          "biology": 0.35
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 6,
+        "prompt": "How can the resonance energy of benzene (chemistry) inform the design of synthetic cartilage (engineering) to optimize energy absorption (physics) during biological movement?",
+        "answer": "Resonance energy aids in designing more durable synthetic materials",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.09,
+          "chemistry": 0.28,
+          "physics": 0.34,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_78393",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The integration of principles from chemistry, physics, biology, and engineering to optimize energy transfer, stability, and efficiency in bio-inspired and sustainable systems",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.222,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can the principles of valence bond theory, gravitational lensing, photosynthesis, and aerodynamic design collectively explain the stability and functionality of a hexagonal solar-powered drone?",
+        "answer": "Hexagonal stability arises from sp2 hybridization, gravitational lensing enhances solar efficiency, photosynthesis inspires energy conversion, and aerodynamic design ensures flight functionality",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.36,
+          "physics": 0.3,
+          "biology": 0.12
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can valence bond theory, gravitational lensing effects, photosynthetic efficiency, and aerodynamic principles collectively optimize energy transfer in a bio-inspired engineering system?",
+        "answer": "Integrated design enhances efficiency and functionality",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.11,
+          "chemistry": 0.28,
+          "physics": 0.26,
+          "biology": 0.35
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How can valence bond theory, gravitational lensing, photosynthetic efficiency, and aerodynamic principles collectively enhance energy transfer in a bio-inspired engineering system?",
+        "answer": "Optimizing multi-disciplinary interactions for efficient energy conversion",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.34,
+          "physics": 0.24,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 4,
+        "prompt": "How can valence bond theory, gravitational lensing, photosynthetic efficiency, and aerodynamic principles collectively optimize energy stability in a bio-inspired engineering system?",
+        "answer": "Integrating principles for enhanced energy transfer and stability",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.12,
+          "chemistry": 0.33,
+          "physics": 0.33,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.92
+      },
+      {
+        "turn": 5,
+        "prompt": "How can valence bond theory, gravitational lensing, photosynthetic efficiency, and aerodynamic principles collectively enhance energy transfer stability in a bio-inspired engineering system?",
+        "answer": "Integrating principles optimizes energy flow and stability",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.13,
+          "chemistry": 0.26,
+          "physics": 0.3,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.96
+      },
+      {
+        "turn": 6,
+        "prompt": "How can valence bond theory, gravitational lensing effects, photosynthetic efficiency optimization, and aerodynamic design principles collectively improve energy transfer dynamics in a hybrid biological-engineering system?",
+        "answer": "Enhances efficiency and precision in energy management",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.14,
+          "chemistry": 0.28,
+          "physics": 0.31,
+          "biology": 0.27
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 7,
+        "prompt": "How can valence bond theory (chemistry), gravitational lensing (physics), photosynthetic efficiency (biology), and aerodynamic principles (engineering) collectively enhance energy optimization in a closed system?",
+        "answer": "Integrating interdisciplinary approaches for system efficiency optimization",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.3,
+          "chemistry": 0.18,
+          "physics": 0.3,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 8,
+        "prompt": "What role do molecular orbital theory (chemistry), gravitational wave detection (physics), enzyme kinetics (biology), and thermodynamic efficiency (engineering) play in optimizing energy systems?",
+        "answer": "Enhance efficiency, control, and sustainability of energy production",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "engineering": 0.21,
+          "chemistry": 0.29,
+          "physics": 0.2,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 9,
+        "prompt": "How can molecular orbital theory (chemistry), gravitational wave effects (physics), enzyme optimization (biology), and thermodynamic system design (engineering) collectively enhance energy conversion efficiency?",
+        "answer": "Integrating interdisciplinary approaches improves efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.17,
+          "chemistry": 0.16,
+          "physics": 0.39,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 10,
+        "prompt": "How can orbital hybridization (chemistry), spacetime curvature effects (physics), metabolic pathway regulation (biology), and energy-efficient system design (engineering) collectively optimize a sustainable bio-reactor?",
+        "answer": "Enhances efficiency, control, and sustainability of reactions",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.13,
+          "physics": 0.24,
+          "biology": 0.39
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_17289",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The influence of benzene-ring stability on Airbus A320 composite rigidity, thermal regulation, and aerodynamic efficiency, drawing parallels to cell membrane adaptability in aerospace and biological contexts",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could an Airbus A320's aerodynamic design, influenced by benzene's molecular stability and cell membrane rigidity, affect a lunar eclipse observation? A. By altering light refraction B. Through gravitational lensing C. Via atmospheric scattering D. It has no effect",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.21,
+          "chemistry": 0.14,
+          "physics": 0.47,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the Airbus A320's aerodynamic efficiency, enhanced by benzene-derived composite rigidity and mimicking cell membrane fluidity, influence thermal regulation during lunar eclipse observations?",
+        "answer": "Enhanced stability and reduced thermal fluctuations",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.16,
+          "physics": 0.4,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the Airbus A320's aerodynamic efficiency, enhanced by benzene-derived composite rigidity and mimicking cell membrane fluidity, influence the design of energy-efficient spacecraft propulsion systems?",
+        "answer": "Enhances structural efficiency and fuel economy",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.21,
+          "physics": 0.34,
+          "biology": 0.16
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the Airbus A320's aerodynamic efficiency, influenced by benzene-ring stability and cell membrane adaptability, affect thermal regulation in high-altitude flight?",
+        "answer": "No direct relationship between these factors and thermal regulation",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.31,
+          "chemistry": 0.23,
+          "physics": 0.33,
+          "biology": 0.13
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does benzene-ring stability play in enhancing the Airbus A320's composite rigidity, mimicking cell membrane adaptability to optimize aerodynamic efficiency and thermal regulation?",
+        "answer": "Benzene-ring stability does not affect Airbus A320's rigidity",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "engineering": 0.37,
+          "chemistry": 0.22,
+          "physics": 0.28,
+          "biology": 0.13
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 6,
+        "prompt": "How does benzene-ring stability influence the Airbus A320's composite rigidity and thermal regulation, mimicking cell membrane adaptability?",
+        "answer": "No direct influence; different chemical and structural domains",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.27,
+          "chemistry": 0.35,
+          "physics": 0.21,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 7,
+        "prompt": "How can benzene-ring stability enhance the Airbus A320's composite rigidity while optimizing thermal regulation through principles akin to cell membrane adaptability?",
+        "answer": "Benzene's stability doesn't directly affect Airbus A320 composites",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.2,
+          "physics": 0.3,
+          "biology": 0.1
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the integration of benzene-ring stability in composite materials influence thermal regulation and structural rigidity in aerospace engineering, mimicking biological cell membrane adaptability?",
+        "answer": "Enhances thermal stability and structural integrity",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.21,
+          "physics": 0.24,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 9,
+        "prompt": "What role does benzene-ring stability play in optimizing Airbus A320 composite rigidity, thermal regulation, and resistance to biological stressors like microbial degradation?",
+        "answer": "Benzene-ring stability enhances Airbus A320 composites by boosting rigidity, thermal regulation, and microbial resistance through chemical robustness and engineered material design",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "engineering": 0.32,
+          "chemistry": 0.35,
+          "physics": 0.18,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_23417",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The interdisciplinary application of chemistry, physics, biology, and engineering to optimize molecular bond stability under lunar eclipse conditions using berry-derived antioxidants and engineering techniques",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can the principles of valence bond theory, eclipse observation from the moon, berry-derived antioxidants, and jockey Shoemaker’s balance techniques be combined to design a stable orbital spacecraft?",
+        "answer": "Combining these concepts for spacecraft design is impractical",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "engineering": 0.19,
+          "chemistry": 0.23,
+          "physics": 0.28,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can valence bond theory (chemistry), lunar eclipse observation (physics), berry-derived antioxidants (biology), and balance techniques in engineering be applied to design a stable antioxidant delivery system?",
+        "answer": "Integrate molecular bonding, light shielding, and dynamic stabilization",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.23,
+          "physics": 0.24,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the stability of molecular bonds (chemistry), the observation of lunar eclipses (physics), the role of berry-derived antioxidants in cellular health (biology), and balance optimization techniques in mechanical systems (engineering) be integrated to design a resilient biosensor?",
+        "answer": "Develop multi-disciplinary sensor with adaptive feedback mechanisms",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.31,
+          "chemistry": 0.2,
+          "physics": 0.2,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "What role do berry-derived antioxidants play in stabilizing molecular bonds during lunar eclipse observations from an engineering perspective?",
+        "answer": "No relevant role in molecular bond stabilization during lunar eclipses",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.25,
+          "physics": 0.36,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How can engineering principles optimize the stability of molecular bonds (chemistry) during lunar eclipse conditions (physics) while considering berry-derived antioxidants' effects on cellular resilience (biology)?",
+        "answer": "Lunar eclipse conditions do not affect molecular bonds",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.27,
+          "physics": 0.3,
+          "biology": 0.14
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the effect of berry-derived antioxidants on molecular bond stability during lunar eclipses when applying engineering solutions to optimize conditions?",
+        "answer": "No known effect on molecular bond stability",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.28,
+          "physics": 0.3,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 7,
+        "prompt": "How can berry-derived antioxidants (biology) influence molecular bond stability (chemistry) during lunar eclipses (physics) when engineering solutions are applied?",
+        "answer": "No scientifically established connection exists",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.27,
+          "physics": 0.18,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 8,
+        "prompt": "What role do berry-derived antioxidants (biology) play in stabilizing molecular bonds (chemistry) under lunar eclipse-induced temperature fluctuations (physics), and how can engineering optimize this process?",
+        "answer": "No scientifically proven role or optimization method exists",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.23,
+          "physics": 0.21,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 9,
+        "prompt": "How can engineering techniques (engineering) enhance the stability of molecular bonds (chemistry) influenced by berry-derived antioxidants (biology) during lunar eclipse-related electromagnetic fluctuations (physics)?",
+        "answer": "No known engineering techniques address this scenario",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.12,
+          "chemistry": 0.3,
+          "physics": 0.33,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 10,
+        "prompt": "What engineering methods can optimize the stability of molecular bonds influenced by berry-derived antioxidants during lunar eclipse-induced electromagnetic fluctuations?",
+        "answer": "No known methods address such specific conditions",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.35,
+          "chemistry": 0.21,
+          "physics": 0.27,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 0.81
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_66714",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "Integrating bio-inspired coatings and chemical treatments to optimize Airbus A320 aerodynamics, reduce drag, and enhance thermal stability under solar radiation pressure",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could an Airbus A320's aerodynamic design (engineering) be optimized to reduce turbulence caused by solar radiation pressure (physics) while ensuring the fuselage material resists chemical degradation from aromatic hydrocarbons (chemistry) and supports oxygenation needs for passengers (biology)?",
+        "answer": "Optimize Airbus A320 aerodynamics with radiation-resistant coatings, durable aromatic hydrocarbon-resistant fuselage materials, and enhanced oxygenation systems",
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.35,
+          "chemistry": 0.24,
+          "physics": 0.26,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can the Airbus A320's aerodynamic design (engineering) minimize turbulence from solar radiation pressure (physics) while using bio-inspired surface coatings (biology) to reduce drag and incorporating lightweight composite materials (chemistry)?",
+        "answer": "Lightweight composites reduce weight, enhance aerodynamics",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.3,
+          "physics": 0.14,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How can bio-inspired surface coatings (biology) enhance an Airbus A320's aerodynamic design (engineering) to minimize turbulence from solar radiation pressure (physics) while ensuring chemical stability in extreme atmospheric conditions (chemistry)?",
+        "answer": "Enhance aerodynamics and chemical resilience using biomimetic coatings",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.3,
+          "chemistry": 0.29,
+          "physics": 0.2,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 4,
+        "prompt": "How can chemical surface treatments (chemistry) inspired by shark skin (biology) reduce drag on an Airbus A320 (engineering) while considering thermal effects from solar radiation (physics)?",
+        "answer": "Chemically treated surfaces mimicking shark skin reduce drag and thermal effects on Airbus A320",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.26,
+          "physics": 0.24,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "What chemical compound (chemistry) inspired by shark skin (biology) can be engineered (engineering) to reduce thermal resistance and improve aerodynamics under solar radiation pressure (physics)?",
+        "answer": "Biomimetic shark skin coatings",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.28,
+          "physics": 0.2,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_engineering_22971",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The interplay of aromatic stabilization, gravitational lensing effects, biological resilience to radiation, and engineering optimization in enhancing molecular and tissue stability during solar eclipse observations",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can the principles of aromaticity in benzene-like molecules, gravitational lensing during a solar eclipse, photosynthesis in seahorses, and structural stability in engineering be applied to design a self-sustaining aquatic habitat?",
+        "answer": "Integrate stability, energy efficiency, and light management",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.22,
+          "chemistry": 0.32,
+          "physics": 0.29,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the role of aromaticity in stabilizing benzene-like molecules during gravitational lensing observations near a solar eclipse while engineering tools mimic photosynthesis in seahorses?",
+        "answer": "Aromaticity does not influence these unrelated phenomena",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.11,
+          "chemistry": 0.38,
+          "physics": 0.41,
+          "biology": 0.1
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How can engineering principles optimize the stability of benzene-like molecules during gravitational lensing observations near a solar eclipse while enhancing photosynthesis efficiency in marine organisms?",
+        "answer": "This scenario is scientifically implausible",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.1,
+          "chemistry": 0.3,
+          "physics": 0.39,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "How can the interplay of aromaticity stabilization, gravitational lensing effects, biological resilience to radiation, and engineering optimization enhance molecular observation near a solar eclipse?",
+        "answer": "This question combines unrelated concepts; no coherent answer possible",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.18,
+          "chemistry": 0.29,
+          "physics": 0.33,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of aromatic stabilization in protecting biological tissues from radiation damage during gravitational lensing events, and how can engineering optimize this process?",
+        "answer": "No known connection or relevance to chemistry",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.18,
+          "chemistry": 0.21,
+          "physics": 0.37,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 6,
+        "prompt": "What engineering techniques can minimize aromatic molecule degradation caused by gravitational lensing radiation while preserving biological tissue integrity?",
+        "answer": "Shielding and low-absorption materials usage",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.16,
+          "chemistry": 0.31,
+          "physics": 0.32,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the effect of aromatic molecule stabilization on biological tissue resilience during gravitational lensing, and how can engineering mitigate radiation damage?",
+        "answer": "No known effect or relation between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.19,
+          "chemistry": 0.13,
+          "physics": 0.38,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 8,
+        "prompt": "What engineering methods can enhance the aromatic stabilization of biological tissues during gravitational lensing events while minimizing radiation-induced damage?",
+        "answer": "No known engineering methods address this scenario",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "engineering": 0.18,
+          "chemistry": 0.15,
+          "physics": 0.33,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  }
+]

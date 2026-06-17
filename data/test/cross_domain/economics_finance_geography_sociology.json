@@ -1,0 +1,271 @@
+[
+  {
+    "scenario_id": "cross4_finance_sociology_economics_geography_53153",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      5,
+      17
+    ],
+    "topic_description": "The impact of Hezbollah's activities in Lebanon during the 1980s on global financial trust, regional economic policies, social cohesion, and geopolitical boundaries",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Hezbollah's influence in Lebanon during the 1980s alter financial trust globally, impact regional economic policies, reshape social structures, and shift geopolitical boundaries?",
+        "answer": [
+          "Hezbollah's influence did not significantly alter global financial trust or shift geopolitical boundaries",
+          "Hezbollah's rise reshaped trust, policies, societies, and borders"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.25,
+          "economics": 0.22,
+          "finance": 0.2,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Hezbollah's activities in Lebanon during the 1980s influence global financial trust, regional economic policies, social cohesion, and geopolitical boundaries?",
+        "answer": [
+          "Increased regional instability, affected investor confidence and economic policies",
+          "Hezbollah's actions destabilized trust, policies, cohesion, and borders"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "geography": 0.21,
+          "economics": 0.31,
+          "finance": 0.2,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Hezbollah's influence in Lebanon during the 1980s affect global financial markets, regional economic policies, social trust, and geopolitical boundaries?",
+        "answer": [
+          "Hezbollah's influence had minimal direct impact on global financial markets",
+          "Hezbollah's rise impacted markets, trust, policies, and borders"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.27,
+          "economics": 0.27,
+          "finance": 0.24,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Hezbollah's influence in Lebanon during the 1980s affect global financial trust, regional economic policies, social structures, and geopolitical boundaries?",
+        "answer": [
+          "Hezbollah's rise strained regional trust and reshaped Lebanon's socio-economic landscape",
+          "Hezbollah's rise impacted trust, policies, structures, and borders"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.28,
+          "economics": 0.37,
+          "finance": 0.19,
+          "sociology": 0.16
+        },
+        "theme_consistency_score": 0.92
+      },
+      {
+        "turn": 5,
+        "prompt": "How might Hezbollah's influence in Lebanon during the 1980s have reshaped global financial trust, regional economic policies, social cohesion, and geopolitical boundaries?",
+        "answer": [
+          "Increased regional instability affecting investor confidence and economic policies",
+          "Hezbollah's rise impacted finance, cohesion, policies, and borders"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.36,
+          "economics": 0.28,
+          "finance": 0.17,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.89
+      },
+      {
+        "turn": 6,
+        "prompt": "How did Hezbollah's influence in Lebanon during the 1980s alter global financial systems, regional economic strategies, social trust dynamics, and geopolitical boundaries?",
+        "answer": [
+          "Hezbollah's influence did not significantly alter global financial systems",
+          "Hezbollah's rise reshaped trust, trade, and territorial tensions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.31,
+          "economics": 0.26,
+          "finance": 0.16,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.85
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_economics_geography_52201",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "economics",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      5,
+      17
+    ],
+    "topic_description": "The interplay between geographic factors, sociopolitical movements, and economic policies in shaping global market valuations of Andy Warhol's art",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which country's economic policies, influenced by its sociopolitical movements and geographic location, impacted the valuation of Andy Warhol’s art in global markets?",
+        "answer": [
+          "United States, during its consumerism and pop culture surge",
+          "United States"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "geography": 0.12,
+          "economics": 0.17,
+          "finance": 0.42,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did geographic location and sociopolitical movements influence a country's economic policies, affecting Andy Warhol’s art valuation?",
+        "answer": [
+          "Cold War tensions increased interest in American pop art, boosting Warhol's market value",
+          "Geographic hubs and sociopolitical shifts shaped economic policies, boosting Warhol's art valuation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "geography": 0.07,
+          "economics": 0.19,
+          "finance": 0.42,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 3,
+        "prompt": "How did sociopolitical movements and geographic factors shape a country’s economic policies, influencing Andy Warhol's art market valuation?",
+        "answer": [
+          "Sociopolitical movements and geographic factors increased global exposure, boosting Warhol's market value",
+          "Sociopolitical shifts and geographic influences altered economic policies, boosting Warhol's market value"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.18,
+          "economics": 0.28,
+          "finance": 0.28,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "How might geographic proximity to art hubs and sociopolitical stability influence a country’s economic policies, thereby affecting Andy Warhol's art market valuation?",
+        "answer": [
+          "Stability attracts investment, boosting art market prices including Warhol's",
+          "Proximity to art hubs and stability boost valuation through economic policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.16,
+          "economics": 0.18,
+          "finance": 0.36,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 5,
+        "prompt": "How do geographic trade routes and sociopolitical movements interact to shape economic policies influencing Andy Warhol's art valuation?",
+        "answer": [
+          "Trade routes and movements influence market access and cultural trends, affecting Warhol's art value",
+          "Trade routes and sociopolitical shifts influence Warhol's market value through global economic policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "geography": 0.22,
+          "economics": 0.21,
+          "finance": 0.24,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 6,
+        "prompt": "How do geographic trade routes and sociopolitical movements interact to influence economic policies affecting Andy Warhol's art market?",
+        "answer": [
+          "Trade routes and movements shape tariffs and cultural exchange, impacting Warhol's art prices",
+          "Global trade routes and cultural shifts shape Warhol's market dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "geography": 0.26,
+          "economics": 0.28,
+          "finance": 0.19,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 7,
+        "prompt": "How do geographic proximity to financial hubs and sociopolitical movements jointly influence economic policies affecting art markets?",
+        "answer": [
+          "Proximity facilitates market access; sociopolitical movements can shift regulatory focus",
+          "Proximity to hubs and movements shape policies влиять на рынки искусства"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "geography": 0.19,
+          "economics": 0.27,
+          "finance": 0.25,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  }
+]

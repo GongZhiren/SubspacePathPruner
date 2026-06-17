@@ -1,0 +1,186 @@
+[
+  {
+    "scenario_id": "cross_engineering_geography_34188",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "geography"
+    ],
+    "cross_domain_id": [
+      5,
+      19
+    ],
+    "topic_description": "The influence of geographical and environmental factors on bridge design, foundation stability, and structural resilience in challenging terrains such as mountainous, seismic, and coastal regions",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do geographical features influence the design of bridges in mountainous regions?",
+        "answer": "Adapt to terrain, span valleys",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "engineering": 0.61,
+          "geography": 0.39
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do river flow patterns and sediment transport influence bridge foundation design in mountainous areas?",
+        "answer": "Requires stronger foundations",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.68,
+          "geography": 0.32
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "What geographical factors determine optimal bridge placement in areas with high seismic activity?",
+        "answer": "Stable ground near fault lines",
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.64,
+          "geography": 0.36
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How do geographical wind patterns affect the aerodynamic design of bridges in coastal mountain regions?",
+        "answer": "Enhanced structural reinforcement",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.56,
+          "geography": 0.44
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 5,
+        "prompt": "How do geographical fault lines impact the structural load distribution in bridge engineering?",
+        "answer": "Increases seismic load considerations",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.67,
+          "geography": 0.33
+        },
+        "theme_consistency_score": 0.52
+      },
+      {
+        "turn": 6,
+        "prompt": "How do soil stabilization and slope reinforcement techniques interact to mitigate landslide risks in geotechnically unstable bridge sites?",
+        "answer": "Increase stability, reduce movement",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.76,
+          "geography": 0.24
+        },
+        "theme_consistency_score": 0.5
+      },
+      {
+        "turn": 7,
+        "prompt": "How do coastal region thermal expansion dynamics influence bridge design considering environmental and structural interdependencies?",
+        "answer": "Adjust materials and design",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.7,
+          "geography": 0.3
+        },
+        "theme_consistency_score": 0.51
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_engineering_geography_71739",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "geography"
+    ],
+    "cross_domain_id": [
+      5,
+      19
+    ],
+    "topic_description": "The influence of the Atlas Mountains' environmental and geological factors on the structural, aerodynamic, and material performance of suspension bridges in Algeria",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the terrain of the Atlas Mountains influence the design of suspension bridges in Algeria?",
+        "answer": "Enhanced structural stability",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.54,
+          "geography": 0.46
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do seismic activity patterns in the Atlas Mountains influence suspension bridge design considering soil-structure interaction and resonance frequencies?",
+        "answer": "Enhanced damping, tuned frequencies",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.7,
+          "geography": 0.3
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How do non-stationary wind patterns in the Atlas region impact vortex-induced vibrations and flutter instability in suspension bridge aerodynamics?",
+        "answer": "Increases vibrations and instability",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "engineering": 0.7,
+          "geography": 0.3
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 4,
+        "prompt": "How do diurnal and seasonal thermal gradients in the Atlas region influence viscoelastic creep and stress relaxation in suspension bridge materials?",
+        "answer": "Increases material fatigue risks",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.72,
+          "geography": 0.28
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 5,
+        "prompt": "How do non-linear hydrodynamic load fluctuations during seasonal rainfall in the Atlas region correlate with soil permeability and foundation resonance in suspension bridges?",
+        "answer": "Correlation generally complex",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.62,
+          "geography": 0.38
+        },
+        "theme_consistency_score": 0.54
+      }
+    ]
+  }
+]

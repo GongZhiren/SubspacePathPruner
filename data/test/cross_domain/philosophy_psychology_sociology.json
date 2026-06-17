@@ -1,0 +1,1238 @@
+[
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_64611",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between psychological habit formation, philosophical concepts of autonomy and free will, and sociological structures of norms, inequality, and power in shaping individual and group behavior",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do learned behaviors like squinting in bright light relate to philosophical views on acquired traits and sociological theories on inequality's role in social positions?",
+        "answer": [
+          "Learned behaviors reflect social conditioning",
+          "Squinting reflects acquired traits, learned behaviors, and social inequality's impact"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "philosophy": 0.51,
+          "psychology": 0.32,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do psychological mechanisms of habit formation interact with philosophical concepts of free will and sociological structures of norm reinforcement?",
+        "answer": [
+          "Habits challenge perceived autonomy",
+          "Habits shape will, norms guide habits"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "philosophy": 0.42,
+          "psychology": 0.31,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 3,
+        "prompt": "How do social norms influence psychological habit formation and philosophical debates on autonomy?",
+        "answer": [
+          "Shape habits, challenge individual freedom",
+          "Social norms shape habits and autonomy debates"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "philosophy": 0.38,
+          "psychology": 0.38,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_61776",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between Hezbollah's philosophical ethics, psychological resilience, and collective identity in shaping sociopolitical influence and cross-cultural philanthropic considerations",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do sociopolitical movements like Hezbollah shape psychological resilience through philosophical ethics?",
+        "answer": [
+          "Promoting ideological resilience",
+          "Ethical frameworks bolster resilience through collective identity and moral purpose"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.38,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Hezbollah's sociopolitical strategy balance philosophical ethics, psychological resilience, and collective identity?",
+        "answer": [
+          "Integrating ideology with community resilience",
+          "Balances ethics, resilience, identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "philosophy": 0.2,
+          "psychology": 0.42,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Hezbollah's use of philosophical ethics influence psychological resilience and sociopolitical cohesion?",
+        "answer": [
+          "Promotes unity and endurance",
+          "Ethics-driven resilience fosters unity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.28,
+          "psychology": 0.31,
+          "sociology": 0.41
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Hezbollah’s philosophical framework influence psychological resistance and sociopolitical solidarity?",
+        "answer": [
+          "Promotes unity and resistance",
+          "Philosophical resistance fosters psychological resilience and sociopolitical unity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.39,
+          "psychology": 0.21,
+          "sociology": 0.4
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_15937",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between philosophical identity concepts, psychological resilience, and sociological dynamics in Hezbollah-influenced contexts, focusing on trauma, coping, and post-conflict reconstruction",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do philosophical notions of identity shape psychological resilience and sociological roles in Hezbollah contexts?",
+        "answer": [
+          "Identity fosters ideological commitment, resilience",
+          "Identity anchors resilience, shapes roles"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.34,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 2,
+        "prompt": "What psychological mechanisms and sociological structures influence philosophical interpretations of identity in Hezbollah contexts?",
+        "answer": [
+          "Collective identity, ideological commitment",
+          "Collective identity shapes philosophical interpretations through psychological mechanisms and sociological structures"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.38,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How do philosophical views on identity influence psychological coping strategies and sociological integration in Hezbollah-affected communities?",
+        "answer": [
+          "Promotes resilience and solidarity",
+          "Identity resilience fosters coping and integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.33,
+          "psychology": 0.3,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "What sociological frameworks, psychological impacts, and philosophical ethics shape post-conflict identity reconstruction in Hezbollah-influenced regions?",
+        "answer": [
+          "Collective memory, moral rebuilding",
+          "Identity rebuilt through collective memory, moral resilience, and social cohesion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "philosophy": 0.3,
+          "psychology": 0.35,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_44987",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The multifaceted influence of Hezbollah on ethical frameworks, psychological resilience, group identity, and societal norms across generations and post-conflict contexts",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal movements like Hezbollah shape ethical frameworks, psychological resilience, and group identity?",
+        "answer": [
+          "Reinforces identity, ethics, resilience",
+          "Hezbollah fosters resilience, identity, ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.29,
+          "psychology": 0.28,
+          "sociology": 0.43
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 2,
+        "prompt": "How might Hezbollah's influence on ethical frameworks (philosophy), resilience (psychology), and group identity (sociology) interact in shaping societal norms?",
+        "answer": [
+          "Reinforces militant ethical norms",
+          "Ethical resilience strengthens group norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.35,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does collective memory (sociology) play in shaping moral judgments (philosophy) and emotional resilience (psychology) within communities influenced by Hezbollah?",
+        "answer": [
+          "Reinforces identity and resilience",
+          "Collective memory shapes moral resilience"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "philosophy": 0.19,
+          "psychology": 0.42,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_60270",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between Hezbollah's societal influence, psychological identity formation, and existentialist philosophy in shaping individual resilience and group behavior within a sociological framework",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What philosophical theories align with the psychological and sociological impacts of Hezbollah's influence on individual identity?",
+        "answer": [
+          "Communitarianism, Social Identity Theory",
+          "Existentialism, identity resilience, collective solidarity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.34,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 2,
+        "prompt": "How might psychological resilience, shaped by Hezbollah’s societal influence, intersect with existentialist philosophy and sociological identity frameworks?",
+        "answer": [
+          "Resilience shapes existential identity constructs",
+          "Resilience integrates existential meaning, collective identity, and psychological adaptation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "philosophy": 0.33,
+          "psychology": 0.4,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How might psychological resilience, shaped by Hezbollah’s influence, reflect philosophical existentialism and sociological identity adaptation?",
+        "answer": [
+          "Adaptive existential identity formation",
+          "Resilience reflects existential adaptation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.28,
+          "psychology": 0.43,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_35102",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal norms, psychological resilience, and philosophical perspectives in shaping responses to existential despair, mental health, and coping strategies",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal norms (sociology) influence a person’s decision to end their life (psychology) when facing existential despair (philosophy)?",
+        "answer": [
+          "Norms shape perceptions of despair",
+          "Societal norms pressure existential despair into suicidal ideation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.33,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might psychological resilience (psychology) influence societal attitudes (sociology) toward existential questions (philosophy)?",
+        "answer": [
+          "Promotes positive existential engagement",
+          "Resilience fosters adaptive societal existential views"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.3,
+          "psychology": 0.44,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "What psychological mechanisms (psychology) allow societies (sociology) to reconcile conflicting philosophical beliefs (philosophy)?",
+        "answer": [
+          "Cognitive dissonance reduction, pluralistic dialogue",
+          "Cognitive dissonance reduction through social norms and philosophical discourse integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.29,
+          "psychology": 0.42,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 4,
+        "prompt": "How do societal norms (sociology) influence psychological coping strategies (psychology) when confronting philosophical paradoxes (philosophy)?",
+        "answer": [
+          "Shape coping mechanisms and perceptions",
+          "Societal norms shape coping strategies for paradoxes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.31,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_32313",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between existentialist philosophy, psychological resilience, and sociopolitical identity within Hezbollah-influenced environments, focusing on coping mechanisms, identity formation, and collective adaptation in conflict settings",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do philosophical views on existentialism interact with psychological resilience and sociological identity in Hezbollah-influenced environments?",
+        "answer": [
+          "Existential resilience against ideological conformity",
+          "Existential resilience shapes collective identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.41,
+          "psychology": 0.32,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 2,
+        "prompt": "How do existentialist philosophical principles influence psychological resilience and sociological adaptation in Hezbollah-influenced environments?",
+        "answer": [
+          "Promotes individual agency, resilience",
+          "Existential resilience fosters adaptive solidarity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "philosophy": 0.42,
+          "psychology": 0.36,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does collective identity, shaped by existentialist philosophy and psychological resilience, play in Hezbollah's sociopolitical strategies?",
+        "answer": [
+          "Fosters unity and resistance",
+          "Collective identity fosters resilience and unity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.28,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How do existentialist philosophical principles influence psychological identity formation within Hezbollah’s sociopolitical structures?",
+        "answer": [
+          "Promotes individual agency, resistance identity",
+          "Existentialist principles shape identity through sociopolitical resistance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.4,
+          "psychology": 0.33,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_19780",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal norms, psychological experiences, and philosophical perspectives in shaping individual perceptions of autonomy, resilience, self-worth, and happiness",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal support systems (sociology) influence an individual’s coping strategies (psychology) and their philosophical view of suffering?",
+        "answer": [
+          "Shapes resilience and philosophical outlook",
+          "Societal support shapes coping and redefines suffering"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.25,
+          "psychology": 0.36,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 2,
+        "prompt": "How do societal norms (sociology) influence the philosophical concept of self-worth (philosophy) in individuals with depression (psychology)?",
+        "answer": [
+          "Norms shape perceived self-value",
+          "Societal norms shape self-worth, impacting depression"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.39,
+          "psychology": 0.33,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How do societal expectations (sociology) influence the psychological mechanisms of self-acceptance (psychology) and align with existentialist views of authenticity (philosophy)?",
+        "answer": [
+          "Societal pressures hinder authenticity",
+          "Societal norms shape self-acceptance through authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.33,
+          "psychology": 0.19,
+          "sociology": 0.48
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "How do societal pressures (sociology) influence the psychological pursuit of happiness (psychology) and align with Stoic ideals of contentment (philosophy)?",
+        "answer": [
+          "Societal pressures challenge Stoic contentment",
+          "Societal norms shape happiness pursuits, aligning with Stoic contentment through socialized resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "philosophy": 0.42,
+          "psychology": 0.23,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_77998",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between Hezbollah's societal norms, psychological resilience, and philosophical views on justice, morality, and free will, examining their impact on identity formation and collective behavior",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal movements like Hezbollah influence individual psychological resilience and ethical perspectives on violence?",
+        "answer": [
+          "Normalizes violence, affects resilience",
+          "Hezbollah's influence shapes resilience and ethics through collective identity, psychological coping, and ideological justification"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.33,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do Hezbollah's societal structures influence psychological adaptation and philosophical perspectives on morality?",
+        "answer": [
+          "Promotes collective identity, moral solidarity",
+          "Collective identity fosters resilience, shapes moral frameworks"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.32,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How might Hezbollah's societal norms shape psychological resilience and philosophical views on justice?",
+        "answer": [
+          "Promotes endurance, collective justice perspective",
+          "Collective identity fosters resilience, justice as resistance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.44,
+          "psychology": 0.29,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "How might Hezbollah's societal influence on collective behavior (sociology) interact with psychological identity formation (psychology) and philosophical notions of free will (philosophy)?",
+        "answer": [
+          "Constrains identity, challenges autonomy",
+          "Hezbollah's influence shapes identity, collective behavior, and free will"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.32,
+          "psychology": 0.34,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_77249",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal fears like lutraphobia and their psychological and philosophical impacts on human behavior, identity, resilience, vulnerability, self-worth, coping mechanisms, treatment approaches, and ethical considerations",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal fears like lutraphobia influence instinctive behaviors and philosophical views on human nature?",
+        "answer": [
+          "Shapes distrust in human nature",
+          "Otters trigger instinctive fears, shaping views on human nature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.5,
+          "psychology": 0.36,
+          "sociology": 0.14
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might societal fears like lutraphobia affect psychological resilience and philosophical interpretations of fear?",
+        "answer": [
+          "Erodes resilience, alters fear perception",
+          "Fear shapes resilience and meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.47,
+          "psychology": 0.34,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How do societal fears like lutraphobia shape psychological identity formation and philosophical notions of self-worth?",
+        "answer": [
+          "Shapes self-perception and value beliefs",
+          "Societal fears influence identity and self-worth through social norms, psychological conditioning, and philosophical reflection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "philosophy": 0.34,
+          "psychology": 0.41,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_24678",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay of existential philosophy, psychological resilience, and sociological identity in Hezbollah-influenced communities, focusing on meaning-making, agency, and collective empowerment",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal movements like Hezbollah influence individual perceptions of life's purpose and mental health outcomes?",
+        "answer": [
+          "Shapes identity and mental resilience",
+          "Hezbollah's ideology may distort purpose, harm mental health, and reshape social identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.25,
+          "psychology": 0.43,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might existential philosophy interact with psychological resilience and sociological identity in Hezbollah-influenced communities?",
+        "answer": [
+          "Existential crisis strengthens community identity",
+          "Existential purpose strengthens resilience, shapes collective identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.38,
+          "psychology": 0.31,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does collective identity play in shaping psychological resilience and philosophical meaning-making within Hezbollah-influenced communities?",
+        "answer": [
+          "Fosters resilience, shapes meaning",
+          "Collective identity fosters resilience and meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.32,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How might philosophical existentialism intersect with psychological identity formation and sociological group cohesion in Hezbollah-influenced communities?",
+        "answer": [
+          "Identity crisis and group solidarity",
+          "Existential identity fosters group cohesion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.35,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does philosophical existentialism play in psychological resilience and sociological identity within Hezbollah-influenced communities?",
+        "answer": [
+          "Enhances coping and identity formation",
+          "Existentialism fosters resilience and identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "philosophy": 0.21,
+          "psychology": 0.4,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_65348",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal influences, psychological processes, and philosophical concepts in shaping perceptions, identity, and behavior, with a focus on beauty, conformity, authenticity, and human potential",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What role do societal norms play in shaping individual perceptions of beauty, and how do philosophical ethics and psychological biases interact in this process?",
+        "answer": [
+          "Norms shape ethics, influence biases",
+          "Societal norms shape beauty perceptions through ethical ideals and cognitive biases"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.48,
+          "psychology": 0.35,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 2,
+        "prompt": "How do societal beauty standards, shaped by cultural norms, interact with psychological self-perception and philosophical notions of authenticity?",
+        "answer": [
+          "Beauty standards influence self-authenticity perceptions",
+          "Cultural norms shape self-perception, challenging authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.39,
+          "psychology": 0.37,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How do psychological mechanisms of conformity interact with sociological power structures and philosophical theories of autonomy in shaping individual behavior?",
+        "answer": [
+          "Conformity suppresses autonomous behavior",
+          "Conformity pressures autonomy within societal structures"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.19,
+          "psychology": 0.51,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "What role do societal expectations play in shaping psychological resilience and philosophical views on human potential?",
+        "answer": [
+          "Influences resilience and potential beliefs",
+          "Societal norms shape resilience and potential views"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.31,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.58
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_59043",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay of societal norms, psychological factors, and philosophical principles in shaping moral judgment and ethical reasoning in extreme situations",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal norms (sociology) and psychological impacts (psychology) influence the moral judgment (philosophy) of a person who took extreme action after being wronged?",
+        "answer": [
+          "Norms and impacts justify actions",
+          "Societal norms and psychological impacts shape moral judgment"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.35,
+          "psychology": 0.33,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might psychological resilience (psychology) and social support systems (sociology) shape the ethical evaluation (philosophy) of a person’s extreme response to injustice?",
+        "answer": [
+          "Mitigates moral judgment harshness",
+          "Resilience and support influence ethical judgment"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.43,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does societal pressure (sociology) play in shaping the ethical reasoning (philosophy) of individuals with varying psychological resilience (psychology)?",
+        "answer": [
+          "Influences ethical decision-making",
+          "Societal norms influence ethical reasoning through psychological resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.38,
+          "psychology": 0.28,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How might societal expectations (sociology) and cognitive biases (psychology) affect the moral justification (philosophy) of extreme actions?",
+        "answer": [
+          "Justify or distort moral perceptions",
+          "Societal norms and biases distort moral reasoning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.26,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "What societal norms (sociology) and psychological traits (psychology) influence the philosophical interpretation of justice in extreme situations?",
+        "answer": [
+          "Cultural norms, moral psychology",
+          "Societal norms and psychological traits shape justice interpretations"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "philosophy": 0.33,
+          "psychology": 0.27,
+          "sociology": 0.4
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 6,
+        "prompt": "What philosophical principles (philosophy) guide the psychological response (psychology) to societal collapse (sociology)?",
+        "answer": [
+          "Resilience, adaptation, ethical survival",
+          "Existential resilience guides psychological adaptation to societal collapse"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "philosophy": 0.43,
+          "psychology": 0.34,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_philosophy_psychology_sociology_72990",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal influences and individual psychology, exploring how social constructs shape identity, resilience, coping mechanisms, well-being, and philosophical concepts of self-worth, adaptability, flourishing, happiness, selfhood, and suffering",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the influence of social groups on learned traits like eye color perception challenge individual autonomy?",
+        "answer": [
+          "Undermines personal decision-making autonomy",
+          "Social learning shapes autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.5,
+          "psychology": 0.35,
+          "sociology": 0.15
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do social constructs of beauty (sociology) interact with psychological identity formation and philosophical notions of self-worth?",
+        "answer": [
+          "Shapes self-esteem and identity",
+          "Beauty norms shape identity and self-worth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.42,
+          "psychology": 0.33,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 3,
+        "prompt": "How do societal norms (sociology) influence psychological resilience and align with philosophical views on human adaptability?",
+        "answer": [
+          "Norms shape resilience, promote adaptability",
+          "Societal norms shape resilience, reflecting adaptability philosophically"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.4,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 4,
+        "prompt": "How do societal pressures (sociology) shape psychological coping mechanisms and relate to philosophical ideals of human flourishing?",
+        "answer": [
+          "Societal norms influence personal resilience",
+          "Societal norms shape coping, aligning with flourishing ideals"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "psychology": 0.37,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "How do societal expectations (sociology) influence psychological well-being and connect to philosophical theories of happiness?",
+        "answer": [
+          "Shaping perceptions, affecting happiness",
+          "Societal norms shape well-being, aligning with philosophical happiness ideals"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.31,
+          "psychology": 0.34,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 6,
+        "prompt": "How do societal structures (sociology) affect psychological identity formation and philosophical notions of selfhood?",
+        "answer": [
+          "Shapes self-concept and autonomy",
+          "Societal norms shape identity and self-concept"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.4,
+          "psychology": 0.31,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 7,
+        "prompt": "How do societal pressures (sociology) shape psychological coping mechanisms and relate to philosophical concepts of suffering?",
+        "answer": [
+          "Societal pressures mold resilience, influence suffering",
+          "Societal norms shape coping, reflecting suffering's philosophical roots"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "philosophy": 0.23,
+          "psychology": 0.39,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  }
+]

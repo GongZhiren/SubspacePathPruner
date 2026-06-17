@@ -1,0 +1,2242 @@
+[
+  {
+    "scenario_id": "technology_20874",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Features and tools used in online messaging apps for communication, sharing updates, tracking activity, and organizing conversations with friends",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What do you use when chatting with friends that aren't in the same place together?",
+        "answer": [
+          "Instant messaging apps, social media platforms, or video calls",
+          "Messaging apps, social media direct messages, and video calls",
+          "messaging app"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "When chatting with friends online, what do you use to share quick updates or photos instantly without sending separate files? A. Email B. Messaging app C. Cloud storage D. Social media post?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "When chatting with friends online, which feature allows you to instantly share your location or current activity without manually typing updates? A. Status update B. Live streaming C. File sharing D. Voice memo?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "When chatting with friends online, which feature helps you know when they are actively typing a message? A. Read receipt B. Typing indicator C. Status update D. Notification alert?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "When chatting with friends online, which feature allows you to organize and store past conversations for easy retrieval later? A. Chat history B. Cloud backup C. Screenshot D. Bookmarking?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_18360",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores the design and implementation of a robotic system to automate garbage can movement, focusing on sensors, power sources, programming, and communication protocols for efficient alley clearance",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What technology could Sam use to automate the movement of his garbage can to avoid blocking the alley? A. robotics B. virtual reality C. blockchain D. cloud computing?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of sensor could Sam integrate into a robotic system to ensure his garbage can moves only when the alley is clear? A. motion sensor B. temperature sensor C. pressure sensor D. light sensor?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What could Sam use to program the robotic system's decision-making process for moving the garbage can? A. machine learning B. manual coding C. quantum computing D. data visualization?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What could Sam use to power the robotic system for moving his garbage can? A. solar panels B. wind turbines C. batteries D. fuel cells?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of wireless communication protocol could Sam implement to enable remote control of the robotic garbage can system? A. Bluetooth B. NFC C. Wi-Fi D. Zigbee?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of sensor could Sam use to detect obstacles for the robotic garbage can system? A. temperature sensor B. ultrasonic sensor C. pressure sensor D. light sensor?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of algorithm could Sam implement to optimize the pathfinding efficiency of his robotic garbage can system? A. Dijkstra's algorithm B. Bubble sort C. Quick sort D. Linear search?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of power source could Sam use to ensure the robotic garbage can system operates efficiently for an extended period? A. Alkaline batteries B. Lithium-ion battery C. Solar panel D. Capacitor?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_70741",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Safety and ergonomics in a technology workspace, focusing on proper ladder storage, usage, and positioning, as well as equipment setup to minimize hazards and physical strain",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where is a good place to store a ladder?",
+        "answer": [
+          "Store a ladder horizontally on wall-mounted hooks in a garage or shed",
+          "In a garage or shed, hung horizontally on sturdy wall hooks",
+          "garage or shed"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "than storage location, what factor should be considered to ensure a ladder remains safe and undamaged when stored in a technology workspace? A. Material compatibility B. Proximity to electrical equipment C. Ambient temperature D. Accessibility for frequent use?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary reason to avoid storing a ladder near electrical equipment in a technology workspace? A. Risk of electrocution B. Increased wear and tear C. Obstruction of pathways D. Potential for chemical reactions?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the safest way to position a ladder when accessing equipment in a technology workspace? A. Leaning against a wall at a 90-degree angle B. Fully extended and locked in place C. Placed on uneven flooring for stability D. Resting directly against electrical equipment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the most important action to take before using a ladder in a technology workspace? A. Inspect for damage B. Clean the rungs C. Apply non-slip coating D. Check the height adjustment",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the recommended height for a monitor in a technology workspace to reduce strain? A. Eye level B. Chest level C. Waist level D. Above head level?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the primary purpose of using a wrist rest in a technology workspace? A. To improve typing speed B. To reduce strain on the wrists C. To adjust monitor height D. To stabilize the keyboard",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the primary reason for keeping cables organized in a technology workspace? A. Improve airflow B. Reduce tripping hazards C. Enhance aesthetics D. Increase storage space?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_40504",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores the rules of a specific sport and delves into networking technologies, focusing on devices like modems, routers, switches, and firewalls, as well as their functions and protocols in managing and securing data flow",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which sport do the rules specify that the ball used must not weigh less than 45.93 grams and must?",
+        "answer": [
+          "Golf",
+          "In golf, the ball must not weigh more than 45.93 grams"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In technology, which component is essential for converting digital signals into analog signals for transmission over telephone lines? A. Modem B. Router C. Switch D. Firewall?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which device is crucial for enabling multiple computers to share a single internet connection by directing data packets to their intended destinations? A. Modem B. Router C. Switch D. Firewall",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary function of a network switch in a local area network? A. Modulating signals B. Routing data packets C. Connecting multiple devices D. Filtering traffic based on IP addresses?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What device is primarily responsible for managing data flow between different networks while applying security rules to protect the network from unauthorized access? A. Modem B. Router C. Switch D. Firewall?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary reason a firewall is preferred over a router for protecting a network from external cyber threats? A. Faster data transmission B. Advanced threat detection C. Simplified network setup D. Lower cost?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What protocol is primarily used by routers to determine the best path for data packets across multiple networks? A. HTTP B. TCP C. OSPF D. UDP",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the primary function of a switch in comparison to a router when managing data flow within the same network? A. Filtering data packets B. Connecting different networks C. Forwarding data based on MAC addresses D. Applying security rules?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the primary purpose of implementing VLANs in a network infrastructure? A. Enhancing data encryption B. Segmenting network traffic C. Increasing internet speed D. Reducing hardware costs?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_59886",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores the process and considerations involved in repairing a janitor's pail, focusing on tool selection, material suitability, adhesive effectiveness, and safety precautions for wet environments",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where did the janitor find the tool to fix his pail? A. utility room B. hardware store C. garage D. kitchen",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of tool did the janitor use to fix his pail after retrieving it from the utility room? A. soldering iron B. glue gun C. wrench D. hammer",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of material is most suitable for repairing a pail used in wet environments? A. plastic B. metal C. rubber D. wood?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of adhesive would be most effective for ensuring a long-lasting repair of the plastic pail in wet environments? A. epoxy resin B. super glue C. hot glue D. silicone sealant?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the most important safety precaution to follow when using a soldering iron to repair plastic in wet environments? A. wear gloves B. ensure proper ventilation C. use a heat-resistant mat D. unplug the iron when not in use",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_78137",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "A robot's progressive journey in acquiring reading skills, analyzing literature, categorizing genres, developing systems for recommendations, enhancing user interaction, and ensuring long-term sustainability through continuous improvement",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "After learning to read, the robot began analyzing patterns in the books. What did it likely attempt to do next? A. write a book B. organize the library C. teach other robots D. summarize content",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What did the robot likely focus on after analyzing patterns in the books? A. categorize genres B. write a review C. create a summary D. build a dictionary",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "After categorizing genres, what did the robot likely attempt to improve its understanding of the books? A. develop a recommendation system B. translate texts into other languages C. identify authorship patterns D. create visual summaries",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "After developing a recommendation system, what did the robot likely focus on to enhance user interaction? A. improve accuracy B. create visual summaries C. translate texts D. organize the library",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "After enhancing user interaction, what did the robot likely focus on to ensure long-term system sustainability? A. reduce energy consumption B. expand storage capacity C. improve processing speed D. update software regularly",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_76273",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Danny's reluctance to help others due to expecting complications, and his assumptions about time-wasting and challenges in various tech-related tasks",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Danny often avoided helping others with their tech problems because he believed it led to unnecessary complications. If a colleague asked him to troubleshoot a software issue, what might Danny assume would happen based on his past experiences? A. quick resolution B. wasted time C. improved skills D. strengthened relationships E. increased satisfaction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "When troubleshooting software issues, Danny often assumed it would lead to unnecessary complications. What might he expect to encounter during the process? A. quick resolution B. wasted time C. improved skills D. strengthened relationships E. increased satisfaction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might Danny expect to happen if he were asked to resolve a hardware issue, given his belief that helping others often led to unnecessary complications? A. quick resolution B. wasted time C. improved skills D. strengthened relationships E. increased satisfaction",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might Danny assume would happen if he were asked to set up a new software system, given his belief that helping others often led to unnecessary complications? A. quick resolution B. wasted time C. improved skills D. strengthened relationships E. increased satisfaction",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might Danny assume would happen if he were asked to optimize a network configuration, given his belief that helping others often led to unnecessary complications? A. quick resolution B. wasted time C. improved skills D. strengthened relationships E. increased satisfaction",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_31937",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "This scenario explores digital tools and methods for accessing, managing, and verifying online newspapers and magazines, including subscription, storage, sharing, unsubscribing, and email safety practices",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What type of digital tool is commonly used to access newspapers and magazines online? A. e-reader B. smartwatch C. virtual assistant D. gaming console?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is a common method for subscribing to online newspapers and magazines? A. email newsletter B. social media follow C. podcast subscription D. video streaming service?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is a common way to store and organize digital copies of newspapers and magazines? A. cloud storage B. physical filing cabinet C. printed binder D. handwritten notes?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is a common method for sharing online newspapers and magazines with others? A. email attachment B. social media post C. printed copy D. verbal recommendation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is a common way to unsubscribe from an email newsletter? A. click unsubscribe link B. delete email account C. block sender D. ignore emails?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.15,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is a common method to verify the authenticity of an email attachment before downloading? A. check sender's email address B. open the attachment C. forward the email D. delete the email immediately?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is a common action to take if an email appears suspicious or potentially harmful? A. click all links B. delete the email C. reply to sender D. save attachments?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_82935",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores the design and optimization of a software tool for simulating efficient apple peeling, focusing on critical features, priorities, and adjustments to ensure accuracy, consistency, and error prevention",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If a software tool could simulate the process of peeling an apple to optimize efficiency, which feature would be most critical for it to determine the best method? A. peel thickness B. apple variety C. blade sharpness D. user skill level?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What would a software tool most likely track to ensure efficient peeling simulation? A. apple color B. peel speed C. blade temperature D. user fatigue?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What would a software tool most likely adjust to maintain consistency during the apple peeling simulation? A. peel thickness B. blade speed C. apple size D. user input?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What would a software tool most likely monitor to prevent errors during the apple peeling simulation? A. peel thickness B. blade alignment C. apple color D. user input?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What would a software tool most likely optimize to ensure efficient blade movement during the apple peeling simulation? A. blade speed B. peel thickness C. apple size D. user input?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What would a software tool most likely adjust to ensure smooth transitions between steps in the apple peeling simulation? A. blade speed B. peel thickness C. apple size D. user input?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What would a software tool most likely ensure to maintain accuracy throughout the apple peeling simulation? A. consistent blade alignment B. variable peel thickness C. random apple size D. unpredictable user input?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_27026",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Troubleshooting persistent issues with a smart home system's ocean-inspired lighting theme despite extensive corrective measures",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "After setting up their smart home system earlier in the day, they noticed an issue with the automated lighting schedule. What could be the reason the lights failed to adjust according to the pre-set ocean-inspired theme? A. connectivity issues B. incorrect time zone C. software update delay D. hardware malfunction E. power outage?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What could be causing the smart home system's ocean-inspired lighting theme to fail after they noticed an issue with the schedule? A. connectivity issues B. incorrect time zone C. software update delay D. hardware malfunction E. power outage?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What could be the most effective troubleshooting step to resolve the smart home system's failure to apply the ocean-inspired lighting theme after confirming that connectivity issues and incorrect time zones have already been ruled out? A. reinstall the app B. reset the system C. check for firmware updates D. replace the light bulbs?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "After confirming that firmware updates and hardware replacements did not resolve the issue with the ocean-inspired lighting theme, what could be the next step to ensure the smart home system functions as intended? A. factory reset B. consult user manual C. contact technical support D. inspect wiring connections",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "After confirming that a factory reset and consulting the user manual did not resolve the issue with the ocean-inspired lighting theme, what could be the underlying cause of the smart home system's inability to apply the theme consistently across all connected devices? A. incompatible device firmware B. incorrect theme configuration C. network bandwidth limitations D. corrupted system cache",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "After confirming that firmware updates, hardware replacements, factory resets, and theme reconfigurations have not resolved the issue with the ocean-inspired lighting theme, what could be the potential impact of network bandwidth limitations on the smart home system's ability to synchronize lighting effects across all connected devices? A. inconsistent color transitions B. delayed response times C. complete system failure D. overheating of devices?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "After confirming that firmware updates, hardware replacements, factory resets, theme reconfigurations, and network bandwidth assessments have not resolved the issue with the ocean-inspired lighting theme, what could be the potential consequence of a corrupted system cache on the smart home system's ability to synchronize lighting effects across all connected devices? A. delayed response times B. inconsistent color transitions C. complete system failure D. overheating of devices?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "After confirming that firmware updates, hardware replacements, factory resets, theme reconfigurations, network bandwidth assessments, and system cache clearing have not resolved the issue with the ocean-inspired lighting theme, what could be the potential impact of a misconfigured API integration between the smart home hub and third-party lighting devices on the synchronization of lighting effects? A. delayed response times B. inconsistent color transitions C. complete system failure D. overheating of devices?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "After confirming that firmware updates, hardware replacements, factory resets, theme reconfigurations, network bandwidth assessments, system cache clearing, and API integration checks have not resolved the issue with the ocean-inspired lighting theme, what could be the potential impact of electromagnetic interference (EMI) from nearby devices on the smart home system's ability to synchronize lighting effects? A. delayed response times B. inconsistent color transitions C. complete system failure D. overheating of devices?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_17723",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The passage explores the role of a specific technology in achieving a key objective, addressing implementation challenges, ensuring long-term success, and overcoming barriers to scalability and user engagement",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What specific application of the mentioned technology does the writer emphasize as crucial for achieving their main point? A. Data Security B. Automation C. Scalability D. Connectivity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What potential challenge does the writer suggest could arise when implementing the emphasized application of the mentioned technology? A. High Costs B. Limited Accessibility C. Ethical Concerns D. Technical Complexity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What solution does the writer propose to address the challenge related to implementing the emphasized application of the mentioned technology? A. Enhanced Training B. Increased Funding C. Improved Infrastructure D. Stricter Regulations?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What does the writer suggest is essential for ensuring the long-term success of the emphasized technology application? A. Continuous Monitoring B. Regular Updates C. User Feedback D. System Integration?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What factor does the writer identify as crucial for overcoming resistance to the emphasized technology's implementation? A. Stakeholder Engagement B. Technological Innovation C. Financial Investment D. Regulatory Compliance?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What does the writer identify as the most significant barrier to scaling the emphasized technology's implementation across multiple regions? A. Cultural Differences B. Technological Limitations C. Regulatory Hurdles D. Financial Constraints?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What does the writer suggest is a key factor for sustaining user engagement with the emphasized technology over time? A. Frequent Updates B. Personalized Features C. Cost Reduction D. Improved Security?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_22173",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores how caution, both as a personal trait and a technological principle, ensures safety and mitigates risks in digital and real-world contexts",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "They mocked their friend for being timid, but it kept her out of the trouble they got into by being what?",
+        "answer": [
+          "Reckless behavior",
+          "Early adopters",
+          "reckless"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What kept their friend safe while they faced consequences for being reckless? A. caution B. bravery C. curiosity D. confidence?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What technological principle ensured their friend avoided the same digital risks they encountered due to reckless behavior? A. encryption B. redundancy C. caution D. automation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What technological tool helped their friend maintain safety while they faced consequences for ignoring basic security practices? A. antivirus B. firewall C. caution D. backup?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What technological strategy could have mitigated the consequences of their reckless behavior by ensuring data integrity and system stability? A. redundancy B. encryption C. automation D. caution",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_12820",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The use of mobile apps and related technologies to enhance spectator experience and ensure secure, real-time communication during the Curtis Cup women's golf event",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The Curtis Cup is a challenge trophy contested by women in which sport?",
+        "answer": [
+          "Golf",
+          "Amateur golf"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "The Curtis Cup event",
+        "answer": [
+          "The Curtis Cup is a biennial women's amateur golf competition",
+          "A women's amateur golf tournament, not a technology-related event",
+          "tournament"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary purpose of using mobile apps during the Curtis Cup event? A. Player communication B. Real-time score updates C. Weather forecasting D. Equipment tracking",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What feature in mobile apps used during the Curtis Cup event allows spectators to receive live notifications about match outcomes and player performance? A. Push notifications B. In-app messaging C. Email alerts D. SMS updates?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of data encryption method is most commonly used to secure real-time communication between mobile apps and servers during events like the Curtis Cup? A. AES B. RSA C. DES D. SHA-256?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the most common method used to optimize mobile app performance during live sports events like the Curtis Cup? A. Data compression B. Load balancing C. Caching D. Bandwidth throttling?",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the simplest way to ensure a mobile app remains responsive during high-traffic events like the Curtis Cup? A. Use a single-threaded model B. Implement multithreading C. Reduce image quality D. Limit user access?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_64543",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores technologies for managing cold-weather flooding risks, focusing on prevention, monitoring, and mitigation strategies during a severe storm with standing water and freezing temperatures",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Yesterday there was heavy rain and there's water standing everywhere, but it's coming down hard again, and this time it's cold, what sort of storm is it now?",
+        "answer": [
+          "It is likely a sleet storm or freezing rain",
+          "A cold front storm, potentially bringing sleet or freezing rain",
+          "cold storm"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Given the ongoing storm and cold temperatures, which technology could best help prevent flooding in areas with standing water? A. Thermal imaging cameras B. Water pumps C. Weather radar systems D. Insulated roofing materials?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Given the ongoing storm, cold temperatures, and areas with standing water, which technology would most effectively monitor and predict potential flood risks to enable timely responses? A. Thermal imaging cameras B. Water level sensors C. Weather radar systems D. Insulated roofing materials?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Given the ongoing storm, cold temperatures, and areas with standing water, which technology would be most effective for quickly removing excess water to prevent further flooding? A. Thermal imaging cameras B. Water pumps C. Weather radar systems D. Insulated roofing materials?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Given the ongoing storm, cold temperatures, and efforts to manage standing water, which technology would best help in assessing structural damage caused by prolonged water exposure? A. Thermal imaging cameras B. Water pumps C. Weather radar systems D. Insulated roofing materials",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Given the ongoing storm and cold temperatures, which technology would be most effective for providing temporary heating solutions to prevent freezing in areas with standing water? A. Thermal imaging cameras B. Water level sensors C. Portable heaters D. Insulated roofing materials?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Given the ongoing storm and cold temperatures, which technology would be most effective for monitoring water levels in real-time to prevent further flooding? A. Thermal imaging cameras B. Water level sensors C. Weather radar systems D. Insulated roofing materials?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_31654",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Barriers to effectively understanding, implementing, and sustaining technological solutions, including factors like motivation, resources, support, and user engagement",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If I understand the solution but do not apply it, what is the likely reason for my inaction? A. lack of tools B. lack of knowledge C. lack of motivation D. lack of time?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What could prevent someone from implementing a solution they fully understand in technology? A. lack of resources B. lack of confidence C. lack of interest D. lack of awareness?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What factor most significantly impacts the decision to delay implementing a technological solution despite understanding its benefits? A. lack of training B. lack of funding C. resistance to change D. insufficient documentation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is a common reason for not utilizing a technological solution effectively? A. lack of understanding B. lack of access C. lack of customization D. lack of support?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is a primary reason individuals fail to optimize their use of a technological solution despite having access to it? A. lack of expertise B. lack of motivation C. lack of feedback D. lack of integration?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is a common barrier that prevents individuals from fully utilizing a technological solution even when access and training are provided? A. lack of interest B. lack of time C. lack of resources D. lack of confidence?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is a key factor that often limits the sustained adoption of a technological solution after initial access and training have been provided? A. lack of ongoing support B. lack of personal interest C. lack of financial investment D. lack of technical compatibility?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What often prevents users from fully optimizing a technological solution after overcoming initial barriers? A. lack of updates B. lack of customization C. lack of documentation D. lack of community support?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What often limits the long-term success of a technological solution after addressing initial barriers and optimization challenges? A. lack of user engagement B. lack of technical support C. lack of regular updates D. lack of clear documentation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_64265",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Managing pet health apps to ensure timely flea treatment reminders through proper settings, notifications, and troubleshooting",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "After noticing her pet scratching more frequently, she decided to research pet health apps. Which app feature would most likely help her track her pet’s flea treatment schedule? A. GPS tracking B. Medication reminders C. Diet planner D. Exercise log?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What feature would she look for in a pet health app to ensure her dog receives timely flea treatments? A. GPS tracking B. Medication reminders C. Diet planner D. Exercise log?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What should she check in the app’s settings to ensure notifications for her dog’s flea treatment are enabled? A. Sound settings B. Notification preferences C. Account details D. Privacy policy?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What should she do if the app’s notification for her dog’s flea treatment fails to appear? A. Restart the app B. Check her phone’s battery C. Contact the app developer D. Disable notifications?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What should she do if the app’s reminder feature for her dog’s flea treatment stops working? A. Delete the app B. Reset notification settings C. Reinstall the app D. Check her phone’s storage?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What should she verify in the app’s settings if her dog’s flea treatment reminders are delayed? A. Notification schedule B. App permissions C. Device time zone D. Internet connection?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What should she check if the app’s reminders for her dog’s flea treatment fail to sync with her calendar? A. Calendar permissions B. App subscription C. Device battery D. Internet speed?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_62559",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The influence of advanced security features on smartphone purchasing decisions and their role in shaping long-term value, user trust, and retention",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What has happened to a person's money after he or she has used the last of it?",
+        "answer": [
+          "The money has been spent or depleted",
+          "The funds were electronically transferred, leaving a zero balance in the account",
+          "spent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "If a person has used the last of their money to purchase a new smartphone, which factor most likely influenced their decision to spend it this way? A. The need for immediate communication tools B. The desire for entertainment applications C. The availability of discounts on older models D. The influence of peer pressure or trends?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What aspect of smartphone technology most likely influenced a person's decision to spend their last bit of money on a new device? A. The integration of advanced security features B. The availability of a longer battery life C. The inclusion of a high-resolution camera D. The appeal of a trendy design?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the integration of advanced security features in a smartphone influence a person's decision to spend their last bit of money on it, compared to factors like battery life or camera quality? A. It provides peace of mind for sensitive data B. It enhances the overall user experience C. It ensures longer device longevity D. It aligns with current technological trends?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "When considering the decision to spend their last bit of money on a smartphone, how might the inclusion of advanced security features influence a person's perception of long-term value compared to factors like design or camera quality? A. It ensures data protection over time B. It enhances immediate usability C. It aligns with current market trends D. It offers a competitive advantage in performance?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role do advanced security features play in ensuring the long-term usability of a smartphone when compared to factors like design or camera quality? A. They protect against data breaches B. They enhance visual appeal C. They improve photo clarity D. They increase processing speed?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "When evaluating the importance of advanced security features in a smartphone, what aspect might influence a person’s decision to prioritize it over features when spending their last bit of money? A. Immediate usability B. Data protection assurance C. Visual design appeal D. Processing speed enhancement?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What aspect of advanced security features might influence a person’s perception of their smartphone's value over time? A. Immediate usability B. Data protection assurance C. Visual design appeal D. Processing speed enhancement?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is a primary reason advanced security features in smartphones help maintain user trust over time? A. Improved camera quality B. Consistent data protection C. Enhanced visual design D. Faster processing speed?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What long-term impact do advanced security features in smartphones have on user retention when compared to devices lacking such features? A. Increased user churn B. Enhanced user loyalty C. Decreased brand recognition D. Improved processing efficiency?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_36823",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores various technologies used in wildlife studies, focusing on their applications and limitations in tracking animal movements, identifying individuals, and analyzing migration patterns",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "While on the tour, he noticed a device used to track wildlife movements in the area. What type of technology allows remote monitoring of animal activity? A. GPS tracker B. Motion sensor C. Thermal camera D. Satellite imagery?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technology is commonly used to identify individual animals in wildlife studies? A. RFID tags B. GPS tracker C. Motion sensor D. Thermal camera?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary purpose of using RFID tags in wildlife studies? A. Tracking migration patterns B. Monitoring animal health C. Identifying individual animals D. Measuring environmental impact",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What technology is primarily used to analyze migration patterns of wildlife over large distances? A. GPS tracker B. Motion sensor C. Thermal camera D. Satellite imagery?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary benefit of using satellite imagery in wildlife studies? A. Identifying individual animals B. Monitoring animal health C. Analyzing migration patterns D. Measuring environmental impact",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary limitation of using satellite imagery for identifying individual animals in wildlife studies? A. Low resolution B. High cost C. Limited coverage D. Weather interference",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the most common use of satellite imagery in wildlife studies? A. Identifying individual animals B. Monitoring migration patterns C. Measuring animal weight D. Tracking daily behavior?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_90716",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The role of AI algorithms in analyzing chess gameplay to improve strategy, anticipate opponents' moves, and provide reliable, consistent insights for player development",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When you play chess and work hard to improve at it, and finally have it pay off you will feel what?",
+        "answer": [
+          "A sense of accomplishment and satisfaction",
+          "Positive reinforcement and an updated, higher Elo rating",
+          "satisfaction"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technology can help analyze your chess gameplay to identify areas for improvement? A. AI algorithms B. Virtual reality C. Blockchain D. 3D printing?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What tool can provide detailed insights into your chess strategies by analyzing gameplay patterns? A. AI algorithms B. Virtual reality C. Blockchain D. 3D printing",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is a key benefit of using AI algorithms to analyze your chess gameplay? A. Improved strategy B. Enhanced visuals C. Faster gameplay D. Increased competition",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is an essential feature of AI algorithms when analyzing chess gameplay patterns? A. Speed B. Accuracy C. Creativity D. Simplicity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What aspect of AI algorithms helps players anticipate opponents' moves in chess? A. Speed B. Creativity C. Pattern recognition D. Simplicity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is a primary reason AI algorithms are trusted to provide reliable analysis in chess gameplay? A. Speed B. Consistency C. Creativity D. Simplicity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_12632",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The integration of technological and infrastructural features in American courthouses to enhance public access, safety, efficiency, and modern legal proceedings",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is a common feature of courthouses in America that supports their central location? A. large parking lots B. high-speed internet C. clock towers D. public transportation access?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technological feature commonly found in American courthouses enhances public access to their central location? A. large parking lots B. high-speed internet C. clock towers D. public transportation access?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What technological system is commonly used in American courthouses to ensure public safety and efficient access? A. surveillance cameras B. high-speed internet C. metal detectors D. public transportation access?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What technological system is commonly integrated into American courthouses to support efficient document management and retrieval? A. cloud storage B. surveillance cameras C. metal detectors D. public transportation access?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What technological system is commonly implemented in American courthouses to facilitate real-time communication and remote participation during legal proceedings? A. video conferencing B. cloud storage C. surveillance cameras D. public transportation access?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_95029",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores technologies and methods for optimizing sound and lighting quality, acoustic performance, and audience experience in auditoriums",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What technology is often used to ensure an auditorium's sound system provides clear audio without empty seats causing acoustic issues? A. Dolby Atmos B. Bluetooth C. Wi-Fi D. Fiber Optics?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is commonly used to optimize sound distribution in a crowded auditorium? A. Dolby Atmos B. Bluetooth C. Wi-Fi D. Fiber Optics?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is commonly used to reduce echo in an auditorium? A. Carpeting B. Microphones C. Speakers D. Lighting?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What technology is often used to ensure an auditorium's lighting system enhances visibility without causing glare or shadows? A. LED Panels B. Fluorescent Lights C. Halogen Bulbs D. Incandescent Lamps?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is commonly used to ensure proper sound isolation between the auditorium and adjacent rooms? A. Soundproof Panels B. Microphones C. Speakers D. Lighting Fixtures?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What technology is often used in auditoriums to optimize sound distribution while minimizing feedback? A. Amplifiers B. Equalizers C. Microphones D. Speakers?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_30197",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Household strategies and technologies for storing, tracking, reminding, and dispensing medicine when not kept in the bathroom",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where might people store medicine if not in the bathroom, considering common household locations? A. kitchen B. bedroom C. living room D. garage?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technology might people use to remind them to take medicine if not stored in the bathroom? A. smartphone app B. kitchen timer C. smartwatch D. calendar notification?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What household device might people use to automate reminders for taking medicine if not stored in the bathroom? A. smart speaker B. kitchen timer C. smartwatch D. calendar notification?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of household device might people use to track medicine inventory if not stored in the bathroom? A. smart fridge B. kitchen scale C. smart cabinet D. pantry sensor?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What household technology could people use to securely store and dispense medicine only at scheduled times if not kept in the bathroom? A. smart lockbox B. kitchen dispenser C. smart pill organizer D. timed medicine cabinet?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_93162",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The emotional impact of unwanted divorce and technological obsolescence, exploring feelings of loss, identity disruption, recovery mechanisms, and the pursuit of personal restoration through new attachments or adaptations",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the emotional responses of 'depression' or 'anguish' induced by an unwanted divorce be analogous to the impact of sudden technological obsolescence on individuals who heavily rely on a specific device? A. Loss of identity B. Increased adaptability C. Immediate acceptance D. Indifference",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What emotional response might individuals experience when a beloved technology becomes obsolete, similar to the feelings of 'depression' or 'anguish' from an unwanted divorce? A. Loss of identity B. Increased adaptability C. Immediate acceptance D. Indifference?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might individuals who experience a loss of identity due to technological obsolescence seek as a form of emotional recovery? A. New hobbies B. Immediate replacement C. Emotional support D. Indifference?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might individuals prioritize when seeking a replacement for obsolete technology to regain their sense of identity? A. Cost-effectiveness B. Emotional attachment C. Technological superiority D. Brand loyalty?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might individuals ultimately seek to restore after experiencing emotional recovery from technological obsolescence? A. Financial stability B. Social recognition C. Personal identity D. Professional growth?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_13656",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "The scenario explores a city's integrated waste management strategy, focusing on systems and technologies implemented to optimize waste disposal, sorting, collection efficiency, and resident engagement",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What system did the city implement to manage waste disposal after creating the garbage dump? A. recycling program B. waste-to-energy plant C. composting facility D. landfill site",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What did the city introduce to encourage residents to reduce waste after creating the garbage dump? A. recycling bins B. composting workshops C. waste sorting guides D. landfill tours",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What technology did the city implement to monitor and optimize waste collection routes after introducing waste sorting guides? A. GPS tracking system B. RFID tagging system C. IoT-enabled bins D. AI route planning software",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What system did the city use to track the efficiency of waste collection trucks after implementing IoT-enabled bins? A. GPS tracking system B. RFID tagging system C. AI route planning software D. manual logbooks",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What did the city implement to improve waste sorting accuracy after tracking truck efficiency? A. AI-powered sorting machines B. Manual inspection teams C. Barcode scanning systems D. Public awareness campaigns",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What system did the city use to monitor waste collection efficiency after implementing AI-powered sorting machines? A. GPS tracking system B. RFID tagging system C. IoT-enabled bins D. Manual logbooks",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What system did the city use to ensure IoT-enabled bins were functioning properly after monitoring waste collection efficiency? A. Automated diagnostic software B. Manual inspection teams C. RFID tagging system D. GPS tracking system",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "technology_37547",
+    "is_cross_domain": false,
+    "domain": "technology",
+    "domain_id": 14,
+    "topic_description": "Couples' use of smart home technologies to enhance their movie-watching experience through integrated lighting, audio, and control systems for an immersive and convenient cinematic atmosphere at home",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What technology do couples often use to enhance their movie-watching experience at home? A. Smart TV B. Projector C. VR headset D. Streaming service?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technology do couples often use to create a cinematic atmosphere at home while watching movies? A. Smart lighting B. Surround sound system C. 4K projector D. Streaming device?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What device do couples often use to control smart lighting and enhance their movie-watching atmosphere at home? A. Smartphone B. Tablet C. Voice assistant D. Remote control?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What technology do couples often use to synchronize their smart lighting with the scenes in a movie for an immersive experience? A. HDMI-CEC B. Bluetooth C. Wi-Fi D. Infrared?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What feature do couples often use to dim their smart lighting automatically during a movie? A. Timer setting B. Motion sensor C. Scene mode D. Voice command?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of smart home integration allows couples to control both lighting and audio settings simultaneously for a fully immersive movie experience? A. Unified app interface B. Multi-device syncing C. Cross-platform compatibility D. Dedicated scene automation?",
+        "answer": "D",
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of device do couples often use to control their smart lighting and audio settings with a single command? A. Smart speaker B. Universal remote C. Mobile app D. Dedicated console?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of advanced smart home feature do couples often use to automatically adjust both lighting and audio settings based on the time of day or specific activities? A. Adaptive scene profiles B. Manual device calibration C. Scheduled task automation D. Real-time environmental sensors?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What type of smart home feature allows couples to save their preferred lighting and audio settings for quick access during future movie nights? A. Customizable scene presets B. Voice-activated shortcuts C. Manual device grouping D. Automated routine scheduling?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "technology": 1.0
+        }
+      }
+    ]
+  }
+]

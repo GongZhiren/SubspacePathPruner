@@ -1,0 +1,1222 @@
+[
+  {
+    "scenario_id": "cross_philosophy_sociology_74740",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The interplay between Zoroastrianism's ethical dualism and its sociological impacts on hierarchies, power dynamics, group identity, moral accountability, and communal rituals in modern social structures",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sociological impact of Zoroastrianism's ethical dualism influence modern social structures?",
+        "answer": [
+          "Promotes ethical responsibility, accountability",
+          "Ethical dualism shapes social order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.29,
+          "sociology": 0.71
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies in ethical decision-making?",
+        "answer": [
+          "Cosmic order versus chaos",
+          "Dualism legitimizes hierarchies through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.66,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological power dynamics in ethical hierarchies?",
+        "answer": [
+          "Promotes ethical leadership, accountability",
+          "Dualism shapes ethical hierarchies through conflict and balance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "philosophy": 0.66,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Zoroastrian dualism sociologically shape group identity while philosophically addressing moral accountability?",
+        "answer": [
+          "Promotes moral responsibility, group cohesion",
+          "Dualism fosters moral accountability and group cohesion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.48,
+          "sociology": 0.52
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_88091",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The intersection of Rawlsian justice, sociological analyses of fairness, and critiques of meritocracy in Australian cricket, focusing on competition, inequality, and distributive principles",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Rawlsian distributive justice intersect with sociological analyses of fairness in competitive Australian cricket?",
+        "answer": [
+          "Equity in resource allocation",
+          "Fairness principles guide cricket equity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.69,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Rawls’ difference principle apply to sociological studies of inequality in Australian cricket?",
+        "answer": [
+          "Justifying equitable resource distribution",
+          "Fairness guides resource distribution in cricket"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "philosophy": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the concept of meritocracy in Australian cricket align with Rawls’ theory of justice while addressing sociological critiques of systemic inequality?",
+        "answer": [
+          "Partially aligns, critiques remain",
+          "Meritocracy aligns with Rawls’ justice but sociological critiques highlight systemic inequality"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.73
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_68402",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian dualism on sociological theories of morality, conflict, power dynamics, group identity, systemic inequality, and social cohesion in multicultural societies",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the Zoroastrian concept of Ahura Mazda influence societal structures and ethical norms?",
+        "answer": [
+          "Promotes justice and moral order",
+          "Ahura Mazda inspires ethical dualism and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the Zoroastrian dualism of good and evil inform sociological theories of moral development?",
+        "answer": [
+          "Influences concepts of moral opposition",
+          "Dualism shapes moral frameworks"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically shape sociological theories of moral conflict?",
+        "answer": [
+          "Emphasizes inherent moral opposition",
+          "Dualism fuels moral conflict theories"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.72,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological theories of power dynamics in moral conflict resolution?",
+        "answer": [
+          "Promotes ethical power balance",
+          "Dualism informs power dynamics in moral conflict resolution"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.62,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_88625",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The philosophical and sociological examination of cricket's influence on Australian society, exploring competition, fairness, class mobility, social cohesion, power dynamics, civic engagement, social equity, and collective norms through various theoretical lenses",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Foucault’s concept of disciplinary power intersect with sociological analyses of cricket’s role in shaping Australian social hierarchies?",
+        "answer": [
+          "Normalization of cricket's social control",
+          "Disciplinary power shapes cricket’s social hierarchies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "philosophy": 0.54,
+          "sociology": 0.46
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Arendt’s phenomenological interpretation of the public sphere intersect with Habermasian communicative action in analyzing cricket’s role in shaping Australian civic engagement?",
+        "answer": [
+          "Public discourse fosters civic participation",
+          "Public discourse fosters civic identity through shared experience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.72,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Durkheim’s concept of collective consciousness relate to Nietzsche’s critique of herd morality in the context of cricket’s influence on Australian societal norms?",
+        "answer": [
+          "Collective conformity versus individualism",
+          "Collective consciousness shapes norms, herd morality critiques conformity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.57
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_19290",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian dualism on sociological concepts, including order, justice, power dynamics, and systemic inequality, within hierarchical societies",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the concept of Ahura Mazda in Zoroastrianism influence societal structures and ethical philosophies?",
+        "answer": [
+          "Promotes justice and moral order",
+          "Ahura Mazda inspires ethical dualism and social order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies?",
+        "answer": [
+          "Cosmic order versus chaos",
+          "Dualism structures hierarchy through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.69,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological power dynamics in hierarchical societies?",
+        "answer": [
+          "Reinforces moral authority divisions",
+          "Dualism shapes power hierarchies through moral opposition"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.64,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_27146",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The philosophical influence of Zoroastrian dualism on sociological structures, including hierarchies, justice, conflict resolution, inequality, power dynamics, and social solidarity",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sociological impact of Zoroastrianism's dualistic philosophy shape societal structures?",
+        "answer": [
+          "Promotes moral and ethical order",
+          "Dualism fosters moral order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.48,
+          "sociology": 0.52
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies?",
+        "answer": [
+          "Cosmic order versus chaos narrative",
+          "Dualism structures hierarchy through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.78,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological concepts of justice?",
+        "answer": [
+          "Promotes moral balance in justice",
+          "Dualism shapes justice as balance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "philosophy": 0.66,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological strategies for conflict resolution in diverse societies?",
+        "answer": [
+          "Promotes reconciliation and balance",
+          "Balances opposing forces through dialogue and mutual understanding"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.66,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_22289",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The philosophical and sociological implications of Zoroastrian dualism on ethics, justice, community structures, free will, conflict resolution, inequality, and the balance between individual autonomy and communal harmony",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sociological impact of Zoroastrianism's monotheistic belief in Ahura Mazda influence ethical philosophy?",
+        "answer": [
+          "Promotes ethical dualism and morality",
+          "Zoroastrianism's monotheism inspires ethical dualism and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "philosophy": 0.66,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically address sociological conflicts between individual free will and collective moral order?",
+        "answer": [
+          "Balancing through cosmic struggle",
+          "Balances free will with moral order through divine justice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "philosophy": 0.67,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological strategies for balancing individual autonomy with communal harmony?",
+        "answer": [
+          "Promotes ethical communal responsibility",
+          "Balancing autonomy with harmony through ethical dualism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "philosophy": 0.64,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_20199",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The interplay between Australian cricket's societal impact and philosophical debates on competition, fairness, identity, justice, equality, community, autonomy, meritocracy, authenticity, and cultural relativism",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do sociological studies of cricket's influence on Australian social cohesion relate to philosophical theories of community and individual autonomy?",
+        "answer": [
+          "Cricket fosters communal bonds",
+          "Cricket fosters unity, balancing autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.45,
+          "sociology": 0.55
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 2,
+        "prompt": "How do sociological studies of cricket's role in Australian identity formation intersect with philosophical debates on existential meaning and cultural relativism?",
+        "answer": [
+          "Exploring identity through cultural practices",
+          "Cricket embodies existential meaning through cultural identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.61,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How do sociological studies on cricket’s role in shaping Australian societal norms challenge or support philosophical notions of justice and fairness in competitive environments?",
+        "answer": [
+          "Challenges traditional fairness perceptions",
+          "Cricket fosters fairness, challenges elitism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.61,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_63621",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian ethical dualism, rooted in Ahura Mazda's principles, on sociological theories of justice, equality, free will, systemic inequality, power dynamics, and social mobility",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the concept of Ahura Mazda in Zoroastrianism influence societal structures and ethical philosophies?",
+        "answer": [
+          "Promotes justice, truth, order",
+          "Ahura Mazda inspires ethical dualism and social order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.68,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do Zoroastrian dualistic principles, emphasizing moral choice, inform sociological debates on free will versus determinism in societal structures?",
+        "answer": [
+          "Supports individual moral agency",
+          "Moral choice informs free will debates"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.55,
+          "sociology": 0.45
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How do Zoroastrian ethical dualisms (philosophy) influence sociological studies on power dynamics in hierarchical societies?",
+        "answer": [
+          "Highlights ethical power struggles",
+          "Dualistic ethics shape power structures"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.77,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "How do Zoroastrian ethical principles (philosophy) influence sociological theories on social mobility and moral accountability?",
+        "answer": [
+          "Promotes ethical leadership, accountability",
+          "Zoroastrian ethics inspire merit-based mobility and accountability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.41,
+          "sociology": 0.59
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_44958",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Ahura Mazda's dualism in Zoroastrianism on ethical philosophies, societal structures, and modern pluralistic societies, particularly in shaping moral development, group identity, and ethical education systems",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the concept of Ahura Mazda in Zoroastrianism influence societal structures and ethical philosophies?",
+        "answer": [
+          "Promotes justice, moral order",
+          "Ahura Mazda inspires ethical dualism and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "philosophy": 0.68,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the sociological impact of Ahura Mazda's dualism shape ethical decision-making in modern pluralistic societies?",
+        "answer": [
+          "Promotes ethical dualistic considerations",
+          "Dualism fosters ethical pluralism through moral balance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.72,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the sociological interpretation of Ahura Mazda's dualism influence modern ethical frameworks in pluralistic societies?",
+        "answer": [
+          "Promotes ethical pluralism and tolerance",
+          "Dualism fosters inclusive ethical pluralism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "philosophy": 0.77,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.8
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_18447",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian dualism on sociological theories and ethical philosophies, particularly in relation to justice, social order, power dynamics, and moral conflict resolution",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the concept of Ahura Mazda in Zoroastrianism influence societal structures and ethical philosophies?",
+        "answer": [
+          "Promotes justice and moral order",
+          "Ahura Mazda inspires ethical dualism and social order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "philosophy": 0.72,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies?",
+        "answer": [
+          "Cosmic order versus chaos division",
+          "Dualism structures hierarchy through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.77,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically inform sociological theories on the balance of individual autonomy and collective responsibility in modern societies?",
+        "answer": [
+          "Informs ethical societal balance",
+          "Dualism informs autonomy-responsibility balance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "philosophy": 0.67,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_61262",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The philosophical and sociological implications of Zoroastrian dualism on societal structures, hierarchies, deviance, justice, social order, moral responsibility, legal systems, and free will in modern contexts",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sociological impact of Zoroastrianism's dualistic philosophy influence societal structures?",
+        "answer": [
+          "Promotes moral and ethical order",
+          "Dualism shapes moral order, societal hierarchy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "philosophy": 0.39,
+          "sociology": 0.61
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies?",
+        "answer": [
+          "Cosmic order versus chaos",
+          "Dualism structures hierarchy through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "philosophy": 0.81,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological norms regarding justice?",
+        "answer": [
+          "Promotes ethical and moral justice",
+          "Dualism shapes justice norms through cosmic balance and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "philosophy": 0.69,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Zoroastrian dualism sociologically shape the philosophical understanding of justice in modern legal systems?",
+        "answer": [
+          "Influences concepts of moral balance",
+          "Dualism influences justice through moral balance and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.7,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Zoroastrian dualism sociologically influence philosophical debates on free will in modern societies?",
+        "answer": [
+          "Promotes moral responsibility debates",
+          "Dualism shapes free will debates through societal norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "philosophy": 0.71,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_69285",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The intersection of philosophical theories and sociological analyses in examining competition, fairness, social cohesion, justice, power dynamics, and trust within Australian cricket’s community engagement and societal impact",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the role of community in Australian cricket align with philosophical theories of social cohesion?",
+        "answer": [
+          "Fosters collective identity and unity",
+          "Community fosters unity and shared identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "philosophy": 0.47,
+          "sociology": 0.53
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Habermas’s concept of communicative action (philosophy) intersect with sociological analyses of power dynamics in Australian cricket’s community decision-making processes?",
+        "answer": [
+          "Analyzing power through dialogue",
+          "Consensus-building balances power in cricket decisions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Foucault’s notion of biopower intersect with disciplinary power to critique sociocultural norms in Australian cricket’s community engagement?",
+        "answer": [
+          "Regulating norms, controlling participation",
+          "Biopower disciplines norms in cricket engagement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical concept of social contract theory (38.9%) intersect with sociological studies of trust-building (61.1%) in Australian cricket’s community engagement frameworks?",
+        "answer": [
+          "Fostering cooperative community relations",
+          "Trust aligns social contracts in community engagement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "philosophy": 0.47,
+          "sociology": 0.53
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Rawls’ lexical priority of primary goods intersect with critiques of distributive equity in Australian cricket’s resource allocation under non-ideal conditions?",
+        "answer": [
+          "Challenges equitable resource distribution",
+          "Fairness prioritizes basic needs over equity in resource allocation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.6,
+          "sociology": 0.4
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 6,
+        "prompt": "What role does Habermas’ concept of communicative action (30%) play in addressing social cohesion challenges (70%) within Australian cricket’s multicultural fan engagement strategies?",
+        "answer": [
+          "Facilitates inclusive dialogue",
+          "Fosters inclusive dialogue for multicultural unity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.36,
+          "sociology": 0.64
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_13631",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian concepts like Ahura Mazda, Asha, and dualism on moral frameworks, social order, ethical systems, and collective meaning in modern societies",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the Zoroastrian concept of Ahura Mazda influence societal moral frameworks?",
+        "answer": [
+          "Promotes ethical dualism and justice",
+          "Ahura Mazda inspires moral dualism and societal order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "philosophy": 0.69,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the Zoroastrian principle of Asha shape social order and ethical norms in modern societies?",
+        "answer": [
+          "Promotes justice, truth, and order",
+          "Asha fosters ethical order, guiding societal harmony through truth and justice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "philosophy": 0.48,
+          "sociology": 0.52
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How do sociological studies of community rituals reflect philosophical theories on the nature of collective meaning?",
+        "answer": [
+          "Manifesting shared symbolic meanings",
+          "Collective rituals embody shared meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "philosophy": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.55
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_34868",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The sociological and philosophical implications of Zoroastrian dualism on community structures, hierarchies, power dynamics, rituals, and conflict resolution, emphasizing tensions between order (asha) and chaos (druj)",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies?",
+        "answer": [
+          "Cosmic order versus chaos division",
+          "Dualism legitimizes hierarchies through cosmic order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.78,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism sociologically manifest in communal rituals while reflecting philosophical tensions between order and chaos?",
+        "answer": [
+          "Rituals emphasize cosmic balance",
+          "Rituals balance order and chaos sociologically"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "philosophy": 0.67,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism sociologically shape modern communal conflict resolution while reflecting philosophical tensions between asha and druj?",
+        "answer": [
+          "Promotes ethical communal practices",
+          "Balances truth and deceit in communal harmony"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "philosophy": 0.7,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_sociology_37170",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      13,
+      17
+    ],
+    "topic_description": "The influence of Zoroastrian dualism on sociological structures, justice systems, power dynamics, moral conflict resolution, group identity, and ethical decision-making in diverse societal contexts",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sociological impact of Zoroastrianism's dualistic philosophy shape societal structures?",
+        "answer": [
+          "Promotes ethical and moral behaviors",
+          "Dualism fosters moral order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "sociology": 0.63
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological concepts of justice?",
+        "answer": [
+          "Promotes moral accountability, justice balance",
+          "Dualism shapes justice as balance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.74,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Zoroastrian dualism philosophically justify sociological hierarchies in justice systems?",
+        "answer": [
+          "Cosmic order versus chaos",
+          "Dualism legitimizes hierarchies through moral order"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.68,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Zoroastrian dualism philosophically influence sociological power dynamics in hierarchical societies?",
+        "answer": [
+          "Reinforces moral authority divisions",
+          "Dualism shapes power hierarchies through moral opposition"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.65,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Zoroastrian dualism sociologically influence group identity formation in multicultural societies?",
+        "answer": [
+          "Promotes distinct moral communities",
+          "Dualism fosters distinct group identity through moral boundaries"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "philosophy": 0.33,
+          "sociology": 0.67
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Zoroastrian dualism sociologically influence ethical decision-making in pluralistic societies?",
+        "answer": [
+          "Promotes ethical relativism, tolerance",
+          "Balances moral absolutes with social relativism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.7,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.73
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "scenario_id": "cross_literature_psychology_81280",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12
+    ],
+    "topic_description": "The exploration of laughter as a psychological defense mechanism and literary device, connecting inappropriate social behavior, trauma, satire, and resistance to institutional control across various works",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Why might a character's repeated laughter at a funeral reflect both inappropriate social behavior and unresolved psychological trauma?",
+        "answer": [
+          "Inappropriate coping mechanism",
+          "Inappropriate yet revealing unresolved trauma"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.36,
+          "psychology": 0.64
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Which literary character uses laughter as a coping mechanism, and how does Freud's theory of defense mechanisms explain this behavior?",
+        "answer": [
+          "Joker; displacement and humor defense mechanisms",
+          "The Joker employs laughter as a defense mechanism, aligning with Freud's theory of humor masking anxiety"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.53,
+          "psychology": 0.47
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "What psychological defense mechanism is illustrated by the protagonist's humor in \"The Bell Jar,\" and how does it parallel literary themes of alienation?",
+        "answer": [
+          "Humor as emotional detachment",
+          "Humor as defense parallels alienation themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.55,
+          "psychology": 0.45
+        },
+        "theme_consistency_score": 0.58
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_psychology_89422",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      7,
+      12
+    ],
+    "topic_description": "The psychological and emotional impact of Shakespearean comedy on audiences, exploring its alignment with humor theories, cognitive psychology, and character-specific analyses like Malvolio’s internal conflicts and defense mechanisms",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the use of comedic elements in Shakespearean plays influence audience emotional responses?",
+        "answer": [
+          "Enhances engagement and amusement",
+          "Elicits laughter, enhances emotional engagement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.49,
+          "psychology": 0.51
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do Shakespearean comedic techniques align with psychological theories of humor to shape audience emotional engagement?",
+        "answer": [
+          "Incongruity, relief, and superiority theories",
+          "Shakespearean comedy uses incongruity and relief theory to engage emotions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.49,
+          "psychology": 0.51
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How do Shakespearean comedic devices, such as puns and wordplay, intersect with incongruity-resolution theories of humor in cognitive psychology?",
+        "answer": [
+          "Puns facilitate cognitive incongruity resolution",
+          "Puns resolve incongruity through layered meanings"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "literature": 0.49,
+          "psychology": 0.51
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  }
+]

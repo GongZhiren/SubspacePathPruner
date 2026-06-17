@@ -1,0 +1,823 @@
+[
+  {
+    "scenario_id": "psychology_80413",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "Janet's introspective journey explores her shifting focus, emotional state, thought patterns, and sense of self, revealing insights into her well-being and inner awareness",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What might Janet focus on as she becomes aware of her fading sensations? A. memories B. pain C. surroundings D. breathing E. silence?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might Janet prioritize as her awareness shifts inward? A. memories B. pain C. surroundings D. breathing E. silence?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might Janet perceive as her focus shifts away from external stimuli? A. memories B. pain C. surroundings D. breathing E. silence?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might Janet notice about her emotional state as her focus deepens? A. calmness B. anxiety C. confusion D. excitement E. indifference?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might Janet infer about her thought patterns as her introspection deepens? A. clarity B. chaos C. repetition D. silence E. distraction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might Janet realize about her sense of self as her introspection continues? A. fragmentation B. unity C. detachment D. confusion E. clarity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What might Janet notice about her focus as introspection deepens? A. sharpening B. wavering C. distraction D. fading E. confusion?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What might Janet discover about her emotional regulation as introspection progresses? A. improvement B. instability C. detachment D. confusion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What might Janet conclude about her overall well-being after introspection? A. improvement B. decline C. stagnation D. confusion?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_21690",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The scenario explores how exhibitionists navigate social challenges, focusing on their confidence, anxiety, and the impact of attention or pressure in various social settings",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What might exhibitionists struggle with in social situations? A. confidence B. aggression C. shyness D. boredom?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might exhibitionists find challenging in social interactions? A. confidence B. aggression C. shyness D. boredom?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might exhibitionists feel in high-pressure social settings? A. excitement B. anxiety C. indifference D. confidence?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might help exhibitionists feel less anxious in social settings? A. more attention B. less focus C. increased pressure D. reduced expectations?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might reduce pressure for exhibitionists in social settings? A. more attention B. less focus C. increased expectations D. reduced engagement?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_74679",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "Children's emotional and adaptive responses to learning about the world and navigating unfamiliar environments, including challenges, coping mechanisms, and emotional evolution over time",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What problems do children have learning about the world? A. confusion B. anger C. sadness D. loss of innocence E. frustration?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What challenges do children face when adapting to new environments? A. confusion B. excitement C. sadness D. frustration E. curiosity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What emotional responses do children exhibit when facing unfamiliar environments? A. confusion B. excitement C. sadness D. frustration E. curiosity?",
+        "answer": "E",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What coping mechanisms do children use in unfamiliar environments? A. avoidance B. curiosity C. frustration D. adaptation E. withdrawal?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How do children’s emotional responses evolve over time in unfamiliar environments? A. confusion B. excitement C. sadness D. adaptation E. withdrawal?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_68722",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The psychological and practical challenges Lisa faces in recognizing, leaving, and recovering from an abusive relationship, influenced by past trauma, financial dependence, fear of judgment, and the need for support",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Why might Lisa choose an abusive boyfriend after leaving her father? A. familiarity B. safety C. rebellion D. independence?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Why might Lisa's past influence her choice of partner? A. trauma B. rebellion C. independence D. safety?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Why might Lisa struggle to leave her abusive partner? A. fear of loneliness B. financial dependence C. lack of support D. self-blame?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Why might Lisa prioritize financial stability over leaving her abusive partner? A. fear of change B. lack of resources C. self-blame D. dependency?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Why might Lisa feel conflicted about seeking help? A. pride B. trust issues C. fear of judgment D. lack of awareness?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might help Lisa feel more supported in her situation? A. financial advice B. emotional validation C. career counseling D. legal assistance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What might prevent Lisa from rebuilding trust after leaving? A. past trauma B. lack of support C. financial stress D. self-doubt?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What might help Lisa overcome her fear of judgment? A. self-reflection B. peer support C. professional guidance D. ignoring opinions?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What could help Lisa maintain her self-confidence long-term? A. constant validation B. self-care practices C. external praise D. avoiding challenges?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_86733",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The emotional and physiological effects of hormonal changes on individuals in new relationships, focusing on feelings like excitement, bonding, anxiety, and calmness",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How is someone in a new relationship likely to feel about kissing? A. like B. hormones C. shyness D. happiness E. pleasure?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might someone in a new relationship feel due to hormonal changes? A. excitement B. anxiety C. indifference D. fatigue E. confusion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might someone in a new relationship experience due to increased oxytocin levels? A. excitement B. anxiety C. bonding D. fatigue E. confusion?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might someone in a new relationship experience due to fluctuating cortisol levels? A. excitement B. anxiety C. bonding D. fatigue E. confusion?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might someone in a new relationship feel due to balanced hormonal levels? A. excitement B. anxiety C. calmness D. fatigue E. confusion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might someone in a new relationship experience due to sustained serotonin levels? A. excitement B. anxiety C. calmness D. fatigue E. confusion?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_45430",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "Jason's calm exterior and its implications on his emotional state, coping mechanisms, future behavior, stress perception, adaptability, and emotional regulation are explored to assess underlying psychological dynamics",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What might Jason’s calm exterior be masking given his recent frustrations? A. happiness B. anxiety C. excitement D. contentment E. relaxation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What could Jason’s calm exterior indicate about his emotional state? A. happiness B. anxiety C. excitement D. contentment E. relaxation?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might Jason’s calmness suggest about his coping mechanisms? A. avoidance B. resilience C. denial D. suppression E. acceptance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might Jason’s calmness indicate about his future behavior? A. aggression B. withdrawal C. stability D. unpredictability?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might Jason’s calmness suggest about his perception of stress? A. denial B. resilience C. avoidance D. suppression?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might Jason’s continued calmness imply about his long-term adaptability? A. inflexibility B. resilience C. avoidance D. denial?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What might Jason’s continued calmness suggest about his emotional regulation? A. instability B. resilience C. denial D. avoidance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What might Jason’s long-term calmness indicate about his stress coping mechanisms? A. maladaptive B. resilient C. avoidant D. suppressive?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_32467",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The scenario explores factors influencing sleep quality, focusing on dreaming, sleep talking, and methods to promote peaceful, restful sleep through stress reduction and environmental adjustments",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What can happen in your mind while sleeping? A. snoring B. talking C. get cold D. nothing E. might dream?",
+        "answer": "E",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might cause someone to talk while sleeping? A. dreaming vividly B. feeling cold C. snoring loudly D. being awake E. nothing happening?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might lead to vivid dreaming during sleep? A. stress B. silence C. happiness D. deep sleep E. nothing happening?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might help reduce vivid dreaming during sleep? A. sleeping in silence B. reducing stress C. eating heavily D. staying awake longer?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might help someone stop talking while sleeping? A. reducing stress B. increasing silence C. avoiding heavy meals D. staying awake longer?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might help someone sleep more peacefully at night? A. silence B. vivid dreams C. heavy eating D. stress reduction?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_97388",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The scenario explores examples of instinctive behaviors and basic drives in animals and humans, focusing on innate actions, survival mechanisms, and emotional responses",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is an example of an instinctive behavior in animals? A. learning to hunt B. migration patterns C. solving puzzles D. imitating sounds?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is an example of instinctive behavior in animals? A. learning to hunt B. migration patterns C. solving puzzles D. imitating sounds?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is a simple example of instinctive behavior in humans? A. learning to walk B. solving math problems C. imitating others D. blinking reflexively?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is an example of a basic human instinct? A. learning language B. feeling hungry C. solving problems D. creating art?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is an example of a behavior driven by instinct? A. learning to cook B. feeling thirsty C. playing chess D. writing poetry?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is a simple behavior that helps humans stay safe? A. learning to swim B. feeling pain C. solving puzzles D. creating music?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is a common reason people feel happy? A. winning a game B. feeling pain C. solving problems D. creating art?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What helps people stay calm while waiting? A. reading a book B. getting bored C. worrying D. singing?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "psychology_15914",
+    "is_cross_domain": false,
+    "domain": "psychology",
+    "domain_id": 12,
+    "topic_description": "The scenario explores emotional responses to observing, anticipating, or reflecting on harm or kindness toward others, focusing on empathy, moral emotions, and personal growth in emotional awareness",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How is someone likely to feel about a person hurting someone else? A. feel remorse B. will resent C. angry D. feel sad E. bad karma?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might someone feel when seeing a person hurt another? A. empathy B. anger C. sadness D. indifference E. confusion?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might someone feel when observing harm done to another? A. empathy B. anger C. sadness D. indifference E. confusion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might someone feel when anticipating harm to another? A. fear B. anger C. helplessness D. indifference E. confusion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might someone feel when witnessing kindness shown to another? A. warmth B. jealousy C. indifference D. confusion E. sadness?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What might someone feel when reflecting on their own empathy toward others? A. pride B. confusion C. indifference D. sadness E. warmth?",
+        "answer": "E",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What might someone feel when acknowledging their own lack of empathy? A. guilt B. relief C. pride D. confusion E. indifference?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What might someone feel after realizing their own growth in empathy? A. pride B. confusion C. indifference D. sadness E. warmth?",
+        "answer": "E",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "psychology": 1.0
+        }
+      }
+    ]
+  }
+]

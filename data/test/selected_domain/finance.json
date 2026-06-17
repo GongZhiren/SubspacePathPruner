@@ -1,0 +1,1546 @@
+[
+  {
+    "scenario_id": "finance_47827",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario examines factors contributing to inefficiencies in financial markets, focusing on transaction costs, asymmetric information, regulatory frameworks, and liquidity constraints",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Energy transfer between what kinds of levels is generally rather inefficient?",
+        "answer": [
+          "Energy transfer between trophic levels in ecosystems",
+          "Different trophic levels",
+          "a company's internal operations"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What causes inefficiency in energy transfer between financial systems?",
+        "answer": [
+          "Differences in regulations, technology, and market practices",
+          "Frictional costs, intermediaries, and regulatory hurdles",
+          "transaction costs and market frictions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How do asymmetric information problems contribute to inefficiencies in financial markets?",
+        "answer": [
+          "Asymmetric information leads to mispricing and adverse selection",
+          "They create adverse selection and moral hazard, leading to inefficient capital allocation",
+          "a lack of transparency leads to mispricing and suboptimal allocation of resources"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What impact do regulatory frameworks have on financial market efficiency?",
+        "answer": [
+          "Regulatory frameworks enhance transparency and reduce market manipulation",
+          "Regulations can improve transparency and stability but may also create costly inefficiencies",
+          "a balance between oversight and flexibility"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role do liquidity constraints play in limiting market efficiency?",
+        "answer": [
+          "Liquidity constraints hinder efficient asset pricing and trading",
+          "They prevent arbitrageurs from correcting mispricings, allowing price deviations to persist",
+          "a barrier to efficient price discovery"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role do transaction costs play in reducing financial market efficiency?",
+        "answer": [
+          "Transaction costs increase friction, reducing trading and market efficiency",
+          "They create a barrier to arbitrage, allowing price inefficiencies to persist",
+          "A barrier to efficient trading"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What effect do asymmetric information problems have on financial market efficiency?",
+        "answer": [
+          "Asymmetric information reduces market efficiency and increases transaction costs",
+          "Reduces market efficiency through adverse selection and moral hazard",
+          "reduce market efficiency"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_57997",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "This scenario explores key financial concepts, including compound interest, risk types, asset depreciation, and investment strategies like diversification, focusing on managing risks and optimizing returns in investing",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What term describes the process of earning interest on both the initial principal and accumulated interest?",
+        "answer": "Compound interest",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for the risk that arises when borrowers are unable to repay their loans?",
+        "answer": [
+          "Credit risk or default risk",
+          "credit risk"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What term describes the decline in an asset's value due to wear and tear? A. Depreciation B. Amortization C. Depletion D. Obsolescence?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes the strategy of spreading investments across various assets to reduce risk? A. Diversification B. Hedging C. Arbitrage D. Leverage?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the term for the risk that an investment's value will fluctuate due to changes in interest rates? A. Market risk B. Credit risk C. Interest rate risk D. Inflation risk?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes the risk of loss when an investor's portfolio is overly concentrated? A. Diversification B. Concentration risk C. Market risk D. Liquidity risk?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How does diversification mitigate concentration risk in a fluctuating market?",
+        "answer": [
+          "Spreads risk across various investments, reducing impact of any single loss",
+          "By spreading investments, losses in one area are offset by gains in another",
+          "A diversified portfolio reduces exposure to any single asset's volatility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_35618",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "Investment analysis of Danish municipal bonds, focusing on risks, benefits, yield factors, maturity periods, and portfolio diversification strategies",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Hafnia was the Latin name for which Danish city?",
+        "answer": [
+          "Copenhagen",
+          "Copenhagen, Denmark"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary financial risk associated with investing in Danish municipal bonds? A. Currency risk B. Interest rate risk C. Credit risk D. Liquidity risk?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main advantage of investing in Danish municipal bonds? A. High returns B. Low risk C. Tax benefits D. Quick liquidity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the typical maturity period for Danish municipal bonds? A. 1-3 years B. 3-5 years C. 5-10 years D. Over 10 years?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main factor affecting the yield of Danish municipal bonds? A. Inflation rates B. Political stability C. Market demand D. Issuer credit rating?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary purpose of diversifying a portfolio with Danish municipal bonds? A. Maximizing returns B. Reducing risk C. Avoiding taxes D. Increasing liquidity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the primary benefit of holding Danish municipal bonds long-term? A. Higher liquidity B. Tax advantages C. Increased yield D. Lower risk?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is a key factor affecting the yield of Danish municipal bonds? A. Issuer credit rating B. Market liquidity C. Inflation rate D. Bond maturity period?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the impact of interest rate changes on the market value of Danish municipal bonds? A. No impact B. Decreases value C. Increases value D. Fluctuates unpredictably?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_32849",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "This scenario explores diverse topics, including skin types and vitamin D deficiency, environmental taxation, and various financial market conditions such as bull, bear, stable, volatile, illiquid, speculative, overvalued, and efficient markets",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "People with which skin type run a greater risk of vitamin d deficiency?",
+        "answer": [
+          "People with darker skin types",
+          "Darker skin types"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for a tax on products that emit carbon dioxide? A. pollution tax B. chemical tax C. emission tax D. carbon taxes?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the financial term for a market where prices are steadily rising? A. Bull market B. Bear market C. Stable market D. Volatile market?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the term for a sustained period of declining stock prices? A. Bull market B. Bear market C. Stable market D. Volatile market?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What financial term describes a market with small price changes over time? A. Bull market B. Bear market C. Stable market D. Volatile market?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes a market condition where prices fluctuate unpredictably? A. Bull market B. Bear market C. Stable market D. Volatile market?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What term describes a market condition where trading volume is consistently low? A. Illiquid market B. Liquid market C. Active market D. Passive market?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What term describes a market where prices are influenced by speculative trading? A. Efficient market B. Speculative market C. Stable market D. Volatile market?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What term describes a market where asset prices deviate significantly from intrinsic value? A. Efficient market B. Overvalued market C. Undervalued market D. Speculative market?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What term describes a market where prices reflect all available information? A. Efficient market B. Inefficient market C. Volatile market D. Stable market?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_88242",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "An exploration of Ecuador's capital, currency usage, international trade practices, primary financial institutions, and the central bank's main functions",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the capital of Ecuador?",
+        "answer": [
+          "Quito is the capital of Ecuador",
+          "The capital of Ecuador is Quito",
+          "Quito"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.12,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary currency used in Ecuador for financial transactions?",
+        "answer": [
+          "The United States dollar (USD)",
+          "The US dollar"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main currency Ecuador uses for international trade?",
+        "answer": [
+          "The United States dollar (USD)",
+          "US dollar"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary financial institution in Ecuador's capital?",
+        "answer": [
+          "Central Bank of Ecuador",
+          "The Central Bank of Ecuador (Banco Central del Ecuador)",
+          "The primary financial institution in Ecuador's capital is the Central Bank of Ecuador"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main function of Ecuador's central financial institution?",
+        "answer": [
+          "To manage monetary policy and regulate the banking system",
+          "Managing the national payment system and international reserves",
+          "A central bank manages monetary policy and financial stability"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_46534",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores various aspects of Hungary's official currency, including its name, symbol, ISO code, and numeric code, all in relation to the country's capital, Budapest",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the capital of Hungary?",
+        "answer": [
+          "Budapest",
+          "Budapest is the capital and financial center of Hungary"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.12,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the official currency used in Hungary's capital?",
+        "answer": [
+          "The official currency used in Hungary's capital is the Hungarian Forint",
+          "The official currency is the Hungarian Forint (HUF)",
+          "Hungarian forint"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the symbol for the official currency used in Hungary's capital?",
+        "answer": [
+          "HUF (Hungarian Forint)",
+          "The symbol is Ft, and the currency code is HUF",
+          "HUF"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the ISO code for the official currency used in Hungary's capital?",
+        "answer": [
+          "HUF (Hungarian Forint)",
+          "The ISO code for Hungary's currency is HUF",
+          "HUF"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the official currency used in Hungary's capital called?",
+        "answer": [
+          "The official currency used in Budapest is the Hungarian Forint",
+          "The Hungarian Forint",
+          "Forint"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the numeric code for the official currency used in Hungary's capital?",
+        "answer": [
+          "348",
+          "The numeric code for the Hungarian Forint is 348"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_20682",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The establishment and financial benefits of a common market within the European Economic Community, focusing on economic advantages and key financial outcomes for member countries",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which capital city were the treaties signed that established the European Economic Community?",
+        "answer": [
+          "Rome, Italy",
+          "Rome"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary financial benefit of establishing a common market within a community?",
+        "answer": [
+          "Enhanced trade efficiency and reduced transaction costs",
+          "Increased trade and more efficient allocation of resources",
+          "increased economic efficiency"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is a key economic advantage of a common market for member countries?",
+        "answer": [
+          "Elimination of tariffs and barriers boosts trade and economic growth",
+          "Free movement of goods, services, capital, and labor, leading to efficient resource allocation",
+          "increased trade efficiency"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is another key financial benefit of a common market for member countries?",
+        "answer": [
+          "Enhanced economic stability and growth",
+          "Enhanced capital flows and investment opportunities",
+          "increased investment opportunities"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_88333",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores Zimbabwe's key economic and governmental aspects, including its capital, primary export, main industry, official currency, and principal source of government revenue",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Harare is the capital of which African country?",
+        "answer": [
+          "Zimbabwe",
+          "Harare is the capital of Zimbabwe"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary export of the country where Harare is the capital?",
+        "answer": [
+          "Gold is the primary export of Zimbabwe",
+          "Gold, platinum group metals, and tobacco",
+          "tobacco"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main industry contributing to the economy of the country where Harare is the capital?",
+        "answer": [
+          "Agriculture and mining are the main industries",
+          "Mining, agriculture, and the services sector",
+          "Agriculture"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the official currency used in the country where Harare is the capital?",
+        "answer": [
+          "The official currency is the Zimbabwean dollar",
+          "The official currency is the Zimbabwe Gold (ZiG)",
+          "The official currency used in the country where Harare is the capital is the Zimbabwean dollar"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main source of government revenue in the country where Harare is the capital?",
+        "answer": [
+          "Taxation, including income and corporate taxes",
+          "Tax revenue, primarily from income tax, corporate tax, and VAT",
+          "tax revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_23193",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "Andrew Lloyd Webber's financial strategies for maximizing profits, reducing costs, managing budgets, attracting investors, ensuring cash flow, and maintaining investor interest in his theatrical productions",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Aspects of what was a success by Andrew Lloyd Webber?",
+        "answer": [
+          "Successful musicals, notably \"Cats\" and \"The Phantom of the Opera.\"",
+          "The initial public offering of The Really Useful Group",
+          "a successful financial venture"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What financial strategy did Andrew Lloyd Webber use to attract more investors?",
+        "answer": [
+          "Used royalty participation to offer investors a share of profits",
+          "He sold small shares of his shows to numerous small investors",
+          "a diversified portfolio strategy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What financial approach did Andrew Lloyd Webber use to ensure steady cash flow from productions?",
+        "answer": [
+          "Licensing productions and royalty agreements",
+          "Retaining copyrights and owning the theaters for his productions",
+          "a diversified portfolio of investments and royalties"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What financial method did Andrew Lloyd Webber use to maintain investor interest over time?",
+        "answer": [
+          "Royalty participation and profit-sharing agreements",
+          "Asset-backed securitization of future royalty income",
+          "a diversified portfolio strategy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_89930",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores convertible bonds, focusing on their features, benefits, risks, and comparison to other bond types, while also referencing James Bond for context",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which James Bond film does he drive an invisible car?",
+        "answer": [
+          "James Bond drives an invisible car in \"Die Another Day.\"",
+          "James Bond drives an invisible car in the film *Die Another Day*",
+          "A James Bond film where he drives an invisible car is \"Die Another Day.\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for a bond that can be converted into shares of the issuing company? A. Callable bond B. Convertible bond C. Zero-coupon bond D. Junk bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What feature allows a bondholder to exchange their bond for a predetermined number of shares? A. Callable bond B. Convertible bond C. Zero-coupon bond D. Junk bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary benefit of owning a convertible bond? A. Fixed interest B. Share conversion C. High yield D. Low risk?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What determines the conversion ratio of a convertible bond? A. Bond price B. Stock price C. Issuer's discretion D. Market demand?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the main risk for investors holding convertible bonds? A. Interest rate risk B. Conversion risk C. Default risk D. Inflation risk?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is a key advantage of convertible bonds over regular bonds? A. Higher interest B. Equity potential C. Lower risk D. Fixed returns?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_46176",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "Financial concepts and strategies depicted in James Bond movies, including high-risk investments, leveraging, hedging, arbitrage, and speculation",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What type of financial instrument is commonly associated with James Bond movies? A. Stocks B. Bonds C. Derivatives D. Commodities?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What financial concept in James Bond movies involves high-risk investments with potential for significant returns? A. Bonds B. Stocks C. Derivatives D. Commodities?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What financial term describes James Bond's high-stakes investments? A. Leverage B. Arbitrage C. Speculation D. Hedging?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What financial strategy in James Bond movies involves borrowing to increase investment potential? A. Leverage B. Arbitrage C. Speculation D. Hedging?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What financial term in James Bond movies refers to minimizing risk while maintaining potential gains? A. Leverage B. Arbitrage C. Speculation D. Hedging?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What financial term in James Bond movies refers to profiting from price differences? A. Leverage B. Arbitrage C. Speculation D. Hedging?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What financial term in James Bond movies refers to borrowing to increase potential returns? A. Leverage B. Arbitrage C. Speculation D. Hedging?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_69441",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores European capital cities with historically significant central banks, focusing on their roles and responsibilities within the eurozone's monetary system",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The name of which European capital city is derived from the names of two towns on either bank of its main river?",
+        "answer": [
+          "Budapest, from Buda and Pest",
+          "Budapest, formed from the union of the cities Buda and Pest",
+          "Budapest"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which European capital city is known for its central bank's historical significance?",
+        "answer": [
+          "Frankfurt, due to the European Central Bank",
+          "Stockholm, for the world's oldest central bank",
+          "Frankfurt"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which European capital is home to a historically significant central bank?",
+        "answer": [
+          "Frankfurt, home to the European Central Bank",
+          "Stockholm, home to the world's oldest central bank, the Sveriges Riksbank",
+          "Frankfurt"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which European capital is known for its central bank's role in the eurozone?",
+        "answer": [
+          "Frankfurt, home to the European Central Bank",
+          "Frankfurt, home of the European Central Bank",
+          "Frankfurt"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary function of the central bank in the eurozone?",
+        "answer": [
+          "Maintaining price stability in the euro area",
+          "To maintain price stability in the euro area",
+          "a monetary authority ensuring price stability and managing the eurozone's currency"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the main goal of the eurozone's central bank?",
+        "answer": [
+          "Maintain price stability in the euro area",
+          "To maintain price stability in the euro area",
+          "price stability"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is another term for the eurozone's central bank's primary function?",
+        "answer": [
+          "Monetary policy management",
+          "Maintaining price stability",
+          "monetary policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is another term for the eurozone's central bank's main objective?",
+        "answer": [
+          "Price stability or maintaining price stability",
+          "The price stability mandate",
+          "price stability"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is another term for the eurozone's central bank's key responsibility?",
+        "answer": [
+          "Monetary policy management",
+          "Maintaining price stability",
+          "monetary policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_67627",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores British overseas territories, focusing on their connections to finance, banking, and regulatory roles, while also addressing financial transparency in international banking",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What British overseas territory is known for its financial services industry?",
+        "answer": [
+          "Cayman Islands",
+          "The Cayman Islands, Bermuda, and the British Virgin Islands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What British overseas territory is recognized for its role in international finance and tax services?",
+        "answer": [
+          "Cayman Islands",
+          "The Cayman Islands, British Virgin Islands, and Bermuda",
+          "a British overseas territory recognized for its role in international finance and tax services is Bermuda"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What British overseas territory is known for its offshore banking and financial privacy laws?",
+        "answer": [
+          "Cayman Islands",
+          "The Cayman Islands",
+          "The British overseas territory known for offshore banking and financial privacy laws is the Cayman Islands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What British overseas territory is known for its role in global financial regulation and compliance?",
+        "answer": [
+          "Cayman Islands",
+          "Gibraltar, a key center for financial regulation and compliance",
+          "a British overseas territory known for its role in global financial regulation and compliance is the Cayman Islands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the process of ensuring financial transparency in international banking?",
+        "answer": [
+          "Anti-money laundering (AML) compliance",
+          "Common Reporting Standard (CRS)",
+          "a process called regulatory compliance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_16395",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The historical significance and financial dynamics of the Orient Express's inaugural route from Paris in June 1883, focusing on its economic impact, purpose, and challenges",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In June 1883, the ‘Orient Express’ left Paris for which European city?",
+        "answer": [
+          "Vienna",
+          "Vienna, Austria",
+          "Istanbul"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the primary purpose of the Orient Express's route from Paris in June 1883? A. Trade B. Tourism C. Diplomacy D. Migration",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the main economic impact of the Orient Express's route on trade in June 1883? A. Boosted local markets B. Reduced tariffs C. Increased tourism D. Enhanced diplomatic ties",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What was the main financial benefit of the Orient Express's route in June 1883? A. Increased trade B. Lower taxes C. Tourism growth D. Improved diplomacy",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was the main reason for the Orient Express's financial success in June 1883? A. Efficient operations B. High ticket prices C. Government subsidies D. Increased tourism",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was the primary financial challenge faced by the Orient Express in June 1883? A. High maintenance costs B. Low ticket sales C. Route competition D. Political unrest",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_54436",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The scenario explores James Bond film trivia, bond villain identities, and financial terminology related to bonds issued by companies in the film industry with varying risk levels",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Karl Stromberg is the name of the villain in which James Bond film?",
+        "answer": "The Spy Who Loved Me",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for a bond issued by a company in the film industry with a low risk of default? A. Corporate bond B. Municipal bond C. Treasury bond D. Junk bond",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the term for a bond issued by a company in the film industry with a moderate risk of default? A. Corporate bond B. Municipal bond C. Treasury bond D. Junk bond",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the term for a bond issued by a company in the film industry with no risk of default? A. Corporate bond B. Municipal bond C. Treasury bond D. Junk bond?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the term for a bond issued by a company in the film industry with a high risk of default? A. Corporate bond B. Municipal bond C. Treasury bond D. Junk bond",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the term for a bond issued by a company with no default risk and backed by the government? A. Corporate bond B. Municipal bond C. Treasury bond D. Junk bond",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "finance_42410",
+    "is_cross_domain": false,
+    "domain": "finance",
+    "domain_id": 5,
+    "topic_description": "The abolition of the betting tax in Britain, including its timing, reasons, goals, effects, financial impact, and influence on consumer behavior",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which year was the tax on betting abolished in the Britain?",
+        "answer": [
+          "The betting tax was abolished in Britain in 2001",
+          "The tax on betting was abolished in 2001",
+          "2001"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the main goal of abolishing the betting tax in Britain?",
+        "answer": [
+          "To boost the competitiveness of British gambling operators",
+          "To make the UK betting industry competitive and stop bookmakers moving offshore",
+          "A boost in betting industry revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the immediate effect of abolishing the betting tax in Britain?",
+        "answer": [
+          "Increased betting activity and tax revenue from gambling profits",
+          "Increased betting turnover and the return of offshore bookmakers",
+          "A surge in betting activity and revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What was the long-term financial impact of abolishing the betting tax in Britain?",
+        "answer": [
+          "Increased betting activity and overall tax revenue growth",
+          "Increased tax revenues and a boom in the online betting industry",
+          "a boost in betting industry revenue"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was a key reason for changes in consumer behavior after abolishing the betting tax?",
+        "answer": [
+          "Increased betting due to lower overall costs",
+          "A reduction in the effective price of placing a bet",
+          "A key reason was increased accessibility and affordability of betting"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "finance": 1.0
+        }
+      }
+    ]
+  }
+]

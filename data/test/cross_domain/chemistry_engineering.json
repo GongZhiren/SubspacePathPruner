@@ -1,0 +1,254 @@
+[
+  {
+    "scenario_id": "cross_chemistry_engineering_83060",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      2,
+      19
+    ],
+    "topic_description": "The influence of metalloid electron configurations, doping concentrations, and phosphorus diffusion kinetics on semiconductor properties and transistor performance in thermal and electrical contexts",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the electron configuration of metalloids influence their use in semiconductor engineering?",
+        "answer": "Variable valence electrons allow controlled conductivity",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.38,
+          "chemistry": 0.62
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does varying doping concentrations in metalloid-based semiconductors influence band gap energy and carrier mobility to optimize field-effect transistor performance under thermal and electrical stress conditions?",
+        "answer": "Doping balances carrier density, mobility, and band gap for stability",
+        "task_type": "reasoning",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "engineering": 0.43,
+          "chemistry": 0.57
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the effect of phosphorus doping on the electrical conductivity and thermal stability of silicon-based semiconductors in high-power transistors?",
+        "answer": "Enhances conductivity, reduces thermal stability",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "engineering": 0.37,
+          "chemistry": 0.63
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the diffusion rate of phosphorus in silicon during thermal annealing affect transistor performance metrics like threshold voltage and leakage current?",
+        "answer": "Increases leakage current, can shift threshold voltage",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "engineering": 0.39,
+          "chemistry": 0.61
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the interplay between phosphorus diffusion kinetics in silicon and thermal management engineering affect power dissipation in high-frequency transistors?",
+        "answer": "Enhances efficiency, reduces overheating, improves device performance",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.44,
+          "chemistry": 0.56
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_chemistry_engineering_19682",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      2,
+      19
+    ],
+    "topic_description": "The scenario explores the integration of reaction kinetics, thermodynamics, heat transfer, and material properties in designing and optimizing chemical reactors for efficiency, yield, and structural integrity under non-isothermal conditions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can chemical reaction kinetics influence the design of a reactor in chemical engineering?",
+        "answer": "Reaction rates dictate reactor size and efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "engineering": 0.35,
+          "chemistry": 0.65
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can the Arrhenius equation and heat transfer principles together optimize reactor temperature control for maximum yield?",
+        "answer": "Adjusting temperature based on reaction kinetics and heat loss",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.71
+        },
+        "theme_consistency_score": 0.52
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the interplay between exothermic reaction enthalpy, thermal conductivity anisotropy, and material thermal expansion coefficients influence reactor design integrity under non-isothermal conditions?",
+        "answer": "Affects thermal stress management and structural stability",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.48,
+          "chemistry": 0.52
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between catalyst particle size distribution, surface area-to-volume ratio, and pore diffusion limitations influence reaction selectivity and pressure drop dynamics in a heterogeneous packed-bed reactor operating under non-isothermal conditions?",
+        "answer": "Smaller particles increase selectivity but raise pressure drop",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.41,
+          "chemistry": 0.59
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "Analyze the thermodynamic interplay of entropy, enthalpy, and Gibbs free energy in the Haber-Bosch process, detailing how pressure, temperature, catalyst activity, and reaction kinetics influence equilibrium yield under industrially relevant conditions while addressing exothermicity and activation energy constraints?",
+        "answer": "High pressure and temperature favor ammonia synthesis; catalysts lower activation energy",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.3,
+          "chemistry": 0.7
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_chemistry_engineering_63285",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering"
+    ],
+    "cross_domain_id": [
+      2,
+      19
+    ],
+    "topic_description": "The influence of metalloid properties, including electron configuration, doping effects, chemical bonding, and thermal stability, on the electrical, thermal, and structural performance of semiconductor materials and devices in engineering applications",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the electron configuration of metalloids influence their use in semiconductor engineering?",
+        "answer": "Their valence electrons form a small, tunable energy band gap",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.71
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the chemical bonding in metalloid alloys affect thermal conductivity, and what engineering methods optimize heat dissipation in semiconductor devices?",
+        "answer": "Bonding disorder scatters phonons; heat sinks and TIMs improve dissipation",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.64
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the incorporation of metalloid dopants with varying electron affinity and atomic radius influence the thermal conductivity, electrical resistivity, and bandgap engineering in semiconductor materials for advanced thermal management systems requiring precise control over heat dissipation and charge carrier mobility?",
+        "answer": "Adjusts thermal and electrical properties, optimizes bandgap",
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "engineering": 0.28,
+          "chemistry": 0.72
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the effect of varying dopant concentration on the thermal expansion coefficient of semiconductor materials, and how does this impact device reliability in high-temperature engineering applications?",
+        "answer": "Increases thermal expansion, potentially reducing device reliability",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.31,
+          "chemistry": 0.69
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of intermolecular forces in metalloid alloys when designing heat sinks for high-power semiconductor devices?",
+        "answer": "Enhance thermal conductivity and stability",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "engineering": 0.42,
+          "chemistry": 0.58
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the chemical stability of metalloid dopants under high thermal stress influence the long-term performance and structural integrity of semiconductor devices in aerospace engineering applications?",
+        "answer": "Decreases reliability and device lifespan under extreme conditions",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.71
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  }
+]

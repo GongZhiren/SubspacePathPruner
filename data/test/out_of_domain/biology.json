@@ -1,0 +1,1577 @@
+[
+  {
+    "scenario_id": "biology_87525",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The scenario explores the biological processes underlying the formation, structure, regulation, and maintenance of polytene chromosomes in certain organisms",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following is the most direct cause of polyteny in somatic cells of certain organisms? A. RNA transcription B. Supercoiling of chromatin C. Chromosome replication without cell division D. Chromosome recombination?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which process is primarily responsible for the increased gene expression in polytene chromosomes? A. DNA replication B. RNA transcription C. Chromosome condensation D. Protein synthesis?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which mechanism primarily enhances gene accessibility in polytene chromosomes? A. Histone acetylation B. DNA methylation C. Chromatin remodeling D. Nucleosome positioning?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which process is directly responsible for the formation of polytene chromosomes? A. Mitosis B. Meiosis C. Endoreplication D. Apoptosis?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which process is essential for maintaining the structure of polytene chromosomes? A. DNA replication B. Chromosome condensation C. Histone modification D. RNA transcription?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which process is primarily involved in the regulation of polytene chromosome activity? A. DNA replication B. Gene silencing C. Histone modification D. Chromosome condensation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which process is primarily responsible for the visualization of polytene chromosome bands? A. DNA replication B. Chromosome condensation C. Histone modification D. RNA transcription?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which process is primarily responsible for the structural integrity of polytene chromosomes during cell division? A. DNA replication B. Chromosome condensation C. Histone modification D. RNA transcription?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which process is primarily involved in maintaining polytene chromosome stability? A. DNA replication B. Gene silencing C. Histone modification D. Chromosome condensation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which process is primarily responsible for the alignment of polytene chromosomes during cell division? A. DNA replication B. Chromosome condensation C. Histone modification D. RNA transcription?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_51753",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "Protists that absorb nutrients through their cell membranes, relying on diffusion rather than active transport mechanisms",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What protists absorb food molecules across their cell membranes?",
+        "answer": [
+          "Osmotrophic protists absorb food molecules across their cell membranes",
+          "Fungus-like protists, such as water molds and slime molds",
+          "amoebas and slime molds"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which protists use their cell membranes to absorb nutrients directly from their surroundings?",
+        "answer": [
+          "Osmotrophic protists absorb nutrients directly through their cell membranes",
+          "Water molds, slime molds, and some parasitic protozoa",
+          "amoebas and slime molds"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which protists rely on their cell membranes for nutrient absorption?",
+        "answer": [
+          "Osmotrophic protists absorb nutrients directly through their cell membranes",
+          "Fungus-like protists, such as water molds and slime molds",
+          "amoebas and slime molds"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which protists absorb nutrients through their cell membranes without active movement?",
+        "answer": [
+          "Osmotrophic protists, such as some amoebae and slime molds",
+          "amoebas and slime molds"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which protists absorb nutrients without using active transport mechanisms?",
+        "answer": [
+          "Osmotrophic protists absorb nutrients passively",
+          "fungi-like protists"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which protists rely on diffusion for nutrient absorption? A. Amoebas B. Paramecia C. Euglenas D. Diatoms?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_40696",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "Nocturnal pollinators' adaptations and environmental factors influencing their ability to locate and pollinate night-blooming flowers under varying light, humidity, and temperature conditions",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which creature is known for pollinating night-blooming flowers? A. Honeybee B. Hummingbird C. Bat D. Butterfly?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which adaptation most likely helps nocturnal pollinators like bats locate night-blooming flowers? A. Enhanced visual acuity B. Keen sense of smell C. Ability to mimic sounds D. Brightly colored wings?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which adaptation enables nocturnal pollinators to thrive in low-light conditions? A. Enhanced echolocation skills B. Increased nectar production C. Brightly colored fur D. Ability to detect ultraviolet light?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which nocturnal pollinator is most likely to rely on echolocation rather than sight? A. Bat B. Moth C. Firefly D. Owl?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which factor most significantly impacts the efficiency of echolocation in nocturnal pollinators? A. Ambient temperature B. Humidity levels C. Presence of obstacles D. Availability of nectar?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which factor most directly influences the ability of nocturnal pollinators to locate flowers under varying humidity levels? A. Flower scent intensity B. Ambient light reflection C. Nectar sugar concentration D. Petal texture variability?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which adaptation most directly enhances a nocturnal pollinator's ability to detect flowers under low ambient light conditions? A. Enhanced olfactory receptors B. Increased wingbeat frequency C. Sensitive auditory perception D. Specialized visual adaptations?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which nocturnal pollinator adaptation is most critical for detecting flowers under varying ambient temperatures? A. Enhanced thermal receptors B. Increased visual acuity C. Sensitive auditory perception D. Specialized olfactory adaptations?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which factor most significantly impacts the efficiency of nocturnal pollinators in environments with fluctuating humidity and light conditions? A. Scent modulation B. Visual acuity C. Thermal regulation D. Auditory sensitivity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_18672",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The scenario explores how various environmental factors influence sea anemone toxicity, behavior, reproduction, coloration, feeding, and habitat selection, with a focus on identifying the least impactful factors",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which factor most influences the toxicity level in sea anemones? A. Water temperature B. Metal exposure C. Car presence D. Wood contact?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which environmental factor primarily affects sea anemone toxicity? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which environmental factor least affects sea anemone toxicity? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which environmental factor directly impacts sea anemone behavior? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which environmental factor has the least impact on sea anemone reproduction? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which environmental factor least influences sea anemone coloration? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which environmental factor least affects sea anemone feeding behavior? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which environmental factor least impacts sea anemone habitat selection? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which environmental factor least impacts sea anemone reproduction? A. Salinity B. Light intensity C. Water temperature D. Oxygen levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_75832",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "This scenario examines the roles and involvement of various enzymes and molecules in different phases of DNA replication, focusing on identifying components not directly or specifically required",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which enzyme is NOT involved in DNA replication? A. Helicase B. DNA polymerase C. RNA polymerase D. Ligase?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which molecule is NOT directly involved in the process of DNA replication? A. ATP B. DNA polymerase C. RNA primer D. Helicase?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which component is NOT essential for the elongation phase of DNA replication? A. Single-strand binding proteins B. RNA primer C. DNA polymerase D. Ribosome?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which enzyme is NOT required for proofreading during DNA replication? A. DNA polymerase B. Helicase C. Exonuclease D. Ligase?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which enzyme is NOT involved in the termination phase of DNA replication? A. DNA polymerase B. Helicase C. Ligase D. Topoisomerase?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which enzyme is NOT involved in resolving supercoiling during DNA replication? A. Topoisomerase B. Helicase C. Gyrase D. Polymerase?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_15209",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The scenario explores the survival challenges and adaptations of short-beaked animals in various environments, focusing on their ability to find food and endure environmental conditions",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which environment would a short-beaked animal struggle to survive in? A. Dense forest B. Open desert C. Shallow waters D. High mountains?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which environment would a short-beaked animal likely struggle to find food in? A. Dense forest B. Open desert C. Shallow waters D. High mountains?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which adaptation would most help a short-beaked animal survive in a desert? A. Longer legs B. Thicker fur C. Larger beak D. Brighter color?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which adaptation would least help a short-beaked animal in a dense forest? A. Longer legs B. Thicker fur C. Larger beak D. Brighter color?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_99275",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The process of photosynthesis in organisms like ferns and algae, focusing on chlorophyll's role in capturing sunlight, ATP's function as an energy carrier, and glucose's role in energy storage",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which organism uses chlorophyll to create its own nourishment from sunlight? A. Mushroom B. Fern C. Bacteria D. Algae?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which process explains how chlorophyll in ferns and algae captures sunlight to synthesize glucose? A. Cellular respiration B. Photosynthesis C. Fermentation D. Chemosynthesis?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which molecule is essential for capturing sunlight during photosynthesis? A. ATP B. Glucose C. Chlorophyll D. Oxygen?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which molecule serves as the primary energy carrier in photosynthesis? A. Glucose B. ATP C. Oxygen D. Carbon dioxide?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which process explains the role of ATP in converting carbon dioxide into glucose during photosynthesis? A. Photophosphorylation B. Calvin cycle C. Glycolysis D. Krebs cycle?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which molecule is primarily responsible for the storage of chemical energy produced during photosynthesis? A. ATP B. Glucose C. Chlorophyll D. Oxygen",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_98775",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The transformation of a tadpole into a frog, focusing on changes in its tail, gills, skin, and other body parts during metamorphosis",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What happens to a tadpole's tail during its change into a frog? A. It grows longer B. It disappears C. It splits in two D. It turns into legs?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What happens to a tadpole's gills during its transformation into a frog? A. They grow larger B. They disappear C. They turn into lungs D. They remain unchanged?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What happens to a tadpole's skin during its transformation into a frog? A. It becomes thicker B. It stays the same C. It turns into scales D. It grows larger?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which part of a tadpole becomes shorter as it transforms into a frog? A. Tail B. Legs C. Gills D. Skin?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which part of a tadpole stops growing as it becomes a frog? A. Tail B. Legs C. Gills D. Skin?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_11888",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The scenario explores how dolphins use echolocation to locate food, navigate their environment, and maintain communication and connection with their pod during hunting and other activities",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Dolphins use echolocation to hunt for A. santa claus B. school children C. tasty morsels D. direction in life",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What do dolphins primarily use echolocation to locate in their environment? A. Santa Claus B. School children C. Tasty morsels D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which feature helps dolphins locate tasty morsels in their environment? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which feature helps dolphins find tasty morsels in their environment? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which adaptation helps dolphins locate tasty morsels in murky water? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which adaptation helps dolphins communicate with their pod? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which feature helps dolphins stay connected with their pod while hunting? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which feature helps dolphins find their way back to the pod after hunting? A. Santa Claus B. School children C. Echolocation D. Direction in life?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_67574",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The process of energy transfer and molecular interactions within the photosystem during light absorption, electron excitation, and energy storage in photosynthesis",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In a photosystem, pigments in the light-harvesting complex pass light energy to two special molecules of what in the reaction center? A. calcium B. carbonate C. nutrient D. chlorophyll?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which pigments in the light-harvesting complex directly transfer energy to chlorophyll? A. Carotenoids B. Xanthophylls C. Phycobilins D. Anthocyanins?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which pigments in the light-harvesting complex directly pass energy to chlorophyll? A. Carotenoids B. Xanthophylls C. Phycobilins D. Anthocyanins?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which molecule in the photosystem directly accepts energy from chlorophyll? A. ATP B. NADP+ C. Oxygen D. Glucose?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which molecule in the photosystem transfers energy to NADP+? A. ATP B. Oxygen C. Glucose D. Chlorophyll?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which molecule in the photosystem directly receives energy from water splitting? A. ATP B. NADP+ C. Oxygen D. Glucose?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which molecule in the photosystem is responsible for storing energy as a final product? A. ATP B. NADP+ C. Oxygen D. Glucose?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_34294",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The process of protein synthesis, focusing on the roles of mRNA, tRNA, rRNA, and DNA in translation, amino acid transport, and polypeptide chain assembly",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "After the amino acid molecule has been bound to its what, protein synthesis can take place? A. base B. RNA receptor C. dna molecule D. trna carrier?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which molecule binds to the amino acid before protein synthesis begins? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which molecule carries the amino acid to the ribosome for protein synthesis? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which molecule provides the template for assembling amino acids into a polypeptide chain? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which molecule ensures the correct amino acid is added to the growing polypeptide chain? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which molecule binds to the ribosome to initiate translation? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which molecule carries amino acids to the ribosome during translation? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which molecule is responsible for catalyzing peptide bond formation during translation? A. mRNA B. tRNA C. rRNA D. DNA?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_84569",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "Adaptations enabling thermophilic organisms to survive and maintain enzyme functionality in high-temperature environments, focusing on enzyme stability, protein structure, and denaturation prevention mechanisms",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which organism is most likely to survive in a high-temperature environment?",
+        "answer": [
+          "Thermophiles, like certain bacteria and archaea",
+          "Thermophilic bacteria or archaea",
+          "an extremophile like a thermophilic bacterium"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which adaptation most likely helps an organism survive in a high-temperature environment? A. Thick fur B. Heat-resistant enzymes C. Large body size D. Bright coloration?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which enzyme adaptation most likely enables thermophilic bacteria to maintain functionality at extreme temperatures? A. Increased lipid solubility B. Enhanced substrate affinity C. Stabilized protein structure D. Reduced activation energy?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which factor most significantly limits enzyme functionality in thermophilic organisms at extreme temperatures? A. Denaturation B. Substrate depletion C. pH imbalance D. Oxygen scarcity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which mechanism primarily prevents enzyme denaturation in thermophilic organisms at extreme temperatures? A. Increased hydrogen bonding B. Enhanced ionic interactions C. Reduced hydrophobic core D. Flexible active site?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which adaptation in thermophilic bacteria most directly contributes to their survival in high-temperature environments? A. Increased membrane fluidity B. Enhanced enzyme stability C. Reduced metabolic rate D. Elevated oxygen consumption?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_93823",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The role of proper nutrition, protein intake, and recovery activities like sleep and hydration in supporting muscle growth, repair, and strength development through exercises such as weighted dips",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "With proper nutrition, which activity would increase the body's strength? A. breathing B. weighted dips C. sleeping D. eating?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which activity helps muscles grow stronger with proper nutrition? A. breathing B. weighted dips C. sleeping D. eating?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which factor is essential for muscle recovery after weighted dips? A. hydration B. sunlight C. sleep D. meditation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which activity supports muscle repair during sleep? A. hydration B. sunlight C. protein intake D. meditation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which nutrient is most critical for muscle repair during recovery? A. carbohydrates B. fats C. proteins D. vitamins?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which process is most supported by protein intake during muscle recovery? A. hydration B. energy storage C. tissue repair D. meditation",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_50214",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "Animal adaptations to cold environments, focusing on physiological responses like thicker fur growth and their survival effectiveness",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "what could it be indicative of, if an animal's fur has grown thicker? A. it could be up to something bad B. the hemisphere could be facing away from the sun C. it could be summer D. it could be dying?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which factor most likely triggers thicker fur growth in animals? A. increased sunlight exposure B. colder environmental temperatures C. higher food availability D. longer daylight hours?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which physiological process primarily drives thicker fur growth in animals during colder seasons? A. Increased metabolic rate B. Hormonal changes C. Decreased blood flow to the skin D. Enhanced nutrient absorption?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which adaptation helps animals survive colder seasons? A. Thicker fur B. Longer legs C. Brighter colors D. Faster running speed?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which adaptation is least effective for surviving cold environments? A. Thick fur B. Increased fat storage C. Longer legs D. Reduced surface area-to-volume ratio?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_38141",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The scenario explores plant reproduction, focusing on pollination, fertilization, seed germination, and seedling survival, while examining the environmental factors influencing each stage",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which process explains why the plant type spreads after bees interact with it? A. Pollination B. Photosynthesis C. Germination D. Respiration?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which mechanism primarily enables the plant to benefit from bees surrounding it? A. Seed dispersal B. Pollination C. Nutrient absorption D. Water transport?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which structure in the plant is primarily responsible for attracting bees to facilitate pollination? A. Petals B. Stems C. Roots D. Leaves?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which process directly follows pollination in the plant's reproductive cycle? A. Fertilization B. Germination C. Photosynthesis D. Respiration?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which factor most significantly influences the success of fertilization after pollination? A. Temperature B. Humidity C. Pollen viability D. Soil nutrients?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which environmental factor most directly impacts pollen viability after pollination? A. Temperature B. Humidity C. Wind speed D. Soil nutrients?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which environmental condition is most critical for maintaining pollen tube growth after fertilization? A. Temperature B. Humidity C. Light intensity D. Soil pH?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which environmental factor most directly impacts seed germination after fertilization? A. Temperature B. Humidity C. Light intensity D. Soil nutrients?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which factor most significantly influences seedling survival in varying environmental conditions? A. Temperature B. Humidity C. Light intensity D. Soil nutrients?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_10536",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "The role of anatomical structures in worms for maintaining hydrostatic pressure, preventing desiccation, and facilitating movement through interactions between the cuticle, coelom, and muscular segments",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which anatomical feature do worms rely on to maintain hydrostatic pressure? A. cuticle B. coelom C. exoskeleton D. muscular segments?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which structure in worms prevents desiccation while supporting hydrostatic movement? A. cuticle B. coelom C. exoskeleton D. muscular segments?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which structure in worms aids in locomotion by contracting against the hydrostatic skeleton? A. cuticle B. coelom C. exoskeleton D. muscular segments",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which structure in worms aids in maintaining internal pressure while supporting movement? A. cuticle B. coelom C. exoskeleton D. muscular segments?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which structure in worms is primarily responsible for maintaining internal pressure during movement? A. cuticle B. coelom C. exoskeleton D. muscular segments?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which structure in worms prevents desiccation while supporting hydrostatic pressure? A. cuticle B. coelom C. exoskeleton D. muscular segments?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which structure in worms aids in movement by working with the coelom? A. cuticle B. exoskeleton C. muscular segments D. nerve cord",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which structure in worms works with the cuticle to regulate internal pressure during locomotion? A. coelom B. exoskeleton C. muscular segments D. nerve cord?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "biology_12838",
+    "is_cross_domain": false,
+    "domain": "biology",
+    "domain_id": 1,
+    "topic_description": "Chimpanzees' use of tools to access food, including behaviors like cracking nuts, fishing for termites, and digging for insects, highlighting their problem-solving and object-modification skills",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Chimpanzees dig for insects with sticks; what is another example of using tools?",
+        "answer": [
+          "Crows use twigs to extract insects from tree bark",
+          "Sea otters use rocks to crack open shells",
+          "a bird using a rock to crack open a nut"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is another example of tool use by chimpanzees besides digging for insects with sticks?",
+        "answer": [
+          "Using leaves as sponges to drink water",
+          "Using stones to crack open nuts",
+          "a chimpanzee uses leaves as sponges to drink water"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is another way chimpanzees use tools besides digging for insects with sticks? A. Cracking nuts B. Building nests C. Fishing for termites D. Marking territory?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which tool use by chimpanzees involves modifying objects to access food? A. Cracking nuts B. Building nests C. Fishing for termites D. Marking territory",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which tool use by chimpanzees involves breaking objects to access food? A. Cracking nuts B. Building nests C. Fishing for termites D. Marking territory",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which behavior involves chimpanzees using tools to access food besides cracking nuts? A. Digging for insects B. Building nests C. Fishing for termites D. Marking territory",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which behavior involves chimpanzees using tools to access food besides fishing for termites? A. Cracking nuts B. Building nests C. Digging for insects D. Marking territory",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which behavior do chimpanzees use besides cracking nuts and fishing for termites?",
+        "answer": [
+          "Chimpanzees also use tools for hunting and grooming",
+          "Using leaves as sponges to drink water",
+          "a behavior chimpanzees use is grooming each to strengthen social bonds"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "biology": 1.0
+        }
+      }
+    ]
+  }
+]

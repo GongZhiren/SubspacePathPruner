@@ -1,0 +1,198 @@
+[
+  {
+    "scenario_id": "cross_engineering_finance_83574",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "finance"
+    ],
+    "cross_domain_id": [
+      5,
+      19
+    ],
+    "topic_description": "The integration of meteorological data, engineering models, and predictive analytics in assessing and mitigating financial risks across insurance underwriting and asset-heavy industries",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does meteorological data influence financial risk assessment in insurance underwriting?",
+        "answer": "Predicts weather-related losses",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "engineering": 0.21,
+          "finance": 0.79
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can engineering models of structural resilience inform financial risk pricing in insurance underwriting?",
+        "answer": "Improving risk assessment accuracy",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.44,
+          "finance": 0.56
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How can engineering stress analysis improve financial loss predictions in insurance underwriting?",
+        "answer": "Enhances risk assessment accuracy",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.47,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "How does engineering-based asset depreciation modeling affect financial risk mitigation strategies in insurance underwriting?",
+        "answer": "Improves risk assessment accuracy",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "engineering": 0.37,
+          "finance": 0.63
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 5,
+        "prompt": "How does engineering-based predictive maintenance optimization influence financial return on investment in asset-heavy industries?",
+        "answer": "Increases financial efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.44,
+          "finance": 0.56
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_engineering_finance_36779",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "finance"
+    ],
+    "cross_domain_id": [
+      5,
+      19
+    ],
+    "topic_description": "The integration of advanced weather forecasting, sensor technologies, and financial engineering to optimize risk management and returns in weather-sensitive agricultural investments",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does weather forecasting accuracy impact financial risk management in agriculture?",
+        "answer": "Reduces financial uncertainty",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.33,
+          "finance": 0.67
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can engineering improvements in weather sensors reduce financial losses in agriculture?",
+        "answer": "Enhanced predictive farming decisions",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.5,
+          "finance": 0.5
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How can advanced sensor calibration techniques reduce agricultural financial losses caused by weather variability?",
+        "answer": "Enhanced predictive farming decisions",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.57,
+          "finance": 0.43
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How can engineering-driven sensor fusion reduce financial risks in agriculture under extreme weather?",
+        "answer": "Enhanced predictive decision-making",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "engineering": 0.54,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 5,
+        "prompt": "How can engineering-based risk modeling optimize financial hedging strategies for weather-dependent agricultural investments?",
+        "answer": "Enhances predictive decision-making",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.52,
+          "finance": 0.48
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 6,
+        "prompt": "How can a stochastic financial engineering model optimize returns on weather-sensitive agricultural assets by integrating predictive analytics and risk hedging?",
+        "answer": "Predictive hedging strategies",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.39,
+          "finance": 0.61
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 7,
+        "prompt": "How can engineering-driven IoT sensors optimize financial portfolio diversification in weather-sensitive agriculture?",
+        "answer": "Enhanced risk management strategies",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.47,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 8,
+        "prompt": "How can IoT-enabled real-time sensor fusion and predictive analytics optimize financial risk mitigation in weather-sensitive agriculture through multivariate engineering models",
+        "answer": "Enhanced predictive decision-making",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.55,
+          "finance": 0.45
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  }
+]

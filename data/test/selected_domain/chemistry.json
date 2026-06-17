@@ -1,0 +1,2698 @@
+[
+  {
+    "scenario_id": "chemistry_32428",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the digestive system's processes, focusing on chemical digestion, enzyme functions, bile's role, stomach acid's purpose, and a basic chemical reaction outcome",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where does chemical digestion mainly occur? A. apendix B. pancreas C. liver D. small intestine?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the main enzyme responsible for breaking down proteins in the small intestine? A. amylase B. lipase C. protease D. lactase?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary function of bile in the small intestine? A. emulsify fats B. break down proteins C. absorb water D. neutralize acids?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary role of hydrochloric acid in the stomach? A. digest carbohydrates B. activate enzymes C. absorb vitamins D. neutralize toxins?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main product when hydrochloric acid reacts with sodium hydroxide? A. water B. salt C. gas D. precipitate?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_94208",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the nature of chemical bonds and intermolecular forces, focusing on electronegativity, polarity, bond types, and their effects on molecular interactions and properties",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Polar molecules result from differences in electronegativity of what in the molecule? A. ions B. protons C. iron D. atoms?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of bond is formed when atoms share electrons unequally? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What property determines the strength of a dipole-dipole interaction between polar molecules? A. molecular weight B. electronegativity C. bond length D. atomic radius?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of molecule is formed when atoms share electrons equally? A. polar B. nonpolar C. ionic D. metallic?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of intermolecular force is primarily responsible for the high boiling point of water? A. London dispersion B. dipole-dipole C. hydrogen bonding D. ionic interaction?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of bond involves the unequal sharing of electrons? A. ionic B. polar covalent C. nonpolar covalent D. metallic?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of bond is formed when electrons are transferred from one atom to another? A. covalent B. ionic C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_44445",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores foundational concepts of organic chemistry, focusing on carbon's unique bonding ability, its role in forming organic compounds, and key reactions like combustion and halogenation",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Organic chemistry is the study of the chemistry of what?",
+        "answer": "carbon compounds",
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the main element found in all organic compounds?",
+        "answer": "Carbon",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary reason carbon forms the backbone of organic compounds? A. High reactivity B. Unique bonding ability C. Abundance in nature D. Low atomic mass?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the simplest organic compound that contains only carbon and hydrogen? A. Methane B. Ethane C. Propane D. Butane?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of bond allows carbon to form stable, long chains in organic compounds? A. Ionic B. Covalent C. Metallic D. Hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the main product when methane undergoes complete combustion? A. Carbon dioxide B. Water C. Methanol D. Ethane?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the simplest molecule formed when methane reacts with chlorine in the presence of light? A. Chloromethane B. Dichloromethane C. Trichloromethane D. Tetrachloromethane?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_72712",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The role of ATP in energy storage, transfer, and utilization for cellular processes, including muscle contraction and energy release through hydrolysis",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What molecule is used for most energy functions in organisms? A. DNA or deoxyribonucleic acid B. RNA or ribonucleic acid C. ADP or Adenosine Diphosphate D. atp or adenozine triphosphate?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What molecule stores energy in its chemical bonds for cellular processes? A. Glucose B. ATP C. DNA D. RNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What molecule acts as the primary energy carrier in cells? A. Glucose B. ATP C. DNA D. RNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What molecule is primarily responsible for transferring energy within cells? A. Glucose B. ATP C. DNA D. RNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What molecule is primarily involved in the storage and transfer of energy within cells? A. Glucose B. ATP C. DNA D. RNA?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the main function of ATP in cellular processes? A. Genetic coding B. Energy transfer C. Structural support D. Enzyme production?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the primary role of ATP in muscle contraction? A. Energy supply B. Structural support C. Genetic coding D. Enzyme activation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the process called when ATP is broken down to release energy for cellular work? A. Hydrolysis B. Synthesis C. Oxidation D. Reduction?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_90092",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the structural, physical, and chemical properties of aluminosilicates compared to pure silicates, focusing on atomic substitutions, charge effects, density, melting points, thermal behavior, optical properties, hardness, and weathering resistance",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.222,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Aluminosilicates are formed by replacing some of the si atoms in silicates by which atoms?",
+        "answer": "Aluminum atoms",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary reason aluminosilicates have different properties than pure silicates? A. Atomic size difference B. Charge imbalance C. Bond strength D. Crystal structure change?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does the charge imbalance play in the structural stability of aluminosilicates compared to pure silicates? A. Increases stability B. Decreases stability C. No effect D. Depends on temperature?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the typical effect of introducing aluminum into the silicate structure on the overall density of the material? A. Increases density B. Decreases density C. No change D. Depends on pressure?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary factor influencing the melting point of aluminosilicates compared to pure silicates? A. Atomic size difference B. Charge distribution C. Bond length D. Crystal symmetry?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary reason aluminosilicates exhibit different thermal expansion behavior compared to pure silicates? A. Different bond strengths B. Varied atomic sizes C. Charge distribution D. Structural symmetry?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the primary role of aluminum in modifying the optical properties of aluminosilicates? A. Increases refractive index B. Decreases refractive index C. No effect D. Depends on temperature?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the difference in hardness between aluminosilicates and pure silicates? A. Atomic size B. Bond strength C. Crystal structure D. Charge distribution?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What primarily causes the difference in melting points between aluminosilicates and pure silicates? A. Bond length B. Ionic character C. Molecular weight D. Structural defects?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What is the main reason aluminosilicates are more resistant to chemical weathering than pure silicates? A. Higher ionic bonding B. Lower porosity C. Increased covalent bonding D. Reduced solubility?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_30419",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the role of hormones as chemical messengers in the body, focusing on their functions in regulating processes, cellular communication, and maintaining homeostasis through receptor binding and signal transduction",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is another term for chemical messenger molecules? A. pheromones B. enzymes C. acids D. hormones?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary function of hormones in the human body? A. catalyze reactions B. store energy C. regulate processes D. provide structure?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the role of hormones in cellular communication? A. energy transfer B. signal transmission C. structural support D. waste removal?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of chemical messengers are primarily responsible for regulating bodily functions? A. enzymes B. hormones C. acids D. pheromones?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary mechanism by which hormones bind to target cells? A. covalent bonding B. receptor binding C. ionic attraction D. hydrogen bonding",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the main function of hormones in maintaining homeostasis? A. energy production B. signal regulation C. structural support D. waste elimination?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the role of enzymes in hormone regulation? A. synthesis B. degradation C. storage D. transport?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the primary role of hormones in cellular communication? A. energy transfer B. signal transduction C. structural reinforcement D. waste removal?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_25263",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores chemical bonding, focusing on electronegativity differences, bond polarity, molecular geometry, and factors influencing bond types and molecular properties",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What type of bonds contain atoms that possess either a partial positive or a partial negative charge?",
+        "answer": "Polar covalent bonds",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What property determines whether atoms in a bond possess partial charges?",
+        "answer": "electronegativity difference",
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What determines whether a bond between atoms has partial charges? A. Electronegativity difference B. Atomic radius C. Bond length D. Molecular weight?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the term for a bond where electrons are shared unequally between atoms? A. Ionic bond B. Covalent bond C. Polar covalent bond D. Metallic bond?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of bond forms when electronegativity difference is zero? A. Ionic bond B. Covalent bond C. Polar covalent bond D. Metallic bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What determines the polarity of a molecule with more than two atoms? A. Electronegativity difference B. Molecular geometry C. Bond length D. Atomic radius?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of bond is formed when atoms share electrons equally? A. Ionic bond B. Covalent bond C. Polar covalent bond D. Metallic bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of bond is most likely to form between two atoms with a small electronegativity difference? A. Ionic bond B. Covalent bond C. Polar covalent bond D. Metallic bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What factor primarily determines whether a molecule exhibits cis-trans isomerism? A. Molecular weight B. Double bond presence C. Electronegativity difference D. Atomic radius?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_39508",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The structure and behavior of electron energy levels in atoms, including their distances from the nucleus, energy determinants, electron capacity, stability, and transition probabilities",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What are the areas located at fixed distances from the nucleus of the atom?",
+        "answer": "electron shells",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What determines the energy levels of areas located at fixed distances from the nucleus of an atom?",
+        "answer": "quantum numbers",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What determines the fixed distances of energy levels from an atom's nucleus?",
+        "answer": "quantum mechanics",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What determines the maximum number of electrons in an energy level near the nucleus?",
+        "answer": "quantum number",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What determines the stability of an atom's outermost energy level?",
+        "answer": "electron configuration",
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What determines the likelihood of an electron transitioning between energy levels?",
+        "answer": "energy difference",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_64693",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The formation, properties, and behavior of ionic compounds, including ion charge, electron transfer, solubility, and melting/boiling points, as determined by atomic structure and intermolecular forces",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Ionic compound atoms of various elements gain or lose electrons to?",
+        "answer": "form ions",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What determines the charge of an ion when atoms in an ionic compound gain or lose electrons?",
+        "answer": "electron transfer",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What determines the number of electrons an atom loses or gains in an ionic compound?",
+        "answer": "atomic structure",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What determines the type of ionic compound formed when atoms gain or lose electrons? A. atomic mass B. electron configuration C. neutron count D. proton alignment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What determines the overall charge of an ionic compound? A. electron count B. proton alignment C. neutron distribution D. atomic mass?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What determines the solubility of an ionic compound in water? A. molecular size B. charge density C. atomic mass D. electron alignment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What factor primarily determines the melting point of an ionic compound? A. molecular size B. charge density C. atomic mass D. electron alignment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the boiling point of an ionic compound? A. molecular size B. charge density C. atomic mass D. electron alignment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_98272",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The role of activation energy and catalysts in influencing the speed and efficiency of chemical reactions, particularly in complex and reversible systems",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What do chemical reactions need to be activated?",
+        "answer": "activation energy",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does activation energy play in determining the speed of a chemical reaction?",
+        "answer": "determines reaction rate",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What effect does lowering activation energy have on reaction speed?",
+        "answer": "increases speed",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role do catalysts play in altering the activation energy of a reaction?",
+        "answer": "lower activation energy",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the relationship between catalyst efficiency and reaction speed in complex chemical systems?",
+        "answer": "increases speed",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary role of a catalyst in a reversible reaction? A. Increase product yield B. Speed up equilibrium C. Decrease activation energy D. Alter reaction direction?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_80155",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The process of cloud formation, focusing on condensation, temperature's role in phase transitions, and factors influencing water's state in the atmosphere",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the primary chemical process involved in the formation of aerial clouds? A. condensation B. evaporation C. sublimation D. combustion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the main factor causing water vapor to condense into aerial clouds? A. temperature drop B. pressure increase C. wind speed D. sunlight exposure?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the state of water when it condenses to form clouds? A. solid B. liquid C. gas D. plasma?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does temperature play in the transition of water from gas to liquid in cloud formation? A. increases energy B. decreases energy C. remains constant D. causes sublimation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the term for the process where water transitions from liquid to gas during cloud formation? A. condensation B. evaporation C. sublimation D. deposition?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary factor that determines whether water remains in liquid form during cloud formation? A. pressure B. temperature C. humidity D. wind speed?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_34043",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the classification and bonding characteristics of binary compounds, focusing on ionic, covalent, metallic, and hydrogen bonds, as well as electron-sharing and transfer processes in chemical compounds",
+    "num_turns": 8,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What are compounds composed of only two elements called?",
+        "answer": "Binary compounds",
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of bond typically forms between two elements in a binary compound? A. ionic bond B. covalent bond C. metallic bond D. hydrogen bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the term for a compound composed of two elements sharing electrons? A. ionic compound B. covalent compound C. metallic compound D. hydrogen compound?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the term for a compound where electrons are transferred between elements? A. ionic compound B. covalent compound C. metallic compound D. hydrogen compound?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of compound is formed when a metal reacts with a nonmetal? A. ionic compound B. covalent compound C. metallic compound D. hydrogen compound?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of bond involves the unequal sharing of electrons between atoms? A. ionic bond B. covalent bond C. metallic bond D. hydrogen bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of compound is formed when two nonmetals share electrons? A. ionic compound B. covalent compound C. metallic compound D. hydrogen compound?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of bond is formed when electrons are transferred from a metal to a nonmetal? A. ionic bond B. covalent bond C. metallic bond D. hydrogen bond?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_25643",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "This scenario explores various types of point defects in crystal lattices, including vacancies, interstitials, and substitutional defects, focusing on atomic arrangements and their impact on material properties",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A point defect can be an atom missing from a site in the crystal known as a what? A. void B. deficiency C. vacuum D. vacancy?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for a point defect where an atom occupies an interstitial site in a crystal? A. vacancy B. interstitial C. substitutional D. void?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the term for a defect where an atom is replaced by a different type of atom in a crystal lattice? A. vacancy B. interstitial C. substitutional D. void",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of defect occurs when an atom is missing from its lattice site? A. vacancy B. interstitial C. substitutional D. void?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of defect is formed when a foreign atom replaces a host atom in a crystal lattice? A. vacancy B. interstitial C. substitutional D. void?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of defect is created when an extra atom is squeezed into the crystal lattice? A. vacancy B. interstitial C. substitutional D. void",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_91167",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores factors influencing chemical reactions, including behavior, rates, product formation, stability, equilibrium direction, and conditions affecting reaction outcomes",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The chemical behavior of elements can largely be explained by what?",
+        "answer": "electron configuration",
+        "task_type": "reasoning",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What largely determines the chemical behavior of elements in reactions?",
+        "answer": "valence electrons",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What primarily influences the rate of chemical reactions in elements?",
+        "answer": "activation energy",
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What primarily determines the outcome of a chemical reaction in terms of product formation?",
+        "answer": "reactant properties",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What primarily affects the stability of chemical products in a reaction?",
+        "answer": "reactant concentration",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What primarily determines the direction of a reversible chemical reaction at equilibrium?",
+        "answer": "relative concentrations",
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What primarily influences the rate of a chemical reaction approaching equilibrium? A. Temperature B. Pressure C. Catalyst presence D. Reactant concentration?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the amount of product formed in a chemical reaction at equilibrium? A. Temperature B. Pressure C. Catalyst presence D. Reactant concentration?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_33295",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "This scenario explores chemical bonding and molecular structure, focusing on carbonyl compounds, covalent bonds, electron sharing, and electronegativity differences",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What word describes a carbonyl where the carbon atom makes single bonds with two others? A. acetone B. ions C. photons D. ketones?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of bond involves the sharing of electron pairs between atoms? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of bond is characterized by the unequal sharing of electrons between atoms? A. ionic B. covalent C. metallic D. hydrogen",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of bond is formed when atoms share electrons equally? A. ionic B. polar covalent C. nonpolar covalent D. hydrogen?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of bond involves the transfer of electrons from one atom to another? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of bond is most likely to form between two atoms with a large difference in electronegativity? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of bond is formed when atoms share electrons unequally? A. ionic B. polar covalent C. nonpolar covalent D. metallic?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of bond is formed when atoms share electrons equally? A. ionic B. polar covalent C. nonpolar covalent D. metallic?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_25949",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the physical and chemical properties, such as density and polarity, that determine the behavior of water and vegetable oil when interacting, including floating, mixing, and temperature effects",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Because it's less dense, water floats on top of A. honey B. vegetable oil C. our insect overlords D. water",
+        "answer": "A",
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What property allows water to float on vegetable oil? A. polarity B. density C. viscosity D. temperature?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What factor primarily determines whether water will float on vegetable oil? A. polarity B. density C. viscosity D. temperature?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What effect does temperature change have on the density of water compared to vegetable oil? A. increases density B. decreases density C. no effect D. reverses浮力关系?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary reason oil and water do not mix? A. polarity B. density C. temperature D. viscosity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_98342",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores key concepts in chemical kinetics, focusing on reaction rates, rate laws, activation energy, and the influence of temperature on reaction dynamics",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the term for an expression showing the relationship of the reaction rate to the concentrations of each reactant? A. decay law B. flow law C. concentric law D. rate law?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the term for the proportionality constant in the rate law that relates reaction rate to reactant concentrations? A. equilibrium constant B. rate constant C. activation constant D. concentration constant?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the term for the constant that represents the effect of temperature on reaction rate? A. activation energy B. rate constant C. equilibrium constant D. temperature coefficient?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes the minimum energy required for a chemical reaction to occur? A. activation energy B. kinetic energy C. potential energy D. thermal energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What factor determines the fraction of molecules with energy equal to or greater than activation energy? A. temperature B. pressure C. concentration D. catalyst?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the term for the energy barrier that must be overcome for reactants to transform into products? A. activation energy B. kinetic energy C. potential energy D. thermal energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What effect does increasing temperature have on the rate of a chemical reaction? A. decreases rate B. increases rate C. no effect D. stops reaction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What role does activation energy play in determining the speed of a chemical reaction at a given temperature? A. determines rate B. provides equilibrium C. alters concentration D. changes state?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_95821",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the roles and functions of key biological compounds, focusing on their contributions to cellular structure, function, and energy processes in living organisms",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What type of compounds make up the cells and tissues of living things?",
+        "answer": "organic compounds",
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do proteins play in the structure and function of living cells? A. energy storage B. genetic coding C. structural support D. waste removal?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary function of proteins in living cells? A. energy storage B. genetic coding C. structural support D. waste removal?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the main source of energy for living cells? A. proteins B. carbohydrates C. lipids D. nucleic acids?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary role of lipids in living cells? A. energy storage B. genetic coding C. structural support D. waste removal?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_54766",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The behavior and motion of liquid molecules, focusing on how temperature influences their kinetic energy, directionality, speed, and evaporation rate according to the kinetic-molecular theory",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "As per the kinetic-molecular theory, in what direction do the molecules and ions of liquids move? A. alter directions B. opposite direction C. same direction D. random directions?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What determines the average kinetic energy of molecules in a liquid according to the kinetic-molecular theory? A. temperature B. pressure C. volume D. density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What factor primarily affects the motion of molecules in a liquid according to kinetic theory? A. temperature B. pressure C. volume D. density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the relationship between temperature and the speed of molecules in a liquid? A. inversely proportional B. directly proportional C. unrelated D. randomly varying?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the effect of increasing temperature on the average kinetic energy of molecules in a liquid? A. decreases B. increases C. remains constant D. fluctuates randomly?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the relationship between temperature and the rate of evaporation in a liquid? A. inversely proportional B. directly proportional C. unrelated D. randomly varying?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_98786",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The role of energy transfer, warmth, and catalysts in initiating, sustaining, and influencing the rate and activation energy of chemical reactions",
+    "num_turns": 8,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is required for a chemical reaction to occur when warmth is added to an object? A. energy transfer B. physical contact C. light exposure D. electrical charge?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is needed for a chemical reaction when warmth is applied to an object? A. energy transfer B. physical contact C. light exposure D. electrical charge?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the role of energy transfer in a chemical reaction when warmth is applied to an object? A. initiates reaction B. stops reaction C. changes color D. produces sound?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the result of energy transfer in a chemical reaction when warmth is applied to an object? A. initiates reaction B. stops reaction C. changes color D. produces sound?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is required for a chemical reaction to continue after initial energy transfer? A. constant heat B. physical contact C. light exposure D. electrical charge?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the role of a catalyst in a chemical reaction? A. increases temperature B. decreases activation energy C. changes color D. produces sound?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the effect of a catalyst on the rate of a chemical reaction? A. increases rate B. decreases rate C. no effect D. stops reaction?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the effect of temperature on the activation energy required for a catalyzed reaction? A. increases energy B. decreases energy C. no effect D. varies with catalyst?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_86034",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The role of temporary dipoles in inducing electrostatic interactions, stabilization, and partial charge redistribution within nonpolar molecular systems, influencing their overall stability and behavior",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A weak and temporary dipole that influences nearby atoms through electrostatic attraction and repulsion is known as what?",
+        "answer": "induced dipole",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What causes temporary dipoles in nearby atoms through electrostatic forces?",
+        "answer": "instantaneous dipole",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What role do temporary dipoles play in the stabilization of nearby nonpolar molecules?",
+        "answer": "induce attraction",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role do temporary dipoles play in the attraction between nonpolar molecules? A. Repulsion forces B. Electrostatic stabilization C. Permanent bonding D. Chemical reactions?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role do temporary dipoles play in the overall stabilization of nonpolar molecular interactions? A. Repulsion dominance B. Electrostatic enhancement C. Permanent alteration D. Negligible impact?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What effect do temporary dipoles have on the repulsion between nearby nonpolar molecules? A. Increase repulsion B. Decrease repulsion C. No effect D. Cause attraction?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What role do temporary dipoles play in the eventual stabilization of nonpolar molecular systems? A. Repulsion enhancement B. Temporary attraction C. Permanent bonding D. Negligible interaction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What role do temporary dipoles play in the induction of partial charges within nonpolar molecular systems? A. Charge neutralization B. Permanent charge creation C. Temporary charge redistribution D. No charge involvement?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the eventual effect of repeated temporary dipole interactions on the overall stability of nonpolar molecular systems? A. Permanent repulsion B. Temporary stabilization C. Permanent destabilization D. No significant change?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_23941",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The unique properties of hydrogen, including its small size, bond energy, and reactivity, explain its high flammability, diffusion speed, solubility, and behavior compared to heavier elements",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What has the smallest, lightest atoms of all the elements and is colorless, odorless, tasteless and nontoxic, but highly flammable in its pure state?",
+        "answer": "Hydrogen",
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What property makes the lightest element highly flammable despite being nontoxic and odorless?",
+        "answer": "high reactivity",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What characteristic of the lightest element's atomic structure contributes to its high flammability despite being nontoxic and odorless?",
+        "answer": "a single electron in its outer shell",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the lightest element's bond energy play in its high flammability?",
+        "answer": "low bond energy",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does the lightest element's molecular size play in its reactivity compared to heavier elements?",
+        "answer": "smaller size increases reactivity",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role does the lightest element's small molecular size play in its ability to diffuse quickly compared to heavier elements?",
+        "answer": "small size allows faster motion",
+        "task_type": "reasoning",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What role does the lightest element's bond polarity play in its solubility compared to heavier elements?",
+        "answer": "affects solubility",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What role does the lightest element's small size play in its reactivity compared to larger elements?",
+        "answer": "higher reactivity",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_65867",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the nature of chemical bonds, hybridization, and intermolecular forces in compounds, focusing on ring structures and interactions between elements",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What type of compound contains atoms of two or more different elements in its ring structure?",
+        "answer": "Heterocyclic compound",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of bond allows atoms of different elements to form a stable ring structure in compounds? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of bond is most commonly found in stable ring structures containing atoms of different elements? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of ring structure is most commonly found in compounds containing atoms of different elements? A. aromatic B. aliphatic C. saturated D. unsaturated?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of bond is most likely to form between atoms of different elements in a stable compound? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of bond is most likely to form between atoms of the same element in a stable compound? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of hybridization is most likely found in the carbon atoms of aromatic ring structures? A. sp B. sp² C. sp³ D. dsp³?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of bond is most likely to form between a metal and a nonmetal in a stable compound? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What type of bond is most likely to form between two nonmetals with similar electronegativities? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What type of intermolecular force is most likely to form between nonmetal atoms with significant electronegativity differences? A. London dispersion B. dipole-dipole C. hydrogen bonding D. ionic?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_97746",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "This scenario explores various visual clues that indicate chemical reactions, such as color change, gas release, temperature shifts, precipitate formation, and light emission",
+    "num_turns": 10,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "There are how many visual clues to indicate a chemical reaction? A. three B. five C. seven D. four?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is one visual clue that indicates a chemical reaction has occurred? A. color change B. temperature drop C. volume increase D. mass decrease?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What visual clue involves the formation of a solid from a solution during a chemical reaction? A. color change B. temperature drop C. precipitate formation D. mass decrease?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What visual clue involves a change in temperature during a chemical reaction? A. color change B. gas release C. temperature change D. precipitate formation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What visual clue involves the release of gas during a chemical reaction? A. color change B. gas bubbles C. temperature change D. precipitate formation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What visual clue involves a change in the appearance of a substance without forming a new one? A. color change B. gas release C. temperature drop D. precipitate formation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What visual clue indicates a chemical reaction involving light emission? A. color change B. gas release C. temperature change D. luminescence?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What visual clue indicates a chemical reaction involving the formation of a solid? A. color change B. gas release C. temperature change D. precipitate formation?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What visual clue indicates a chemical reaction involving the disappearance of a solid? A. color change B. gas release C. temperature change D. dissolution?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What visual clue indicates a chemical reaction involving the release of energy as heat? A. color change B. gas release C. temperature increase D. light emission?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_69009",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the chemical processes and substances involved in cigarette combustion, focusing on carcinogens, free radicals, and the role of oxygen in producing harmful byproducts",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Cigarettes are a major source of what kind of chemical substances linked with cancer? A. chemicals B. pesticides C. alkaloids D. carcinogens?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of chemical reaction occurs when cigarettes burn to release carcinogens? A. combustion B. decomposition C. synthesis D. substitution?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main product released during the combustion of cigarettes that contains carcinogens? A. carbon dioxide B. water vapor C. tar D. oxygen?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role do free radicals play in the chemical reactions that occur during cigarette combustion? A. stabilizing compounds B. initiating chain reactions C. reducing carcinogens D. producing water vapor?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the primary role of oxygen in the combustion process of cigarettes? A. fuel source B. catalyst C. oxidizing agent D. stabilizer?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the effect of catalysts on the rate of chemical reactions during cigarette combustion? A. decrease activation energy B. increase product yield C. stabilize free radicals D. produce additional oxygen?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the main product formed when a cigarette burns in the presence of sufficient oxygen? A. carbon dioxide B. carbon monoxide C. water vapor D. ash?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_79124",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the role of electronegativity differences in determining bond types, molecular polarity, and the resulting physical and chemical properties of molecules",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Polar molecules result from differences in electronegativity of what in the molecule? A. ions B. protons C. iron D. atoms?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of bond is formed when atoms with differing electronegativities share electrons unequally? A. ionic bond B. covalent bond C. hydrogen bond D. metallic bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of bond involves unequal sharing of electrons due to electronegativity differences? A. ionic bond B. covalent bond C. hydrogen bond D. metallic bond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What causes a molecule to have a dipole moment? A. equal sharing B. unequal sharing C. no electrons D. symmetric shape?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What determines the polarity of a molecule with polar bonds? A. bond length B. molecular geometry C. atomic mass D. electron affinity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What type of molecule has a partial positive and partial negative end due to electronegativity differences? A. nonpolar molecule B. polar molecule C. ionic compound D. metallic structure?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What type of bond forms between atoms with similar electronegativity? A. ionic B. covalent C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of bond is likely to form between two atoms with a large difference in electronegativity? A. covalent B. ionic C. metallic D. hydrogen?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What type of molecule is formed when atoms share electrons equally due to similar electronegativity? A. polar molecule B. nonpolar molecule C. ionic compound D. metallic structure?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_76522",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores the principles of conservation and transfer of energy and mass during physical and chemical changes across various system types",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Physical or chemical changes are generally accompanied by a transfer of what?",
+        "answer": "energy transfer",
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is generally transferred during physical or chemical changes in a system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is typically conserved in a closed system during physical or chemical changes? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is typically transferred between substances during a chemical reaction in an open system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is typically conserved in a chemical reaction within an isolated system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is typically conserved in a chemical reaction involving phase changes within a closed system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is typically conserved in a chemical reaction involving energy transfer within an open system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is typically conserved in a chemical reaction involving both energy and mass transfer within an isolated system? A. Energy B. Mass C. Volume D. Density?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "chemistry_81317",
+    "is_cross_domain": false,
+    "domain": "chemistry",
+    "domain_id": 2,
+    "topic_description": "The scenario explores molecular mass, mass defect, and energy changes in chemical bonds, focusing on concepts like bond energy, mass defect, and enthalpy change during bond formation and breaking",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the sum of the massess of the atoms in a molecule?",
+        "answer": "Molecular mass",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What causes a molecule to have less mass than the total of its atoms?",
+        "answer": "binding energy",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What explains why a molecule's mass is less than the sum of its atoms' masses? A. nuclear fusion B. mass defect C. chemical reaction D. atomic rearrangement?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes the difference between a molecule's mass and the sum of its atoms' masses? A. mass defect B. atomic weight C. molecular gap D. chemical loss?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the energy released when a molecule forms from its atoms? A. bond energy B. mass defect C. atomic weight D. molecular gap?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the term for the energy required to break a chemical bond? A. bond energy B. mass defect C. atomic weight D. molecular gap?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the term for the energy change when a chemical bond forms or breaks? A. bond energy B. mass defect C. atomic weight D. molecular gap?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the term for the energy needed to break a bond in a molecule? A. bond energy B. mass defect C. atomic weight D. molecular gap?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the term for the energy released when new bonds form during a chemical reaction? A. bond energy B. activation energy C. enthalpy change D. kinetic energy?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "chemistry": 1.0
+        }
+      }
+    ]
+  }
+]

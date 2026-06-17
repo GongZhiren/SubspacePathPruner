@@ -1,0 +1,189 @@
+[
+  {
+    "scenario_id": "cross3_economics_engineering_geography_82807",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "engineering",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      19
+    ],
+    "topic_description": "The engineering adaptations of London Bridge's relocation to Arizona, examining how geographic and economic factors influenced its structural resilience, foundation design, water flow systems, load distribution, and sustainability",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did geographic and economic constraints shape the engineering decisions for the London Bridge's foundation in Arizona?",
+        "answer": "Adapted to desert conditions",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "engineering": 0.41,
+          "geography": 0.28,
+          "economics": 0.31
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "How did geographic features and economic trade routes influence the engineering design of London Bridge's water flow systems in Arizona?",
+        "answer": "No significant influence",
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.41,
+          "geography": 0.33,
+          "economics": 0.26
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How might changes in Arizona's economic trade routes impact the engineering resilience of London Bridge's structural adaptations to geographic erosion?",
+        "answer": "No significant impact",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.38,
+          "geography": 0.41,
+          "economics": 0.21
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "How could Arizona's geographic shifts and trade economics affect London Bridge's engineering load distribution?",
+        "answer": "No significant impact",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "engineering": 0.38,
+          "geography": 0.3,
+          "economics": 0.32
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 5,
+        "prompt": "How might Arizona's economic policies and geographic changes impact the engineering sustainability of London Bridge's water management systems?",
+        "answer": "No significant impact",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.44,
+          "geography": 0.28,
+          "economics": 0.28
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_engineering_geography_83425",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "engineering",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      19
+    ],
+    "topic_description": "The interplay between the Mackinac Bridge's engineering design, geographic factors, and economic impacts on regional trade, accessibility, and resilience to natural hazards",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the Mackinac Bridge's material durability affect regional trade, geographic accessibility, and economic growth during extreme weather?",
+        "answer": "Durability ensures trade resilience",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.31,
+          "geography": 0.3,
+          "economics": 0.39
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 2,
+        "prompt": "What geographic features determine the Mackinac Bridge's susceptibility to seismic activity and its economic impact?",
+        "answer": "Low seismic risk area",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "engineering": 0.48,
+          "geography": 0.27,
+          "economics": 0.25
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How do economic trade patterns influence engineering adaptations for the Mackinac Bridge's resilience to geographic hazards?",
+        "answer": "Promotes safety-focused innovations",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.37,
+          "geography": 0.19,
+          "economics": 0.44
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How do geographic wind patterns influence engineering design and economic costs for the Mackinac Bridge's maintenance?",
+        "answer": "Increases maintenance costs",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.38,
+          "geography": 0.27,
+          "economics": 0.35
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How do geographic climate variations impact the economic feasibility of engineering upgrades for the Mackinac Bridge's structural integrity?",
+        "answer": "Increases costs significantly",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.54,
+          "geography": 0.18,
+          "economics": 0.28
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 6,
+        "prompt": "How do geographic erosion patterns and economic constraints influence engineering solutions for the Mackinac Bridge's foundation stability?",
+        "answer": "Cost-effective stabilization methods",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.4,
+          "geography": 0.32,
+          "economics": 0.28
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  }
+]

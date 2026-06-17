@@ -1,0 +1,168 @@
+[
+  {
+    "scenario_id": "cross_philosophy_psychology_99275",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      12,
+      13
+    ],
+    "topic_description": "The integration of philosophical frameworks and psychological concepts to explore intrinsic motivation, cognitive restructuring, and moral decision-making in personal growth and self-actualization",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the pursuit of knowledge potentially lead to emotional states like elation when learning aligns with personal passion? A. Frustration B. Enlightenment C. Indifference D. Overwhelm?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "philosophy": 0.37,
+          "psychology": 0.63
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Which philosophical framework, emphasizing intrinsic motivation and self-actualization, integrates existentialist authenticity with Maslow's metaneeds?",
+        "answer": [
+          "Humanistic existential psychology",
+          "Existential humanism integrates authenticity and metaneeds"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "philosophy": 0.7,
+          "psychology": 0.3
+        },
+        "theme_consistency_score": 0.46
+      },
+      {
+        "turn": 3,
+        "prompt": "Which psychological concept aligns with Sartre's notion of radical freedom in existential philosophy? A. Cognitive dissonance B. Self-efficacy C. Learned helplessness D. Confirmation bias?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "philosophy": 0.56,
+          "psychology": 0.44
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the psychological concept of self-determination theory intersect with Aristotle's virtue ethics in fostering intrinsic motivation?",
+        "answer": [
+          "Promoting virtuous, autonomous actions",
+          "Intrinsic motivation arises from aligning personal values with virtuous actions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "philosophy": 0.65,
+          "psychology": 0.35
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the psychological mechanism of cognitive dissonance challenge Kant's categorical imperative in moral decision-making?",
+        "answer": [
+          "Creates moral inconsistency",
+          "Cognitive dissonance undermines universal moral law adherence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "philosophy": 0.43,
+          "psychology": 0.57
+        },
+        "theme_consistency_score": 0.55
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_philosophy_psychology_41601",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "philosophy",
+      "psychology"
+    ],
+    "cross_domain_id": [
+      12,
+      13
+    ],
+    "topic_description": "The integration of philosophical concepts like virtue ethics and eudaimonia with psychological theories and practices to explore their impact on moral development, well-being, and therapeutic interventions",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the pursuit of knowledge (philosophy) influence emotional well-being (psychology)? A. It creates confusion B. It leads to elation C. It causes indifference D. It fosters personal growth?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "philosophy": 0.73,
+          "psychology": 0.27
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the philosophical concept of virtue ethics influence psychological theories of moral development?",
+        "answer": [
+          "Emphasizes character development",
+          "Virtue ethics inspires psychology's focus on character development"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.59,
+          "psychology": 0.41
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 3,
+        "prompt": "How does virtue ethics, with its emphasis on character and moral virtues, inform psychological models of moral reasoning and decision-making processes?",
+        "answer": [
+          "Focuses on character development",
+          "Character virtues guide moral reasoning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "philosophy": 0.58,
+          "psychology": 0.42
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Aristotle’s concept of eudaimonia, as intrinsic fulfillment through virtuous activity, intersect with modern psychological hedonic and eudaimonic well-being models?",
+        "answer": [
+          "Informs modern well-being theories",
+          "Virtue aligns with psychological well-being"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "philosophy": 0.59,
+          "psychology": 0.41
+        },
+        "theme_consistency_score": 0.52
+      }
+    ]
+  }
+]

@@ -1,0 +1,2171 @@
+[
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_91718",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between financial market dynamics, aromatic compound chemistry, and gravitational wave physics in influencing system stability and experimental outcomes in high-energy physics",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's reliance on unwritten pledges relate to the stability of aromatic hydrocarbons like benzene and the reversibility of eclipses viewed from the moon? A. Trust is analogous to resonance B. Economic bonds mirror covalent bonds C. Reversibility reflects hybridization D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.38,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the volatility of financial markets influence the rate of chemical reactions in aromatic compounds and the propagation of gravitational waves? A. Market fluctuations mirror activation energy changes B. Economic instability affects quantum states C. Financial uncertainty disrupts wave coherence D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.33,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 3,
+        "prompt": "How do financial market fluctuations impact the entropy changes in aromatic substitution reactions and the interference patterns of gravitational waves? A. Market volatility alters reaction pathways B. Economic shifts modify wave amplitudes C. Financial instability affects quantum entanglement D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.35,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How do financial derivatives' risk profiles relate to aromatic compound stability and gravitational wave detection sensitivity? A. Derivatives mirror resonance structures B. Risk correlates with bond strength C. Sensitivity reflects market volatility D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.34,
+          "finance": 0.35
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does financial leverage play in determining reaction rates of aromatic compounds and the amplitude modulation of gravitational waves? A. Leverage alters activation energy thresholds B. Financial risk modifies quantum state probabilities C. Market volatility impacts wave coherence stability D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.42,
+          "physics": 0.26,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the interplay between financial leverage ratios, aromatic compound resonance energy, and gravitational wave frequency modulation affect system stability in high-energy physics experiments? A. Leverage amplifies quantum fluctuations B. Resonance stabilizes reaction intermediates C. Wave modulation impacts energy thresholds D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.45,
+          "finance": 0.26
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the interplay between financial risk hedging, aromatic compound delocalization energy, and gravitational wave phase shifts influence experimental outcomes in high-energy physics? A. Hedging stabilizes quantum states B. Delocalization alters wave coherence C. Phase shifts impact market volatility D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.47,
+          "finance": 0.24
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the optimization of financial risk models influence the thermodynamic stability of aromatic compounds and the detection sensitivity of gravitational waves in high-energy physics experiments?",
+        "answer": "There is no direct influence or correlation",
+        "task_type": "reasoning",
+        "difficulty": 0.78,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.36,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_47632",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between the London Stock Exchange's unwritten pledges, benzene's molecular properties, and lunar eclipse dynamics, exploring their interconnected stability, energy distribution, and reaction rates",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's principle of unwritten pledges relate to the stability of benzene's molecular bonds and the reversibility of an eclipse viewed from the moon?",
+        "answer": "There is no direct relation between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.27,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does the London Stock Exchange's principle of unwritten pledges play in balancing benzene's resonance energy and the gravitational pull during a lunar eclipse?",
+        "answer": "There is no connection between these elements",
+        "task_type": "factual",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.25,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the London Stock Exchange's unwritten pledge system influence the energy distribution in benzene's resonance structures and the orbital mechanics of a lunar eclipse?",
+        "answer": "There is no influence or connection between them",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.35,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the London Stock Exchange's unwritten pledge system affect benzene's pi-electron distribution and the angular momentum of Earth's shadow during a lunar eclipse?",
+        "answer": "There is no relevant connection or effect",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.43,
+          "physics": 0.32,
+          "finance": 0.25
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the London Stock Exchange's unwritten pledge system impact the rate of benzene's hydrogenation reaction and the velocity of Earth's shadow during a lunar eclipse? A. Increases both rates B. Decreases both rates C. Increases hydrogenation rate, decreases shadow velocity D. Decreases hydrogenation rate, increases shadow velocity?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.43,
+          "physics": 0.32,
+          "finance": 0.25
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_64092",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "Hezbollah's integration of financial strategies and valence bond theory to optimize chemical reactions for detecting astrophysical phenomena during reverse eclipses",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could a financial organization like Hezbollah leverage the principles of valence bond theory to develop materials for observing reverse eclipses?",
+        "answer": "The question is not relevant to finance; it is scientifically incoherent",
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.25,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might Hezbollah use financial strategies to optimize the synthesis of materials, based on valence bond theory, for detecting gravitational lensing effects during reverse eclipses?",
+        "answer": "This question is based on incorrect premises and assumptions",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.41,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How could Hezbollah apply financial risk assessment models to optimize chemical reactions for detecting gravitational waves during reverse eclipses?",
+        "answer": "This question combines unrelated concepts; no feasible answer exists",
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.47,
+          "finance": 0.28
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How could Hezbollah use financial hedging strategies to mitigate risks in chemical reactions designed to measure photon deflection during reverse eclipses?",
+        "answer": "Financial hedging is irrelevant to chemical and astronomical phenomena",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.48,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How could Hezbollah leverage financial derivatives to optimize chemical reaction rates for detecting gravitational redshift during reverse eclipses?",
+        "answer": "Financial derivatives cannot optimize chemical reactions or detect gravitational redshift",
+        "task_type": "factual",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.44,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 6,
+        "prompt": "How could Hezbollah use financial leverage to adjust chemical reaction parameters for detecting gravitational lensing effects during reverse eclipses?",
+        "answer": "Hezbollah does not engage in such scientific activities",
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.43,
+          "finance": 0.26
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 7,
+        "prompt": "How could Hezbollah adjust financial risk models to optimize chemical reaction yields for measuring photon polarization shifts during reverse eclipses?",
+        "answer": "The question combines unrelated concepts; no feasible answer exists",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.39,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 8,
+        "prompt": "How could Hezbollah integrate financial hedging strategies with chemical reaction optimization to enhance precision in measuring cosmic microwave background radiation during reverse eclipses?",
+        "answer": "This question combines unrelated concepts; no feasible answer exists",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.19,
+          "physics": 0.56,
+          "finance": 0.25
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_28490",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between the London Stock Exchange's unwritten pledges, benzene's π-electron system stability, and astrophysical phenomena like gravitational lensing and photon behavior near black holes",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's principle of unwritten pledges relate to the stability of benzene's aromatic structure and the reversibility of eclipses viewed from the moon?",
+        "answer": "There is no direct relation between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.42,
+          "finance": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the London Stock Exchange's principle of unwritten pledges influence the energy distribution in benzene's π-electron system and the gravitational lensing effect near a black hole?",
+        "answer": "No influence; unrelated concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.41,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the London Stock Exchange's unwritten pledge system affect benzene's π-electron energy levels and the photon deflection angle near a black hole? A. It stabilizes energy levels and increases deflection B. It destabilizes energy levels and decreases deflection C. It has no effect on energy levels but increases deflection?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.42,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the London Stock Exchange's unwritten pledge system influence benzene's π-electron resonance energy and the photon redshift near a black hole's event horizon? A. Increases energy, decreases redshift B. Decreases energy, increases redshift C. Stabilizes energy, no redshift change D. No energy change, increases redshift?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.5,
+          "finance": 0.19
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the financial impact of benzene's π-electron stabilization on the energy required to counteract gravitational lensing near a black hole?",
+        "answer": "No financial impact; unrelated concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.41,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_96129",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "Exploring financial stability and market optimization through analogies with benzene's resonance stability and gravitational phenomena like solar eclipses and lunar effects",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's reliance on unwritten agreements relate to the stability of benzene's structure and the reversibility of an eclipse viewed from the moon?",
+        "answer": "There is no direct relation between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.41,
+          "finance": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What financial mechanisms, analogous to benzene's resonance stability, could ensure market equilibrium during a solar eclipse's gravitational effects?",
+        "answer": "Solar eclipses have negligible impact on financial markets",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.22,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How can financial models, inspired by benzene's electron delocalization, predict market shifts during lunar gravitational anomalies?",
+        "answer": "There is no known model linking these concepts in finance",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.23,
+          "physics": 0.31,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 4,
+        "prompt": "How can financial risk models, analogous to benzene's resonance energy, account for lunar gravitational effects on market volatility during a solar eclipse?",
+        "answer": "No known models account for lunar effects on market volatility",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.17,
+          "physics": 0.37,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How can financial instruments, modeled after benzene's stability, mitigate market disruptions caused by solar eclipse-induced gravitational forces?",
+        "answer": "Solar eclipse-induced gravitational forces do not affect financial markets",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.33,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How can financial portfolios, structured like benzene's molecular orbitals, optimize returns during gravitational wave detection events?",
+        "answer": "No direct correlation exists between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.35,
+          "finance": 0.45
+        },
+        "theme_consistency_score": 0.54
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_34114",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The integration of van der Waals equation adjustments into financial risk models, exploring molecular volume, intermolecular forces, energy transfer, and thermodynamic principles to optimize hedging strategies and model momentum change",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the van der Waals equation, which adjusts for molecular volume and intermolecular forces, relate to calculating momentum change in financial risk modeling?",
+        "answer": "The van der Waals equation is not used in financial risk modeling",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.18,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the impact of molecular volume adjustments in the van der Waals equation on financial risk models that incorporate momentum change and energy transfer?",
+        "answer": "No direct impact; these are unrelated concepts in finance",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.18,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 3,
+        "prompt": "How does adjusting intermolecular forces in the van der Waals equation affect energy transfer models used in financial risk assessment?",
+        "answer": "No direct effect; different scientific domains",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.22,
+          "finance": 0.4
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the adjustment of molecular volume in the van der Waals equation influence financial risk models that rely on kinetic energy transfer and momentum conservation?",
+        "answer": "No direct influence; different scientific domains",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.23,
+          "finance": 0.4
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the effect of temperature-dependent intermolecular forces on financial models that integrate entropy changes and energy transfer?",
+        "answer": "No significant effect; financial models rarely consider these factors",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.33,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the pressure correction term in the van der Waals equation influence financial models that account for thermodynamic efficiency and energy conservation?",
+        "answer": "No direct influence; different scientific domains",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.36,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the optimization of reaction kinetics in exothermic chemical processes (chemistry) influence financial hedging strategies (finance) that rely on energy dissipation models (physics)?",
+        "answer": "No direct influence; different scientific domains",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.3,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.56
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_66048",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The scenario explores modeling the financial impacts of Hezbollah's 1980s actions using interdisciplinary approaches combining chemical, physical, and economic principles",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 5,
+    "task_type_change_frequency": 0.714,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could the financial impact of Hezbollah's actions in the 1980s be modeled using valence bond theory's principles and the physics of observing celestial events like eclipses?",
+        "answer": "Modeling such a scenario is not feasible with those theories",
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.24,
+          "finance": 0.54
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the financial implications of Hezbollah's 1980s actions be analyzed using molecular orbital theory and principles of thermodynamics?",
+        "answer": "Hezbollah's 1980s actions may reflect financial instability, paralleling molecular orbital energy shifts and entropy-driven disorder",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.23,
+          "finance": 0.49
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How could the financial risks of Hezbollah's 1980s actions be quantified using molecular orbital theory and thermodynamic entropy principles?",
+        "answer": "Molecular orbital theory and entropy are not applicable to financial risk analysis",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.26,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the financial consequences of Hezbollah's 1980s actions be assessed using principles of chemical equilibrium and Newton's laws of motion?",
+        "answer": "Hezbollah's 1980s actions shifted financial equilibria like chemical reactions, with forces akin to Newton's laws driving systemic instability",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.21,
+          "finance": 0.55
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 5,
+        "prompt": "How could the financial impact of Hezbollah's 1980s actions be modeled using reaction kinetics, thermodynamic free energy, and principles of mechanical work?",
+        "answer": "Modeling such impact scientifically is impractical and metaphorical",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.23,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 6,
+        "prompt": "How might the financial risks of Hezbollah's 1980s actions be reassessed using bond energy calculations, entropy changes, and principles of force dynamics?",
+        "answer": "Financial risk assessment does not utilize bond energy or force dynamics",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.13,
+          "finance": 0.52
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 7,
+        "prompt": "How could the financial implications of Hezbollah's 1980s actions be analyzed using quantum mechanics, reaction rates, and economic elasticity principles?",
+        "answer": "Hezbollah's 1980s actions impacted financial elasticity, akin to quantum superposition uncertainty and reaction rate dynamics",
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.25,
+          "finance": 0.44
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 8,
+        "prompt": "What financial models could predict Hezbollah's 1980s economic impact using reaction enthalpy, quantum tunneling effects, and work-energy principles?",
+        "answer": "Hezbollah's 1980s economic impact could be modeled using quantum tunneling-adjusted reaction enthalpy data to predict energy-based financial outputs",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.23,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_12408",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "A financial organization explores advanced scientific principles and investment strategies to assess, optimize, and predict the viability and scalability of renewable energy and emerging technologies",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could a financial organization, using principles of valence bond theory and knowledge of eclipse phenomena, diversify its investment portfolio? A. By investing in solar energy B. By funding aromatic compound research C. By creating lunar tourism D. By developing reverse-engineering tech",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.21,
+          "finance": 0.54
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a financial organization leverage knowledge of molecular orbital theory and thermodynamics to optimize investments in renewable energy technologies?",
+        "answer": "Assessing efficiency and stability of renewable energy technologies",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.21,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How could a financial organization use molecular orbital theory, thermodynamics, and investment risk models to assess the viability of hydrogen fuel cells?",
+        "answer": "Assessing cost-effectiveness, efficiency, and financial risks of technology",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.26,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How could a financial organization use quantum mechanics, reaction kinetics, and portfolio optimization to evaluate the scalability of photovoltaic technologies?",
+        "answer": "Quantum efficiency, reaction rates, and optimized investment models assess photovoltaic scalability",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.3,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 5,
+        "prompt": "How can a financial organization use reaction thermodynamics, quantum tunneling effects, and cost-benefit analysis to predict the market adoption rate of solid-state battery technologies?",
+        "answer": "Financial organizations do not typically use these scientific concepts for market predictions",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.27,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 6,
+        "prompt": "A financial organization",
+        "answer": "Please provide a complete question for a specific answer",
+        "task_type": "factual",
+        "difficulty": 0.75,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.27,
+          "finance": 0.49
+        },
+        "theme_consistency_score": 0.47
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_43894",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between quantum phenomena in aromatic hydrocarbons, lunar eclipse effects, and art market dynamics in determining the valuation of a 1963 Warhol painting",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the valuation of a Warhol painting in 1963 ($100 million) relate to the energy transitions in aromatic hydrocarbons like benzene during an eclipse viewed from the moon? A. Art value mirrors quantum transitions B. Chemical bonds determine light absorption C. Gravitational lensing affects market prices D. All of?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.35,
+          "finance": 0.4
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the 1963 Warhol painting's valuation reflect the interplay of aromatic hydrocarbon energy states, light refraction physics, and art market financial trends during a lunar eclipse? A. Quantum transitions drive art value B. Chemical absorption influences pricing C. Gravitational lensing alters perception D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.26,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the interplay between aromatic hydrocarbon energy transitions, gravitational lensing effects, and art market valuation models explain the 1963 Warhol painting's price during a lunar eclipse? A. Quantum mechanics drives art pricing B. Light bending alters chemical perception C. Market trends reflect physical phenomena D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.42,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the photoelectric effect play in determining the financial valuation of a 1963 Warhol painting during a lunar eclipse, considering benzene's electron transitions? A. It influences light absorption B. It affects market perception C. It alters quantum energy states D. All of the above?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.37,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 5,
+        "prompt": "How do quantum tunneling effects in aromatic hydrocarbons during a lunar eclipse influence both the perceived value of a 1963 Warhol painting and its financial market volatility?",
+        "answer": "There is no known influence or connection",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.24,
+          "finance": 0.4
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the interplay of benzene’s resonance energy, gravitational redshift during a lunar eclipse, and art market liquidity models affect the pricing dynamics of a 1963 Warhol painting? A. Resonance energy drives valuation B. Redshift alters perception C. Market liquidity stabilizes price D. All of the?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.18,
+          "finance": 0.54
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_17289",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between chemical properties of oxygen-fluorine compounds and their impact on nuclear fission reactor efficiency, safety, and financial viability in energy projects",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do positive oxidation states of oxygen in compounds with fluorine influence the energy yield in nuclear fission reactions used for financial investment in energy projects?",
+        "answer": "No direct influence on energy yield in nuclear fission reactions",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.13,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the bond energy in oxygen-fluorine compounds affect the efficiency of nuclear fission reactors, and what financial strategies optimize their use? A. Higher bond energy increases efficiency, favoring long-term investment B. Lower bond energy decreases efficiency, requiring short-term financial planning C. Bond energy is irrelevant; financial optimization depends solely on?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.18,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the thermodynamic stability of oxygen-fluorine compounds influence reactor efficiency and financial risk assessment in nuclear energy projects?",
+        "answer": "Increased stability reduces risk, potentially lowering insurance and investment costs",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.42,
+          "physics": 0.24,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the enthalpy change of oxygen-fluorine reactions impact reactor cooling costs and long-term financial viability in nuclear energy projects? A. Higher enthalpy increases costs, reducing viability B. Lower enthalpy decreases costs, improving viability C. Enthalpy changes are negligible; financial viability depends on reactor design D?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.49,
+          "physics": 0.27,
+          "finance": 0.24
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the thermal conductivity of oxygen-fluorine compounds affect reactor safety margins and influence financial decisions on material investments?",
+        "answer": "Higher thermal conductivity reduces risks, potentially lowering insurance and material costs",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.37,
+          "finance": 0.24
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_41211",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between benzene's resonance energy stability and financial systems, exploring parallels in market volatility, risk assessment, and pricing models through physics and quantum mechanical principles",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's reliance on verbal agreements relate to benzene's stability through valence bond theory and the reversibility of an eclipse viewed from the moon?",
+        "answer": "These topics are unrelated and cannot be directly compared",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.46,
+          "physics": 0.15,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the volatility of benzene's resonance energy compare to stock market fluctuations and gravitational wave detection sensitivity?",
+        "answer": "Benzene's stability is constant; stock and gravitational fluctuations vary",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.52,
+          "physics": 0.22,
+          "finance": 0.26
+        },
+        "theme_consistency_score": 0.5
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the financial impact of benzene's resonance energy stability on stock market volatility compared to gravitational wave detection sensitivity?",
+        "answer": "No direct financial impact or correlation exists",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.31,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "How does benzene's resonance energy affect stock market derivative pricing models under relativistic time dilation effects?",
+        "answer": "There is no relevant connection between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.28,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "How does benzene's resonance energy influence financial risk assessment models under quantum mechanical uncertainty?",
+        "answer": "Benzene's resonance energy has no impact on financial risk models",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.32,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_35526",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between physical properties, chemical behavior, and financial valuation of cis-trans isomers in industrial applications",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 6,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the thermodynamic stability of cis-trans isomers with double bonds influence their pricing in financial markets? A. Higher stability increases cost B. Stability has no impact C. Lower stability decreases cost D. Cost depends on molecular weight?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.16,
+          "finance": 0.43
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does molecular bond energy (physics) play in determining the market valuation (finance) of cis-trans isomers with varying chemical reactivity (chemistry)?",
+        "answer": "Molecular bond energy does not directly affect market valuation",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.44,
+          "finance": 0.18
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the activation energy (physics) of cis-trans isomerization (chemistry) affect the volatility and hedging strategies (finance) for these compounds in the market?",
+        "answer": "Activation energy does not directly impact market volatility or hedging strategies",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.17,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the quantum mechanical behavior of electrons (physics) affect the pricing models (finance) for cis-trans isomers with differing chemical stability (chemistry)?",
+        "answer": "Quantum behavior doesn't directly influence financial pricing models",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.4,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the thermodynamic stability (physics) of cis-trans isomers (chemistry) influence their liquidity premiums and risk assessment (finance)? A. Higher stability increases liquidity premiums B. Lower stability decreases market risk C. Stability correlates with higher activation energy costs D. Stability has no impact on financial metrics?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.29,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the photochemical reaction rate (physics) of cis-trans isomerization (chemistry) impact the cost of capital (finance) for industries relying on these compounds?",
+        "answer": "No direct impact on cost of capital",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.4,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the quantum yield of cis-trans isomerization (chemistry) affect the energy efficiency (physics) and financial valuation (finance) of photochemical reactors in industrial applications? A. Higher quantum yield increases energy costs and financial risk B. Lower quantum yield reduces capital expenditure and market volatility C. Quantum yield impacts energy efficiency but not financial?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.33,
+          "finance": 0.28
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the entropy change (physics) during cis-trans isomerization (chemistry) affect the discount rate applied to investments (finance) in photochemical technologies?",
+        "answer": "Entropy change does not directly affect the discount rate",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.37,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the wavelength-dependent absorption coefficient (physics) of a photochemical reaction (chemistry) influence the break-even point (finance) for scaling up production in industrial photochemistry? A. Higher absorption increases energy costs, delaying break-even B. Lower absorption reduces efficiency, increasing financial risk C. Absorption impacts reaction rate but not financial outcomes?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.36,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_35228",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The scenario explores parallels between the London Stock Exchange's operational dynamics and chemical/physical principles, linking trading mechanisms to benzene's molecular stability, resonance energy, and satellite orbital mechanics",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange’s reliance on trust (dictum meum pactum) relate to benzene’s stability explained by valence bond theory and the reversibility of an eclipse viewed from the moon? A. Trust mirrors molecular bonds B. Stability reflects financial pledges C. Reversibility symbolizes market cycles D. All of the above",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.17,
+          "finance": 0.52
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the London Stock Exchange’s trading volume relate to benzene’s resonance energy and the gravitational pull during a lunar eclipse? A. Volume mirrors energy stability B. Resonance reflects market fluctuations C. Gravity influences trade cycles D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.2,
+          "finance": 0.49
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the London Stock Exchange's trading volume fluctuations correlate with benzene's resonance energy stability and gravitational force variations during a lunar eclipse? A. Volume mirrors energy shifts B. Resonance reflects trade stability C. Gravity impacts market trends D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.33,
+          "finance": 0.42
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the London Stock Exchange's trading algorithm efficiency relate to benzene's electron delocalization and the conservation of angular momentum during a satellite orbit adjustment? A. Algorithm mirrors electron distribution B. Delocalization reflects computational stability C. Angular momentum influences trade execution speed D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.32,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the London Stock Exchange's trading latency relate to benzene's molecular orbital symmetry and the Doppler effect during satellite velocity adjustments?",
+        "answer": "There is no direct relationship between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.32,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the London Stock Exchange's trading volume sensitivity to market shocks correlate with benzene's aromatic stability under varying temperature conditions and the impact of thermal expansion on satellite orbital mechanics? A. Volume mirrors stability shifts B. Stability reflects thermal changes C. Thermal expansion drives market trends D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.32,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the London Stock Exchange's trading algorithm adaptability relate to benzene's resonance energy and the satellite's orbital decay due to atmospheric drag? A. Algorithm mirrors energy shifts B. Resonance reflects drag impact C. Drag drives algorithm changes D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.4,
+          "finance": 0.26
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the London Stock Exchange's trading fee structure interact with benzene's electron delocalization effects and satellite propulsion efficiency under varying gravitational forces? A. Fees mirror delocalization shifts B. Delocalization impacts propulsion costs C. Gravitational forces drive fee adjustments D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.35,
+          "finance": 0.26
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the London Stock Exchange's volatility index correlate with benzene's reaction kinetics under thermal stress and the satellite's orbital velocity changes due to atmospheric friction? A. Volatility mirrors kinetic shifts B. Kinetics reflect friction impact C. Friction drives volatility trends D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.39,
+          "finance": 0.22
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_11371",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between hydrogen-helium fusion efficiency, cyclic hydrocarbon stability, and energy market impacts on investment risks and renewable energy strategies",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can nuclear fusion of hydrogen and helium impact the valuation of energy stocks if cis-trans isomerism affects fuel stability?",
+        "answer": "Potential increase in energy stock value due to enhanced fuel efficiency and stability",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.18,
+          "finance": 0.54
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the energy output from hydrogen-helium fusion reactions influence stock market trends if bond angles in fuel molecules alter reaction efficiency? A. Higher efficiency boosts tech stocks B. Lower efficiency increases renewable investments C. Fusion irrelevance leads to market stagnation D. Bond angle changes have no impact?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.24,
+          "finance": 0.47
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the angle strain in cyclic hydrocarbon fuels affect fusion reaction rates and subsequently alter investment patterns in energy sectors?",
+        "answer": "Angle strain does not directly affect fusion reaction rates or investment patterns",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.27,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the enthalpy change in hydrogen-helium fusion reactions affect the stability of cyclic hydrocarbons used as fuel and subsequently influence energy sector investment risks? A. Higher enthalpy increases stability and attracts investors B. Lower enthalpy destabilizes fuels, shifting focus to renewables C. Enthalpy changes have no impact?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.32,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the impact of bond angle strain on hydrogen-helium fusion efficiency influence investment risks in cyclic hydrocarbon-based energy technologies?",
+        "answer": "No direct impact; different scientific and investment domains",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.44,
+          "finance": 0.19
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the energy yield from hydrogen-helium fusion reactions influence cyclic hydrocarbon stability and reshape investment strategies in renewable energy technologies?",
+        "answer": "Boosts investment in fusion technology, potentially diverting funds from traditional renewables",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.33,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_12663",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The impact of financial investment on developing counterintuitive explosive compounds, optimizing exothermic reactions, and altering molecular stability during lunar eclipses through quantum tunneling and valence bond theory",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could the financial backing of a group like Hezbollah influence the development of a chemical compound using valence bond theory to create an explosive device that behaves counterintuitively during a lunar eclipse? A. By enabling faster production B. By altering its molecular stability C. Through reverse engineering D. By leveraging quantum tunneling effects",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.34,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does financial investment play in optimizing the exothermic reaction rate of a compound during a lunar eclipse, considering quantum tunneling effects?",
+        "answer": "Financial investment does not directly affect chemical reaction rates",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.37,
+          "finance": 0.22
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 3,
+        "prompt": "How does increased financial investment impact the synthesis of a compound with altered molecular stability during a lunar eclipse, considering quantum tunneling effects?",
+        "answer": "No financial investment impact on molecular stability during lunar eclipse",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.25,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How does financial investment affect the energy barrier in a chemical reaction during a lunar eclipse, considering quantum tunneling and valence bond theory?",
+        "answer": "Financial investment does not impact the energy barrier in chemical reactions",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.39,
+          "finance": 0.23
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the financial cost of altering reaction kinetics through quantum tunneling during a lunar eclipse, considering valence bond stability and energy barrier changes?",
+        "answer": "No established financial cost for such a theoretical scenario",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.41,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.79
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_86107",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between the financial valuation of a 1963 Andy Warhol painting and benzene's molecular properties, including resonance energy, electron distribution, and photochemical behavior, in relation to light scattering during celestial events",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What role does the 1963 Warhol painting's valuation play in understanding benzene's resonance energy and its impact on light scattering during a lunar eclipse? A. Financial trends predict chemical stability B. Art market dynamics reflect quantum mechanics C. Economic cycles influence photon behavior D. Valuation mirrors molecular symmetry?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.27,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the financial valuation of the 1963 Warhol painting influence the interpretation of benzene's resonance energy and its role in the scattering of light during celestial events? A. Economic valuation predicts chemical stability B. Art market trends reflect quantum interactions C. Financial cycles affect photon scattering D. Valuation symmetry mirrors molecular behavior?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.24,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the relationship between the 1963 Warhol painting's market valuation, benzene's molecular orbital energy levels, and the refraction of light during a lunar eclipse?",
+        "answer": "The 1963 Warhol painting's valuation reflects market dynamics, benzene's molecular orbitals exhibit delocalized electron energy levels, and lunar eclipse light refraction involves Earth's atmosphere bending sunlight",
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.34,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the 1963 Warhol painting's valuation affect benzene's electron distribution and its interaction with lunar eclipse light scattering? A. Financial trends alter molecular orbitals B. Art valuation predicts photon energy shifts C. Economic cycles influence chemical resonance D. Market dynamics reflect quantum light behavior?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.31,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the 1963 Warhol painting's financial appreciation rate correlate with benzene's thermodynamic stability and photon emission intensity during solar flares? A. Art valuation predicts chemical entropy B. Financial growth mirrors quantum emission C. Economic trends affect molecular stability D. Market cycles reflect solar photon behavior?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.37,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the 1963 Warhol painting's auction price influence benzene's reaction kinetics and photon absorption during high-energy cosmic events?",
+        "answer": "There is no influence or connection between them",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "chemistry": 0.42,
+          "physics": 0.37,
+          "finance": 0.21
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the 1963 Warhol painting's market liquidity impact benzene's photochemical reaction rates under varying gravitational wave frequencies? A. Financial volatility alters quantum yield B. Art valuation predicts molecular excitation C. Economic stability influences photon absorption D. Market trends reflect wave-particle duality?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.48,
+          "finance": 0.17
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_91813",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The impact of Hezbollah's funding on aromatic hydrocarbon chemistry during a lunar eclipse, considering gravitational, photochemical, and financial market influences",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might Hezbollah's funding of operations impact the valence bond theory's application to aromatic hydrocarbons during a lunar eclipse viewed from Earth? A. Increased resonance B. Decreased stability C. Unchanged properties D. Reversed orbital hybridization?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "chemistry": 0.49,
+          "physics": 0.15,
+          "finance": 0.36
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might Hezbollah's funding affect the photochemical stability of aromatic hydrocarbons during a lunar eclipse, considering Earth's gravitational pull on molecular vibration? A. Increased stability B. Decreased resonance C. Unchanged properties D. Altered orbital hybridization?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "chemistry": 0.51,
+          "physics": 0.17,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Hezbollah's funding influence the photochemical reaction rates of aromatic hydrocarbons during a lunar eclipse, considering Earth's gravitational effects on molecular energy states? A. Increased reaction rates B. Decreased reaction rates C. Unchanged rates D. Variable rates depending on orbital position?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.36,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "What financial implications arise from Hezbollah's funding affecting the photochemical stability of aromatic hydrocarbons during a lunar eclipse, considering Earth's gravitational influence on molecular energy states?",
+        "answer": "No financial implications; unrelated topics",
+        "task_type": "factual",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.43,
+          "physics": 0.19,
+          "finance": 0.38
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 5,
+        "prompt": "How might Hezbollah's funding impact the thermodynamic equilibrium of aromatic hydrocarbons during a lunar eclipse, considering Earth's gravitational effects on molecular stability? A. Shift toward products B. Shift toward reactants C. No change D. Oscillating equilibrium?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.52,
+          "physics": 0.28,
+          "finance": 0.2
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Hezbollah's funding alter the entropy changes in aromatic hydrocarbon reactions during a lunar eclipse, considering Earth's gravitational pull and financial market implications? A. Increased entropy B. Decreased entropy C. Unchanged entropy D. Variable entropy based on financial flux?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.44,
+          "physics": 0.22,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 7,
+        "prompt": "How does Hezbollah's funding influence the reaction kinetics of aromatic hydrocarbons during a lunar eclipse, considering gravitational effects on activation energy and financial market volatility? A. Increased reaction rate B. Decreased reaction rate C. Unchanged reaction rate D. Variable rate dependent on financial flux?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.31,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 8,
+        "prompt": "How might Hezbollah's funding affect the quantum tunneling rates of aromatic hydrocarbon reactions during a lunar eclipse, considering gravitational and financial market influences? A. Increased tunneling rates B. Decreased tunneling rates C. Unchanged tunneling rates D. Variable rates dependent on financial flux?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.44,
+          "physics": 0.36,
+          "finance": 0.2
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_68735",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The scenario explores how a financial organization like Hezbollah could apply chemical and physical theories to optimize encryption, resource allocation, and communication stability under lunar and solar electromagnetic conditions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could a financial organization like Hezbollah leverage the principles of valence bond theory to explain the stability of their covert communication networks during an event such as a solar eclipse viewed from the moon?",
+        "answer": "Valence bond theory is unrelated to financial networks or eclipses",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.17,
+          "finance": 0.52
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might Hezbollah use molecular orbital theory (32%) to optimize encryption protocols (44%) while accounting for electromagnetic interference during a lunar eclipse (24%)?",
+        "answer": "This scenario is not feasible or realistic in finance",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.31,
+          "finance": 0.37
+        },
+        "theme_consistency_score": 0.54
+      },
+      {
+        "turn": 3,
+        "prompt": "What financial strategies could Hezbollah use to allocate resources for developing chemical encryption methods that remain stable under lunar electromagnetic conditions?",
+        "answer": "Leverage venture capital and international grants for research funding",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.22,
+          "finance": 0.37
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How could Hezbollah balance the financial cost of synthesizing stable chemical compounds with the energy requirements for maintaining encrypted lunar communication during peak solar activity?",
+        "answer": "Hezbollah does not engage in such activities; the scenario is fictional",
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.32,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 5,
+        "prompt": "How could Hezbollah optimize the financial allocation for synthesizing compounds that exhibit stable molecular behavior under fluctuating electromagnetic fields during lunar cycles?",
+        "answer": "This question is outside the realm of finance expertise",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.44,
+          "physics": 0.24,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_26882",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between the London Stock Exchange's trading dynamics and benzene's molecular stability, alongside lunar gravitational and orbital phenomena, exploring interconnected influences across economic, chemical, and astronomical systems",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the London Stock Exchange's reliance on trust (dictum meum pactum) relate to benzene's stability via valence bond theory and the reversibility of an eclipse viewed from the moon? A. Trust stabilizes systems B. Stability is optical C. Reversibility reflects hybridization D. All systems intertwine?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.37,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the London Stock Exchange's trading volume influence benzene's resonance energy and the moon's orbital velocity? A. Volume affects stability B. Resonance impacts gravity C. Orbital velocity alters trust D. Interconnected systems?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.45,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the London Stock Exchange's trading activity influence benzene's molecular orbital energy levels and the moon's gravitational pull on Earth? A. Trading impacts orbital stability B. Molecular energy alters gravity C. Gravitational pull affects trust D. Interconnected forces at play?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.17,
+          "physics": 0.61,
+          "finance": 0.22
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the London Stock Exchange's trading volatility affect benzene's electron delocalization and the moon's tidal forces on Earth? A. Volatility impacts delocalization B. Delocalization alters tides C. Tidal forces influence trading D. Interconnected dynamics at work?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.33,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does the London Stock Exchange's trading volume play in altering benzene's molecular stability and the moon's orbital energy balance?",
+        "answer": "No impact or relation exists between them",
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.38,
+          "finance": 0.23
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the London Stock Exchange's trading momentum affect benzene's resonance energy and the moon's gravitational acceleration on Earth? A. Momentum impacts resonance B. Resonance alters gravity C. Gravity influences trading D. Interconnected effects at play?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.36,
+          "finance": 0.39
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the London Stock Exchange's trading frequency influence benzene's bond length stability and the moon's orbital velocity? A. Trading impacts bond length B. Bond length alters velocity C. Velocity affects trading D. Interconnected factors at play?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.4,
+          "finance": 0.28
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the London Stock Exchange's trading volatility impact benzene's molecular orbital energy and the moon's tidal force equilibrium?",
+        "answer": "There is no direct impact or relation",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.34,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the London Stock Exchange's trading volume affect benzene's electron distribution and the moon's gravitational pull on Earth's tides? A. Trading alters electron distribution B. Electron distribution impacts tides C. Tides influence trading D. Interconnected effects at play?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.44,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_finance_chemistry_physics_92210",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      5,
+      11
+    ],
+    "topic_description": "The interplay between Hezbollah's 1980s financial strategies, benzene's resonance energy, and gravitational lensing effects on various astrophysical observations and measurements",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How could the financial influence of Hezbollah in the 1980s, combined with valence bond theory's explanation of benzene's stability, affect the observation of a reverse eclipse from the Moon's surface?",
+        "answer": "No direct connection or impact exists between these elements",
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.21,
+          "finance": 0.38
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the financial strategies of Hezbollah in the 1980s, the resonance energy of benzene from valence bond theory, and the gravitational lensing effect influence the detection of cosmic microwave background radiation?",
+        "answer": "No direct influence on cosmic microwave background detection",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.17,
+          "physics": 0.49,
+          "finance": 0.34
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How might Hezbollah's financial strategies in the 1980s, benzene's resonance energy, and gravitational lensing affect measurements of dark matter density?",
+        "answer": "No direct financial impact or correlation exists",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.17,
+          "physics": 0.58,
+          "finance": 0.25
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How could Hezbollah's financial activities in the 1980s, benzene's resonance energy, and gravitational lensing impact the accuracy of redshift measurements?",
+        "answer": "They have no direct impact on redshift measurement accuracy",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.21,
+          "physics": 0.48,
+          "finance": 0.31
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 5,
+        "prompt": "How might Hezbollah's financial strategies, benzene's resonance energy, and gravitational lensing collectively affect the precision of baryon acoustic oscillation measurements?",
+        "answer": "No direct or significant impact on the measurements",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.44,
+          "finance": 0.27
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 6,
+        "prompt": "How could Hezbollah's financial strategies, benzene's resonance energy, and gravitational lensing together influence the detection thresholds for cosmic microwave background radiation anomalies?",
+        "answer": "No direct influence or connection exists between these topics",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "chemistry": 0.21,
+          "physics": 0.49,
+          "finance": 0.3
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  }
+]

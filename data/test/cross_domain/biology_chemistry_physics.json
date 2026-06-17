@@ -1,0 +1,706 @@
+[
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_36368",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The interplay between benzene's π-electron delocalization (chemistry), mitochondrial bioenergetics (biology), and physical factors like quantum tunneling and electromagnetic fields in influencing cellular energy dynamics and adaptability",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.429,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the hybridization of carbon atoms in aromatic molecules like benzene relate to the energy levels of electrons, and how might this affect the processing of mRNA in eukaryotic cells during transcription? A. sp3 hybridization stabilizes electron energy, enhancing mRNA processing B. sp2 hybridization creates delocalized electrons, indirectly influencing mRNA processing C. sp hybridization increases electron localization, hindering mRNA processing D. No hybridization?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.39,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the resonance energy of benzene (chemistry) affect electron transport in mitochondria (biology), and what role does quantum tunneling (physics) play in this process? A. Resonance stabilizes electrons, enhancing transport B. Quantum tunneling bypasses energy barriers C. Both effects work synergistically D. Neither effect is significant?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.32,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the interaction between benzene's π-electron delocalization (chemistry) and mitochondrial proton gradients (biology) influence ATP synthesis rates under varying thermal conditions (physics)? A. Delocalization enhances gradient stability, increasing ATP synthesis B. Thermal fluctuations disrupt gradients, reducing ATP synthesis C. Both effects balance to optimize ATP production D. Neither effect impacts ATP synthesis significantly?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.27,
+          "biology": 0.39
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between benzene's electron delocalization (chemistry), mitochondrial energy transduction efficiency (biology), and quantum decoherence rates (physics) affect cellular thermodynamics under non-equilibrium conditions? A. Delocalization enhances efficiency, stabilizing thermodynamics B. Decoherence disrupts energy transduction, destabilizing thermodynamics C. Both effects balance to optimize thermodynamic stability D. Neither effect significantly impacts cellular thermodynamics?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.3,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the role of benzene's π-electron delocalization (chemistry) in modulating mitochondrial redox signaling (biology) depend on thermal conductivity variations within cellular environments (physics)?",
+        "answer": "No known direct relationship between these factors in current scientific literature",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.23,
+          "biology": 0.38
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How does benzene's π-electron delocalization (chemistry) affect mitochondrial membrane potential stability (biology) under varying electromagnetic field exposures (physics)? A. Delocalization stabilizes potential, resisting field effects B. Fields disrupt potential, overriding delocalization benefits C. Both factors synergize to maintain membrane stability D. Neither factor significantly impacts membrane potential?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.2,
+          "biology": 0.43
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the interaction between electromagnetic wave absorption (physics), benzene ring resonance effects (chemistry), and mitochondrial oxidative phosphorylation rates (biology) influence cellular energy distribution under fluctuating environmental conditions? A. Absorption dominates energy distribution B. Resonance effects stabilize distribution C. Oxidative phosphorylation overrides factors D. All factors integrate to balance energy distribution?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.32,
+          "biology": 0.41
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the interplay between electromagnetic wave scattering (physics), aromatic compound resonance (chemistry), and mitochondrial enzyme kinetics (biology) affect cellular adaptability under extreme environmental stress?",
+        "answer": "No known direct correlation between these factors and cellular adaptability",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.28,
+          "biology": 0.44
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_53264",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The interplay between benzene's chemical properties and biological light absorption processes, and their combined effects on optical phenomena in astronomy and physics",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the hybridization of carbon atoms in aromatic molecules like benzene relate to the energy levels of electrons, and how might this affect the observation of an eclipse from the moon's surface? A. sp3 hybridization causes higher electron energy, reversing the eclipse B. sp2 hybridization stabilizes electron energy, making the eclipse appear normal C. sp hybridization lowers electron energy, dimming the eclipse D. No hybridization impact,?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.47,
+          "physics": 0.3,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the resonance energy of benzene (chemistry) affect electron transport in photosynthesis (biology), and how might this influence light refraction during a lunar eclipse (physics)? A. Increases efficiency, enhancing brightness B. Decreases efficiency, dimming light C. No effect on transport or refraction D. Reverses light polarity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.34,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the delocalization of π-electrons in benzene (chemistry) influence the rate of ATP synthesis in chloroplasts (biology), and how might this alter the diffraction pattern of light during a solar eclipse (physics)? A. Enhances ATP synthesis, sharpening diffraction B. Reduces ATP synthesis, blurring diffraction C. No impact on ATP or diffraction D. Reverses diffraction polarity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.34,
+          "biology": 0.35
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the stability of benzene's π-electron system (chemistry) affect the efficiency of light absorption in chloroplasts (biology), and how might this influence the interference patterns of light during a planetary transit (physics)? A. Increases absorption, enhancing interference B. Decreases absorption, reducing interference C. No effect on absorption or interference D. Reverses interference pattern?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.32,
+          "biology": 0.46
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the interaction between benzene's aromaticity (chemistry) and chlorophyll's light absorption (biology) influence the polarization of scattered light during atmospheric refraction (physics)? A. Enhances polarization, increasing clarity B. Reduces polarization, causing blurring C. No effect on polarization or refraction D. Reverses polarization direction?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.35,
+          "biology": 0.37
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the resonance energy of benzene (chemistry) affect the vibrational modes of chlorophyll (biology), and what implications does this have for the coherence length of light in optical cavities (physics)? A. Increases vibrational modes, extending coherence B. Decreases vibrational modes, shortening coherence C. No effect on modes or coherence D. Reverses coherence direction?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.35,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_13218",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The scenario explores how benzene's resonance energy and sp2 hybridization influence photon interactions during lunar eclipses, affecting fern physiology, including photosynthesis, cell membrane properties, and thermal conductivity",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.444,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sp2 hybridization of carbon atoms in benzene relate to the energy transfer during an eclipse viewed from the moon's surface and its impact on fern growth? A. It increases photosynthesis B. It decreases molecular stability C. It reverses orbital dynamics D. It enhances aromaticity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.39,
+          "physics": 0.39,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does the resonance energy of benzene's sp2 hybridized carbons play in influencing electromagnetic wave absorption during lunar eclipses and its effect on fern cell membrane permeability?",
+        "answer": "There is no scientific connection between these phenomena",
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.43,
+          "biology": 0.33
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the resonance energy of benzene's sp2 hybridized carbons affect electromagnetic wave scattering during lunar eclipses and its influence on fern cell turgor pressure? A. Increases turgor B. Decreases turgor C. Stabilizes turgor D. No effect?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.42,
+          "physics": 0.28,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the resonance energy of benzene's sp2 hybridized carbons influence photon momentum transfer during lunar eclipses and its effect on fern chlorophyll absorption efficiency? A. Increases efficiency B. Decreases efficiency C. Stabilizes efficiency D. No effect?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.46,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the resonance energy of benzene's sp2 hybridized carbons affect photon-induced molecular vibration during lunar eclipses and its impact on fern cell wall elasticity? A. Increases elasticity B. Decreases elasticity C. Stabilizes elasticity D. No effect?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.39,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the resonance energy of benzene's sp2 hybridized carbons influence photon-induced molecular vibration during lunar eclipses and its effect on fern cell membrane potential? A. Increases potential B. Decreases potential C. Stabilizes potential D. No effect?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.35,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 7,
+        "prompt": "What role does the resonance energy of benzene's sp2 hybridized carbons play in modulating photon-induced electron transfer during lunar eclipses and its impact on fern photosystem II efficiency?",
+        "answer": "There is no scientific connection between these phenomena",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.26,
+          "biology": 0.36
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the resonance energy of benzene's sp2 hybridized carbons influence photon-induced molecular vibration during lunar eclipses and its effect on the thermal conductivity of fern cell walls? A. Increases conductivity B. Decreases conductivity C. Stabilizes conductivity D. No effect?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.37,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the interplay between benzene's resonance energy, photon-induced molecular vibration during lunar eclipses, and thermal conductivity affect fern cell membrane fluidity? A. Increases fluidity B. Decreases fluidity C. Stabilizes fluidity D. No effect?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.23,
+          "biology": 0.41
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 10,
+        "prompt": "How does the interplay between photon-induced molecular vibration, thermal conductivity changes, and electron transfer efficiency during lunar eclipses influence fern cell wall elasticity and photosystem II stability? A. Increases elasticity and stabilizes photosystem II B. Decreases elasticity and destabilizes photosystem II C. Stabilizes both elasticity and photosystem II D. No significant effect on either property?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.4,
+          "biology": 0.4
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_64725",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The scenario explores cross-domain principles of energy dynamics, stability, and optimization across chemistry, biology, and physics, focusing on benzene's resonance, mRNA processing, and lunar eclipse phenomena",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the valence bond theory explanation of benzene's stability relate to the energy dynamics of an eclipse viewed from the moon and the role of mRNA processing in eukaryotic cells? A. Benzene's stability mirrors the reversibility of the eclipse while mRNA processing parallels sp2 hybridization B. The eclipse's reverse dynamics reflect prokaryotic transcription, unlike benzene's resonance C. Benzene’s aromaticity involves delocal?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.45,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the interplay between mRNA splicing efficiency, benzene's electron delocalization, and lunar eclipse light refraction illustrate cross-domain energy optimization principles?",
+        "answer": "No direct relationship exists between these concepts",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.32,
+          "biology": 0.37
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the energy transfer in mRNA splicing, benzene's resonance stabilization, and light refraction during a lunar eclipse demonstrate principles of thermodynamic efficiency across biology, chemistry, and physics? A. Splicing minimizes entropy like resonance B. Refraction parallels hybridization C. All optimize energy pathways D. None exhibit thermodynamic overlap?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.34,
+          "biology": 0.35
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between mRNA splicing kinetics, benzene's resonance energy, and light diffraction during a lunar eclipse demonstrate principles of wave-particle duality and energy conservation? A. Splicing mirrors quantum behavior B. Resonance parallels wave interference C. Diffraction reflects particle dynamics D. All illustrate cross-domain energy principles?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.53,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of hydrogen bonding in stabilizing mRNA secondary structures, influencing benzene's solubility in water, and affecting light polarization during a lunar eclipse?",
+        "answer": "Hydrogen bonding stabilizes mRNA structures; does not affect benzene solubility or light polarization",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.32,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_24149",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The interplay of biology, chemistry, and physics in enzymatic reactions, focusing on energy transfer, conformational dynamics, and molecular interactions that govern reaction efficiency and specificity",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do enzymes, as biological catalysts, affect the rate of biochemical reactions while conserving energy and momentum during molecular collisions?",
+        "answer": "Enzymes lower activation energy, increasing reaction rates without additional energy",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.43,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the interplay between enzyme conformational changes (biology), reaction thermodynamics (chemistry), and energy transfer mechanisms (physics) influence the efficiency of enzymatic reactions?",
+        "answer": "Enzyme flexibility optimizes substrate binding and energy utilization, enhancing reaction speed and efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.38,
+          "physics": 0.32,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "What role do hydrogen bonds (chemistry) play in stabilizing enzyme-substrate interactions (biology) while minimizing energy loss due to thermal motion (physics)?",
+        "answer": "Hydrogen bonds stabilize enzyme-substrate interactions by reducing thermal motion energy loss",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.24,
+          "biology": 0.39
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the pH-dependent ionization of amino acid residues (chemistry) affect enzyme flexibility (biology) and the propagation of vibrational energy through the protein structure (physics)?",
+        "answer": "Ionization alters residue charge, affecting flexibility and vibrational energy transmission",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.24,
+          "biology": 0.4
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the interplay between protein folding dynamics (biology), solvent polarity effects (chemistry), and quantum mechanical tunneling (physics) impact enzymatic reaction rates?",
+        "answer": "Protein folding and solvent polarity optimize enzyme structure, enhancing tunneling and reaction rates",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.34,
+          "biology": 0.37
+        },
+        "theme_consistency_score": 0.57
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_biology_chemistry_physics_38653",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11
+    ],
+    "topic_description": "The role of enzyme-like catalysts in hydrogen-helium fusion within stellar cores, examining their influence on reaction kinetics, thermodynamics, quantum tunneling, plasma properties, and energy barriers",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.222,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do enzymes, as biological catalysts, facilitate biochemical reactions involving hydrogen and helium in nuclear fusion processes within stars?",
+        "answer": "Enzymes do not facilitate nuclear fusion in stars",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.43,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do the principles of enzyme kinetics, reaction thermodynamics, and quantum mechanics collectively explain the rate of hydrogen-helium fusion in stellar cores?",
+        "answer": "This question is outside the scope of biology; it pertains to astrophysics",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.49,
+          "biology": 0.16
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "What role do enzyme-like catalysts play in regulating the thermodynamic efficiency of hydrogen-helium fusion, considering quantum tunneling effects and reaction kinetics?",
+        "answer": "Enzyme-like catalysts do not regulate hydrogen-helium fusion processes",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.47,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the impact of enzyme-like catalysts on the entropy changes during hydrogen-helium fusion, considering quantum tunneling and reaction thermodynamics?",
+        "answer": "Enzyme-like catalysts do not affect hydrogen-helium fusion processes",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.66,
+          "biology": 0.09
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of enzyme-like catalysts in modulating the energy barrier of hydrogen-helium fusion, considering quantum tunneling probabilities and thermodynamic stability?",
+        "answer": "Enzyme-like catalysts do not influence hydrogen-helium fusion in biology",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.45,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the interplay between enzyme-like catalysts, reaction kinetics, and quantum tunneling probabilities affect the rate of hydrogen-helium fusion in a high-pressure plasma environment? A. Catalysts decrease the energy barrier, enhancing tunneling probabilities B. Catalysts increase entropy, reducing fusion rates C. Catalysts stabilize plasma, indirectly increasing fusion efficiency D. Catalysts have no significant effect on fusion rates?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.5,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 7,
+        "prompt": "How do enzyme-like catalysts influence the thermodynamic equilibrium of hydrogen-helium fusion in a plasma, considering biochemical reaction mechanisms, chemical bond energies, and plasma confinement physics?",
+        "answer": "Enzyme-like catalysts do not affect hydrogen-helium fusion thermodynamics",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.53,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 8,
+        "prompt": "How do enzyme-like catalysts affect the quantum tunneling probability of hydrogen-helium fusion in a plasma, considering biochemical reaction mechanisms, chemical bond energies, and thermodynamic stability?",
+        "answer": "Enzyme-like catalysts do not affect hydrogen-helium fusion in plasma",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.36,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the effect of enzyme-like catalysts on the plasma's magnetic confinement stability, considering biochemical reaction rates, chemical bond dissociation energies, and Lorentz force interactions?",
+        "answer": "Enzyme-like catalysts have no direct effect on plasma's magnetic confinement stability",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.47,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 10,
+        "prompt": "What is the impact of enzyme-like catalysts on the plasma's thermal conductivity, considering biochemical reaction pathways, chemical bond vibrations, and heat transfer physics?",
+        "answer": "Enzyme-like catalysts can increase plasma's thermal conductivity by enhancing molecular interactions",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.42,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  }
+]

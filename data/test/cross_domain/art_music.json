@@ -1,0 +1,334 @@
+[
+  {
+    "scenario_id": "cross_art_music_46543",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "music"
+    ],
+    "cross_domain_id": [
+      0,
+      9
+    ],
+    "topic_description": "The integration of iconic sculptural poses and classical musical leitmotifs in ballet productions, exploring the synthesis of artistic and musical influences across various works",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which ballet production features both a famous sculpture-inspired pose and Tchaikovsky's iconic score?",
+        "answer": [
+          "Swan Lake",
+          "The Sleeping Beauty",
+          "\"The Dying Swan\" features a sculpture-inspired pose and Tchaikovsky's score"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Which ballet features a pose inspired by Rodin's sculpture and a leitmotif from Tchaikovsky's score?",
+        "answer": [
+          "The Dying Swan",
+          "The Sleeping Beauty",
+          "The Dying Swan features Rodin's pose and Tchaikovsky's leitmotif"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 3,
+        "prompt": "Which ballet integrates a pose echoing Michelangelo's \"David\" and a leitmotif from Tchaikovsky's \"The Nutcracker,\" requiring synthesis of sculptural and musical influences?",
+        "answer": [
+          "Balanchine's \"Apollo\"",
+          "Matthew Bourne's Nutcracker",
+          "\"George Balanchine's 'The Nutcracker'\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "Which ballet integrates a pose inspired by Degas' dancers and a leitmotif from Stravinsky's \"The Firebird,\" requiring synthesis of artistic and musical elements?",
+        "answer": [
+          "The Rite of Spring Ballet",
+          "An American in Paris",
+          "\"Firebird Degas Ballet\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_music_60240",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "music"
+    ],
+    "cross_domain_id": [
+      0,
+      9
+    ],
+    "topic_description": "The interdisciplinary influence of Darcey Bussell’s ballet artistry on visual and musical elements, exploring her impact on choreography, design, and audience perception through integration of artistic principles",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Darcey Bussell’s performances inspire both visual art and musical compositions?",
+        "answer": [
+          "Elegance and emotion inspired artists and composers",
+          "Her movement inspired portraits, sculptures, and songs",
+          "Darcey Bussell inspired art and music through her dynamic performances"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Darcey Bussell influence ballet art and music?",
+        "answer": [
+          "Elevated ballet's global prominence and appeal",
+          "Her athletic artistry inspired new choreographic works",
+          "Elevated ballet artistry, inspired musical collaborations"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "music": 0.28,
+          "art": 0.72
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Darcey Bussell’s influence on ballet lighting design intersect with her impact on musical tempo adjustments in performances?",
+        "answer": [
+          "No significant documented impact",
+          "No documented intersection exists",
+          "Enhanced visual-temporal harmony in performances"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Darcey Bussell’s integration of visual art principles in ballet staging influence musical expression and audience perception?",
+        "answer": [
+          "Enhanced emotional engagement and immersion",
+          "Her physical artistry amplified musical expression",
+          "Enhanced emotional depth and visual-musical harmony"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "music": 0.38,
+          "art": 0.62
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Darcey Bussell’s integration of visual rhythm and kinetic phrasing redefine musical interpretation in choreography?",
+        "answer": [
+          "Elevated expressive synchronization with music",
+          "She made music's phrasing physically visible",
+          "Visual rhythm and kinetic phrasing unified music and movement"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "music": 0.38,
+          "art": 0.62
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 6,
+        "prompt": "How can the interplay between visual harmony in ballet staging and polyphonic textures in accompanying music enhance emotional resonance?",
+        "answer": [
+          "Enhances emotional depth and engagement",
+          "Creating a rich, multi-sensory emotional counterpoint",
+          "Visual harmony and polyphonic textures amplify emotional depth through unified artistic expression"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "music": 0.47,
+          "art": 0.53
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_music_90860",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "music"
+    ],
+    "cross_domain_id": [
+      0,
+      9
+    ],
+    "topic_description": "The interplay between Michelangelo’s Sistine Chapel artistry and Tchaikovsky’s musical compositions, exploring visual, thematic, and technical influences across ballets, symphonies, and operas",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Michelangelo's Sistine Chapel influence the visual themes in Tchaikovsky's ballet productions?",
+        "answer": [
+          "No direct influence; different art forms",
+          "There is no documented visual influence",
+          "Michelangelo's Sistine Chapel inspires Tchaikovsky's ballet themes through dramatic expression and divine imagery"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "music": 0.42,
+          "art": 0.58
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Michelangelo's use of color in the Sistine Chapel influence the costume design in Tchaikovsky's ballets?",
+        "answer": [
+          "No direct influence exists",
+          "There is no documented influence",
+          "Michelangelo's vibrant hues inspire Tchaikovsky's ballet costumes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "music": 0.32,
+          "art": 0.68
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Michelangelo’s use of dynamic forms in the Sistine Chapel ceiling influence Tchaikovsky’s tempo choices in his ballet scores?",
+        "answer": [
+          "No direct influence exists",
+          "There is no direct influence",
+          "Dynamic forms inspire rhythmic tempo shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Michelangelo’s use of foreshortening in the Sistine Chapel influence the orchestration techniques in Tchaikovsky’s symphonies?",
+        "answer": [
+          "No influence or connection exists",
+          "There is no documented influence",
+          "Foreshortening inspires dynamic spatial orchestration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "music": 0.38,
+          "art": 0.62
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Michelangelo’s manipulation of chiaroscuro in the Sistine Chapel frescoes parallel Tchaikovsky’s strategic use of crescendos and diminuendos to evoke emotional depth and spatial dynamics?",
+        "answer": [
+          "Both enhance emotional and spatial perception",
+          "Both use dynamic contrast for emotional, spatial drama",
+          "Light and sound shape emotion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Michelangelo’s use of dynamic poses in the Sistine Chapel frescoes influence Tchaikovsky’s rhythmic phrasing in his symphonies?",
+        "answer": [
+          "No direct influence established",
+          "There is no such documented influence",
+          "Dynamic poses inspire rhythmic intensity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 7,
+        "prompt": "How does Michelangelo’s use of color symbolism in the Sistine Chapel frescoes correspond to Tchaikovsky’s use of leitmotifs in his operas?",
+        "answer": [
+          "Both use thematic representation in art",
+          "Both use recurring symbols to convey meaning",
+          "Color and melody guide emotion and meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "music": 0.45,
+          "art": 0.55
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  }
+]

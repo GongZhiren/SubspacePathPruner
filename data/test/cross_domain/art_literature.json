@@ -1,0 +1,634 @@
+[
+  {
+    "scenario_id": "cross_art_literature_79632",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "Daniele’s animal paintings mirror bildungsroman travel narratives through color, chiaroscuro, and allegory, reflecting emotional transitions, foreshadowing, and themes of moral or psychological transformation",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do Daniele's use of color palettes in animal paintings parallel the symbolic motifs in bildungsroman travel narratives?",
+        "answer": [
+          "Expresses emotional growth through nature",
+          "Chromatic progression reflects the protagonist's spiritual growth",
+          "Vivid hues mirror emotional growth journeys"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.5,
+          "art": 0.5
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Daniele’s use of warm colors in animal paintings reflect the emotional transitions in bildungsroman narratives?",
+        "answer": [
+          "Evokes growth through emotional warmth",
+          "Evoking passion and burgeoning self-awareness",
+          "Warm colors symbolize growth and emotional shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.55,
+          "art": 0.45
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Daniele’s application of chiaroscuro in animal paintings parallel the structural use of foreshadowing in bildungsroman narratives?",
+        "answer": [
+          "Both create anticipatory contrast and depth",
+          "Revealing nascent form through dramatic contrast",
+          "Chiaroscuro and foreshadowing both build depth through contrast"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.51,
+          "art": 0.49
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Daniele’s application of chiaroscuro and cross-hatching in animal paintings parallel the use of allegory in bildungsroman literature to convey moral or psychological transformation?",
+        "answer": [
+          "Both illustrate internal change visually and symbolically",
+          "Both map internal journeys onto external forms",
+          "Chiaroscuro and allegory both reveal inner change"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "literature": 0.57,
+          "art": 0.43
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Daniele’s application of chiaroscuro and allegorical symbolism in animal paintings reflect bildungsroman themes of transformation?",
+        "answer": [
+          "Illuminates growth through visual contrasts",
+          "Chiaroscuro illuminates the symbolic journey to maturity",
+          "Chiaroscuro and allegory depict growth through contrast and meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.53,
+          "art": 0.47
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_literature_66110",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "Daniele’s animal paintings are analyzed for their symbolic and technical parallels to narrative techniques and themes in travel-focused personal growth stories, bildungsroman literature, Gothic foreshadowing, Romantic duality, and Shakespearean tragedy",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do Daniele's animal paintings reflect the narrative style of young writers' travel-focused personal growth stories?",
+        "answer": [
+          "Captures essence of exploration and discovery",
+          "Through allegorical journeys of self-discovery",
+          "Animal journeys mirror young writers' growth tales"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.55,
+          "art": 0.45
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Daniele's use of color symbolism in animal paintings parallel the emotional undertones in coming-of-age travel literature?",
+        "answer": [
+          "Expresses emotional growth through nature's palette",
+          "Colors map the journey from innocence to experience",
+          "Vivid hues mirror emotional growth journeys"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.55,
+          "art": 0.45
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Daniele's application of chiaroscuro and anthropomorphism in animal paintings parallel the symbolic use of metaphor in bildungsroman travel narratives?",
+        "answer": [
+          "Both explore thematic growth and transformation",
+          "Symbolizing inner growth through external journeys",
+          "Chiaroscuro and anthropomorphism mirror metaphorical growth journeys"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.59,
+          "art": 0.41
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Daniele’s use of perspective in animal compositions reflect narrative techniques in bildungsroman literature?",
+        "answer": [
+          "Perspective emphasizes individual growth and change",
+          "It charts the protagonist's psychological development",
+          "Perspective mirrors growth stages in both art and narrative"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.58,
+          "art": 0.42
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Daniele’s use of color symbolism in animal paintings correspond to themes of transformation in bildungsroman literature?",
+        "answer": [
+          "Colors reflect emotional and psychological growth",
+          "Colors symbolize stages of psychological development",
+          "Color symbolism mirrors transformation themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.57,
+          "art": 0.43
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Daniele’s strategic chiaroscuro in animal portraiture symbolize the Romantic duality of human nature through interplay of light and shadow?",
+        "answer": [
+          "Illuminates inner conflict and complexity",
+          "Illuminating the conflict between reason and instinct",
+          "Chiaroscuro reflects duality through shadow and light"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.37,
+          "art": 0.63
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_literature_87255",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "The interplay of light and darkness in Caravaggio’s chiaroscuro mirrors Shakespeare’s thematic exploration of guilt, redemption, and moral ambiguity in *Macbeth*, highlighting psychological tension and symbolic parallels between visual art and literature",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the use of chiaroscuro in Caravaggio's paintings reflect the dramatic tension found in Shakespearean tragedies?",
+        "answer": [
+          "Enhances emotional and visual contrast",
+          "It spotlights intense emotional and moral conflict",
+          "Chiaroscuro mirrors Shakespearean tension through stark contrasts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.54,
+          "art": 0.46
+        },
+        "theme_consistency_score": 0.48
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Caravaggio's use of chiaroscuro parallel the themes of light and darkness in Shakespeare’s Macbeth?",
+        "answer": [
+          "Contrasts moral ambiguity and fate",
+          "Both depict a stark moral conflict",
+          "Chiaroscuro mirrors Macbeth's moral ambiguity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.52,
+          "art": 0.48
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Caravaggio’s use of chiaroscuro enhance the symbolic interplay of guilt and redemption in *Macbeth*?",
+        "answer": [
+          "Caravaggio did not paint Macbeth",
+          "Caravaggio did not illustrate *Macbeth*",
+          "Chiaroscuro mirrors Macbeth’s moral shadows"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.38,
+          "art": 0.62
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Caravaggio’s use of chiaroscuro in Baroque painting symbolically parallel the theme of moral ambiguity in *Macbeth*?",
+        "answer": [
+          "Contrasting light reveals hidden dualities",
+          "Stark light and shadow symbolize moral conflict",
+          "Chiaroscuro mirrors moral ambiguity through shadow and light"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.57,
+          "art": 0.43
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Caravaggio’s chiaroscuro technique in *Judith Beheading Holofernes* reflect the moral ambiguity and psychological tension central to Shakespeare’s *Macbeth*?",
+        "answer": [
+          "Dramatizes tension through light and shadow",
+          "Extreme light and dark amplify psychological, moral conflict",
+          "Chiaroscuro mirrors Macbeth's moral and psychological conflict"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.41,
+          "art": 0.59
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Caravaggio’s chiaroscuro in *Judith Beheading Holofernes* symbolically parallel Shakespeare’s use of soliloquy to depict moral conflict in *Macbeth*?",
+        "answer": [
+          "Illuminating internal struggle visually and verbally",
+          "Isolating and illuminating internal moral conflict",
+          "Chiaroscuro and soliloquy both reveal inner turmoil"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.44,
+          "art": 0.56
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 7,
+        "prompt": "How does Caravaggio’s use of chiaroscuro in *Judith Beheading Holofernes* relate to Shakespeare’s exploration of guilt in *Macbeth*?",
+        "answer": [
+          "Both intensify dramatic tension and emotion",
+          "Both use dramatic contrast to reveal moral darkness",
+          "Chiaroscuro mirrors Macbeth’s guilt through shadow and light"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.37,
+          "art": 0.63
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 8,
+        "prompt": "How does Caravaggio’s use of chiaroscuro in *Judith Beheading Holofernes* parallel the thematic progression of guilt and redemption in Shakespeare’s *Macbeth*?",
+        "answer": [
+          "Contrasting light highlights moral conflict",
+          "Stark contrast mirrors the moral, psychological conflict",
+          "Chiaroscuro mirrors Macbeth’s guilt and redemption arc"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.44,
+          "art": 0.56
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 9,
+        "prompt": "How does Caravaggio’s use of chiaroscuro in *Judith Beheading Holofernes* influence the portrayal of moral ambiguity in Shakespeare’s tragic heroes?",
+        "answer": [
+          "No direct influence; different artistic mediums",
+          "Caravaggio's work did not influence Shakespeare",
+          "Chiaroscuro’s tension mirrors Shakespeare’s flawed heroes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.38,
+          "art": 0.62
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_literature_40310",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "The interplay between Daniele's animal-focused paintings and literary techniques, exploring how visual elements reflect narrative structures, metaphors, and traditions across various literary genres and periods",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do Daniele's animal-focused paintings visually echo the narrative structure of coming-of-age travel stories in literature?",
+        "answer": [
+          "Depicts growth through symbolic animal journeys",
+          "Solitary animals journey through vast, symbolic landscapes",
+          "Journeying animals mirror growth and discovery"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.61,
+          "art": 0.39
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Daniele's textural layering in animal paintings symbolically mirror bildungsroman literary devices, particularly metaphor or symbolism?",
+        "answer": [
+          "Depicts growth through evolving visual complexity",
+          "Layers represent accumulated experience and growth",
+          "Textural layering mirrors bildungsroman symbolism through evolving complexity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "literature": 0.56,
+          "art": 0.44
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Daniele’s use of asymmetrical balance in animal compositions reflect the unreliable narrator trope in postmodern literature?",
+        "answer": [
+          "Mirrors narrative uncertainty and complexity",
+          "Visual instability mirrors narrative unreliability",
+          "Asymmetrical balance mirrors unreliable narration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.54,
+          "art": 0.46
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Daniele’s use of symbolic coloration in animal paintings reflect the interplay between visual semiotics and medieval allegorical traditions?",
+        "answer": [
+          "Symbolizes moral and spiritual concepts",
+          "Symbolic colors codify medieval allegorical meanings",
+          "Symbolic hues echo medieval allegory"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.35,
+          "art": 0.65
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_literature_68503",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "Daniele’s art explores themes of transformation, duality, and subconscious expression, drawing parallels between his techniques and literary motifs in works by Kafka, Eliot, Joyce, Dostoevsky, and Nabokov",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do Daniele's animal paintings reflect the personal growth themes found in young writers' travel stories?",
+        "answer": [
+          "Symbolic representation of emotional exploration",
+          "Through metaphors of journey and transformation",
+          "Daniele's animal paintings mirror young writers' travel stories through shared themes of personal growth and transformation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "literature": 0.49,
+          "art": 0.51
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Daniele’s use of animal symbolism in art align with the portrayal of transformation in Kafka’s *The Metamorphosis*?",
+        "answer": [
+          "Both explore themes of alienation and transformation",
+          "Both symbolize alienation through physical transformation",
+          "Animal symbolism mirrors transformation struggles"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.59,
+          "art": 0.41
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Daniele’s depiction of fragmented forms in his surrealist art parallel the disjointed narrative structure in Eliot’s *The Waste Land*?",
+        "answer": [
+          "Both explore thematic disintegration",
+          "Both reflect post-war cultural fragmentation",
+          "Fragmented forms mirror disjointed narrative"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "literature": 0.56,
+          "art": 0.44
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Daniele’s use of automatic drawing in surrealist works parallel Joyce’s stream-of-consciousness technique in *Ulysses*, and what role does subconscious expression play in both?",
+        "answer": [
+          "Both explore subconscious spontaneity",
+          "Bypassing conscious control to express the subconscious",
+          "Subconscious expression drives both automatic drawing and stream-of-consciousness"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.5,
+          "art": 0.5
+        },
+        "theme_consistency_score": 0.58
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_literature_88797",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "literature"
+    ],
+    "cross_domain_id": [
+      0,
+      7
+    ],
+    "topic_description": "Daniele's chiaroscuro animal paintings mirror the emotional depth, transformation, and thematic progression of bildungsroman literature, reflecting personal growth narratives through visual symbolism and compositional parallels",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Daniele's use of chiaroscuro in animal paintings parallel the emotional depth in bildungsroman literature?",
+        "answer": [
+          "Enhances emotional complexity and depth",
+          "It dramatizes the journey from innocence to experience",
+          "Chiaroscuro evokes growth and emotional depth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.52,
+          "art": 0.48
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Daniele's use of chiaroscuro in animal paintings evoke themes of transformation central to bildungsroman literature?",
+        "answer": [
+          "Highlights growth through light and shadow contrasts",
+          "Highlighting the transition from shadow to self-knowledge",
+          "Chiaroscuro highlights growth and change"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.57,
+          "art": 0.43
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Daniele's use of chiaroscuro in animal paintings symbolize the thematic progression typical of bildungsroman narratives?",
+        "answer": [
+          "Highlights growth through light and shadow contrasts",
+          "It contrasts innocence (dark) with experience (light)",
+          "Chiaroscuro reflects growth and transformation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.56,
+          "art": 0.44
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "Which literary work’s theme of transformation is visually echoed in Daniele’s chiaroscuro animal paintings, and how does the artwork’s composition reflect the narrative structure of this work?",
+        "answer": [
+          "Ovid's Metamorphoses; narrative parallels transformation",
+          "Ovid's *Metamorphoses*; a continuous narrative composition",
+          "\"Metamorphosis themes echo in chiaroscuro compositions.\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.54,
+          "art": 0.46
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  }
+]

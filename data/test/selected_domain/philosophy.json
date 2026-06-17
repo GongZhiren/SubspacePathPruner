@@ -1,0 +1,807 @@
+[
+  {
+    "scenario_id": "philosophy_69201",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "An exploration of Kemalism's six principles, focusing on their roles in shaping modern Turkey's socio-political framework, including secularism, nationalism, populism, and state intervention",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Kemalism, modern Turkey's foundational six-principled socio-political philosophy, is also called the Six?",
+        "answer": [
+          "Six Arrows",
+          "The Six Arrows"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which principle of Kemalism emphasizes secularism and limits religious influence in governance? A. Republicanism B. Secularism C. Populism D. Nationalism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which principle of Kemalism prioritizes rationality and scientific thinking over traditional beliefs? A. Reformism B. Secularism C. Statism D. Revolutionism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which principle of Kemalism promotes equality and opposes class distinctions? A. Populism B. Secularism C. Nationalism D. Statism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which principle of Kemalism emphasizes the importance of a nation's cultural and historical identity? A. Nationalism B. Populism C. Secularism D. Statism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which principle of Kemalism could justify state intervention in economic affairs? A. Populism B. Statism C. Secularism D. Nationalism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which principle of Kemalism could be seen as a response to external cultural influences? A. Nationalism B. Secularism C. Populism D. Revolutionism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which principle of Kemalism might conflict with individual freedoms in a democratic society? A. Nationalism B. Secularism C. Populism D. Statism?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which principle of Kemalism could challenge traditional religious institutions? A. Secularism B. Populism C. Nationalism D. Statism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_27498",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "The scenario explores the characteristics, values, and decision-making traits of individuals who embody rationality, logic, and philosophical virtues, focusing on their approach to truth, morality, and reasoning",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When someone isn't ridiculous at all they are what? A. straightforward B. serious C. sad D. somber E. solemn?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "When someone isn't ridiculous at all, what trait do they exhibit most? A. Rationality B. Humor C. Emotion D. Creativity E. Spontaneity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "When someone isn't ridiculous at all, what do they prioritize in decision-making? A. Emotion B. Logic C. Tradition D. Creativity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "When someone isn't ridiculous at all, what guides their understanding of truth? A. Perception B. Emotion C. Logic D. Tradition?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "When evaluating moral actions, what do non-ridiculous people value most? A. Consequences B. Intentions C. Rules D. Emotions?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_70472",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "Exploring the characteristics and priorities of individuals who embody seriousness, solemnity, or straightforwardness, focusing on traits that contrast with being ridiculous or sad",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When someone isn't ridiculous at all they are what? A. straightforward B. serious C. sad D. somber E. solemn?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "When someone is neither ridiculous nor sad, what might they exemplify? A. seriousness B. solemnity C. straightforwardness D. indifference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "When someone is neither ridiculous nor sad, what might they demonstrate? A. seriousness B. solemnity C. straightforwardness D. indifference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "When someone is neither ridiculous nor sad, what might they prioritize? A. seriousness B. solemnity C. straightforwardness D. indifference?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "When someone is neither ridiculous nor sad, what might they ultimately seek? A. seriousness B. solemnity C. straightforwardness D. indifference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_65732",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "A flower's introspection on its beauty, purpose, and existential significance reveals the interplay between attraction, questioning, and detachment in shaping its understanding of survival and fulfillment",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What might a flower consider its purpose to be if it reflects on its role in nature? A. beauty B. survival C. reproduction D. growth?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Why might a flower see its beauty as essential to its purpose? A. attraction B. survival C. growth D. reflection?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Why might a flower's reflection on its beauty lead to questioning its existence? A. vanity B. purpose C. survival D. growth?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a flower's questioning of its beauty influence its understanding of purpose? A. clarity B. confusion C. fulfillment D. detachment?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How might a flower's detachment from its beauty affect its perception of purpose? A. clarity B. confusion C. fulfillment D. indifference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_35588",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "The meaningful stages of life, exploring which phases philosophers associate with wisdom, fulfillment, and significance, while contrasting childhood, adolescence, adulthood, and old age",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which stage of life is often considered the most meaningful? A. Childhood B. Adolescence C. Adulthood D. Old age?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Why is the stage of life often considered most meaningful by philosophers? A. Childhood B. Adolescence C. Adulthood D. Old age",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which stage of life do philosophers often associate with the pursuit of wisdom? A. Childhood B. Adolescence C. Adulthood D. Old age?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which stage of life do philosophers often link to achieving personal fulfillment? A. Childhood B. Adolescence C. Adulthood D. Old age?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_67000",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "The scenario explores the concept of freedom by examining states that reflect a lack of autonomy, choice, and overall liberty, focusing on conditions like enslavement and imprisonment",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If I'm not free, what am I? A. paid for B. enslaved C. expensive D. imprisoned E. locked up?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "When considering freedom, what state implies a lack of autonomy? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "When considering autonomy, which state most directly opposes the concept of freedom? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "When considering freedom, which state reflects the absence of choice? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "When considering freedom, which state implies both a lack of autonomy and choice? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "When considering autonomy, which state most directly reflects a lack of freedom? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "When considering autonomy, which state implies both a lack of freedom and choice? A. enslaved B. expensive C. imprisoned D. locked up E. paid for?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_52897",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "The scenario explores Zoroastrianism, focusing on Ahura Mazda as the supreme deity, his role as Creator, the opposition he faces from Ahriman, and the ethical goals of his followers, including spreading goodness and achieving enlightenment",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which religion is there one god called Ahura Mazda?",
+        "answer": [
+          "Zoroastrianism",
+          "In Zoroastrianism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which religion is Ahura Mazda considered the supreme deity? A. Zoroastrianism B. Christianity C. Islam D. Hinduism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In Zoroastrianism, what role does Ahura Mazda play? A. Creator B. Destroyer C. Messenger D. Warrior?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "In Zoroastrianism, what is the primary force opposing Ahura Mazda? A. Ahriman B. Zeus C. Shiva D. Lucifer?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "In Zoroastrianism, what is the ultimate goal for followers of Ahura Mazda? A. Eternal happiness B. Reincarnation C. Enlightenment D. World domination?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What do followers of Ahura Mazda seek to achieve in their daily lives? A. Wealth B. Power C. Good thoughts D. Fame?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What do followers of Ahura Mazda aim to spread in the world? A. Chaos B. Goodness C. Wealth D. Power?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What role does happiness play in the daily life of Zoroastrian followers? A. Central focus B. Secondary goal C. Unimportant D. Temporary state?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the ultimate goal of followers of Ahura Mazda? A. Wealth B. Power C. Enlightenment D. Fame?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_80382",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "Exploration of philosophical and ethical theories in fantasy worlds, focusing on individual freedom, moral rules, consequences, personal choice, growth, character development, and meaning",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Name the fantasy flat world on which the 2015 posthumously published novel The Shepherd's Crown is set?",
+        "answer": [
+          "Discworld",
+          "The Discworld"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which philosophical view emphasizes individual freedom in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which moral theory focuses on consequences in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which theory values moral rules over consequences in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which theory emphasizes personal choice over universal laws in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which theory aligns with personal growth in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which theory focuses on character development in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which theory values individual freedom most in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which theory emphasizes personal meaning in fantasy worlds? A. Utilitarianism B. Existentialism C. Deontology D. Virtue Ethics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "philosophy_83566",
+    "is_cross_domain": false,
+    "domain": "philosophy",
+    "domain_id": 13,
+    "topic_description": "The chariot metaphor in the Upanishads explores the interplay of intellect, desire, and self-awareness in achieving spiritual purity, balance, and enlightenment through harmonious control of mind and body",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.429,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What does the chariot metaphor in the Upanishads suggest about achieving spiritual purity?",
+        "answer": [
+          "Control senses, achieve spiritual purity",
+          "Intellect must control the senses",
+          "A balanced chariot ride suggests spiritual purity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does the charioteer represent in achieving spiritual purity? A. Emotion B. Intellect C. Desire D. Faith?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What does the chariot metaphor imply about the relationship between the mind and the body? A. Control B. Conflict C. Harmony D. Separation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What does the chariot metaphor imply about achieving balance between intellect and desire? A. Suppression B. Harmony C. Conflict D. Indifference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "In the chariot metaphor, what does the path to enlightenment require?",
+        "answer": [
+          "Control of mind and desires",
+          "Reason controlling the passions",
+          "Balance and control"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "In the chariot metaphor, what role does self-awareness play in achieving balance? A. Guidance B. Resistance C. Distraction D. Indifference?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "In the chariot metaphor, what ultimately guides the chariot toward enlightenment? A. Desire B. Intellect C. Balance D. External forces?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "In the chariot metaphor, what ensures the chariot remains on its path to enlightenment? A. Desire B. Intellect C. External forces D. Balance?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "philosophy": 1.0
+        }
+      }
+    ]
+  }
+]

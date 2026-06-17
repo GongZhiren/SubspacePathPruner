@@ -1,0 +1,2176 @@
+[
+  {
+    "scenario_id": "economics_69872",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic consequences of Robert Krentz's death on his local community, including its influence on public support for related legislation and the impact of proposed policies on local businesses",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic impact did the killing of Robert Krentz have on his local community?",
+        "answer": [
+          "Increased local security costs",
+          "Disrupted local ranching economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic effect did the death of Robert Krentz have on his local area?",
+        "answer": [
+          "Decreased local economic confidence",
+          "Increased border security spending",
+          "local economic downturn"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic factor most influenced public support for the bill after Krentz's death?",
+        "answer": [
+          "Border security concerns",
+          "Perceived economic burden",
+          "public safety concerns"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic impact did the proposed policy have on local businesses?",
+        "answer": [
+          "Reduced profitability",
+          "Increased operational costs",
+          "increased revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_29918",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic implications and policy responses surrounding Ukraine's management of Crimea following its transfer by Khrushchev in 1954",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What region did Khrushchev gift to Ukraine in 1954?",
+        "answer": [
+          "Crimean Peninsula",
+          "The Crimean Peninsula",
+          "Crimea Peninsula"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic impact did Khrushchev's gift of Crimea have on Ukraine in 1954?",
+        "answer": [
+          "Boosted tourism and investment",
+          "Negligible economic impact",
+          "minimal economic impact"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic benefit did Ukraine gain from Crimea's transfer in 1954?",
+        "answer": [
+          "Increased administrative control",
+          "No significant economic benefit",
+          "economic benefits"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic challenge did Ukraine face after Crimea's transfer in 1954?",
+        "answer": [
+          "Increased economic integration costs",
+          "High infrastructure development costs",
+          "economic disruption"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic policy did Ukraine implement to address Crimea's challenges post-1954?",
+        "answer": [
+          "Infrastructure development, economic integration",
+          "North Crimean Canal construction",
+          "economic reforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic impact did Ukraine's policies have on Crimea's development post-1954?",
+        "answer": [
+          "Moderate economic growth",
+          "Initial growth, subsequent stagnation",
+          "limited growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What economic strategy did Ukraine prioritize in Crimea by 1991?",
+        "answer": [
+          "Economic integration with Russia",
+          "Free economic zone creation",
+          "economic reforms"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_67953",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic policies, challenges, and reforms during P.B.S. Pinchback's governorship, focusing on their principles, impacts, and long-term effects",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic policy was most influential during P B S Pinchback's brief governorship?",
+        "answer": [
+          "No significant policies",
+          "No major economic policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic challenge was most pressing during P B S Pinchback's governorship?",
+        "answer": [
+          "Post-war economic instability",
+          "Massive state debt",
+          "Reconstruction-era economic instability"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic impact did P B S Pinchback's reforms aim to achieve?",
+        "answer": [
+          "Boost economic development",
+          "Reduce state debt",
+          "economic equality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic challenge did P B S Pinchback's reforms primarily address?",
+        "answer": [
+          "Racial economic disparities",
+          "State government debt",
+          "economic inequality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic principle did P B S Pinchback's reforms rely on?",
+        "answer": [
+          "Economic integration and reform",
+          "State-led economic development",
+          "supply and demand"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_86394",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "Yukio Mishima's 1970 nationalist campaign aimed to restore Japan's economic sovereignty and cultural identity through traditionalist policies, emphasizing national pride and self-sufficiency amidst post-war modernization",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Japanese author and playwrite Yukio Mishima committed what extreme act in 1970 while campaigning for Japan to restore its nationalistic principles?",
+        "answer": "committed ritual suicide",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic principle did Yukio Mishima's nationalist campaign aim to restore in Japan?",
+        "answer": [
+          "Imperial economic nationalism",
+          "Economic nationalism",
+          "traditional economic values"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic policy did Yukio Mishima's nationalist campaign primarily support?",
+        "answer": [
+          "Traditionalist economic policies",
+          "Economic nationalism",
+          "protectionist trade policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic impact did Yukio Mishima's campaign aim to achieve in Japan?",
+        "answer": [
+          "No economic impact targeted",
+          "No direct economic objective",
+          "economic nationalism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic principle did Yukio Mishima's campaign emphasize for Japan's recovery?",
+        "answer": [
+          "Traditionalist economic revival",
+          "Spiritual revival over materialism",
+          "economic nationalism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic outcome did Yukio Mishima's campaign ultimately achieve for Japan?",
+        "answer": [
+          "No significant economic impact",
+          "No significant economic outcome"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_76507",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The scenario explores economic principles and concepts related to the division of \"the Oregon Country,\" focusing on resource allocation, benefits, trade-offs, and long-term impacts of territorial agreements",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic concept explains the division of \"the Oregon Country\" along the 49th parallel?",
+        "answer": [
+          "Territorial compromise",
+          "compromise and negotiation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.99,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic term describes the benefits of dividing \"the Oregon Country\"?",
+        "answer": [
+          "Economies of scale",
+          "division of labor"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic term describes the trade-offs in dividing \"the Oregon Country\"?",
+        "answer": "Opportunity cost",
+        "task_type": "reasoning",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_49030",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic and policy impacts of the cultural division along the Mason-Dixon line, focusing on regional trade, systemic shifts, and long-term effects on economic activities and policies",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic activity was most affected by the cultural division symbolized by the Mason-Dixon line?",
+        "answer": [
+          "Agricultural practices and slavery",
+          "Plantation agriculture",
+          "agricultural trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic system was most impacted by the cultural division along the Mason-Dixon line?",
+        "answer": [
+          "Southern plantation economy",
+          "Plantation economy",
+          "agricultural economy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic policy was most influenced by the cultural division along the Mason-Dixon line?",
+        "answer": [
+          "Slavery-based agricultural policies",
+          "Slavery policy",
+          "tariff policy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic activity saw a decline due to policies influenced by the Mason-Dixon line?",
+        "answer": [
+          "Southern agricultural exports",
+          "Slavery in the North",
+          "agricultural trade"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic term describes the region's policy shift after the Mason-Dixon line changes?",
+        "answer": [
+          "Regional economic realignment",
+          "Regression Discontinuity Design",
+          "regional economic adjustment"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic term describes the impact of policy changes on regional trade?",
+        "answer": [
+          "Trade policy effects",
+          "Trade creation and diversion",
+          "trade impact"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What economic term describes the long-term effect of the Mason-Dixon line policy changes?",
+        "answer": [
+          "Economic divergence",
+          "Path dependence",
+          "regional economic divergence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_71170",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic impacts, benefits, challenges, and opportunities for Tokyo's tourism, local businesses, and overall economy resulting from hosting the 2020 Paralympics",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where will the Paralympics be held in 2020?",
+        "answer": [
+          "Tokyo, Japan",
+          "Tokyo Japan"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic impact did hosting the 2020 Paralympics have on Tokyo?",
+        "answer": [
+          "Limited economic benefits",
+          "Net economic loss",
+          "boosted local economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was one economic benefit of Tokyo hosting the 2020 Paralympics?",
+        "answer": [
+          "Boosted tourism revenue",
+          "Increased consumer spending",
+          "increased tourism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What was one economic challenge Tokyo faced while hosting the 2020 Paralympics?",
+        "answer": [
+          "Increased pandemic-related costs",
+          "Massive cost overruns",
+          "high costs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was one economic opportunity Tokyo gained from hosting the 2020 Paralympics?",
+        "answer": [
+          "Boost in tourism revenue",
+          "Accessible infrastructure development",
+          "increased tourism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was one economic impact of the 2020 Paralympics on Tokyo's tourism?",
+        "answer": [
+          "Increased tourist spending",
+          "Loss of tourism revenue",
+          "boosted local spending"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What was one economic benefit Tokyo experienced from hosting the 2020 Paralympics?",
+        "answer": [
+          "Boosted tourism revenue",
+          "Improved accessibility infrastructure",
+          "increased tourism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What was one economic effect of the 2020 Paralympics on Tokyo's local businesses?",
+        "answer": [
+          "Increased tourism revenue",
+          "Loss of tourism revenue",
+          "increased revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What was one economic effect of the 2020 Paralympics on Tokyo's tourism industry?",
+        "answer": [
+          "Boosted tourism revenue",
+          "Loss of tourism revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_32424",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The relationship between metal prices, particularly copper, and their role as indicators of global economic health, recovery, and policy-driven stabilization",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The price of which metal commodity is traditionally considered an indicator of global economic buoyancy?",
+        "answer": [
+          "Copper prices",
+          "The price of copper",
+          "copper"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What metal's price fluctuations are most closely watched to gauge shifts in global economic buoyancy?",
+        "answer": [
+          "Copper prices",
+          "Copper's price"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What metal's price is most commonly used to assess global economic health?",
+        "answer": [
+          "Copper prices",
+          "Copper's price",
+          "copper price"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What metal's price trends are analyzed to predict future economic shifts?",
+        "answer": [
+          "Copper and gold prices",
+          "Dr. Copper",
+          "gold prices"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which economic indicator is most sensitive to shifts in metal prices?",
+        "answer": [
+          "Producer Price Index",
+          "Producer Price Index (PPI)",
+          "industrial production index"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which metal's price is often linked to economic recovery predictions?",
+        "answer": [
+          "Copper prices",
+          "Dr. Copper",
+          "copper"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What economic policy is often used to stabilize metal price fluctuations?",
+        "answer": [
+          "Strategic stockpiling policies",
+          "Strategic stockpiling",
+          "buffer stocks"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_89726",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic impact of relocating the Little Mermaid statue on Copenhagen's tourism and local businesses, including revenue loss and effects on souvenir shops",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic impact did the relocation of the Little Mermaid statue have on Copenhagen's tourism?",
+        "answer": [
+          "Decreased tourist visits",
+          "Negligible economic impact",
+          "minimal impact"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the primary economic effect of relocating the Little Mermaid statue on local businesses?",
+        "answer": [
+          "Increased tourist spending",
+          "Decreased local business revenue",
+          "increased tourism revenue"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the main reason for relocating the Little Mermaid statue?",
+        "answer": [
+          "Vandalism prevention measures",
+          "Promoting tourism and trade",
+          "tourism and preservation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_35777",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic and strategic significance of the Iles Normande (Channel Islands) in French trade, resource distribution, and control of maritime routes, analyzed through historical and economic principles",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which island group is known by the French as Iles Normande?",
+        "answer": [
+          "Channel Islands",
+          "The Channel Islands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic principle explains the French interest in Iles Normande historically?",
+        "answer": [
+          "Strategic trade control",
+          "Trade route control",
+          "strategic trade routes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic term describes the French focus on Iles Normande for trade?",
+        "answer": [
+          "Regional trade focus",
+          "Gravity model of trade",
+          "trade hub"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic policy did France likely use to maintain control over Iles Normande trade routes?",
+        "answer": [
+          "Trade regulation policies",
+          "mercantilist policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic concept explains the French reliance on Iles Normande for resource distribution?",
+        "answer": [
+          "Comparative advantage in resources",
+          "comparative advantage"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes the economic benefit France gained from Iles Normande trade?",
+        "answer": [
+          "Trade surplus benefits",
+          "Gains from trade",
+          "trade surplus"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What economic term describes France's control over Iles Normande trade routes?",
+        "answer": [
+          "Trade monopoly control",
+          "trade monopoly"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_20431",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "Economic factors influencing trade, activity, stability, growth, and development in the West Bank and its interactions with neighboring territories",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What economic factor primarily influences trade between the West Bank and its neighboring territories?",
+        "answer": [
+          "Israeli security measures",
+          "Political and security restrictions",
+          "political restrictions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What primarily affects trade between the West Bank and neighboring territories?",
+        "answer": [
+          "Israeli security measures",
+          "Movement and access restrictions",
+          "political restrictions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What primarily drives economic activity in the West Bank?",
+        "answer": [
+          "Agriculture, services, industry",
+          "Donor aid and remittances",
+          "factors like agriculture and trade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What primarily supports economic stability in the West Bank?",
+        "answer": [
+          "Foreign aid and remittances",
+          "Foreign aid and labor income",
+          "foreign aid and trade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What primarily influences economic growth in the West Bank?",
+        "answer": [
+          "Foreign aid, investment, trade",
+          "Israeli restrictions and foreign aid",
+          "political stability and investment"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What primarily affects economic development in the West Bank?",
+        "answer": [
+          "Israeli occupation, political instability",
+          "Israeli occupation and restrictions",
+          "political instability and restrictions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_94735",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic and agricultural factors influencing Kentucky's bourbon industry, including production impacts, primary ingredients, tourism benefits, and pricing dynamics",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "\"The home of the drink called \"\"bourbon\"\"",
+        "answer": [
+          "Kentucky, United States",
+          "Kentucky"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the main agricultural product used in bourbon production? A. Corn B. Wheat C. Barley D. Rye?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main economic benefit of bourbon tourism in Kentucky? A. Job creation B. Tax revenue C. Export growth D. Agricultural development?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which factor primarily influences bourbon pricing in Kentucky? A. Production cost B. Tourism demand C. Export tariffs D. Agricultural subsidies?",
+        "answer": "A",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_19678",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic impacts and policy changes in Arizona's agriculture and mining sectors following its admission as the 48th U.S. state in 1912",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which was the 48th US state to be admitted to the Union, in February 1912?",
+        "answer": [
+          "Arizona",
+          "State of Arizona"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic opportunities arose from Arizona's admission to the Union in 1912?",
+        "answer": [
+          "Mining and agricultural development",
+          "Infrastructure, mining, and agriculture",
+          "mining and agriculture"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic policy change followed Arizona's admission to the Union in 1912?",
+        "answer": [
+          "Statehood economic integration",
+          "Federal income tax established",
+          "statehood-related policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.99,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic impact did Arizona's statehood have on its mining industry?",
+        "answer": [
+          "Boosted investment and growth",
+          "Increased investment and production",
+          "boosted production"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic policy shift occurred in Arizona's agricultural sector post-statehood?",
+        "answer": [
+          "Shift to commercial farming",
+          "Federal water reclamation projects",
+          "shift to irrigation-based farming"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_12639",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic and trade relationships between the Channel Islands and mainland France, including principles, benefits, terms, policies, and currency exchange",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which group of islands lie off the coast of Normandy, France?",
+        "answer": [
+          "Channel Islands",
+          "The Channel Islands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic principle explains the trade relationship between the islands off Normandy and mainland France?",
+        "answer": [
+          "Comparative advantage theory",
+          "Comparative Advantage"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What term describes the economic benefit of trade between the islands and mainland France?",
+        "answer": [
+          "Comparative advantage benefits",
+          "Gains from trade",
+          "trade surplus"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes goods exchanged between the islands and mainland France?",
+        "answer": [
+          "Domestic trade",
+          "Internal trade",
+          "inter-island trade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the value of goods traded between the islands and mainland France?",
+        "answer": [
+          "Domestic trade value",
+          "trade balance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes the balance of trade between the islands and mainland France?",
+        "answer": [
+          "Domestic trade balance",
+          "Regional trade balance",
+          "trade balance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What term describes the exchange rate between the islands and mainland France?",
+        "answer": [
+          "Fixed parity exchange rate",
+          "Fixed exchange rate"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What term describes the economic policy influencing trade between the islands and mainland France?",
+        "answer": [
+          "Overseas Departments Policy",
+          "trade policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What term describes the currency used in transactions between the islands and mainland France?",
+        "answer": "Euro",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_31405",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "An exploration of Guernsey's economy, focusing on its formal title, GDP contributors, employment drivers, government revenue sources, trade balance factors, export categories, and currency value impacts",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the formal title of Guernsey, the British Crown Dependency in the English Channel off the coast of Normandy?",
+        "answer": "Bailiwick of Guernsey",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary economic activity that contributes to Guernsey's GDP?",
+        "answer": "Finance and tourism sectors",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the main sector driving employment in Guernsey's economy?",
+        "answer": "Finance and insurance sector",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary source of government revenue in Guernsey?",
+        "answer": [
+          "Income tax revenue",
+          "Income tax"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main export category contributing to Guernsey's trade balance?",
+        "answer": "Light manufacturing exports",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary economic sector driving employment in Guernsey?",
+        "answer": [
+          "Finance and insurance sectors",
+          "Financial services sector",
+          "financial services"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_95349",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic activities and their contributions to Tenerife's GDP, employment rates, and seasonal stability, with a focus on tourism, agriculture, manufacturing, and fishing",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.375,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Tenerife, La Palma, and Fuerteventura are part of what Spanish island chain?",
+        "answer": "Canary Islands",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic activity is most significant for Tenerife, La Palma, and Fuerteventura?",
+        "answer": [
+          "Tourism and agriculture",
+          "Tourism and related services",
+          "tourism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic sector contributes most to Tenerife's GDP? A. Tourism B. Agriculture C. Manufacturing D. Fishing?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which economic activity ranks second in Tenerife's GDP contributions? A. Agriculture B. Fishing C. Manufacturing D. Services?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which economic activity is third in Tenerife's GDP contributions? A. Fishing B. Agriculture C. Manufacturing D. Services?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which economic activity in Tenerife is least affected by seasonal changes? A. Tourism B. Agriculture C. Manufacturing D. Fishing?",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which economic activity in Tenerife shows the least fluctuation in employment? A. Tourism B. Agriculture C. Manufacturing D. Fishing?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which economic activity in Tenerife has the third-highest employment rate? A. Fishing B. Agriculture C. Manufacturing D. Services?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which economic activity in Tenerife ranks third in seasonal stability? A. Fishing B. Agriculture C. Manufacturing D. Services?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_78016",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic influence of Myanmar's armed forces (Tatmadaw) on the country's GDP and their role in recent economic reforms from 2019 to 2022",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The Tatmadaw are the armed forces of which Asian country?",
+        "answer": [
+          "Myanmar",
+          "The Republic of Myanmar"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic impact did the Tatmadaw have on Myanmar's GDP in recent years?",
+        "answer": [
+          "Negative economic impact",
+          "Significant GDP contraction",
+          "minimal impact"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What role did the Tatmadaw play in Myanmar's recent economic reforms?",
+        "answer": [
+          "Central to economic reforms",
+          "Maintained significant economic control"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What percentage of Myanmar's GDP was influenced by the Tatmadaw's activities in 2022?",
+        "answer": [
+          "No specific percentage available",
+          "A significant, unquantified percentage",
+          "estimates suggest around 30%"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_20889",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The transition from slavery to new economic systems and labor policies, focusing on the abolition of slavery, its impact on economies, and subsequent policy changes",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What was abolished in the British Empire in 1833, the French Colonies in 1848, and the USA in 1865?",
+        "answer": [
+          "Slavery was abolished",
+          "Chattel slavery",
+          "slavery"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic system was most directly affected by the abolition of slavery in the British Empire, French Colonies, and the USA?",
+        "answer": [
+          "Plantation economy system",
+          "Plantation economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic system relied heavily on slave labor before its abolition?",
+        "answer": [
+          "Antebellum Southern economy",
+          "Plantation economy",
+          "Southern plantation economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic policy was most commonly adopted to address labor shortages after slavery's abolition?",
+        "answer": [
+          "Indentured servitude policies",
+          "Contract labor systems",
+          "labor policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic system saw increased adoption after slavery's abolition?",
+        "answer": [
+          "Wage labor economy",
+          "Sharecropping and tenant farming",
+          "wage labor system"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic policy was often criticized for worsening inequality after slavery's abolition?",
+        "answer": "Sharecropping system",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_74462",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic systems, advantages, and policies that fueled the Northern states' industrial growth and superiority over the Southern states during the US Civil War",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What was the Northern most slave state of the US Civil War?",
+        "answer": [
+          "Delaware",
+          "The state of Delaware"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic system was most prevalent in the Northern states during the US Civil War?",
+        "answer": [
+          "Market-based capitalism",
+          "Industrial capitalism",
+          "free market economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the primary economic activity in the Northern states during the US Civil War?",
+        "answer": [
+          "Manufacturing and commerce",
+          "Industrial manufacturing",
+          "manufacturing and trade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What was the main economic advantage of the Northern states over the Southern states during the US Civil War?",
+        "answer": [
+          "Greater industrial capacity",
+          "industrial capacity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was a key economic resource for the Northern states during the US Civil War?",
+        "answer": [
+          "Industrial manufacturing capacity",
+          "industrial production"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic factor primarily contributed to the Northern states' industrial growth during the US Civil War?",
+        "answer": [
+          "War-driven demand and investment",
+          "Demand for war materials",
+          "increased demand"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What economic advantage did the Northern states have over the South during the US Civil War?",
+        "answer": [
+          "Greater industrial capacity",
+          "Industrial and financial superiority",
+          "industrial capacity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What economic policy supported the North's industrial growth during the Civil War?",
+        "answer": [
+          "Protective tariffs, infrastructure investment",
+          "High protective tariffs",
+          "protective tariffs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What economic system did the North's industrial growth during the Civil War primarily rely on?",
+        "answer": [
+          "Capitalist market economy",
+          "Industrial capitalism",
+          "market economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_21959",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The scenario explores the metaphorical representation of economic equilibrium and stability through the symbolism of a shamrock's three leaves, connecting religious metaphors to balanced three-part systems in economics",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "For religious people, the shamrock is said to be a metaphor for what?",
+        "answer": [
+          "Holy Trinity",
+          "The Holy Trinity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic term describes the balance symbolized by the shamrock's three leaves?",
+        "answer": [
+          "Trinity of economic balance",
+          "Shamrock Trinity",
+          "triple bottom line"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic term is often used to describe a balanced three-part system?",
+        "answer": [
+          "Tripartite economic system",
+          "Economic trilemma",
+          "triangular equilibrium"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes a three-part economic system in equilibrium?",
+        "answer": [
+          "General equilibrium theory",
+          "General equilibrium model"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the stability of a three-part economic system in equilibrium?",
+        "answer": [
+          "General equilibrium theory",
+          "Impossible trinity",
+          "general equilibrium"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_39069",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic impact of Germany's 2002 FIFA World Cup performance on its tourism industry, focusing on revenue growth drivers and significant outcomes",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which country’s football team did Germany beat in the 2002 FIFA World Cup semi-final?",
+        "answer": "South Korea",
+        "task_type": "reasoning",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic impact did Germany's 2002 FIFA World Cup performance have on its tourism industry?",
+        "answer": [
+          "Boosted tourism significantly",
+          "Negligible economic impact",
+          "boosted tourism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the estimated increase in tourism revenue for Germany after the 2002 FIFA World Cup?",
+        "answer": [
+          "12 billion euros",
+          "No direct revenue increase",
+          "€1.5 billion increase"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic factor primarily drove Germany's tourism revenue increase after the 2002 FIFA World Cup?",
+        "answer": [
+          "Improved international visibility",
+          "The 2006 FIFA World Cup",
+          "increased global visibility"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was a significant outcome of Germany's tourism revenue growth after 2002?",
+        "answer": [
+          "Increased economic growth",
+          "Improved current account balance",
+          "increased employment"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What primarily drove Germany's tourism industry growth after 2002? A. Infrastructure B. Marketing C. Exchange rates D. Cultural events?",
+        "answer": "B",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What primarily contributed to Germany's tourism revenue growth after 2002? A. Infrastructure B. Marketing C. Exchange rates D. Cultural events?",
+        "answer": "B",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "economics_39513",
+    "is_cross_domain": false,
+    "domain": "economics",
+    "domain_id": 3,
+    "topic_description": "The economic strategies and policies employed by the Union to weaken the Confederacy during the American Civil War, focusing on trade restrictions, blockades, and their impact on Southern cotton exports",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which US state was the first to secede from the Union, in 1860, leading to the American Civil War?",
+        "answer": "South Carolina",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What economic policy did the Union implement to weaken the Confederacy during the Civil War?",
+        "answer": [
+          "Anaconda Plan, economic blockade",
+          "Union blockade",
+          "blockade and tariffs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic policy did the Union use to blockade Southern ports during the Civil War?",
+        "answer": [
+          "Naval blockade strategy",
+          "The Anaconda Plan",
+          "naval blockade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic impact did the Union blockade have on Southern cotton exports?",
+        "answer": [
+          "Severely reduced exports",
+          "Drastically reduced exports"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What economic policy did the Union use to restrict Southern trade during the Civil War?",
+        "answer": [
+          "Naval blockade of ports",
+          "Naval blockade",
+          "blockade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What economic term describes the Union's restriction of Southern trade?",
+        "answer": [
+          "Union blockade of Confederacy",
+          "blockade"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "economics": 1.0
+        }
+      }
+    ]
+  }
+]

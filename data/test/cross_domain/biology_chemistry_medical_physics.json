@@ -1,0 +1,1546 @@
+[
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_70186",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between enzyme kinetics, thermal energy regulation, and cellular metabolism in muscle tissue, and its implications for energy balance, thermoregulation, and drug-induced myopathies",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the equilibrium of a biochemical reaction in living organisms relate to energy transformation into heat and the role of neurotransmitters in cellular communication?",
+        "answer": "Equilibrium shifts affect neurotransmitter synthesis and heat production",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.23,
+          "physics": 0.31,
+          "medical": 0.09,
+          "biology": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the role of enzyme kinetics (chemistry) in regulating thermal energy distribution (physics) during metabolic reactions in muscle cells (biology), and how does this impact thermoregulation in feverish conditions (medical)?",
+        "answer": "Enzyme kinetics modulate heat production, affecting body temperature regulation",
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.14,
+          "medical": 0.29,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the activation energy barrier in enzyme-catalyzed reactions (chemistry) influence thermal energy dissipation (physics) and muscle contraction efficiency (biology) in patients with metabolic disorders (medical)?",
+        "answer": "Lowers energy barrier, improves efficiency, reduces fatigue",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.25,
+          "medical": 0.19,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between enzyme specificity (chemistry), thermal regulation (physics), cellular metabolism (biology), and therapeutic drug action (medical) affect energy equilibrium in muscle tissue?",
+        "answer": "Optimizes energy utilization and muscle performance",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.32,
+          "medical": 0.13,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the effect of enzyme inhibitors (chemistry) on thermal energy balance (physics), muscle cell viability (biology), and their implications in drug-induced myopathies (medical)?",
+        "answer": "Inhibitors disrupt energy balance, reduce cell viability, risk myopathies",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.24,
+          "medical": 0.2,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_21603",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between benzene's delocalized electrons, UV light absorption, seahorse photoreceptor biology, and medical implications for trigeminal neuralgia treatment",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the valence bond theory of benzene's structure relate to the biological role of sunlight in seahorses and influence trigeminal nerve function during a solar eclipse? A. It alters electron distribution B. It triggers photosynthesis C. It disrupts neural pathways D. It reverses orbital alignment?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.75,
+        "domain_weights": {
+          "chemistry": 0.18,
+          "physics": 0.35,
+          "medical": 0.2,
+          "biology": 0.27
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the role of benzene's delocalized electrons in chemical stability, and how does this relate to sunlight absorption in seahorses, pressure effects on cellular membranes, and treatment of trigeminal neuralgia?",
+        "answer": "No direct relation between these topics",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.19,
+          "medical": 0.22,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How do benzene's delocalized electrons influence its chemical stability, affect sunlight absorption in seahorses, alter pressure effects on biological membranes, and relate to trigeminal neuralgia treatments?",
+        "answer": "Increases stability; unrelated to mentioned effects",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.23,
+          "medical": 0.27,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interaction of benzene's delocalized electrons with UV light (chemistry, physics) affect seahorse photoreceptor cells (biology) and influence trigeminal neuralgia treatment (medical)?",
+        "answer": "No known direct relationship or influence exists",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.25,
+          "medical": 0.23,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the delocalized electron system in benzene (chemistry) affect its UV absorption spectrum (physics), and what implications does this have for seahorse photoreceptor damage (biology) and potential treatments for light-induced medical conditions (medical)?",
+        "answer": "Delocalized electrons increase UV absorption, potentially damaging seahorse photoreceptors",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.24,
+          "medical": 0.22,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 6,
+        "prompt": "What role do benzene's delocalized electrons play in UV light absorption (chemistry, physics), its impact on seahorse photoreceptor cell function (biology), and potential medical applications for UV-related therapies?",
+        "answer": "Absorbs UV, affects vision, potential in phototherapy treatments",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.28,
+          "medical": 0.25,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_41018",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between altered UV diffraction during a lunar eclipse, photochemical stability of aromatic hydrocarbons, cellular effects, and medical implications",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.6,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the interaction between aromatic hydrocarbons (chemistry), light diffraction during a lunar eclipse (physics), cell membrane integrity (biology), and mobile medical diagnostics (medical) collectively influence health outcomes?",
+        "answer": "No direct collective influence on health outcomes",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.48,
+          "physics": 0.18,
+          "medical": 0.14,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the photochemical reactions of aromatic hydrocarbons (chemistry), influenced by altered UV light diffraction during a lunar eclipse (physics), affect cellular oxidative stress (biology) and its implications for skin cancer progression (medical)?",
+        "answer": "Increased oxidative stress, potentially accelerating skin cancer",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.27,
+          "medical": 0.14,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How could the photochemical breakdown of aromatic hydrocarbons during a lunar eclipse (chemistry), influenced by altered UV light diffraction patterns (physics), affect cellular signaling pathways (biology) and potentially lead to medical conditions like oxidative stress or cancer?",
+        "answer": "Increased free radicals, disrupted cellular communication, potential carcinogenesis",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.33,
+          "medical": 0.22,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the altered UV diffraction during a lunar eclipse affect the photochemical stability of aromatic hydrocarbons in cell membranes A. Increase oxidative stress B. Decrease membrane fluidity C. Enhance DNA repair mechanisms D. Reduce cellular metabolism?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.34,
+          "medical": 0.14,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the altered UV diffraction during a lunar eclipse (physics) affect the photochemical stability of aromatic hydrocarbons in cell membranes (chemistry), and what implications could this have for cellular function (biology) and potential medical treatments targeting membrane integrity?",
+        "answer": "Minimal impact on stability; negligible medical implications",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.26,
+          "medical": 0.21,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 6,
+        "prompt": "During a lunar eclipse, how might altered UV diffraction (physics) affect the photochemical stability of aromatic hydrocarbons (chemistry) in cell membranes (biology), and what medical implications could arise? A. Increased membrane fluidity leading to cellular dysfunction B. Enhanced DNA repair mechanisms reducing mutation risks C. Decreased oxidative stress improving tissue resilience D. No significant impact on biological or medical processes?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "chemistry": 0.18,
+          "physics": 0.26,
+          "medical": 0.24,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.86
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_76093",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The role of molecular orbital interactions, electron spin physics, and bacterial cell wall chemistry in selecting stable, effective non-penicillin antibiotics for endocarditis prophylaxis in penicillin-allergic patients",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A patient allergic to penicillin requires antibiotic prophylaxis for endocarditis before a dental procedure; considering molecular interactions, orbital hybridization in drug compounds, and the role of sunlight in biological processes, which factor is most critical? A. sp2 Hybridization stability B. Drug-light interaction C. Gravitational effects D. Antibiotic solubility?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.15,
+          "medical": 0.31,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "A patient allergic to penicillin needs antibiotic prophylaxis for endocarditis before a dental procedure. Considering molecular interactions, orbital hybridization, and drug efficacy, which factor is critical? A. Antibiotic solubility in blood plasma B. Electron distribution in drug molecules C. Gravitational force on drug absorption D. Mitochondrial activity in cardiac cells?",
+        "answer": "B",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.38,
+          "medical": 0.27,
+          "biology": 0.15
+        },
+        "theme_consistency_score": 0.9
+      },
+      {
+        "turn": 3,
+        "prompt": "A patient allergic to penicillin requires antibiotic prophylaxis for endocarditis before a dental procedure; how do molecular orbital interactions, electromagnetic wave effects on bacterial cell walls, immune system responses, and drug pharmacokinetics collectively determine the safest antibiotic choice?",
+        "answer": "Clindamycin or azithromycin recommended due to allergy",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.14,
+          "physics": 0.34,
+          "medical": 0.29,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "How do molecular orbital interactions, electron spin physics, bacterial cell wall chemistry, and medical guidelines for endocarditis prophylaxis interconnect in selecting an antibiotic for a penicillin-allergic patient undergoing a dental procedure?",
+        "answer": "Select clindamycin to avoid beta-lactam allergy risks",
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.25,
+          "medical": 0.15,
+          "biology": 0.33
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of electron spin in molecular orbital interactions during the synthesis of non-penicillin antibiotics used for endocarditis prophylaxis in penicillin-allergic patients?",
+        "answer": "Electron spin influences molecular orbital stability and reactivity",
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.24,
+          "medical": 0.21,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the effect of electron spin pairing in molecular orbitals on the stability of non-penicillin antibiotics used in endocarditis prophylaxis for a patient with bacterial infection and penicillin allergy?",
+        "answer": "No direct effect on stability or antibiotic efficacy",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.19,
+          "medical": 0.37,
+          "biology": 0.16
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the interplay of electron spin physics and molecular orbital stability influence bacterial cell wall disruption in non-penicillin antibiotics for endocarditis treatment?",
+        "answer": "No direct influence; different mechanisms involved",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.2,
+          "medical": 0.32,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_63856",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between thermodynamic efficiency in biochemical reactions, heat distribution, and cellular metabolism, and its medical implications for nutrient absorption, hyperthermia, and metabolic diseases",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 5,
+    "task_type_change_frequency": 0.556,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the energy released during digestion (medical) relate to equilibrium in nutrient absorption (chemistry), light reflection affecting body temperature (physics), and egg-laying behavior in adult flies (biology)? A. Energy drives equilibrium B. Light boosts digestion C. Behavior impacts energy D. Temperature alters absorption?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.26,
+          "medical": 0.35,
+          "biology": 0.17
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the thermodynamic efficiency of nutrient absorption in digestion (medical) relate to enzyme kinetics (chemistry), heat exchange via conduction (physics), and metabolic rate regulation (biology)?",
+        "answer": "Enzyme kinetics optimize absorption, affecting metabolic heat and rate regulation",
+        "task_type": "reasoning",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "chemistry": 0.16,
+          "physics": 0.28,
+          "medical": 0.25,
+          "biology": 0.31
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does enzyme specificity (chemistry) play in the thermodynamic efficiency of nutrient absorption (medical), considering heat transfer via conduction (physics) and cellular metabolic processes (biology)?",
+        "answer": "Enzyme specificity maximizes metabolic efficiency and minimizes energy loss",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.18,
+          "medical": 0.3,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between enzyme kinetics (chemistry) and heat dissipation (physics) influence metabolic rates (biology) during nutrient absorption in medical conditions like hyperthermia?",
+        "answer": "Increased enzyme activity and metabolic rates, risk of nutrient malabsorption",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.19,
+          "medical": 0.3,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the balance between biochemical reaction rates (chemistry) and thermal regulation (physics) affect cellular metabolism (biology) during nutrient absorption in the human digestive system (medical)?",
+        "answer": "Optimizes enzyme activity and heat dissipation for efficient digestion",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.22,
+          "medical": 0.31,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the thermodynamic efficiency of biochemical reactions (chemistry) influence heat distribution in tissues (physics), impacting cellular function (biology) and patient recovery rates (medical)?",
+        "answer": "Higher efficiency reduces heat, improving cellular function and recovery",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.23,
+          "physics": 0.31,
+          "medical": 0.17,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the thermodynamic efficiency of biochemical reactions (chemistry) affect heat distribution in tissues (physics), and what medical implications arise for metabolic diseases? A. Increased efficiency reduces tissue damage B. Decreased efficiency leads to hyperthermia C. Efficiency changes alter enzyme activity, impacting disease progression D. No significant medical implications exist?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.19,
+          "physics": 0.22,
+          "medical": 0.41,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the interplay between enzyme kinetics (chemistry) and heat dissipation mechanisms (physics) alter cellular homeostasis (biology) in patients with hyperthermia-related conditions (medical)?",
+        "answer": "Enzyme activity decreases, impairing metabolic and heat regulation",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.14,
+          "physics": 0.34,
+          "medical": 0.28,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the role of thermodynamic efficiency in enzyme-catalyzed reactions (chemistry) affect heat distribution in tissues (physics), alter cellular signaling pathways (biology), and influence treatment strategies for hyperthermic patients (medical)?",
+        "answer": "Enzyme efficiency impacts heat, signaling, and hyperthermia treatments",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.23,
+          "medical": 0.29,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 10,
+        "prompt": "How does the thermodynamic efficiency of enzyme-catalyzed reactions (chemistry) influence heat dissipation in tissues (physics), impact cellular metabolism (biology), and affect patient recovery rates (medical)?",
+        "answer": "Increases recovery rates by enhancing metabolic efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.19,
+          "physics": 0.23,
+          "medical": 0.26,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_56514",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay of aromatic hydrocarbons, light refraction during lunar eclipses, antioxidant metabolism, and medical implications on human cellular processes",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the interaction of aromatic hydrocarbons (chemistry), light refraction during a lunar eclipse (physics), antioxidant properties of berries (biology), and hospital safety protocols (medical) collectively impact patient care? A. Enhance recovery rates B. Increase health risks C. Improve diagnostic accuracy D. Reduce treatment costs?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.15,
+          "medical": 0.3,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do aromatic hydrocarbons (chemistry) play in the biological absorption of antioxidants during a lunar eclipse, considering light refraction's effect on ultraviolet exposure and its medical implications for skin health?",
+        "answer": "No known role or effect in this context",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.3,
+          "medical": 0.15,
+          "biology": 0.19
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How might aromatic hydrocarbons (chemistry) influence the human body's response to antioxidant-rich foods during a lunar eclipse, considering light refraction effects? A. Enhance metabolic absorption B. Reduce antioxidant efficacy C. Increase photochemical reactions D. No significant impact?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.3,
+          "medical": 0.11,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "During a lunar eclipse, how might the refraction of light (physics) alter the metabolic breakdown of aromatic hydrocarbons (chemistry) in human cells (biology), impacting antioxidant therapy outcomes (medical)? A. Enhances cellular absorption of antioxidants B. Reduces hydrocarbon toxicity levels C. Disrupts enzyme activity linked to antioxidants D. No significant impact on biological processes?",
+        "answer": "D",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.26,
+          "medical": 0.2,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the refraction of light during a lunar eclipse (physics) affect the chemical stability of aromatic hydrocarbons (chemistry) and their interaction with human metabolic pathways (biology), influencing antioxidant therapy outcomes (medical)?",
+        "answer": "No significant effect on chemical stability or therapy outcomes",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.34,
+          "medical": 0.15,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 6,
+        "prompt": "During a lunar eclipse, how might the refraction of light (physics) influence the stability of aromatic hydrocarbons (chemistry) and their impact on cellular metabolism (biology), affecting antioxidant therapy outcomes (medical)? A. Increases hydrocarbon breakdown, enhancing therapy B. Decreases metabolic activity, reducing therapy efficacy C. Stabilizes hydrocarbons, neutralizing antioxidant effects D. Causes no?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.16,
+          "physics": 0.27,
+          "medical": 0.29,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.8
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_55412",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between benzene's quantum mechanical stability, enzyme interactions, and biological/physical implications in medical treatments involving aromatic compounds",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the valence bond theory explain the stability of benzene in a scenario where its aromatic properties influence a biological enzyme's activity under high-energy physics conditions, and what medical implications could arise? A. Enzyme denaturation B. Increased reaction rates C. Altered drug metabolism D. No effect?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.23,
+          "medical": 0.13,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the stability of benzene's aromatic system, explained by valence bond theory, influence enzyme kinetics in a biological pathway and relate to medical treatments involving resonance-stabilized inhibitors?",
+        "answer": "Stabilizes inhibitors, enhances specificity, improves treatment outcomes",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.4,
+          "physics": 0.24,
+          "medical": 0.12,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the stability of benzene's aromatic system, explained by valence bond theory, influence enzyme kinetics in a biological pathway and relate to A. quantum mechanical resonance energy B. hydrogen bonding in DNA C. Michaelis-Menten constants D. drug-binding affinities",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.35,
+          "physics": 0.33,
+          "medical": 0.08,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the role of quantum mechanical resonance in benzene's stability, and how does this affect enzyme-substrate interactions in aromatic amino acid metabolism?",
+        "answer": "Resonance increases benzene's stability, affecting enzyme binding affinity",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "chemistry": 0.49,
+          "physics": 0.2,
+          "medical": 0.13,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the quantum mechanical stability of benzene's aromatic system (chemistry) influence enzyme-substrate interactions (biology) and energy transfer in biological membranes (physics), with implications for drug design targeting metabolic disorders (medical)?",
+        "answer": "Enhances drug specificity, stability, and membrane interaction",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.27,
+          "physics": 0.26,
+          "medical": 0.13,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the quantum mechanical stability of benzene's aromatic system (chemistry) affect enzyme-substrate binding energy (biology), thermal conductivity in cellular environments (physics), and drug efficacy in aromatic-based treatments (medical)?",
+        "answer": "Enhances stability, specificity, and drug-target interactions",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.35,
+          "medical": 0.21,
+          "biology": 0.19
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the thermal conductivity of aromatic compounds (physics) influence enzyme activity (biology) in medical treatments involving benzene derivatives (medical), considering resonance stabilization (chemistry)?",
+        "answer": "Thermal conductivity minimally impacts enzyme activity",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.21,
+          "physics": 0.28,
+          "medical": 0.22,
+          "biology": 0.29
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_85186",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between chemical, physical, and biological factors—such as aromatic hydrocarbons, gravitational forces, genetic mutations, and medical advancements—in understanding disease mechanisms and environmental health impacts",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the principles governing aromatic hydrocarbon stability, gravitational lensing during celestial events, genetic inheritance patterns, and legal protections for healthcare workers intersect in a scenario where a doctor is assaulted after explaining a benzene-related toxicity case during a solar eclipse? A. Chemical bonding laws B. Celestial phenomena reversal C. Mendelian genetics D. Legal accountability frameworks?",
+        "answer": "D",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.24,
+          "medical": 0.4,
+          "biology": 0.14
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do aromatic hydrocarbons, gravitational forces, genetic mutations, and medical imaging play in diagnosing diseases linked to environmental exposure?",
+        "answer": "Identifying biomarkers, assessing risk, and monitoring effects",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.09,
+          "medical": 0.28,
+          "biology": 0.33
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the interaction between aromatic hydrocarbons' chemical stability, gravitational effects on cellular structures, genetic mutations induced by pollutants, and advancements in medical imaging improve early detection of environmentally linked cancers?",
+        "answer": "Integrated analysis enhances early cancer detection",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.2,
+          "medical": 0.29,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the stability of aromatic hydrocarbons, gravitational forces on cellular integrity, genetic mutations from environmental exposure, and medical advancements in targeted therapies collectively inform strategies for treating hereditary diseases?",
+        "answer": "Integrate multidisciplinary approaches for personalized treatment",
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.16,
+          "medical": 0.28,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the interplay between aromatic hydrocarbons' reactivity (chemistry), gravitational force's impact on cellular morphology (physics), mutagenic potential in DNA (biology), and advancements in diagnostic imaging (medical) influence cancer progression?",
+        "answer": "Increases cancer risk through multiple biological mechanisms",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.19,
+          "medical": 0.3,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_64577",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interdisciplinary study of how aromatic hydrocarbons, light refraction during lunar eclipses, cellular membrane integrity, and medical implications interact to influence biological processes and drug absorption",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the interaction of aromatic hydrocarbons (chemistry), light refraction during a lunar eclipse (physics), cellular membrane integrity (biology), and hospital safety protocols (medical) collectively impact patient care during an emergency?",
+        "answer": "No direct impact on patient care during an emergency",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.14,
+          "physics": 0.18,
+          "medical": 0.36,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do aromatic hydrocarbons (chemistry) play in altering cellular membrane integrity (biology) under the influence of light refraction patterns during a lunar eclipse (physics), and how might this impact phototherapy treatments in medicine?",
+        "answer": "No known relationship or impact exists",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.21,
+          "medical": 0.19,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the effect of aromatic hydrocarbons on cellular membrane fluidity during lunar eclipses, considering light refraction and its implications for medical imaging?",
+        "answer": "No known effect or relevant connection",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.32,
+          "medical": 0.19,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How might aromatic hydrocarbons (chemistry) affect cellular membrane integrity (biology) during a lunar eclipse, considering light refraction patterns (physics) and potential medical implications for vision?",
+        "answer": "No effect related to lunar eclipse conditions",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.31,
+          "medical": 0.09,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 5,
+        "prompt": "How could the photochemical behavior of aromatic hydrocarbons during a lunar eclipse impact cellular membrane permeability and influence drug absorption in medical treatments?",
+        "answer": "No significant impact on drug absorption observed",
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.21,
+          "physics": 0.32,
+          "medical": 0.25,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_11428",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between the exothermic reaction of lemon juice altering milk's pH (chemistry), its effects on thermal regulation and energy metabolism in muscle cells (physics), and implications for enzyme activity and patient recovery (biology)",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 5,
+    "task_type_change_frequency": 0.625,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the chemical reaction of adding lemon juice to milk (chemistry) affect the energy transformation processes (physics) in a living organism's digestion (biology), and what neurotransmitter might be involved in signaling this change (medical)? A. Heat production increases, serotonin B. Heat production decreases, dopamine C. Heat production increases, acetylcholine D. Heat production decreases, glutamate?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "chemistry": 0.34,
+          "physics": 0.23,
+          "medical": 0.2,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the decrease in pH from adding lemon juice to milk (chemistry) influence metabolic energy production (physics) and its impact on cellular function (biology) in patients with lactose intolerance (medical)?",
+        "answer": "Decreased pH can inhibit lactose fermentation, reducing discomfort",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.41,
+          "physics": 0.24,
+          "medical": 0.11,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the decrease in pH from adding lemon juice to milk (chemistry) affect metabolic energy production (physics), cellular function in muscle tissue (biology), and its implications for treating acidosis in patients (medical)?",
+        "answer": "Decreases metabolic energy, impairs muscle function, treats acidosis",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.24,
+          "medical": 0.18,
+          "biology": 0.21
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the exothermic reaction of lemon juice with milk (chemistry) alter thermal energy transfer (physics), impact muscle cell metabolism (biology), and potentially affect patient recovery rates (medical)? A. Increases energy production, enhancing recovery B. Decreases energy availability, slowing recovery C. No significant effect on recovery D. Alters cellular pH, indirectly affecting recovery?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "chemistry": 0.37,
+          "physics": 0.23,
+          "medical": 0.13,
+          "biology": 0.27
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the exothermic reaction of lemon juice with milk (chemistry) influence thermal regulation in muscle cells (physics), alter metabolic pathways (biology), and affect patient recovery in physical therapy (medical)?",
+        "answer": "No significant influence or effect detected",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.36,
+          "physics": 0.27,
+          "medical": 0.19,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the exothermic reaction of lemon juice altering milk's pH (chemistry) impact thermal regulation in muscle cells (physics), modify metabolic enzyme activity (biology), and influence recovery in physical therapy patients (medical)?",
+        "answer": "No direct impact on these processes",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.29,
+          "physics": 0.29,
+          "medical": 0.17,
+          "biology": 0.25
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the exothermic reaction of lemon juice with milk (chemistry) affect thermal energy distribution in muscle tissue (physics), alter cellular respiration rates (biology), and influence recovery in patients with metabolic disorders (medical)?",
+        "answer": "No significant impact on these processes",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.24,
+          "medical": 0.17,
+          "biology": 0.33
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the effect of an exothermic reaction, such as lemon juice altering milk's pH (chemistry), on muscle cell thermal regulation (physics), enzyme activity in metabolic pathways (biology), and its implications for treating muscle fatigue (medical)?",
+        "answer": "Increases enzyme efficiency, potentially reducing muscle fatigue",
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "chemistry": 0.23,
+          "physics": 0.27,
+          "medical": 0.24,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 9,
+        "prompt": "How might the exothermic reaction of lemon juice altering milk's pH (chemistry) influence muscle cell thermodynamics (physics), enzyme kinetics in metabolic pathways (biology), and patient recovery rates post-exercise (medical)?",
+        "answer": "Increases metabolic efficiency, potentially speeding recovery",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.23,
+          "medical": 0.21,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.8
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_84174",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay of antibiotic properties—chemical structure, molecular geometry, charge, and hydrophobicity—and their effects on tissue diffusion, bacterial interaction, and suitability for endocarditis prophylaxis in penicillin-allergic patients",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A patient allergic to penicillin requires prophylaxis for endocarditis before a dental procedure; which factor most influences the choice of antibiotic if sunlight exposure alters drug stability, photosynthesis analogs are contraindicated, and molecular orbital symmetry affects absorption? A. Drug’s half-life B. Drug’s aromatic structure C. Drug’s light sensitivity D. Drug’s solubility?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.21,
+          "medical": 0.32,
+          "biology": 0.14
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the chemical structure of an alternative antibiotic, its diffusion through tissue (physics), its effect on bacterial cell walls (biology), and its suitability for endocarditis prophylaxis in penicillin-allergic patients (medical) collectively determine treatment efficacy?",
+        "answer": "Chemical properties, diffusion, bacterial impact, and allergy suitability determine efficacy",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.26,
+          "physics": 0.25,
+          "medical": 0.26,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the molecular geometry of an alternative antibiotic affect its tissue diffusion rate, interaction with bacterial cell membranes, and suitability for endocarditis prophylaxis in penicillin-allergic patients?",
+        "answer": "Affects diffusion rate, membrane interaction, and prophylaxis suitability",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.18,
+          "medical": 0.11,
+          "biology": 0.38
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the impact of an antibiotic's molecular charge (chemistry) on its tissue penetration depth (physics), disruption of bacterial biofilms (biology), and suitability for prophylaxis in immunocompromised patients (medical)?",
+        "answer": "Positive charge enhances penetration, disrupts biofilms, increases prophylaxis suitability",
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.14,
+          "medical": 0.34,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the hydrophobicity of an antibiotic (chemistry) influence its diffusion through infected tissue (physics), disruption of bacterial quorum sensing (biology), and effectiveness in treating respiratory infections (medical)?",
+        "answer": "Enhances diffusion, disrupts signaling, improves treatment efficacy",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.3,
+          "physics": 0.26,
+          "medical": 0.11,
+          "biology": 0.33
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_30869",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The impact of mercury-induced mitochondrial dysfunction on muscle thermodynamics, reproductive biology, and metabolic health in female flies",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the energy released from digesting food (medical) affect a female fly's ability to lay eggs (biology) if mercury-contaminated water (chemistry) reflects light poorly compared to snow (physics)? A. Energy boosts egg production B. Light reflection impacts digestion C. Mercury toxicity reduces fertility D. Snow enhances nutrient absorption?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.33,
+          "physics": 0.14,
+          "medical": 0.31,
+          "biology": 0.22
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does mercury contamination (chemistry) alter the energy transfer in a female fly’s cells (biology), impacting her egg-laying ability under cold conditions (physics), and what dietary adjustments could mitigate this (medical)? A. Increase carbohydrate intake B. Reduce protein consumption C. Administer antioxidants D. Enhance lipid supplementation?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.21,
+          "physics": 0.16,
+          "medical": 0.22,
+          "biology": 0.41
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How does mercury’s chemical interaction with cellular enzymes (chemistry) affect the thermodynamic efficiency of energy transfer in a female fly’s muscles (physics), thereby influencing her reproductive capacity (biology) and potential medical implications for humans exposed to similar contaminants?",
+        "answer": "Mercury inhibits enzymes, reducing energy efficiency and reproductive success",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.32,
+          "physics": 0.24,
+          "medical": 0.14,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How does mercury’s inhibition of ATP synthase (chemistry) affect muscle thermodynamics (physics) and egg production (biology) in female flies exposed to contaminated food sources (medical)? A. Reduces energy efficiency, impairing both flight and reproduction B. Increases metabolic rate, enhancing egg production C. Causes irreversible muscle damage without affecting reproduction D. Triggers immune response, indirectly boosting energy transfer?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.42,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.2,
+          "medical": 0.32,
+          "biology": 0.28
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How might mercury-induced disruption of mitochondrial ATP production (chemistry) alter muscle thermogenesis (physics), impair reproductive signaling pathways in female flies (biology), and inform potential treatments for heavy metal poisoning in humans (medical)?",
+        "answer": "Impairs energy production, affects heat generation, disrupts hormonal balance",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.15,
+          "physics": 0.15,
+          "medical": 0.4,
+          "biology": 0.3
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 6,
+        "prompt": "How does mercury’s inhibition of mitochondrial enzymes (chemistry) affect muscle thermodynamics (physics), alter reproductive hormone signaling in female flies (biology), and potentially lead to metabolic disorders in humans (medical)?",
+        "answer": "Impairs energy production, disrupts hormonal balance, increases disease risk",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.26,
+          "medical": 0.25,
+          "biology": 0.18
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 7,
+        "prompt": "How does mercury-induced mitochondrial dysfunction (chemistry) affect muscle thermoregulation (physics), disrupt ovarian hormone cycles (biology), and increase susceptibility to metabolic disorders (medical)?",
+        "answer": "Mercury disrupts mitochondria, impairing heat balance, hormones, and metabolism",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.25,
+          "physics": 0.23,
+          "medical": 0.18,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 8,
+        "prompt": "How does mercury-induced mitochondrial dysfunction (chemistry) affect muscle thermogenesis (physics), disrupt ovarian hormone cycles (biology), and contribute to chronic fatigue syndrome (medical)?",
+        "answer": "Impairs energy production, hormone regulation, and muscle function",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "chemistry": 0.31,
+          "physics": 0.24,
+          "medical": 0.22,
+          "biology": 0.23
+        },
+        "theme_consistency_score": 0.83
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_chemistry_physics_biology_medical_12230",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "physics",
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      2,
+      11,
+      11
+    ],
+    "topic_description": "The interplay between aromatic compounds' absorption, gravitational lensing during lunar eclipses, genetic mutations in photoreceptors, and their collective impact on diagnosing and understanding retinal conditions",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 7,
+    "task_type_change_frequency": 0.875,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the interaction of aromatic compounds' electron distribution (chemistry), light refraction during a lunar eclipse (physics), genetic mutations affecting cellular metabolism (biology), and mobile healthcare delivery systems (medical) collectively impact patient treatment in remote areas? A. Enhanced drug design B. Improved diagnostic imaging C. Personalized medicine accessibility D. Increased surgical precision?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.23,
+          "medical": 0.33,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the interaction of aromatic compounds' electron distribution (chemistry), light refraction during a lunar eclipse (physics), genetic mutation effects on cellular function (biology), and their combined impact on human circadian rhythms (medical) manifest? A. Disruption in melatonin production B. Enhanced visual acuity at night C. Increased metabolic rate D. Suppression of immune response?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "chemistry": 0.16,
+          "physics": 0.16,
+          "medical": 0.36,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.89
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the absorption spectrum of aromatic compounds (chemistry), gravitational lensing during a lunar eclipse (physics), a genetic mutation affecting melanin production (biology), and its medical implications for vision disorders (medical) interconnect?",
+        "answer": "Interdisciplinary study of light and biological effects",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "chemistry": 0.15,
+          "physics": 0.26,
+          "medical": 0.35,
+          "biology": 0.24
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the interaction between aromatic compounds' absorption spectrum (chemistry), gravitational lensing effects during a lunar eclipse (physics), a genetic mutation altering light sensitivity (biology), and its implications for diagnosing photophobia (medical) play in understanding sensory disorders?",
+        "answer": "No direct role in understanding sensory disorders",
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "chemistry": 0.18,
+          "physics": 0.19,
+          "medical": 0.25,
+          "biology": 0.38
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the interaction between aromatic compounds' absorption spectrum, gravitational lensing during a lunar eclipse, and genetic mutations influence the diagnosis of light-sensitive medical conditions?",
+        "answer": "No direct influence on diagnosis observed",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.2,
+          "physics": 0.28,
+          "medical": 0.32,
+          "biology": 0.2
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 6,
+        "prompt": "How could the interaction between aromatic compounds' absorption spectrum, gravitational lensing during a lunar eclipse, genetic mutations in photoreceptor cells, and their medical implications affect human vision diagnostics?",
+        "answer": "No direct correlation; highly speculative scenario",
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "chemistry": 0.28,
+          "physics": 0.29,
+          "medical": 0.17,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 7,
+        "prompt": "How might the interaction between aromatic compounds' absorption spectrum, gravitational lensing during a lunar eclipse, genetic mutations in photoreceptors, and their impact on retinal imaging influence diagnostic accuracy in medical imaging?",
+        "answer": "No significant interaction affecting diagnostic accuracy",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "chemistry": 0.22,
+          "physics": 0.24,
+          "medical": 0.22,
+          "biology": 0.32
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 8,
+        "prompt": "How might the interaction between aromatic compounds' absorption spectrum, gravitational lensing effects during a lunar eclipse, genetic mutations in photoreceptor cells, and their implications for retinal health influence diagnostic approaches in ophthalmology?",
+        "answer": "No significant influence on diagnostic approaches",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "chemistry": 0.24,
+          "physics": 0.19,
+          "medical": 0.31,
+          "biology": 0.26
+        },
+        "theme_consistency_score": 0.91
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the combined effect of aromatic compounds' absorption spectrum, gravitational lensing during a lunar eclipse, genetic mutations in photoreceptors, and their implications for diagnosing retinal diseases?",
+        "answer": "No direct correlation; highly interdisciplinary and complex",
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.16,
+          "physics": 0.21,
+          "medical": 0.29,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 0.85
+      }
+    ]
+  }
+]

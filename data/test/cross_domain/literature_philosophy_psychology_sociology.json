@@ -1,0 +1,619 @@
+[
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_20156",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between a protagonist's psychological struggles and societal norms in literature, highlighting existential dilemmas and resilience amidst external pressures",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does a protagonist's existential dilemma reflect societal norms in literature?",
+        "answer": [
+          "Mirrors and challenges cultural values",
+          "Inner conflict mirrors societal values"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "literature": 0.22,
+          "philosophy": 0.32,
+          "psychology": 0.17,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 2,
+        "prompt": "How does a protagonist's internal conflict in literature reflect societal norms while exploring existential dilemmas?",
+        "answer": [
+          "Mirrors and challenges societal values",
+          "Inner turmoil mirrors societal norms, explores existential dilemmas"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.28,
+          "philosophy": 0.25,
+          "psychology": 0.23,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.92
+      },
+      {
+        "turn": 3,
+        "prompt": "How does a protagonist's psychological internal conflict reflect societal norms while exploring existential dilemmas in literature?",
+        "answer": [
+          "Mirrors and challenges societal values",
+          "Inner turmoil mirrors society's values, questioning existence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "literature": 0.27,
+          "philosophy": 0.21,
+          "psychology": 0.28,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.94
+      },
+      {
+        "turn": 4,
+        "prompt": "How does a protagonist's psychological transformation in literature reflect societal pressures while addressing philosophical existential dilemmas?",
+        "answer": [
+          "Mirrors societal norms and existential concerns",
+          "Inner growth mirrors societal norms, confronting existential meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.24,
+          "philosophy": 0.29,
+          "psychology": 0.2,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.76
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_94835",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between societal divorce norms, psychological resilience, philosophical guilt, and literary symbolism in shaping a character's moral and emotional responses in literature",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal norms on divorce influence a character's psychological guilt and philosophical interpretation of suffering in literature?",
+        "answer": [
+          "Heightens guilt, interprets suffering as moral",
+          "Societal norms shape guilt and suffering"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.25,
+          "philosophy": 0.14,
+          "psychology": 0.3,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a character's philosophical interpretation of guilt be shaped by societal divorce norms, psychological resilience, and literary symbolism?",
+        "answer": [
+          "Shaped by cultural and personal resilience",
+          "Guilt's weight shifts through norms, resilience, symbols, and ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.24,
+          "philosophy": 0.2,
+          "psychology": 0.26,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 3,
+        "prompt": "How do societal divorce norms influence a character's psychological resilience and philosophical guilt in literature?",
+        "answer": [
+          "Shapes resilience, induces philosophical guilt",
+          "Societal norms shape resilience and guilt"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.18,
+          "philosophy": 0.15,
+          "psychology": 0.35,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 4,
+        "prompt": "How do societal norms on divorce influence a character's psychological resilience and philosophical guilt in literature?",
+        "answer": [
+          "Shapes resilience, induces guilt",
+          "Societal norms shape resilience and guilt"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.32,
+          "philosophy": 0.2,
+          "psychology": 0.18,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.91
+      },
+      {
+        "turn": 5,
+        "prompt": "How might societal norms on divorce shape a character's psychological resilience, philosophical guilt, and use of literary symbolism?",
+        "answer": [
+          "Increases resilience, guilt, symbolic interpretations",
+          "Societal norms on divorce may foster resilience through symbolic guilt"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.26,
+          "philosophy": 0.2,
+          "psychology": 0.18,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 6,
+        "prompt": "How does societal pressure on divorce influence a character's psychological resilience, philosophical guilt, and use of literary motifs?",
+        "answer": [
+          "Increases stress, guilt, and symbolism use",
+          "Societal norms erode resilience, deepen guilt, and shape motifs"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.24,
+          "philosophy": 0.24,
+          "psychology": 0.26,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.83
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_80041",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay of societal structures and psychological factors in shaping a character's existential, moral, and philosophical development within literary narratives",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do societal norms (sociology) and cognitive biases (psychology) influence a protagonist's moral dilemmas (literature) and philosophical worldview?",
+        "answer": [
+          "Shape beliefs and ethical choices",
+          "Norms and biases shape dilemmas, worldviews"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.24,
+          "philosophy": 0.19,
+          "psychology": 0.28,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 2,
+        "prompt": "How might societal pressures (sociology) and psychological resilience (psychology) shape a character's pursuit of meaning (literature) and ethical perspective (philosophy)?",
+        "answer": [
+          "Shapes moral pursuits and resilience",
+          "Societal norms and inner strength mold quests for purpose and moral stances"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "literature": 0.25,
+          "philosophy": 0.13,
+          "psychology": 0.28,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How do societal expectations (sociology) and psychological defense mechanisms (psychology) influence a character’s existential crisis (literature) and philosophical outlook?",
+        "answer": [
+          "Shape beliefs and coping strategies",
+          "Societal norms and defense mechanisms shape existential dilemmas and philosophical perspectives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.35,
+          "philosophy": 0.17,
+          "psychology": 0.18,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "How do societal roles (sociology) and psychological identity (psychology) shape a protagonist's philosophical quest (philosophy) in a bildungsroman (literature)?",
+        "answer": [
+          "Shapes self-understanding and personal growth",
+          "Identity and roles fuel philosophical growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.28,
+          "philosophy": 0.14,
+          "psychology": 0.23,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_20898",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between a literary character's psychological resilience, moral dilemmas, societal norms, and philosophical ethics, highlighting how personal struggles reflect and challenge broader cultural and ethical frameworks",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does a literary character's moral conflict reveal societal pressures on psychological resilience and philosophical values?",
+        "answer": [
+          "Exposes societal expectations and values",
+          "Moral conflict mirrors societal resilience and values"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.26,
+          "philosophy": 0.28,
+          "psychology": 0.2,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 2,
+        "prompt": "How does a literary character's moral struggle illustrate societal impacts on psychological resilience and philosophical ethics?",
+        "answer": [
+          "Reflects societal pressures on ethical behavior",
+          "Moral resilience reflects societal ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.24,
+          "philosophy": 0.23,
+          "psychology": 0.28,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 3,
+        "prompt": "How does a literary character’s psychological resilience reflect societal norms and philosophical dilemmas?",
+        "answer": [
+          "Mirrors societal values and conflicts",
+          "Resilience mirrors norms, dilemmas"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.22,
+          "philosophy": 0.17,
+          "psychology": 0.35,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How does a character’s psychological resilience in literature influence societal norms and philosophical ethics?",
+        "answer": [
+          "Shapes ethical norms and behaviors",
+          "Resilient characters inspire ethical norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.23,
+          "philosophy": 0.2,
+          "psychology": 0.19,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.9
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_63851",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The interplay between a character's psychological resilience, societal expectations, and existential philosophical dilemmas in literature",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a character's shifting identity in a novel reflect societal pressures and psychological struggles, and what philosophical concept explains this transformation? A. Existentialism B. Social Constructivism C. Cognitive Dissonance D. Metamorphosis?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.17,
+          "philosophy": 0.32,
+          "psychology": 0.22,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What philosophical theory explains a character's psychological resilience amid societal expectations in literature?",
+        "answer": [
+          "Existentialist resilience theory",
+          "Existentialism fuels resilience against societal norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.3,
+          "philosophy": 0.26,
+          "psychology": 0.26,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How does a character's psychological resilience in literature reflect societal norms and philosophical existentialism?",
+        "answer": [
+          "Mirrors cultural values and existential challenges",
+          "Resilience mirrors norms, embodies existential defiance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.26,
+          "philosophy": 0.37,
+          "psychology": 0.23,
+          "sociology": 0.14
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_literature_philosophy_53292",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      13,
+      17
+    ],
+    "topic_description": "The exploration of how philosophical truth-seeking influences psychological resilience, sociological structures, and literary themes, emphasizing interdisciplinary connections between truth, identity, and existential reflection",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might philosophical truth-seeking influence psychological resilience , reshape sociological group dynamics , and parallel literary themes of identity ?",
+        "answer": [
+          "Enhances resilience, alters dynamics, mirrors identity themes",
+          "Truth-seeking fosters resilience, reshapes groups, parallels identity themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.23,
+          "philosophy": 0.25,
+          "psychology": 0.24,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.89
+      },
+      {
+        "turn": 2,
+        "prompt": "How does philosophical truth-seeking impact psychological resilience , influence sociological group identity , and align with literary themes of existential struggle?",
+        "answer": [
+          "Enhances resilience, strengthens identity, explores existentialism",
+          "Truth-seeking fosters resilience, shapes identity, and mirrors existential struggles"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.16,
+          "philosophy": 0.33,
+          "psychology": 0.25,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the philosophical concept of truth affect psychological coping mechanisms , alter sociological power structures , and reflect literary existential themes ?",
+        "answer": [
+          "Shapes coping, power dynamics, and existential reflection",
+          "Truth shapes coping, power, and existential reflection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.2,
+          "philosophy": 0.33,
+          "psychology": 0.19,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical pursuit of truth alter psychological resilience , influence sociological hierarchies , and reflect literary existentialism ?",
+        "answer": [
+          "Enhances resilience, shifts hierarchies, mirrors existential themes",
+          "Truth-seeking fortifies resilience, reshapes hierarchies, echoes existential quests"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "literature": 0.3,
+          "philosophy": 0.27,
+          "psychology": 0.16,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the philosophical concept of truth shape psychological identity formation , influence sociological class structures , and appear in literary allegories ?",
+        "answer": [
+          "Shapes identity, class perceptions, and symbolism",
+          "Truth molds identity, class, and allegory"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "literature": 0.18,
+          "philosophy": 0.31,
+          "psychology": 0.18,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the philosophical interpretation of truth impact psychological adaptation , shape sociological norms , and appear in literary themes ?",
+        "answer": [
+          "Influences norms, adaptation, and thematic exploration",
+          "Truth shapes minds, norms, and stories"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.12,
+          "philosophy": 0.39,
+          "psychology": 0.32,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the philosophical concept of truth influence psychological resilience , shape sociological hierarchies , and manifest in literary themes ?",
+        "answer": [
+          "Fosters resilience, structures power, inspires narratives",
+          "Truth empowers resilience, structures hierarchies, inspires themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "literature": 0.28,
+          "philosophy": 0.26,
+          "psychology": 0.22,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  }
+]

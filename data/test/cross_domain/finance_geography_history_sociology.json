@@ -1,0 +1,469 @@
+[
+  {
+    "scenario_id": "cross4_finance_sociology_geography_history_94374",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "Ukraine's Euro 2012 hosting and financial strategies reflected post-apartheid societal shifts, fostering unity and reshaping historical trade routes while impacting economic systems",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Ukraine's Euro 2012 hosting reflect post-apartheid societal shifts while reshaping historical trade routes and financial investments?",
+        "answer": [
+          "Ukraine's Euro 2012 hosting did not directly affect post-apartheid shifts or historical trade routes",
+          "Ukraine's Euro 2012 hosting symbolized post-apartheid unity, revived Silk Road trade routes, attracted global investments, and reshaped historical narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.18,
+          "finance": 0.26,
+          "sociology": 0.29,
+          "history": 0.27
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 2,
+        "prompt": "What financial and societal impacts did Ukraine's Euro 2012 hosting have on historical trade routes and post-apartheid policies?",
+        "answer": [
+          "No significant impact on historical trade routes or post-apartheid policies",
+          "Boosted trade, united societies, revived routes, reshaped policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.23,
+          "finance": 0.32,
+          "sociology": 0.23,
+          "history": 0.22
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Ukraine's Euro 2012 hosting influence post-apartheid societal shifts and historical trade route investments?",
+        "answer": [
+          "No direct influence on post-apartheid shifts or historical trade investments",
+          "Ukraine's Euro 2012 hosting boosted trade routes, unified diverse societies, and reshaped historical financial investments"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "geography": 0.23,
+          "finance": 0.2,
+          "sociology": 0.27,
+          "history": 0.3
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Ukraine's Euro 2012 financial strategies influence societal shifts in post-apartheid regions while altering historical trade routes?",
+        "answer": [
+          "Ukraine's Euro 2012 strategies had no impact on post-apartheid regions or trade routes",
+          "Ukraine's Euro 2012 investments reshaped trade routes and united diverse societies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.24,
+          "finance": 0.31,
+          "sociology": 0.15,
+          "history": 0.3
+        },
+        "theme_consistency_score": 0.88
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_geography_history_14099",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The influence of the 1923 London Stock Exchange motto on societal trust, global trade routes, and financial systems, reflecting geographic and historical shifts in international commerce",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the 1923 motto of the London Stock Exchange influence global trade routes, reflect societal trust, and shape historical financial movements?",
+        "answer": [
+          "No significant influence on global trade routes; primarily a symbolic motto",
+          "\"Dictum Meum Pactum\" fostered trust, reshaped trade routes, and influenced global finance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "geography": 0.16,
+          "finance": 0.36,
+          "sociology": 0.28,
+          "history": 0.2
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the 1923 London Stock Exchange motto influence societal trust, alter historical trade routes, and reflect geographic shifts in global finance?",
+        "answer": [
+          "No significant influence on societal trust or trade routes identified",
+          "\"1923 motto fostered trust, reshaped trade, mirrored finance shifts.\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "geography": 0.16,
+          "finance": 0.42,
+          "sociology": 0.16,
+          "history": 0.26
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the geographic shifts in global finance after 1923 reflect historical trade route changes and influence societal trust in financial systems?",
+        "answer": [
+          "Shifts mirrored trade routes, enhancing global trust and financial integration",
+          "Geographic shifts post-1923 mirrored historical trade routes, altering societal trust"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.22,
+          "finance": 0.31,
+          "sociology": 0.22,
+          "history": 0.25
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How did geographic and historical shifts post-1923 alter societal trust in financial systems globally?",
+        "answer": [
+          "Increased mistrust due to economic instability and political changes",
+          "Geopolitical upheavals and economic collapses reshaped global trust"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.14,
+          "finance": 0.29,
+          "sociology": 0.3,
+          "history": 0.27
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 5,
+        "prompt": "How did post-1923 societal trust in financial systems reflect historical trade route shifts and geographic influences on global finance?",
+        "answer": [
+          "Increased trust due to stabilized global financial networks and policies",
+          "Trust rebuilt via trade hubs, societal norms, and historical shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "geography": 0.22,
+          "finance": 0.39,
+          "sociology": 0.19,
+          "history": 0.2
+        },
+        "theme_consistency_score": 0.9
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_geography_history_57094",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "The influence of post-1923 historical and geographic shifts on the distribution of financial hubs and their impact on societal trust in unwritten financial agreements",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the 1923 motto of the London Stock Exchange reflect broader societal trust in unwritten agreements, influence global financial hubs historically, and relate to movements like Hezbollah’s opposition to Western economic systems?",
+        "answer": [
+          "Motto emphasized trust; indirectly shaped global finance; no direct link to Hezbollah's views",
+          "\"My Name is My Bond\" symbolized trust, influenced global hubs, and contrasted with Hezbollah's anti-Western stance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "geography": 0.21,
+          "finance": 0.28,
+          "sociology": 0.21,
+          "history": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the geographic distribution of financial hubs post-1923 influence societal trust in unwritten agreements across history?",
+        "answer": [
+          "Increased trust due to centralized, reputable financial centers",
+          "Financial hubs' geographic shifts post-1923 fostered societal trust through interconnected trade and cultural exchange"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.3,
+          "finance": 0.2,
+          "sociology": 0.32,
+          "history": 0.18
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the geographic shifts in financial hubs post-1923 reflect societal trust in unwritten agreements across history?",
+        "answer": [
+          "Shifts indicated reduced trust, prompting reliance on formal, regulated financial centers",
+          "Geographic shifts in financial hubs post-1923 reflected evolving societal trust in unwritten agreements, shaped by historical events and geographic advantages"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.23,
+          "finance": 0.24,
+          "sociology": 0.42,
+          "history": 0.11
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "What role did geographic shifts play in shaping societal trust in unwritten financial agreements after 1923?",
+        "answer": [
+          "Geographic shifts increased reliance on formal, documented financial agreements",
+          "Geographic shifts post-1923 altered trust in informal finance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "geography": 0.3,
+          "finance": 0.18,
+          "sociology": 0.24,
+          "history": 0.28
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 5,
+        "prompt": "How did historical events post-1923 shape the geographic distribution of financial hubs and influence societal trust in unwritten agreements?",
+        "answer": [
+          "Global crises and wars centralized finance in stable, politically secure regions; trust in informal deals declined",
+          "Post-1923 crises shifted hubs, reshaping trust globally"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "geography": 0.29,
+          "finance": 0.25,
+          "sociology": 0.2,
+          "history": 0.26
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 6,
+        "prompt": "How did post-1923 geographic and historical shifts influence societal trust in unwritten financial agreements?",
+        "answer": [
+          "Eroded trust, increased reliance on formal contracts",
+          "Geopolitical shifts eroded trust in informal finance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.29,
+          "finance": 0.26,
+          "sociology": 0.27,
+          "history": 0.18
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 7,
+        "prompt": "Which post-1923 historical event most significantly altered the geographic distribution of financial hubs and societal trust in unwritten agreements?",
+        "answer": [
+          "World War II and the subsequent Cold War era",
+          "The Bretton Woods Conference"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "geography": 0.31,
+          "finance": 0.24,
+          "sociology": 0.28,
+          "history": 0.17
+        },
+        "theme_consistency_score": 0.79
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_finance_sociology_geography_history_55476",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "sociology",
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      5,
+      6,
+      17
+    ],
+    "topic_description": "Hezbollah's financial and political activities in 1980s Lebanon and their impact on global financial systems, regional sociopolitical structures, geographic alliances, and historical narratives",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Hezbollah's influence in Lebanon during the 1980s impact global financial systems, regional sociopolitical structures, Middle Eastern geographic alliances, and post-Cold War historical narratives? A. By destabilizing currency markets B. Through fostering",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.23,
+          "finance": 0.31,
+          "sociology": 0.28,
+          "history": 0.18
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Hezbollah's rise in Lebanon during the 1980s reshape global financial networks, sociopolitical dynamics, regional geography, and historical trajectories?",
+        "answer": [
+          "Hezbollah's rise influenced illicit finance and regional power balances",
+          "Hezbollah's rise reshaped finance, society, geography, and history"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.14,
+          "finance": 0.3,
+          "sociology": 0.26,
+          "history": 0.3
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Hezbollah's emergence in Lebanon during the 1980s alter global financial systems, sociopolitical structures, regional geography, and historical trajectories?",
+        "answer": [
+          "Hezbollah's emergence did not significantly alter global financial systems",
+          "Hezbollah's rise reshaped finance, society, geography, and history"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.27,
+          "finance": 0.27,
+          "sociology": 0.31,
+          "history": 0.15
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Hezbollah's financial strategies in the 1980s influence sociopolitical structures, alter regional geography, and reshape historical narratives?",
+        "answer": [
+          "Hezbollah's funding bolstered its political influence and territorial control",
+          "Hezbollah's 1980s funding diversified power, redraw borders, and reframed resistance history"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.32,
+          "finance": 0.35,
+          "sociology": 0.2,
+          "history": 0.13
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Hezbollah's financial networks in the 1980s influence regional sociopolitical structures and geographic boundaries?",
+        "answer": [
+          "Hezbollah's funding strengthened its political influence and territorial control",
+          "Hezbollah's 1980s financial networks strengthened sociopolitical influence, reshaping regional boundaries"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.26,
+          "finance": 0.32,
+          "sociology": 0.26,
+          "history": 0.16
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 6,
+        "prompt": "How did Hezbollah's financial activities in the 1980s reshape regional sociopolitical systems, geographic dynamics, and historical trajectories?",
+        "answer": [
+          "Hezbollah's funding strengthened its political influence and regional alliances",
+          "Hezbollah's 1980s financing altered sociopolitical hierarchies, shifted regional power geographies, and redirected historical conflict trajectories"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "geography": 0.16,
+          "finance": 0.2,
+          "sociology": 0.38,
+          "history": 0.26
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "scenario_id": "cross_economics_history_24123",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      6
+    ],
+    "topic_description": "Bismarck’s economic and social policies, including tariffs, trade alliances, and social insurance, reflect historical precedents and strategies that unified Germany, balanced European power dynamics, and shaped its industrial growth and social stability in the 19th century",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Otto von Bismarck's economic policies influence Germany's historical unification?",
+        "answer": [
+          "Strengthened economic integration",
+          "Economic integration fueled unification",
+          "Bismarck's tariffs united German states economically, aiding political unification"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "history": 0.67,
+          "economics": 0.33
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Bismarck's use of tariffs and trade alliances reflect both economic strategy and historical statecraft in unifying Germany?",
+        "answer": [
+          "Economic integration, political leverage",
+          "Economic nationalism for unification",
+          "Tariffs unified markets, alliances secured power"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.57,
+          "economics": 0.43
+        },
+        "theme_consistency_score": 0.66,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.32 > 0.25"
+        ]
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Bismarck’s economic policies, such as tariffs and trade alliances, reflect both historical statecraft and economic strategy in unifying Germany while balancing European power dynamics?",
+        "answer": [
+          "Strategic economic unification",
+          "Economic nationalism and Realpolitik",
+          "Tariffs unified Germany, balanced European power"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "history": 0.51,
+          "economics": 0.49
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Bismarck’s integration of Zollverein policies and protectionist tariffs reflect mercantilist precedents and reshape Germany’s competitive trade dynamics in 19th-century Europe?",
+        "answer": [
+          "Boosted industrial competitiveness",
+          "Protectionism built industrial power",
+          "Bismarck’s policies strengthened German industry through protectionist tariffs and Zollverein integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "history": 0.35,
+          "economics": 0.65
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Bismarck’s economic policies in the 1880s reflect historical precedents while influencing Germany’s industrial labor dynamics?",
+        "answer": [
+          "Social welfare, labor protection",
+          "Balanced welfare and industrial growth"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "history": 0.68,
+          "economics": 0.32
+        },
+        "theme_consistency_score": 0.73
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_history_18296",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      6
+    ],
+    "topic_description": "The historical impact of Ferdinand Marcos's economic policies, particularly his use of foreign debt, on Philippine economic dependency, growth, and alliances with creditor nations",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Ferdinand Marcos's economic policies during his presidency influence the historical trajectory of the Philippines?",
+        "answer": [
+          "Stagnated economic growth",
+          "Created massive debt and cronyism",
+          "Debt-driven growth destabilized economy, shaping political unrest"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "history": 0.48,
+          "economics": 0.52
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Marcos's use of foreign debt in the 1970s impact both Philippine economic growth and its historical relationship with creditor nations?",
+        "answer": [
+          "Initial growth, later debt crisis",
+          "Caused debt crisis, dependency",
+          "Debt-fueled growth strained ties with creditors"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.54,
+          "economics": 0.46
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Marcos's foreign debt strategy in the 1970s alter Philippine economic dependency and reshape its historical alliances with creditor nations?",
+        "answer": [
+          "Increased economic dependence",
+          "Increased dependency, strained alliances",
+          "Increased debt, shifted alliances"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "history": 0.51,
+          "economics": 0.49
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Marcos’s foreign debt accumulation in the 1970s reflect historical dependency patterns while influencing Philippine economic policy?",
+        "answer": [
+          "Perpetuated economic dependency",
+          "Perpetuated dependency, forced austerity",
+          "Debt-driven dependency shaped policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "history": 0.54,
+          "economics": 0.46
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How did the economic policies of the 1980s, influenced by historical post-Marcos reforms, shift creditor nations' leverage over Philippine debt?",
+        "answer": [
+          "Reduced leverage significantly",
+          "Increased leverage through conditionality",
+          "Debt restructuring empowered creditors post-reforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "history": 0.56,
+          "economics": 0.44
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 6,
+        "prompt": "How did post-Marcos economic reforms in the 1990s reflect historical shifts in creditor nations’ influence while addressing long-term dependency patterns?",
+        "answer": [
+          "Reduced foreign debt dependency",
+          "Implementing Washington Consensus reforms",
+          "Economic liberalization reduced dependency while aligning with creditor nations' policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "history": 0.53,
+          "economics": 0.47
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_history_88964",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      6
+    ],
+    "topic_description": "Bismarck’s economic policies and their role in shaping German unification, European power dynamics, trade rivalries, alliances, and state-driven industrialization during the 19th century",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Bismarck's use of tariffs and trade policies reflect historical power dynamics in 19th-century Europe?",
+        "answer": [
+          "Strengthened German hegemony",
+          "Protected German industry, asserted economic power"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "history": 0.71,
+          "economics": 0.29
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Bismarck's economic reforms in the 1870s reflect historical rivalries and reshape European trade dynamics?",
+        "answer": [
+          "Strengthened German economic dominance",
+          "Protected German industries, shifted trade alliances"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "history": 0.58,
+          "economics": 0.42
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Bismarck’s economic alliances in the 1880s reflect historical shifts in European power structures?",
+        "answer": [
+          "Strengthened German hegemony",
+          "Strengthened German industrial dominance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "history": 0.66,
+          "economics": 0.34
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Bismarck’s economic reforms in the 1880s align with historical patterns of state-driven industrialization during wartime?",
+        "answer": [
+          "State-supported economic expansion",
+          "State-driven reforms boosted industrial capacity during wartime"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "history": 0.59,
+          "economics": 0.41
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_history_53845",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      6
+    ],
+    "topic_description": "Bismarck’s economic policies and reforms in the 19th century integrated historical precedents, trade practices, and fiscal innovation to unify Germany, address industrialization's challenges, and establish social welfare mechanisms",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Bismarck's use of tariffs and trade policies reflect historical precedents in European economic unification?",
+        "answer": [
+          "Protectionist, Mercantilist policies",
+          "Mirrored the Zollverein model",
+          "Bismarck's tariffs echoed Zollverein's economic unity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "history": 0.58,
+          "economics": 0.42
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Bismarck’s trade policies draw from historical precedents while addressing 19th-century economic challenges?",
+        "answer": [
+          "Protectionism, Mercantilist influences",
+          "Applied Listian protectionist theory",
+          "Bismarck adapted mercantilist precedents to unify markets"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "history": 0.63,
+          "economics": 0.37
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Bismarck’s economic reforms in the 1870s reflect historical lessons from earlier European trade alliances?",
+        "answer": [
+          "Promoted economic protectionism",
+          "Consolidating power through protectionism",
+          "Bismarck’s reforms adapted mercantilist lessons"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "history": 0.63,
+          "economics": 0.37
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Bismarck’s 1879 tariff reforms reflect both historical trade practices and economic protectionism?",
+        "answer": [
+          "Reinforced protectionist policies",
+          "Returned to protectionist policies",
+          "Protected agriculture, aligned with historical tariffs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "history": 0.57,
+          "economics": 0.43
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Bismarck’s 1880s economic reforms integrate historical precedents, fiscal innovation, and social welfare mechanisms amid industrialization's complexities?",
+        "answer": [
+          "Social insurance, fiscal prudence",
+          "State-led protectionism, social insurance",
+          "Bismarck’s reforms balanced tradition, innovation, and welfare"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "history": 0.58,
+          "economics": 0.42
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 6,
+        "prompt": "How did Bismarck’s economic reforms in the 1880s reflect historical precedents while addressing fiscal challenges of industrialization?",
+        "answer": [
+          "Social welfare, industrial subsidies",
+          "Protectionism funded social welfare",
+          "Bismarck’s reforms balanced tradition and innovation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "history": 0.52,
+          "economics": 0.48
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_history_18440",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "history"
+    ],
+    "cross_domain_id": [
+      3,
+      6
+    ],
+    "topic_description": "The influence of Bismarck’s 1870s economic policies on Germany's unification, historical trade patterns, modern fiscal theories, and post-WWI reparations, highlighting precedents in European economic integration",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Bismarck’s economic reforms in the 1870s reflect historical trade patterns while influencing modern fiscal policies?",
+        "answer": [
+          "Protectionism and social welfare",
+          "Bismarck’s reforms balanced protectionism with social welfare"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "history": 0.56,
+          "economics": 0.44
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Bismarck’s 1870s trade policies reflect historical precedents while shaping modern economic theories?",
+        "answer": [
+          "Protectionism, influenced mercantilism",
+          "Balanced protectionism with free trade principles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "history": 0.71,
+          "economics": 0.29
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Bismarck’s 1870s economic reforms reflect historical precedents while influencing modern fiscal policies?",
+        "answer": [
+          "Established welfare, influenced policies",
+          "Balanced tariffs, unified markets, inspired Keynesian policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "history": 0.56,
+          "economics": 0.44
+        },
+        "theme_consistency_score": 0.76
+      }
+    ]
+  }
+]

@@ -1,0 +1,1613 @@
+[
+  {
+    "scenario_id": "programming_37391",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Optimizing median-finding algorithms for sorted, unsorted, dynamic, and duplicate-heavy arrays through binary search, pre-sorting, frequency handling, and efficient update mechanisms",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.429,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to find the median of two sorted arrays of same size.",
+        "answer": "def findMedianSortedArrays(arr1, arr2): n = len(arr1) m1, m2 = -1, -1 i, j = 0, 0 for count in range(n + 1): if i == n: m1 = m2 m2 = arr2[0] break elif j == n: m2 = arr1[0] if arr1[i] <= arr2[j]: m2 = arr1[i] i += 1 else: m2 = arr2[j] j += 1 return (m1 + m2)/2",
+        "task_type": "code",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which approach optimizes the function to find the median of two sorted arrays by reducing comparisons?",
+        "answer": "def findMedianSortedArrays(nums1, nums2): if len(nums1) > len(nums2): nums1, nums2 = nums2, nums1 x, y = len(nums1), len(nums2) low, high = 0, x while low <= high: partitionX = (low + high) // 2 partitionY = (x + y + 1) // 2 - partitionX maxX = float('-inf') if partitionX == 0 else nums1[partitionX - 1] maxY = float('-inf') if partitionY == 0 else nums2[partitionY - 1] minX = float('inf') if partitionX == x else nums1[partitionX] minY = float('inf') if partitionY == y else nums2[partitionY] if maxX <= minY and maxY <= minX: if (x + y) % 2 == 0: return (max(maxX, maxY) + min(minX, minY)) / 2 else: return max(maxX, maxY) elif maxX > minY: high = partitionX - 1 low = partitionX + 1",
+        "task_type": "code",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which modification to the median-finding function reduces unnecessary comparisons by leveraging binary search?",
+        "answer": "def findMedianSortedArrays(nums1, nums2): if len(nums1) > len(nums2): nums1, nums2 = nums2, nums1 x, y = len(nums1), len(nums2) low, high = 0, x while low <= high: partitionX = (low + high) // 2 partitionY = (x + y + 1) // 2 - partitionX maxLeftX = float('-inf') if partitionX == 0 else nums1[partitionX - 1] minRightX = float('inf') if partitionX == x else nums1[partitionX] maxLeftY = float('-inf') if partitionY == 0 else nums2[partitionY - 1] minRightY = float('inf') if partitionY == y else nums2[partitionY] if maxLeftX <= minRightY and maxLeftY <= minRightX: if (x + y) % 2 == 0: return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2 else: return",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which modification to the binary search-based median function ensures it works correctly for arrays of unequal sizes?",
+        "answer": "A modification to handle arrays of unequal sizes is to ensure the smaller array is used for partitioning. Adjust the partition indices dynamically based on the array sizes",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How can the median-finding function be further optimized to handle edge cases where one array is significantly smaller than the ?",
+        "answer": "A smaller array can be used to reduce comparisons. Binary search on the smaller array ensures logarithmic time complexity. Handle edge cases by checking empty inputs",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which adjustment to the median-finding function allows it to process unsorted input arrays without compromising efficiency? A. Pre-sort the arrays before applying binary search B. Use a hash map to track element positions C. Implement a quicksort within the function D. Skip sorting and rely on array length comparison?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which modification to the median-finding function ensures it can handle duplicate elements in unsorted arrays efficiently? A. Use a set to remove duplicates before processing B. Introduce a frequency counter during sorting C. Ignore duplicates and calculate the median directly D. Apply a modified quickselect algorithm that accounts for duplicates?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which optimization technique ensures the median-finding function remains efficient when handling large-scale dynamic updates with unsorted and duplicate-heavy arrays?",
+        "answer": "Employing two heaps: a max-heap for the lower half of elements and a min-heap for the upper half. This structure provides O(1) median access and O(log n) updates, making it ideal for dynamic data",
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_34187",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Analyzing and counting characters in a string based on their neighboring characters, such as consonants, vowels, or numeric values, using specific conditions and functions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to count those characters which have at least one consonant as their immediate neighbor?",
+        "answer": "def count_vowel_neighbors(s): vowels = 'aeiouAEIOU' count = 0 for i in range(1, len(s) - 1): if s[i-1] in vowels or s[i+1] in vowels: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which characters in a string have at least one consonant as their immediate neighbor? Write a function to count such characters.",
+        "answer": "To count characters with at least one consonant neighbor, iterate through the string, check neighbors of each character, and increment a counter for characters adjacent to consonants",
+        "task_type": "code",
+        "difficulty": 0.62,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which characters in a string have no vowels as neighbors? Write a function to count such characters.",
+        "answer": "def count_non_vowel_neighbors(s): vowels = set('aeiouAEIOU') count = 0 for i in range(len(s)): if i > 0 and s[i-1] in vowels: continue if i < len(s)-1 and s[i+1] in vowels: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Write a function to count those characters which have at least one consonant as their immediate neighbor.",
+        "answer": "def count_surrounded_by_consonants(s): vowels = set('aeiouAEIOU') count = 0 for i in range(1, len(s)-1): if s[i] in vowels and s[i-1].isalpha() and s[i+1].isalpha(): if s[i-1] not in vowels and s[i+1] not in vowels: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which characters in a string are vowels with at least one numeric neighbor? Write a function to count such characters. def count_vowel_with_numeric_neighbor(s): vowels = set('aeiouAEIOU') count = 0 for i in range(len(s)): if s[i] in vowels: if (i > 0 and s[i-1].isdigit()) or (i < len(s)-1 and s?",
+        "answer": "s[i+1].isdigit()): count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_31801",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Optimizing algorithms for calculating the minimum sum of absolute differences between two sorted arrays using efficient techniques like the two-pointer approach and O(n) time complexity",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to find the minimum sum of absolute differences of two arrays.",
+        "answer": "def min_abs_diff_sum(arr1, arr2): arr1.sort() arr2.sort() return sum(abs(a - b) for a, b in zip(arr1, arr2))",
+        "task_type": "code",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How can you optimize the function to calculate the minimum sum of absolute differences between two sorted arrays using a single loop instead of nested loops?",
+        "answer": "With sorted arrays, the minimum sum is the sum of absolute differences between elements at corresponding indices. Use a single loop to calculate `sum += abs(arr1[i] - arr2[i])` for all `i`",
+        "task_type": "code",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How can you modify the function to calculate the minimum sum of absolute differences between two sorted arrays while ensuring it runs in O(n) time complexity?",
+        "answer": "def min_sum_abs_diff(arr1, arr2): i, j = 0, 0 min_sum = 0 while i < len(arr1) and j < len(arr2): min_sum += abs(arr1[i] - arr2[j]) if arr1[i] < arr2[j]: i += 1 else: j += 1 return min_sum",
+        "task_type": "code",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which data structure can efficiently store the indices of elements from two sorted arrays for calculating their minimum absolute differences? A. Stack B. Queue C. Hash Map D. Binary Search Tree?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which algorithm can be used to find the minimum sum of absolute differences between two sorted arrays in O(n) time while minimizing space complexity? A. Merge Sort B. Quick Sort C. Two-Pointer Technique D. Dynamic Programming?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which modification to the two-pointer technique ensures it handles duplicate values in sorted arrays while calculating minimum absolute differences?",
+        "answer": "A modification to skip duplicate values ensures correctness",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which code snippet correctly implements a function to merge two sorted arrays into a single sorted array using the two-pointer technique?",
+        "answer": "def merge_sorted_arrays(arr1, arr2): merged = [] i, j = 0, 0 while i < len(arr1) and j < len(arr2): if arr1[i] <= arr2[j]: merged.append(arr1[i]) i += 1 else: merged.append(arr2[j]) j += 1 merged.extend(arr1[i:]) merged.extend(arr2[j:]) return merged",
+        "task_type": "code",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_67620",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Analyzing methods for efficiently finding, verifying, and optimizing retrieval of the kth element in an array sorted by odd elements first and even elements second",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to find the kth element in an array containing odd elements first and then even elements.",
+        "answer": "def find_kth_element(arr, k): odds = [x for x in arr if x % 2 != 0] evens = [x for x in arr if x % 2 == 0] if k <= len(odds): return odds[k-1] elif k <= len(odds) + len(evens): return evens[k - len(odds) - 1] else: return -1",
+        "task_type": "code",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which approach is more efficient for finding the kth element in an array sorted by odd elements first and even elements second? A. Linear search B. Binary search C. Hashing",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which method is best for finding the kth element in an array sorted by odd elements first and even elements second? A. Linear search B. Binary search C. Hashing D.",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_62288",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Exploring Python functions and techniques to filter and group strings based on anagrams, palindromes, and vowel order using sorting, lambda functions, and optimized approaches",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which function can filter a list of strings to return only those that are exact anagrams of a given string using a simpler approach than lambda?",
+        "answer": "You can use the `filter` function with a comparison of sorted strings: `filter(lambda x: sorted(x) == sorted(target_string), list_of_strings)`",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which function can filter a list of strings to return only exact anagrams of a given string without using lambda, while ensuring optimal performance?",
+        "answer": "def filter_anagrams(strings, target): sorted_target = sorted(target) return [s for s in strings if sorted(s) == sorted_target]",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a function called group_anagrams.",
+        "answer": "def group_anagrams(strings): anagrams = defaultdict(list) for s in strings: key = ''.join(sorted(s)) anagrams[key].append(s) return list(anagrams.values())",
+        "task_type": "code",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which function can filter a list of strings to return only those that are palindromes, using Python's join and sorted functions?",
+        "answer": "def filter_palindromes(strings): return [s for s in strings if s == ''.join(sorted(s, key=str.lower)[::-1])]",
+        "task_type": "code",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which function can filter a list of strings to return only those that contain all vowels in alphabetical order, using Python's join and sorted functions?",
+        "answer": "def filter_vowels(strings): return [s for s in strings if ''",
+        "task_type": "code",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_48157",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Optimizing data structures and operations for efficiently tracking, updating, and retrieving the top n most frequent words in a dynamic text corpus",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to find the occurrences of n most common words in a given text.",
+        "answer": "def find_n_most_common_words return word_counts.most_common(n)",
+        "task_type": "code",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which data structure is most efficient for storing and retrieving the n most common words in a text while maintaining order? A. List B. Dictionary C. Heap D. Array?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which data structure allows efficient updating of word frequencies while maintaining the order of n most common words in a text? A. List B. Dictionary C. Heap D. Array?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which data structure would allow efficient insertion, deletion, and retrieval of the top n most frequent words in a dynamic text corpus? A. List B. Dictionary C. Heap D. Array?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which operation would require the least time complexity when updating the frequency of a word in a dynamically changing text corpus stored in a heap? A. Insertion B. Deletion C. Retrieval D. Update?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which approach would optimize the process of dynamically updating and retrieving the top n most frequent words in a text corpus while minimizing time complexity?",
+        "answer": "def __init__: self",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which implementation ensures real-time updates of the top n most frequent words in a dynamically changing text corpus with minimal computational overhead?",
+        "answer": "A combination of a sliding window approach and a min-heap ensures real-time updates of the top n most frequent words with minimal computational overhead",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_21584",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Exploring Python functions and regex techniques to manipulate strings by replacing or removing specific patterns, such as whitespaces, underscores, and non-alphanumeric characters",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to replace whitespaces with an underscore and vice versa in a given string by using regex",
+        "answer": "import re; re.sub(r'[_\\s]', lambda x: '_' if x.group() == ' ' else ' ', 'your_string')",
+        "task_type": "code",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a function called replace_underscores_with_whitespace.",
+        "answer": "def replace_underscores_with_whitespace(text): return re.sub(r'_', ' ', text)",
+        "task_type": "code",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which function can replace all underscores with whitespaces in a string using regex, and how would you implement it in Python?",
+        "answer": "def replace_underscores(text): return re.sub(r'_', ' ', text)",
+        "task_type": "code",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which function can replace all whitespaces with underscores and vice versa in a single pass using regex, and how would you implement it in Python? A. Use `re.sub` with a lambda function B. Use `str.replace` twice C. Use `re.findall` and join D. Use `split` and `join`",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which function can replace all occurrences of a pattern in a string using regex, and how would you implement it in Python? A. Use `re.sub` with a lambda function B. Use `str.replace` twice C. Use `re.findall` and join D. Use `split` and `join`",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which function can remove all non-alphanumeric characters from a string using regex, and how would you implement it in Python? A. Use `re.sub` with a pattern B. Use `str.replace` in a loop C. Use `re.findall` and join D. Use `split` and `join`",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_92067",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Manipulating and analyzing nested and flattened tuples in Python, including operations like removal, flattening, counting, uniqueness checks, reversing, and sorting",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to remove the nested record from the given tuple.",
+        "answer": "def remove_nested_record(tup): return tuple(item for item in tup if not isinstance(item, tuple))",
+        "task_type": "code",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a function to flatten a nested tuple structure into a single-level tuple while preserving the order of elements.",
+        "answer": "def flatten_tuple(nested_tuple): flattened = [] for item in nested_tuple: if isinstance(item, tuple): flattened.extend(flatten_tuple(item)) else: flattened.append(item) return tuple(flattened)",
+        "task_type": "code",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a function to count the number of elements in a flattened tuple. How would you implement it?",
+        "answer": "def count_elements_in_tuple(t): return len(t)",
+        "task_type": "code",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How would you implement a function to check if a flattened tuple contains only unique elements?",
+        "answer": "def is_unique_tuple(t): return len(t) == len(set(t))",
+        "task_type": "code",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How would you implement a function to reverse the order of elements in a flattened tuple while maintaining immutability? A. Use slicing with a step of `-1` B. Convert to a list, reverse it, and convert back to a tuple C. Use a loop to iterate and construct a new tuple D. Apply the `reversed()` function directly on the tuple?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which method is most efficient for sorting a flattened tuple in ascending order? A. Use the `sorted()` function directly on the tuple B. Convert the tuple to a list, sort it, and convert back to a tuple C. Implement a custom sorting algorithm like bubble sort D. Use a lambda function with the `sort()` method on the tuple?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_65266",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Manipulating strings by inserting spaces, hyphens, or underscores, converting letter cases, and formatting words while preserving or modifying capitalization and spacing",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to split the given string at uppercase letters by using regex",
+        "answer": "def split_at_uppercase(s): return re.findall('[A-Z][^A-Z]*', s)",
+        "task_type": "code",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How can you modify the function from Step 1 to also include a space before each uppercase letter instead of splitting the string?",
+        "answer": "Use a regular expression to find each uppercase letter and replace it with a space followed by the matched letter. For example, in JavaScript: `str.replace(/([A-Z])/g, ' $1')`",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How can you adjust the function from Step 1 to insert a space before each uppercase letter without splitting the string?",
+        "answer": "Use a regular expression to find each uppercase letter and replace it with a space followed by the matched letter. For example, `str.replace(/([A-Z])/g, ' $1')` performs this substitution without splitting the string",
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How can you modify the function from Step 3 to replace each uppercase letter with its lowercase equivalent while keeping the spaces intact?",
+        "answer": "To modify the function to replace uppercase letters with their lowercase equivalents while keeping spaces intact, use the `str.lower()` method on the string",
+        "task_type": "reasoning",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How can you modify the function from Step 3 to capitalize the first letter of each word after replacing uppercase letters with their lowercase equivalents?",
+        "answer": "def modify_string(s): return ' '.join(word.capitalize() for word in s.lower().split())",
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How can you modify the function from Step 5 to remove all spaces between words while preserving the capitalized first letter of each word?",
+        "answer": "A function can split the string into words, capitalize each word's first letter, and join them without spaces",
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How can you modify the function from Step 3 to insert a hyphen between every two consecutive uppercase letters while keeping the rest of the string unchanged?",
+        "answer": "Use a regular expression to find an uppercase letter that is followed by another. Replace the match by adding a hyphen after it. For example: `str.replace(/([A-Z])(?=[A-Z])/g, '$1-')`",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "How can you modify the function from Step 3 to replace all spaces with underscores while ensuring the first letter of each word remains capitalized? To achieve this, you can use Python's string manipulation methods. First, split the string into words, capitalize the first letter of each word, and then join them with underscores. Here's the implementation:",
+        "answer": "def replace_spaces_with_underscores",
+        "task_type": "code",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_71284",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "This scenario explores the use of regex functions for pattern searching, replacing, extracting, splitting, and validating strings, emphasizing handling overlapping patterns, dynamic replacements, and case-insensitive matches",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs by using regex",
+        "answer": "def find_pattern(text, pattern): match = re.search(pattern, text) if match: return (match.group(), match.start(), match.end()) else: return None",
+        "task_type": "code",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a function to replace all occurrences of a literal string in a given string using regex and return the modified string",
+        "answer": "def replace_literal(text, old, new): return re.sub(re.escape(old), new, text)",
+        "task_type": "code",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a function to replace all occurrences of a literal string in a given string using regex and return the modified string. How would you implement this function to handle overlapping patterns?",
+        "answer": "def replace_literal(text, pattern, replacement): return re.sub(re.escape(pattern), replacement, text)",
+        "task_type": "code",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which function can be used to extract all non-overlapping matches of a regex pattern in a string, and how would you implement it to return the matches as a list?",
+        "answer": "A function to extract all non-overlapping matches of a regex pattern in a string is `re.findall()`. It returns matches as a list",
+        "task_type": "reasoning",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which function can be used to replace all non-overlapping occurrences of a regex pattern in a string with a dynamic replacement string, and how would you implement it to handle case-insensitive matches?",
+        "answer": "Use `re.sub()` with a replacement function (a callable) for dynamic substitution. For case-insensitive matching, include the `re.IGNORECASE` or `re.I` flag. `re.sub(pattern, repl_func, string, flags=re.IGNORECASE)`",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which function can be used to split a string into substrings based on a regex pattern, and how would you implement it to handle nested patterns while preserving delimiters?",
+        "answer": "A function like `re.split()` in Python can split a string based on a regex pattern. To handle nested patterns while preserving delimiters, use capturing parentheses in the regex",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which function can be used to validate if a string matches a specific regex pattern entirely, and how would you implement it to return a boolean result?",
+        "answer": "A function like `re.fullmatch()` ensures the entire string matches the regex pattern. The implementation returns a boolean result",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which function can be used to extract all matching groups of a regex pattern in a string, and how would you implement it to handle overlapping matches?",
+        "answer": "Use a `findall` or `matchAll` function. For overlapping matches, use a positive lookahead `(?=(.))` around your pattern. This finds all matches, including overlaps, by not consuming characters after a match is found",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "How can you replace all occurrences of a regex pattern in a string with a custom function to modify each match, and what would the implementation look like?",
+        "answer": "def replace_with_function(pattern, repl_func, text): return re.sub(pattern, repl_func, text)",
+        "task_type": "code",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which function can split a string into parts based on a regex pattern, and how would you implement it to return a list of non-overlapping matches?",
+        "answer": "import re; matches = re.findall(pattern, string)",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_53961",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Counting pairs in a list based on specific sum properties, such as even sums, divisibility by 3, or being a prime number, using Python functions",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to count the number of pairs whose sum?",
+        "answer": "def count_pairs_with_sum(arr, sum): count = 0 n = len(arr) for i in range(n): for j in range(i + 1, n): if arr[i] + arr[j] == sum: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a Python function to count the number of pairs in a list whose sum?",
+        "answer": "def count_pairs_with_sum(arr, target_sum): count = 0 n = len(arr) for i in range(n): for j in range(i + 1, n): if arr[i] + arr[j] == target_sum: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a Python function to count how many unique pairs in a list sum up to an even number.",
+        "answer": "Count the number of even (`e`) and odd (`o`) numbers. The total pairs are the combinations of two evens plus the combinations of two odds, calculated as `e*(e-1)//2 + o*(o-1)//2`",
+        "task_type": "code",
+        "difficulty": 0.56,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Python function can count how many pairs in a list have a sum divisible by 3?",
+        "answer": "def count_pairs_divisible_by_3(lst): count = 0 n = len(lst) for i in range(n): for j in range(i + 1, n): if (lst[i] + lst[j]) % 3 == 0: count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Python function can count how many pairs in a list have a sum that is a prime number?",
+        "answer": "def count_prime_sum_pairs(lst): def is_prime(n): if n < 2: return False for i in range(2, int(n**0.5) + 1): if n % i == 0: return True count = 0 n = len(lst) for i in range(n): for j in range(i + 1, n): if is_prime(lst[i] + lst[j]): count += 1 return count",
+        "task_type": "code",
+        "difficulty": 0.55,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_91984",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "This scenario explores the selection and analysis of data structures for optimizing operations on numeric values in strings, focusing on time complexity, functionality, and suitability for various computational tasks",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to increment the numeric values in the given strings by k",
+        "answer": "Use `re.sub` with a lambda function to find all numeric sequences, convert them to integers, add `k`, and then substitute them back as strings",
+        "task_type": "code",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which data structure would best optimize the function from Step 1 for large datasets? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which data structure minimizes time complexity for searching numeric values in strings? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which data structure would allow efficient insertion and deletion of numeric values extracted from strings? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which data structure would be most efficient for storing and retrieving key-value pairs in a program? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which data structure would best optimize a program that frequently updates numeric values while maintaining sorted order? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which data structure would allow efficient range queries for numeric values while maintaining sorted order? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which data structure would best support a program that requires frequent insertion, deletion, and retrieval of elements with logarithmic time complexity? A. Array B. Linked List C. Hash Table D. Binary Search Tree?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which operation would have the least time complexity in a Binary Search Tree compared to data structures? A. Insertion B. Deletion C. Searching D. Traversal?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which traversal method visits the root node last in a Binary Search Tree? A. Pre-order B. In-order C. Post-order D. Level-order?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_17049",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Analyzing and optimizing algorithms and data structures for efficiently tracking, identifying, and manipulating consecutive duplicate sequences in lists, focusing on time and space complexity",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 5,
+    "task_type_change_frequency": 0.714,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to count the frequency of consecutive duplicate elements in a given list of numbers.",
+        "answer": "def count_consecutive_duplicates(lst): if not lst: return [] result = [] count = 1 for i in range(1, len(lst)): if lst[i] == lst[i - 1]: else: result.append((lst[i - 1], count)) result.append((lst[-1], count)) return result",
+        "task_type": "code",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which data structure is best suited for efficiently tracking the frequency of consecutive duplicate elements in a list? A. Array B. Hash Map C. Linked List D. Stack?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which approach optimizes memory usage when tracking consecutive duplicate frequencies in large datasets?",
+        "answer": "An iterative approach is most memory-efficient. It processes the dataset sequentially, only storing the previous element and a counter for the current run. This uses constant O(1) space, making it ideal for large datasets",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which algorithm efficiently identifies the longest sequence of consecutive duplicates in a list while minimizing time complexity? A. Linear Scan B. Binary Search C. Dynamic Programming D. Divide and Conquer?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which algorithm efficiently computes the total number of unique consecutive duplicate sequences in a list while optimizing space complexity? A. Sliding Window B. Two Pointers C. Hash Map D. Recursive Backtracking?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Write a function to identify the starting indices of all consecutive duplicate sequences in a list, where each sequence?",
+        "answer": "A list comprehension can find indices `i` where `lst[i] == lst[i+1]` and `(i == 0 or lst[i] != lst[i-1])`, identifying the start of each new consecutive sequence",
+        "task_type": "code",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which approach optimizes merging all identified consecutive duplicate sequences into a single list while preserving their original order? A. Merge Sort B. Priority Queue C. Linked List D. Hash Set?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which method ensures the most efficient removal of all identified consecutive duplicate sequences from a list while maintaining linear time complexity? A. List Comprehension B. Filter Function C. Iterative Removal D. Recursive Traversal?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_22328",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Analysis and implementation of Python functions to evaluate properties of quadratic equation roots, including sum, product, difference, and comparisons with given values",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to check if roots of a quadratic equation",
+        "answer": "def check_roots(a, b, c): d = b**2 - 4*a*c if d > 0: return \"Real and distinct roots\" elif d == 0: return \"Real and equal roots\" else: return \"Complex",
+        "task_type": "code",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a Python function to determine if the roots of a quadratic equation",
+        "answer": "Calculate the discriminant `d = b**2 - 4*a*c`. If `d > 0`, roots are real and distinct; if `d == 0`, real and equal; if `d < 0`, complex",
+        "task_type": "code",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Python function can calculate the sum of all real roots of a quadratic equation, given coefficients a, b, and c?",
+        "answer": "To calculate the sum of all real roots of a quadratic equation with coefficients a, b, and c, use the formula `-b/a` if the discriminant (b² - 4ac) is non-negative",
+        "task_type": "code",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Python function can determine if a quadratic equation has at least one root greater than a given value `k`, using coefficients `a`, `b`, and `c`?",
+        "answer": "def has_root_greater_than_k(a, b, c, k): import math if a == 0: return False discriminant = b**2 - 4*a*c if discriminant < 0: root1 = (-b + math.sqrt(discriminant)) / (2*a) root2 = (-b - math.sqrt(discriminant)) / (2*a) return root1 > k or root2 > k",
+        "task_type": "code",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Python function can calculate the product of all real roots of a quadratic equation, given coefficients a, b, and c? A. def product_roots(a, b, c): return b / a B. def product_roots(a, b, c): return c / a C. def product_roots(a, b, c): return -b / a D. def product_roots(a, b, c): return -c / a?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Python function can calculate the absolute difference between the sum and product of all real roots of a quadratic equation, given coefficients a, b, and c? A. def abs_diff(a, b, c): return abs(sum_roots(a, b, c) - product_roots(a, b, c)) B. def abs_diff(a, b, c): return abs(sum_roots(a, b, c) + product_roots(a, b, c)) C. def abs_diff(a, b, c): return abs(sum_roots(a, b, c) * product_roots(a, b, c)) D. def abs_diff(a, b, c): return abs(sum_roots(a, b, c) / product_roots(a, b, c))?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_94612",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Exploring numbers below 100 that can be expressed as the sum of two squares, with variations including uniqueness, even perfect squares, and constraints on square values",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to check whether the given number can be represented by sum of two squares or not",
+        "answer": "Based on Fermat's theorem, a number `n` can be a sum of two squares if all its prime factors of the form `4k+3` have an even exponent",
+        "task_type": "code",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which numbers below 100 can be represented as the sum of two squares?",
+        "answer": "A number below 100 can be represented as the sum of two squares if it satisfies the condition: n = a² + b², where a, b are integers. Examples include 2 (1² + 1²), 5 (1² + 2²), and 50 (5² + 5²)",
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which numbers below 100 can be expressed as the sum of two squares? Write a Python function to list them.",
+        "answer": "def sum_of_two_squares(): squares = {i**2 for i in range(10)} results = {a + b for a in squares for b in squares if a + b < 100} return sorted(results)",
+        "task_type": "code",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which numbers below 100 can be expressed as the sum of two squares in more than one way? Write a Python function to identify and list them.",
+        "answer": "def find_numbers(): squares = {i**2: i for i in range(10)} sums = {} for a in range(10): for b in range(a, 10): s = a**2 + b**2 if s < 100: sums.setdefault(s, []).append((a, b)) return {k: v for k, v in sums.items() if len(v) > 1}",
+        "task_type": "code",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which numbers below 100 can be expressed as the sum of two squares where one of the squares is a perfect square of an even number? Write a Python function to identify and list them.",
+        "answer": "def find_numbers(): even_squares = [i**2 for i in range(0, 100, 2)] results = set() for a in even_squares: for b in range(100): if a + b**2 < 100: results.add(a + b**2) return sorted(results)",
+        "task_type": "code",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which numbers below 100 can be expressed as the sum of two squares where both squares are less than 50? Write a Python function to list them.",
+        "answer": "def sum_of_two_squares(): squares = [i**2 for i in range(1, 8)] results = set() for a in squares: for b in squares: if a + b < 100: results.add(a + b) return sorted(results)",
+        "task_type": "code",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.99,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_55990",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Analyzing and manipulating strings in Python to determine word lengths, vowel counts, and relationships between vowels and consonants in specific words",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to find the length of the last word in a given string.",
+        "answer": "def length_of_last_word(s): words = s.strip().split() return len(words[-1])",
+        "task_type": "code",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a Python function that calculates the total number of words in a string and returns the length of the second-to-last word if it exists.",
+        "answer": "def analyze_words length = len(words[-2]) if count >= 2 else None return (count, length)",
+        "task_type": "code",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a Python function that counts the total number of vowels in a given string and returns the count. If the string contains no vowels, return -1.",
+        "answer": "def count_vowels(s): count = sum(1 for char in s",
+        "task_type": "code",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Write a Python function that checks if the last word in a string contains more vowels than consonants. Return `True` if it does, otherwise `False`. Assume the string contains only letters and spaces.",
+        "answer": "def has_more_vowels_in_last_word(s): vowels = set('aeiouAEIOU') words = s.strip().split() if not words: return False last_word = words[-1] vowel_count",
+        "task_type": "code",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which function correctly identifies if the second-to-last word in a string has an equal number of vowels and consonants? Assume the string contains only letters and spaces. A. `def check_second_last_equal < 2: return False; word = words[-2]; v_count = sum(1 for c in word if c in vowels); return v_count == len(word?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which function correctly identifies if the first word in a string has more vowels than consonants",
+        "answer": "def check_first_word - v_count`",
+        "task_type": "code",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_59185",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "This scenario explores techniques for extracting, storing, and manipulating numeric values from strings, focusing on data structures, algorithms, and Python functions for efficiency and functionality",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.429,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a python function to count numeric values in a given string.",
+        "answer": "def count_numeric_values(s): return sum(c.isdigit() for c in s)",
+        "task_type": "code",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which data structure would be most efficient for storing and retrieving numeric values extracted from a string? A. List B. Dictionary C. Set D. Tuple?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which method is best for checking if a numeric value exists in the extracted data? A. Linear search B. Binary search C. Hashing D. Recursion?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which method is best for sorting the numeric values extracted from a string? A. Bubble Sort B. Quick Sort C. Insertion Sort D. Merge Sort?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which method is best for removing duplicate numeric values from the extracted data?",
+        "answer": "A set data structure is best for removing duplicate numeric values",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which data structure is most efficient for storing unique numeric values extracted from a string? A. List B. Set C. Dictionary D. Tuple?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which function can be used to calculate the sum of all numeric values stored in a set? A. sum() B. total() C. add() D. accumulate()?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which function can be used to convert a set of numeric values into a sorted list? A. sort() B. sorted() C. arrange() D. order()?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_98682",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "The scenario explores the implementation of Python functions to compute cumulative operations (sum, product, difference, division) on lists of integers, emphasizing algorithmic logic and correctness",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to find the cumulative sum of all the values that",
+        "answer": "def cumulative_sum(tuple_list): return sum(value for tup in tuple_list for value in tup)",
+        "task_type": "code",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Write a function to calculate the cumulative product of all the values that",
+        "answer": "def cumulative_product(values): product = 1 result = [] for val in values: product *= val result.append(product) return result",
+        "task_type": "code",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Write a function to calculate the cumulative product of all the values in a given list of integers. How would you implement this in Python?",
+        "answer": "import math; result = math.prod([1, 2, 3, 4])",
+        "task_type": "code",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which function correctly calculates the cumulative sum of a list of integers?",
+        "answer": "def cumulative_sum(nums): total = 0 result = [] for num in nums: total += num result.append(total) return result",
+        "task_type": "reasoning",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which function correctly calculates the cumulative division of a list of integers, where each element is divided by the product of all previous elements? A. Divide each value by the cumulative sum B. Divide each value by the cumulative product C. Divide the cumulative product by each value D. Divide each value by the next value in the list",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "programming_68924",
+    "is_cross_domain": false,
+    "domain": "programming",
+    "domain_id": 15,
+    "topic_description": "Combining dictionaries with custom merging logic for different value types, including summing integers, concatenating lists or strings, and merging lists without duplicates",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Write a function to combine two dictionaries by adding values for common keys",
+        "answer": "def combine_dicts(dict1, dict2): combined = {} for key in dict1: combined[key] = dict1[key] + dict2.get(key, 0) for key in dict2: if key not in dict1: combined[key] = dict2[key] return combined",
+        "task_type": "code",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How can you modify the function from Step 1 to handle cases where the values for common keys are lists, and you want to concatenate these lists instead of summing them?",
+        "answer": "Modify the function to check if the values are lists and use the `extend` method or `+` operator to concatenate lists instead of summing them",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How can you adjust the function from Step 1 to handle cases where the values for common keys are lists, so that these lists are merged without duplicates?",
+        "answer": "Modify the function to merge lists associated with common keys using set operations to eliminate duplicates, then convert back to lists. For example: `result[key] = list(set(dict1[key] + dict2[key]))`",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How can you modify the function from Step 3 to handle cases where the values for common keys are integers, so that these integers are summed instead of merged?",
+        "answer": "Modify the function by checking if the values are integers using `isinstance()`, and if so, sum them; otherwise, merge them as before. For example: `result[key] = value1 + value2 if isinstance(value1, int) and isinstance(value2, int) else value1 + value2`",
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How can you adjust the function to handle cases where the values for common keys are strings, so that these strings are concatenated with a space in between?",
+        "answer": "Modify the function to check if the values are strings and use `str1 + \" \" + str2` for concatenation when merging dictionaries with common keys",
+        "task_type": "code",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "programming": 1.0
+        }
+      }
+    ]
+  }
+]

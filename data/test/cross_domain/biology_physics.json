@@ -1,0 +1,234 @@
+[
+  {
+    "scenario_id": "cross_biology_physics_33081",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      11
+    ],
+    "topic_description": "The interplay of quantum mechanics, thermodynamics, and biochemical processes in photosynthesis, focusing on energy conversion, electron excitation, and efficiency comparisons with solar panels",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the light energy captured during photosynthesis get converted into chemical energy through processes similar to nuclear reactions in stars?",
+        "answer": "Photosynthesis is a chemical process, not a nuclear one like in stars",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the energy transfer in photosynthesis relate to the principles of thermodynamics and the role of chlorophyll in capturing light?",
+        "answer": "Chlorophyll converts light to chemical energy, a process consistent with thermodynamic laws",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the efficiency of energy conversion in chlorophyll during photosynthesis compare to the efficiency of energy transfer in a solar panel, considering both quantum mechanics and biochemical pathways?",
+        "answer": "Chlorophyll is less efficient than solar panels, converting around 3-6% of light energy",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "physics": 0.51,
+          "biology": 0.49
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the role of photon energy in exciting electrons within chlorophyll molecules, and how does this process align with the principles of quantum mechanics?",
+        "answer": "A photon's quantized energy excites an electron to a higher, discrete energy level",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "physics": 0.61,
+          "biology": 0.39
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the wavelength of light absorbed by chlorophyll affect the rate of photosynthesis, and how can this relationship be modeled using wave-particle duality principles?",
+        "answer": "Chlorophyll absorbs light optimally at specific wavelengths, enhancing photosynthesis efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "physics": 0.51,
+          "biology": 0.49
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the minimum photon energy required to excite an electron in chlorophyll, and how does this energy threshold relate to Planck's constant and the photoelectric effect?",
+        "answer": "Minimum photon energy is about 1.8 eV, related to Planck's constant in photoelectric calculations",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "physics": 0.66,
+          "biology": 0.34
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the efficiency of ATP synthesis in chloroplasts depend on both the quantum yield of photosynthesis and the thermodynamic principles governing proton gradient formation?",
+        "answer": "Quantum yield sets proton pumping rate, establishing the thermodynamic gradient driving ATP synthesis",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 0.54
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_biology_physics_94597",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "physics"
+    ],
+    "cross_domain_id": [
+      1,
+      11
+    ],
+    "topic_description": "The interplay of light absorption, energy transfer, and environmental factors in optimizing photosynthesis efficiency and quantum yield in plants",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the electromagnetic radiation emitted by the sun enable plants to perform photosynthesis?",
+        "answer": "Sunlight's photons excite electrons in chlorophyll, providing energy for chemical reactions",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the wavelength of light absorbed by chlorophyll affect the energy transfer and electron excitation in photosynthesis?",
+        "answer": "Shorter wavelengths carry more energy, exciting electrons to a higher energy state",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the energy difference between chlorophyll's excited and ground states, determined by absorbed light wavelength, influence ATP production in photosynthesis?",
+        "answer": "It determines if excitation occurs, but not the amount of ATP produced per photon",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "physics": 0.44,
+          "biology": 0.56
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the quantum efficiency of chlorophyll in photosynthesis relate to the photon energy and wavelength dependence of light absorption?",
+        "answer": "Chlorophyll's quantum efficiency depends on photon energy and wavelength, peaking at ~400-500 nm and ~600-700 nm due to electronic excitation matching",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "physics": 0.51,
+          "biology": 0.49
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the refractive index of a plant cell's vacuole affect the path of light and subsequent efficiency of photosynthesis?",
+        "answer": "The vacuole's refractive index focuses light onto chloroplasts, enhancing photosynthesis",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "physics": 0.42,
+          "biology": 0.58
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the angle of incident sunlight, governed by Snell's law at the leaf surface, affect the rate of photosynthesis and energy conversion efficiency in chloroplasts?",
+        "answer": "Higher angles reduce light penetration, decreasing photosynthesis efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "physics": 0.44,
+          "biology": 0.56
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the diffusion rate of carbon dioxide into a leaf, influenced by stomatal density and partial pressure differences, affect the light-dependent reactions' efficiency in photosynthesis under varying light intensities?",
+        "answer": "Higher CO2 diffusion increases photosynthesis efficiency, enhancing light reactions at optimal light levels",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "physics": 0.35,
+          "biology": 0.65
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the quantum yield of photosynthesis in chloroplasts change when light intensity is adjusted, considering both photon absorption efficiency and energy transfer dynamics? A. Increases linearly with light intensity B. Decreases due to saturation effects C. Remains constant until a threshold intensity D. Fluctuates unpredictably with intensity changes?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "physics": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 9,
+        "prompt": "Explain how the quantum yield of photosynthesis in chlorophyll molecules correlates with photon energy, wavelength-dependent absorption spectra, and the interplay of light-harvesting complexes in optimizing energy transfer efficiency under varying spectral conditions?",
+        "answer": "LHCs maintain a constant quantum yield by dissipating excess energy from higher-energy photons",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "physics": 0.51,
+          "biology": 0.49
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  }
+]

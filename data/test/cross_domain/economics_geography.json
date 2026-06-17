@@ -1,0 +1,170 @@
+[
+  {
+    "scenario_id": "cross_economics_geography_78990",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5
+    ],
+    "topic_description": "The impact of Nevada's 1998 economic policies and geographic attributes on its regional identity, sports tourism appeal, and long-term revenue generation in the global sports industry",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Nevada's economic incentives in 1998 impact its geographic role in boxing?",
+        "answer": [
+          "Boosted boxing's popularity",
+          "Reinforced its boxing dominance",
+          "Nevada's incentives boosted its boxing hub status"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.65
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Nevada's economic policies in 1998 influence its regional identity and global perception as a sports hub?",
+        "answer": [
+          "No significant influence detected",
+          "There was no significant influence",
+          "Boosted tourism, enhanced global sports profile"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.38,
+          "economics": 0.62
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Nevada's 1998 economic incentives and geographic location jointly influence its long-term sports tourism revenue?",
+        "answer": [
+          "Boosted sports tourism significantly",
+          "Established premier sports hub",
+          "Boosted tourism via incentives and location"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "geography": 0.42,
+          "economics": 0.58
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Nevada's geographic features and 1998 economic policies together shape its current regional trade patterns?",
+        "answer": [
+          "Boosted mining and tourism trade",
+          "No established causal link",
+          "Desert hubs drive trade policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "geography": 0.45,
+          "economics": 0.55
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_geography_58546",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5
+    ],
+    "topic_description": "The impact of Nevada's 1998 economic policies on the geographic development of desert cities as sports and trade hubs, focusing on infrastructure, growth, and international event suitability",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Nevada's economic policies in 1998 impact its geographic role in boxing?",
+        "answer": [
+          "Boosted boxing's economic appeal",
+          "Strengthened its industry dominance",
+          "Nevada's 1998 licensing boosted its boxing hub status"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.65
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Nevada's 1998 tax incentives influence its desert cities' growth as sports hubs?",
+        "answer": [
+          "Boosted sports infrastructure development",
+          "No significant influence found",
+          "Boosted sports hubs via tax-driven growth"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.65
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Nevada's 1998 economic policies affect desert city layouts for sports events?",
+        "answer": [
+          "No significant impact",
+          "No significant effect",
+          "Boosted tourism, reshaped urban planning"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "geography": 0.45,
+          "economics": 0.55
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How did economic policies in Nevada's desert cities affect their geographic capacity for international trade routes?",
+        "answer": [
+          "Limited geographic connectivity",
+          "Mitigated geographic limitations",
+          "Boosted trade route potential through economic incentives and geographic positioning"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.45,
+          "economics": 0.55
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  }
+]

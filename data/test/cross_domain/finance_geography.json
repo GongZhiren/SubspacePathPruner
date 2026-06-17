@@ -1,0 +1,213 @@
+[
+  {
+    "scenario_id": "cross_finance_geography_33325",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "geography"
+    ],
+    "cross_domain_id": [
+      5,
+      5
+    ],
+    "topic_description": "The economic impact of Portugal's abolition of capital punishment on its GDP growth, particularly in comparison to Spain, focusing on trade routes, geographic advantages, and regional economic policies",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which European country's early abolition of capital punishment most significantly impacted its financial market stability?",
+        "answer": [
+          "No significant impact on financial market stability identified",
+          "Norway's early abolition of capital punishment stabilized its financial market"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "geography": 0.27,
+          "finance": 0.73
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the abolition of capital punishment in Portugal affect its GDP growth compared to neighboring Spain?",
+        "answer": [
+          "No significant impact on GDP growth observed",
+          "Portugal's GDP growth slightly outpaced Spain's post-abolition"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.25,
+          "finance": 0.75
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Portugal's GDP growth after abolishing capital punishment compare to Spain's, considering their geographic proximity and economic policies?",
+        "answer": [
+          "Portugal's GDP growth was generally slower than Spain's post-abolition",
+          "Portugal's GDP growth post-abolition slightly trailed Spain's, influenced by geographic proximity and differing economic reforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.16,
+          "finance": 0.84
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Portugal's GDP rely on Atlantic trade compared to Spain's reliance on Mediterranean tourism?",
+        "answer": [
+          "Portugal's GDP less dependent on trade than Spain on tourism",
+          "Portugal's GDP depends more on Atlantic trade, while Spain's relies heavily on Mediterranean tourism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "geography": 0.38,
+          "finance": 0.62
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_finance_geography_38935",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "finance",
+      "geography"
+    ],
+    "cross_domain_id": [
+      5,
+      5
+    ],
+    "topic_description": "The impact of European countries' geographic features and abolition of capital punishment on their financial trade, GDP growth, and trade policies",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which European country's abolition of capital punishment most significantly impacted its financial trade relations?",
+        "answer": [
+          "No significant impact on financial trade relations identified",
+          "Norway's abolition significantly impacted its financial trade relations"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.29,
+          "finance": 0.71
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Which European country's geography most influenced its financial trade after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.28,
+          "finance": 0.72
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "Which European country's coastal geography most enhanced its financial trade growth after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "geography": 0.29,
+          "finance": 0.71
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 4,
+        "prompt": "Which European country's financial trade benefited most from its coastal geography after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "geography": 0.36,
+          "finance": 0.64
+        },
+        "theme_consistency_score": 0.91
+      },
+      {
+        "turn": 5,
+        "prompt": "Which European country’s mountainous geography most significantly impacted its financial trade policies after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "geography": 0.29,
+          "finance": 0.71
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 6,
+        "prompt": "Which European country’s inland waterways most significantly boosted its financial trade after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.27,
+          "finance": 0.73
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 7,
+        "prompt": "Which European country’s coastal geography most significantly influenced its financial trade growth rate after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "geography": 0.23,
+          "finance": 0.77
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 8,
+        "prompt": "Which European country’s GDP growth rate was most influenced by its mountainous regions after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "geography": 0.41,
+          "finance": 0.59
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 9,
+        "prompt": "How does a country’s GDP growth correlate with its coastal geography in influencing financial trade after abolishing capital punishment? A. France B. Germany C. Portugal D. Sweden?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.3,
+          "finance": 0.7
+        },
+        "theme_consistency_score": 0.85
+      }
+    ]
+  }
+]

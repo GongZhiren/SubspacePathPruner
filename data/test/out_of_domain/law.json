@@ -1,0 +1,635 @@
+[
+  {
+    "scenario_id": "law_16850",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The scenario explores whether a university can use state court findings to support a federal claim, focusing on exceptions to nonmutual issue preclusion and related legal principles",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Can the university use the state court's judgment to support its federal claim despite nonmutual issue preclusion rules?",
+        "answer": [
+          "Yes, if it establishes an exception to the rule",
+          "Yes, if the state's preclusion law allows it"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Can the university rely on the state court's findings to prove falsity in federal court?",
+        "answer": [
+          "Yes, if the findings are relevant and admissible",
+          "Yes, under the doctrine of collateral estoppel",
+          "No. State court findings don't automatically prove falsity in federal court"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Can the university argue that the state court's findings indirectly support its federal claim despite nonmutual issue preclusion rules?",
+        "answer": [
+          "Yes, if they demonstrate persuasive analogous facts",
+          "Yes, they can argue the findings are persuasive"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Can the university argue that the state court's findings create a presumption of falsity in federal court despite nonmutual issue preclusion rules?",
+        "answer": [
+          "No, due to nonmutual issue preclusion rules",
+          "Yes, the findings may create an evidentiary presumption",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Can the university claim state findings indirectly prove falsity under federal res judicata principles?",
+        "answer": [
+          "No, state findings do not bind federal courts",
+          "Yes, under the doctrine of issue preclusion",
+          "No"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "law_48656",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The scenario explores the legal implications of Madison's acceptance binding Arthur and its impact on Larson's claims to a tract, considering notice and timing",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Did Madison's acceptance on October 3 bind Arthur despite the sale to Larson? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Did Arthur's sale to Larson on October 4 affect the validity of Madison's acceptance? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If Madison's acceptance bound Arthur, could Larson claim the tract despite receiving notice after October 4? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If Madison's acceptance bound Arthur, could Larson claim the tract without proper notice? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "If Madison's acceptance bound Arthur, could Larson claim the tract without proper notice after October 4? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If Madison's acceptance bound Arthur, could Larson claim the tract without notice before October 4? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If Madison's acceptance bound Arthur, could Larson claim the tract without notice after all steps are completed? A. Yes B. No C. Maybe D. Unclear",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "law_27475",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The legal adequacy and resolution of an applicant's compensation process by December 1997, assessed against court standards and sufficiency of payments",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Did the applicant receive full compensation by December 1997?",
+        "answer": [
+          "No, the applicant did not receive full compensation by December 1997",
+          "No, the applicant did not receive full compensation",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Was the additional compensation paid to the applicant by December 1997 sufficient to cover the court's awarded amount?",
+        "answer": [
+          "Insufficient information to determine",
+          "No, the compensation was insufficient to cover the awarded amount",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Was the applicant's total compensation by December 1997 legally sufficient under court standards?",
+        "answer": [
+          "Insufficient information to determine legality",
+          "No, the compensation was legally insufficient",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Was the applicant's compensation process finalized by December 1997 under legal standards?",
+        "answer": [
+          "Insufficient information to determine completion status",
+          "No, the compensation process was not legally finalized",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Was the applicant's case fully resolved by December 1997 under legal standards?",
+        "answer": [
+          "No, the case was not fully resolved by then",
+          "No, the case was not fully resolved by that date",
+          "No"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "law_14586",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The impact of a tax lien on the legal strategies, negotiation leverage, enforcement delays, and settlement terms for the first and third applicants, as well as its broader effects on all parties' enforceability",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the tax lien on the debtor's property have legally impacted the enforcement delays for the first and third applicants?",
+        "answer": [
+          "Delayed enforcement due to prioritized tax claim repayment",
+          "The tax lien's priority delayed the enforcement proceedings",
+          "A tax lien likely delayed enforcement by prioritizing the lienholder's claim over the applicants'"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How could the tax lien on the debtor's property have affected the legal enforcement process for the first and third applicants?",
+        "answer": [
+          "Prioritized creditors, delaying their claims",
+          "The tax lien had priority over their claims",
+          "A tax lien could have delayed or prevented the enforcement process for the first and third applicants"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the tax lien's priority over claims have influenced the legal strategies available to the first and third applicants?",
+        "answer": [
+          "Prioritized secured debt repayment strategies",
+          "It limited their legal options for debt recovery",
+          "A lien's priority might have limited their options"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How could the tax lien's impact on priority claims have altered the negotiation leverage of the first and third applicants?",
+        "answer": [
+          "Increased leverage for first, decreased for third",
+          "It subordinated their claims, weakening their negotiation leverage",
+          "A lien's impact on priority claims could have shifted negotiation leverage"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "law_59298",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The potential impact of the Court of Cassation's decision on legal standards, procedural fairness, and public interest in future expropriation compensation disputes",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the Court of Cassation's decision to uphold the Bursa Civil Court's judgment impact future expropriation cases involving similar compensation disputes?",
+        "answer": [
+          "Sets precedent for similar compensation calculations",
+          "It will set a precedent for compensation calculation",
+          "A precedent for stricter scrutiny"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Could the Court of Cassation's decision influence how lower courts assess compensation in future expropriation disputes?",
+        "answer": [
+          "Yes, it sets a precedent for future rulings",
+          "Yes, its decisions guide lower courts",
+          "A decision by the Court of Cassation could set a binding precedent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Could the Court of Cassation's ruling on compensation disputes set a binding precedent for appellate courts in similar expropriation cases?",
+        "answer": [
+          "Yes, it can set a binding precedent",
+          "No, its rulings are persuasive, not binding",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Could the Court of Cassation's decision affect how expropriation cases are prioritized in lower courts?",
+        "answer": [
+          "Yes, it could influence case handling priorities",
+          "Yes, its decisions are binding and can affect prioritization",
+          "A decision by the Court of Cassation could influence how lower courts prioritize expropriation cases"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Could the Court of Cassation's decision lead to changes in how lower courts handle evidence in expropriation cases?",
+        "answer": [
+          "Yes, it could influence evidence handling protocols",
+          "Yes, it will change how lower courts handle evidence",
+          "A change in evidence handling is possible"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Could the Court of Cassation's decision influence how appellate courts define \"public interest\" in future expropriation disputes?",
+        "answer": [
+          "Yes, it could set a precedent for future interpretations",
+          "Yes, its jurisprudence guides appellate court interpretations",
+          "A precedent-setting decision could influence future interpretations"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Could the Court of Cassation's decision impact how lower courts assess compensation in expropriation cases?",
+        "answer": [
+          "Yes, it could set a precedent for future rulings",
+          "Yes, its decisions establish jurisprudence for lower courts",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Could the Court of Cassation's decision lead to stricter scrutiny of procedural fairness in expropriation cases?",
+        "answer": [
+          "Yes, it could lead to increased scrutiny",
+          "Yes, it sets a precedent for stricter procedural review",
+          "A stricter scrutiny of procedural fairness in expropriation cases could result"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Could the Court of Cassation's decision encourage appellate courts to prioritize public interest over individual rights in expropriation cases?",
+        "answer": [
+          "Yes, it could set a precedent for such prioritization",
+          "It could set a precedent favoring public interest",
+          "A nuanced interpretation could allow such prioritization"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "law_69178",
+    "is_cross_domain": false,
+    "domain": "law",
+    "domain_id": 8,
+    "topic_description": "The scenario explores legal claims and defenses related to foreclosure sales, focusing on liability, procedural errors, release of parties, and potential remedies like reimbursement, damages, or invalidation of the sale",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If the bank released the woman from liability, can the man still claim reimbursement for the foreclosure sale?",
+        "answer": [
+          "No, he cannot claim reimbursement",
+          "Yes, he retains a right of contribution against her",
+          "No"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Can the man claim reimbursement from the woman after the foreclosure sale?",
+        "answer": [
+          "Depends on the legal agreement specifics",
+          "Yes, he can claim contribution for her share",
+          "A claim for reimbursement after foreclosure depends on the terms of their agreement and applicable law"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "If the bank released the woman from liability, can the man argue that the release affects his obligation to pay the deficiency?",
+        "answer": [
+          "No, her release does not affect his obligation",
+          "Yes, his obligation may be reduced or discharged",
+          "No, the man cannot argue that the release affects his obligation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "If the bank released the woman from liability, can the man still argue that the foreclosure sale was invalid?",
+        "answer": [
+          "Yes, if there are legal grounds",
+          "Yes, the release does not validate an improper sale",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Can the man challenge the foreclosure sale based on procedural errors?",
+        "answer": [
+          "Yes, if the errors affected the sale's legality",
+          "Yes, if the procedural errors are substantial",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "If the man claims the foreclosure sale was invalid, can he argue that the procedural errors were compounded by the bank's release of the woman?",
+        "answer": [
+          "Yes, if relevant to demonstrating procedural flaws",
+          "Yes, to show a pattern of the bank's procedural errors",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "If the man argues the sale was invalid due to compounded errors, can he seek damages for financial loss?",
+        "answer": [
+          "Yes, if he proves the errors affected the contract's validity",
+          "Yes, if he can prove the errors caused his loss",
+          "Yes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Can the man argue that the bank’s actions constituted a breach of contract?",
+        "answer": [
+          "Yes, if the bank violated the agreed terms",
+          "Yes, if the bank violated the terms of their agreement",
+          "A breach of contract argument may be possible if terms were violated"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "law": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Can the man claim that the bank’s procedural errors invalidate the foreclosure sale?",
+        "answer": [
+          "Yes, if errors significantly affected the sale's legality",
+          "Yes, if the procedural errors were substantial",
+          "A procedural error may invalidate the foreclosure sale"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "law": 1.0
+        }
+      }
+    ]
+  }
+]

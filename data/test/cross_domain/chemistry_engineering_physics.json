@@ -1,0 +1,754 @@
+[
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_89944",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The influence of benzene's molecular properties, including resonance energy, stability, and rigidity, on the structural, thermal, and vibrational behavior of Airbus A320 wing materials during solar eclipse-induced environmental changes",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sp2-hybridized structure of benzene influence the aerodynamic design of an Airbus A320 wing during a solar eclipse?",
+        "answer": "Sp2 hybridization ensures benzene's stability, influencing aerodynamic efficiency during reduced solar radiation",
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "engineering": 0.42,
+          "chemistry": 0.35,
+          "physics": 0.23
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does the resonance energy of benzene play in optimizing the structural integrity of an Airbus A320 wing during turbulence caused by solar eclipse-induced temperature changes?",
+        "answer": "Resonance energy has no relevance to Airbus A320 wing integrity",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "engineering": 0.49,
+          "chemistry": 0.32,
+          "physics": 0.19
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the effect of benzene's resonance energy on the thermal expansion coefficients of an Airbus A320 wing material during a solar eclipse?",
+        "answer": "No relevant effect on thermal expansion coefficients",
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.33,
+          "chemistry": 0.45,
+          "physics": 0.22
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does benzene's molecular stability under solar radiation influence the stress distribution in an Airbus A320 wing's composite material during a solar eclipse?",
+        "answer": "No influence; unrelated chemical and mechanical properties",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.33,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "How does benzene's resonance energy affect the vibrational modes of an Airbus A320 wing material under turbulence-induced shear forces during a solar eclipse?",
+        "answer": "Benzene's resonance energy has no relevant effect",
+        "task_type": "reasoning",
+        "difficulty": 0.77,
+        "domain_weights": {
+          "engineering": 0.37,
+          "chemistry": 0.38,
+          "physics": 0.25
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 6,
+        "prompt": "How does benzene's molecular resonance influence the damping ratio of an Airbus A320 wing material under vibrational stress during a solar eclipse?",
+        "answer": "No influence; unrelated chemical and mechanical properties",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.43,
+          "chemistry": 0.3,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the effect of benzene's photochemical stability on the thermal expansion coefficient of an Airbus A320 wing composite during a solar eclipse?",
+        "answer": "No significant effect on thermal expansion coefficient",
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.27,
+          "physics": 0.33
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 8,
+        "prompt": "How does benzene's aromatic stability affect the fatigue crack propagation rate in an Airbus A320 wing material under cyclic loading during a solar eclipse?",
+        "answer": "Benzene's stability has no effect on this scenario",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.29,
+          "physics": 0.35
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 9,
+        "prompt": "How does benzene's molecular rigidity influence the acoustic wave attenuation in an Airbus A320 wing composite during a solar eclipse?",
+        "answer": "No influence; unrelated chemical and physical properties",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.42,
+          "chemistry": 0.23,
+          "physics": 0.35
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_11900",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The interdisciplinary optimization of chemical reactor design, integrating engineering, chemistry, and physics to enhance exothermic reaction efficiency, thermal management, and product selectivity",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the design of a chemical reactor (engineering) optimize exothermic reaction efficiency (chemistry) while managing heat transfer via conduction (physics)?",
+        "answer": "Optimizes heat removal, maintains reaction temperature stability",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.25,
+          "chemistry": 0.38,
+          "physics": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the reactor's material selection (engineering) affect thermal conductivity (physics) and reaction kinetics (chemistry)?",
+        "answer": "Material affects heat distribution and rate of chemical reactions",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.24,
+          "chemistry": 0.29,
+          "physics": 0.47
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the reactor's wall thickness (engineering) influence heat dissipation rates (physics) and product yield in exothermic reactions (chemistry)?",
+        "answer": "Thicker walls slow heat dissipation, reducing product yield",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.29,
+          "chemistry": 0.26,
+          "physics": 0.45
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the reactor's internal coating (engineering) play in minimizing energy loss through radiation (physics) while enhancing selectivity in multi-step exothermic reactions (chemistry)?",
+        "answer": "Reduces heat loss, improves reaction efficiency and selectivity",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.3,
+          "chemistry": 0.37,
+          "physics": 0.33
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the impact of reactor pressure (engineering) on reaction equilibrium (chemistry) and energy transfer efficiency (physics)?",
+        "answer": "Increases reaction rates, shifts equilibrium, enhances energy efficiency",
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.27,
+          "chemistry": 0.36,
+          "physics": 0.37
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_59808",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "Optimizing antibiotic delivery systems for nuclear safety by integrating thermodynamics, material science, chemical stability, and engineering principles to ensure durability and efficiency in high-pressure, high-radiation environments",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can bacteria and fungi-derived antibiotics be optimized in drug delivery systems to enhance nuclear energy production safety?",
+        "answer": "No direct relation between antibiotics and nuclear safety",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.27,
+          "chemistry": 0.56,
+          "physics": 0.17
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do chemical stability, mechanical design, and thermodynamic principles play in optimizing antibiotic delivery systems for nuclear safety?",
+        "answer": "No relevant connection to nuclear safety",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.34,
+          "chemistry": 0.45,
+          "physics": 0.21
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How can thermodynamic efficiency, material resilience, and reaction kinetics be integrated to optimize antibiotic delivery systems for nuclear safety?",
+        "answer": "Optimize through multidisciplinary engineering approaches",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.44,
+          "chemistry": 0.34,
+          "physics": 0.22
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How can fluid dynamics, material fatigue resistance, and reaction equilibrium be combined to design a fail-safe antibiotic delivery mechanism for high-pressure nuclear environments?",
+        "answer": "Design robust, equilibrium-controlled, high-pressure resistant injector",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.33,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 5,
+        "prompt": "What material properties, energy transfer mechanisms, and chemical reaction rates are critical for designing a durable antibiotic delivery system in high-radiation nuclear environments?",
+        "answer": "Radiation resistance, thermal stability, controlled release kinetics",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.44,
+          "chemistry": 0.23,
+          "physics": 0.33
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 6,
+        "prompt": "What engineering design principles, physical forces, and minimal chemical degradation factors ensure long-term stability of antibiotic delivery systems in nuclear applications?",
+        "answer": "Radiation-resistant materials, controlled release mechanisms, antioxidant additives",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.42,
+          "chemistry": 0.26,
+          "physics": 0.32
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_22457",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The influence of graphene's sp2 hybridization on the aerodynamic, thermal, and mechanical properties of Airbus A320 wings during a simulated solar eclipse viewed from the moon",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.75,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sp2 hybridization in benzene's structure influence the aerodynamic stability of an Airbus A320 if its wings were made of graphene during a simulated solar eclipse viewed from the moon?",
+        "answer": "Graphene's sp2 hybridization enhances aerodynamic stability during simulated solar eclipse",
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "engineering": 0.28,
+          "chemistry": 0.29,
+          "physics": 0.43
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the effect of graphene's sp2 hybridization on the thermal conductivity of an Airbus A320 wing during a simulated solar eclipse viewed from the moon?",
+        "answer": "Graphene's sp2 hybridization does not affect the wing's thermal conductivity",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.39,
+          "chemistry": 0.26,
+          "physics": 0.35
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the sp2 hybridization in graphene affect the stress distribution and thermal expansion of an Airbus A320 wing during a simulated solar eclipse viewed from the moon?",
+        "answer": "Graphene's properties do not affect Airbus A320 wing behavior",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.43,
+          "chemistry": 0.39,
+          "physics": 0.18
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the sp2 hybridization in graphene influence the vibrational frequency and acoustic resonance of an Airbus A320 wing during a simulated solar eclipse viewed from the moon?",
+        "answer": "Sp2 hybridization stiffens graphene, altering wing resonance during eclipse",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.32,
+          "physics": 0.32
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the role of graphene's sp2 hybridization in determining the optimal wing material composition for minimizing thermal stress during a simulated solar eclipse viewed from the moon?",
+        "answer": "Graphene's sp2 bonds enhance thermal conductivity and material strength",
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.4,
+          "chemistry": 0.37,
+          "physics": 0.23
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_82047",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "Optimizing hydraulic turbine efficiency by analyzing water's kinetic energy, chemical properties, and fluid dynamics in relation to blade design, material selection, and energy transfer principles",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can the kinetic energy of water molecules in motion be optimized in a hydraulic turbine system?",
+        "answer": "Maximize flow rate and minimize turbulence",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.41,
+          "chemistry": 0.31,
+          "physics": 0.28
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can the efficiency of energy transfer in a hydraulic turbine be maximized by considering fluid viscosity, blade design, and momentum conservation?",
+        "answer": "Optimize blade shape, reduce viscosity, ensure momentum alignment",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.49,
+          "chemistry": 0.24,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the chemical composition of water, blade curvature design, and angular momentum principles work together to enhance turbine efficiency?",
+        "answer": "Optimized interaction increases fluid dynamics and energy conversion efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.3,
+          "chemistry": 0.39,
+          "physics": 0.31
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "How can the interplay between water's chemical properties, turbine blade material selection, and torque dynamics improve energy conversion efficiency in step 4?",
+        "answer": "Optimized material and fluid dynamics enhance efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.34,
+          "physics": 0.3
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the impact of water's pH level, blade surface roughness, and fluid dynamics on the long-term efficiency of a hydraulic turbine system?",
+        "answer": "Reduces efficiency, increases wear and operational costs",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.43,
+          "chemistry": 0.24,
+          "physics": 0.33
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_48568",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The impact of electrolyte properties and their interactions with thermal, electrical, and radiation factors on the efficiency, stability, and safety of nuclear fission reactor electrochemical cells",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.571,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does overpotential affect the efficiency of a nuclear fission reactor's electrochemical cell during energy conversion?",
+        "answer": "Increases energy losses, reducing overall efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.39,
+          "chemistry": 0.34,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the chemical composition of the electrolyte influence the thermal conductivity and electrical efficiency in a nuclear fission reactor's electrochemical cell?",
+        "answer": "Electrolyte composition affects ion mobility and heat transfer",
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.33,
+          "chemistry": 0.51,
+          "physics": 0.16
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does the electrolyte's viscosity play in heat transfer and electrical resistance within a nuclear fission reactor's electrochemical cell?",
+        "answer": "Higher viscosity reduces heat transfer and increases electrical resistance",
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.26,
+          "chemistry": 0.38,
+          "physics": 0.36
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the electrolyte's chemical stability under high radiation influence the reactor's thermal efficiency and electrical output?",
+        "answer": "Improves efficiency, maintains consistent electrical output",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.47,
+          "chemistry": 0.34,
+          "physics": 0.19
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the chemical reactivity of the electrolyte at high temperatures affect the structural integrity of reactor components and thermal energy distribution?",
+        "answer": "Increases corrosion, affects material stability and heat transfer efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.33,
+          "chemistry": 0.39,
+          "physics": 0.28
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 6,
+        "prompt": "How does thermal expansion of the electrolyte affect reactor pressure vessel integrity and electrical conductivity under neutron bombardment?",
+        "answer": "Increases pressure, decreases electrical conductivity",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "engineering": 0.37,
+          "chemistry": 0.36,
+          "physics": 0.27
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 7,
+        "prompt": "What material properties are critical for maintaining electrolyte conductivity under thermal stress and neutron exposure? A. Thermal expansion coefficient B. Electrical resistivity C. Chemical stability D. Mechanical strength?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.28,
+          "physics": 0.36
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 8,
+        "prompt": "How does the interplay between electrolyte viscosity (chemistry), heat exchanger design (engineering), and thermal neutron flux distribution (physics) affect reactor efficiency under varying operational temperatures?",
+        "answer": "Increases efficiency, but requires precise control and monitoring",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.23,
+          "physics": 0.41
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_chemistry_engineering_physics_11126",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "chemistry",
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      2,
+      11,
+      19
+    ],
+    "topic_description": "The influence of benzene's electron delocalization and molecular properties on Airbus A320 materials' thermal, structural, and aerodynamic performance during lunar eclipse conditions",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.571,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the valence bond theory of benzene's structure inform the design of Airbus A320 materials to withstand forces during a solar eclipse viewed from the moon?",
+        "answer": "Benzene's resonance stabilizes Airbus A320 materials against reverse eclipse forces",
+        "task_type": "reasoning",
+        "difficulty": 0.73,
+        "domain_weights": {
+          "engineering": 0.44,
+          "chemistry": 0.24,
+          "physics": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does benzene's molecular orbital hybridization influence the Airbus A320 material's thermal expansion under lunar eclipse conditions? A. Increased π-bond delocalization reduces thermal stress B. sp² hybridization enhances material rigidity C. Benzene’s resonance destabilizes the alloy at low temperatures D. Molecular symmetry?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.42,
+          "physics": 0.22
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How does benzene's π-electron delocalization affect the Airbus A320 material's thermal conductivity during a lunar eclipse? A. Increases electron mobility, enhancing heat transfer B. Reduces thermal resistance via sp² hybridization C. Weakens material bonds, increasing thermal insulation D. Stabilizes molecular vibrations, reducing heat capacity?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "engineering": 0.32,
+          "chemistry": 0.42,
+          "physics": 0.26
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between benzene's electron delocalization, material stress distribution in the Airbus A320, and lunar eclipse thermal gradients affect structural integrity during temperature fluctuations?",
+        "answer": "No direct correlation exists between these factors",
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "engineering": 0.38,
+          "chemistry": 0.28,
+          "physics": 0.34
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "How does benzene's molecular rigidity, combined with thermal stress distribution in the Airbus A320, affect its aerodynamic performance during a lunar eclipse? A. Increased rigidity enhances lift efficiency B. Thermal stress reduces drag coefficients C. Molecular flexibility improves airflow stability D. Stress-induced deformations alter pressure distribution?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "engineering": 0.48,
+          "chemistry": 0.23,
+          "physics": 0.29
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 6,
+        "prompt": "How does benzene's π-electron system influence the Airbus A320's material fatigue under lunar eclipse thermal cycling and aerodynamic stress? A. Enhances molecular bonding, reducing fatigue B. Increases thermal expansion mismatch, accelerating wear C. Stabilizes vibrational energy, delaying crack formation D. Reduces electron mobility, increasing brittleness?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.34,
+          "chemistry": 0.38,
+          "physics": 0.28
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 7,
+        "prompt": "How does benzene's molecular stability under thermal stress during a lunar eclipse affect the Airbus A320's wing material fatigue and aerodynamic efficiency?",
+        "answer": "No relevant connection or effect exists",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.31,
+          "chemistry": 0.34,
+          "physics": 0.35
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 8,
+        "prompt": "How does benzene's electron delocalization influence the Airbus A320's material resilience under lunar eclipse cooling, considering thermal stress, vibrational damping, and molecular bond stability?",
+        "answer": "Benzene's delocalization enhances molecular stability, reducing thermal stress and vibrational damping effects on Airbus A320 materials during lunar eclipse cooling",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "engineering": 0.36,
+          "chemistry": 0.44,
+          "physics": 0.2
+        },
+        "theme_consistency_score": 0.83
+      }
+    ]
+  }
+]

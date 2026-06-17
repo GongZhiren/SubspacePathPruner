@@ -1,0 +1,166 @@
+[
+  {
+    "scenario_id": "cross_geography_sociology_88351",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      5,
+      17
+    ],
+    "topic_description": "The interplay of Cyprus's geography, mythology, and trade networks in shaping Mediterranean social structures, cultural identities, and economic dynamics across history",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the geography of Cyprus influence social structures in Mediterranean cultures?",
+        "answer": [
+          "Strategic trade and cultural hub",
+          "Strategic location fostered trade and cultural exchange"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.42,
+          "sociology": 0.58
+        },
+        "theme_consistency_score": 0.65,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.29 > 0.25"
+        ]
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Cyprus's strategic geography and resource distribution impact Mediterranean trade network dynamics and social stratification patterns?",
+        "answer": [
+          "Boosted trade, intensified social hierarchies",
+          "Cyprus's location and copper resources boosted trade and elite control"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "geography": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Cyprus’s mountainous topography and spatial isolation influence social cohesion and economic interdependence in multicultural trade hubs?",
+        "answer": [
+          "Enhanced trade, cultural exchanges",
+          "Mountainous isolation fostered trade-dependent cohesion"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.45,
+          "sociology": 0.55
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 4,
+        "prompt": "How do Cyprus’s geomorphological characteristics and ethnocultural dynamics interplay to shape its historical and contemporary roles in Mediterranean migratory networks?",
+        "answer": [
+          "Strategic location, diverse cultural influences",
+          "Strategic location and ethnic diversity drive migration patterns"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.58,
+          "sociology": 0.42
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "How do Cyprus’s inland water scarcity and rural settlement patterns influence social resilience and communal identity formation?",
+        "answer": [
+          "Strengthens community cooperation",
+          "Scarcity fosters cooperation, shapes identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.45,
+          "sociology": 0.55
+        },
+        "theme_consistency_score": 0.56
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_geography_sociology_71878",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      5,
+      17
+    ],
+    "topic_description": "The influence of Mayapur's geography on the social practices, cohesion, identity formation, hierarchy, and rituals within the Hare Krishna Movement",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Mayapur's geographic location influence social identity formation among Hare Krishna followers?",
+        "answer": [
+          "Promotes spiritual community identity",
+          "Mayapur's rural isolation fosters Krishna devotee identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.36,
+          "sociology": 0.64
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Mayapur's geographic isolation influence social hierarchy within the Hare Krishna community?",
+        "answer": [
+          "Strengthens community bonds",
+          "Geographic isolation strengthens social hierarchy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.28,
+          "sociology": 0.72
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Mayapur's role as a pilgrimage center (geography) influence social cohesion and identity negotiation (sociology) among its diverse visitors?",
+        "answer": [
+          "Fosters unity and shared beliefs",
+          "Pilgrimage fosters unity and shared identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.3,
+          "sociology": 0.7
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  }
+]

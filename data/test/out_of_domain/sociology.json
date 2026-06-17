@@ -1,0 +1,615 @@
+[
+  {
+    "scenario_id": "sociology_40379",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "The scenario explores the societal, cultural, and historical impacts of national football teams' eliminations during the 1998 FIFA World Cup",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup caused the most public outrage? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup led to the most social unrest? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup had the least societal impact? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup is remembered most positively? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup is least discussed today? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which team's elimination in the 1998 FIFA World Cup is seen as least impactful today? A. France B. Brazil C. Argentina D. Netherlands?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_18021",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "The involvement of popular music groups in Band Aid charity singles, focusing on their unique contributions, social impact, emotional appeal, and media coverage",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Two members of which group were the only people to perform on both Band Aid charity singles?",
+        "answer": [
+          "Bono and Midge Ure",
+          "The group Bananarama",
+          "Bono and Adam Clayton"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which group had members uniquely involved in both Band Aid singles? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which group's involvement in charity singles demonstrated the strongest social impact? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which group's charity single involvement likely inspired the most public participation? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which group’s charity single had the simplest message? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which group’s charity single likely had the most emotional appeal? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which group’s charity single likely had the most widespread media coverage? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which group’s charity single likely had the most lasting social impact? A. U2 B. Duran Duran C. Spandau Ballet D. Wham!",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_74377",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "The scenario explores the cultural, social, and political identities of football club fan bases in Cyprus, focusing on their community roles and affiliations",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Omonia, Enosis and Anorthosis are football clubs in which European country?",
+        "answer": [
+          "Cyprus",
+          "Republic of Cyprus"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which football club is known for its strong fan base in the country discussed? A. Omonia B. Enosis C. Anorthosis D. AEL Limassol?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which football club's fan base is most associated with social identity in the discussed country? A. Omonia B. Enosis C. Anorthosis D. AEL Limassol?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which club's fan base is most linked to political identity? A. Omonia B. Enosis C. Anorthosis D. AEL Limassol?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which club's fan base demonstrates the strongest sense of community solidarity? A. Omonia B. Enosis C. Anorthosis D. AEL Limassol?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which club's fan base is most likely to engage in community service? A. Omonia B. Enosis C. Anorthosis D. AEL Limassol?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_42025",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "The role of the Tanach in shaping religious, legal, moral, and communal foundations within Jewish society, including its influence on justice, conflict resolution, and identity",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the primary language used in the Tanach scriptures? A. Greek B. Latin C. Hebrew D. Aramaic?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role did the Tanach play in shaping societal laws and moral codes?",
+        "answer": [
+          "Foundational to Jewish legal systems",
+          "Foundation for law and morality",
+          "a foundation for laws and morals"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Tanach influence societal approaches to conflict resolution?",
+        "answer": [
+          "Promoted ethical, peaceful resolutions",
+          "Formalized justice and ethical principles",
+          "a foundation for justice and reconciliation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role did the Tanach play in shaping community identity?",
+        "answer": [
+          "Foundation of Jewish cultural identity",
+          "A foundational narrative for collective identity",
+          "a foundation for shared beliefs and practices"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_99506",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "Berger (1963) explores social reality as a metaphorical circus, emphasizing individuals' roles as performers who actively maintain its structure and stability through their participation",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What does Berger (1963) describe as a metaphor for social reality? A. a fairground ride B. a circus C. a puppet theatre D. a ballet?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What does Berger (1963) suggest about the role of individuals in a metaphorical circus? A. spectators B. performers C. directors D. critics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What role do individuals play in maintaining the metaphorical circus of social reality? A. spectators B. performers C. directors D. critics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What does Berger (1963) compare social reality to in his metaphor? A. a theater performance B. a carnival ride C. a chess game D. a courtroom trial?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What does Berger (1963) argue about the stability of social reality?",
+        "answer": [
+          "Social reality is socially constructed",
+          "It is a precarious construction",
+          "a socially constructed reality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_60998",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "A comparative analysis of demographic, economic, and social indicators among Gulf of Mexico states with longer names, focusing on population, poverty, income, employment, and education metrics",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which state on the Gulf of Mexico has the longest name?",
+        "answer": [
+          "Mississippi",
+          "The state of Mississippi",
+          "Louisiana"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest population density? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest population? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest poverty rate? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest median household income? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest unemployment rate? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the lowest population density? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest education level? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which state on the Gulf of Mexico with a long name has the highest employment rate? A. Texas B. Florida C. Louisiana D. Mississippi?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sociology_95707",
+    "is_cross_domain": false,
+    "domain": "sociology",
+    "domain_id": 17,
+    "topic_description": "The influence of personal, social, and cultural factors on choosing meeting places and how these choices reflect societal values and emotional connections",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "If a human wants to enjoy another human's company, where might they go? A. place of work B. office C. friend's house D. workplace E. deep thought?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.16,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does social expectation play in choosing a meeting place? A. personal preference B. societal norms C. convenience D. emotional connection?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the choice of a meeting place reflect societal values? A. personal preference B. cultural norms C. convenience D. emotional connection?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How might societal values influence where friends choose to meet? A. personal preference B. cultural norms C. convenience D. emotional connection?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How do cultural norms influence the choice of meeting places? A. personal preference B. societal expectations C. convenience D. emotional connection?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role do emotional connections play in choosing meeting places? A. personal preference B. cultural norms C. convenience D. emotional connection?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How do societal expectations shape long-term meeting place choices? A. personal preference B. cultural norms C. convenience D. emotional connection?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "sociology": 1.0
+        }
+      }
+    ]
+  }
+]

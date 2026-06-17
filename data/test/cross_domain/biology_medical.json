@@ -1,0 +1,230 @@
+[
+  {
+    "scenario_id": "cross_biology_medical_99093",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      11
+    ],
+    "topic_description": "The regulation of blood pressure through smooth muscle cell mechanisms, including actin-myosin interactions, calcium-calmodulin pathways, nitric oxide signaling, and RhoA/ROCK signaling, with implications for hypertension and vasospastic disorders",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the irregular arrangement of actin and myosin in smooth muscle cells affect their function in regulating blood pressure? A. Enables rapid contraction B. Allows sustained contraction C. Prevents any contraction D. Facilitates voluntary control?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the interaction between calcium ions and calmodulin in smooth muscle cells influence vasodilation and blood pressure regulation? A. Activates myosin light-chain kinase B. Inhibits actin polymerization C. Blocks calcium channels D. Stimulates nitric oxide release?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the role of endothelial nitric oxide in vasodilation rely on both the biochemical pathway of L-arginine metabolism and its clinical implications for hypertensive patients?",
+        "answer": [
+          "Endothelial nitric oxide from L-arginine promotes vasodilation, reducing hypertension",
+          "Impaired L-arginine to NO conversion reduces vasodilation, contributing to hypertension",
+          "Endothelial nitric oxide mediates vasodilation via L-arginine metabolism, impacting hypertensive patients' vascular health"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 0.47
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interplay between RhoA/ROCK signaling in vascular smooth muscle cells and its clinical relevance to vasospastic disorders inform potential therapeutic strategies?",
+        "answer": [
+          "Targeting RhoA/ROCK pathway can prevent or reduce vasospasm in disorders",
+          "Inhibiting RhoA/ROCK signaling reduces vasospasm by preventing excessive smooth muscle contraction",
+          "RhoA/ROCK inhibitors may reduce vasospasm by modulating smooth muscle contraction"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "medical": 0.48,
+          "biology": 0.52
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 5,
+        "prompt": "A patient with chronic hypertension shows abnormal RhoA/ROCK signaling and endothelial dysfunction. Which therapeutic approach targets both pathways effectively? A. ACE inhibitors B. Calcium channel blockers C. ROCK inhibitors D. Statins?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "medical": 0.55,
+          "biology": 0.45
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_biology_medical_30952",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "medical"
+    ],
+    "cross_domain_id": [
+      1,
+      11
+    ],
+    "topic_description": "The role of smooth muscle physiology, calcium dynamics, and genetic/oxidative factors in the mechanisms and efficacy of antihypertensive drugs, particularly calcium channel blockers, in regulating blood pressure and treating hypertension-related conditions",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the irregular arrangement of actin and myosin in smooth muscle cells affect their function in regulating blood pressure? A. It prevents contraction entirely. B. It allows for sustained contractions. C. It limits contractions to short durations. D. It enables rapid, twitch-like contractions.",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Calcium ions help smooth muscles contract, which affects blood pressure; how do antihypertensive drugs target this process to lower it?",
+        "answer": [
+          "Antihypertensive drugs block calcium channels, reducing muscle contraction and lowering blood pressure",
+          "They block calcium channels, relaxing blood vessels and reducing blood pressure",
+          "Antihypertensive drugs block calcium ion influx to relax smooth muscles and lower blood pressure"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "medical": 0.58,
+          "biology": 0.42
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 3,
+        "prompt": "How do antihypertensive drugs like calcium channel blockers specifically alter smooth muscle contraction in blood vessels to reduce blood pressure?",
+        "answer": [
+          "Calcium channel blockers prevent calcium entry, relaxing vascular smooth muscle and lowering blood pressure",
+          "They block calcium influx, inhibiting contraction and causing vasodilation",
+          "Calcium channel blockers reduce smooth muscle contraction by inhibiting calcium ion influx, leading to vasodilation and lowered blood pressure"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "medical": 0.55,
+          "biology": 0.45
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How do troponin and tropomyosin in smooth muscle cells affect calcium channel drugs?",
+        "answer": [
+          "Troponin and tropomyosin do not affect calcium channel drugs in smooth muscle",
+          "They do not; smooth muscle regulation involves calmodulin, not troponin",
+          "Calcium channel drugs alter smooth muscle contraction by modulating troponin-tropomyosin interactions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "medical": 0.48,
+          "biology": 0.52
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 5,
+        "prompt": "How do mutations in genes encoding calcium-handling proteins affect the efficacy of calcium channel blockers in treating hypertension? A. Mutations enhance drug binding affinity B. Mutations reduce smooth muscle contraction C. Mutations alter drug metabolism rates D. Mutations disrupt calcium ion regulation?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 6,
+        "prompt": "How do variations in smooth muscle myosin heavy chain isoforms influence the effectiveness of calcium channel blockers in hypertensive patients? A. Isoforms increase drug resistance B. Isoforms enhance vasodilation C. Isoforms alter calcium sensitivity D. Isoforms reduce drug absorption?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "medical": 0.45,
+          "biology": 0.55
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 7,
+        "prompt": "How does the interplay between endothelial nitric oxide synthase activity and vascular smooth muscle calcium dynamics affect the therapeutic window of calcium channel blockers in hypertensive patients? A. Enhances drug potency B. Reduces drug efficacy C. Increases risk of hypotension D. Alters drug clearance rate?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "medical": 0.58,
+          "biology": 0.42
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 8,
+        "prompt": "How does impaired autophagy in vascular smooth muscle cells affect the long-term efficacy of calcium channel blockers in hypertensive patients with comorbid diabetes? A. Enhances drug resistance B. Reduces endothelial dysfunction C. Increases drug clearance D. Disrupts cellular calcium homeostasis?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "medical": 0.48,
+          "biology": 0.52
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 9,
+        "prompt": "How does the interaction between mitochondrial biogenesis in vascular smooth muscle cells and oxidative stress influence the progression of hypertensive cardiomyopathy in patients on long-term calcium channel blocker therapy? A. Enhances cardiac remodeling B. Reduces myocardial fibrosis C. Increases drug toxicity D. Impairs endothelial function?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "medical": 0.48,
+          "biology": 0.52
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  }
+]

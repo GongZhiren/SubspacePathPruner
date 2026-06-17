@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_id": "cross_biology_chemistry_74533",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry"
+    ],
+    "cross_domain_id": [
+      1,
+      2
+    ],
+    "topic_description": "The interplay between chemical principles and biological mechanisms in oxygen transport, pH regulation, and CO2 management, focusing on hemoglobin's allosteric regulation, the Bohr effect, bicarbonate buffering, and enzymatic facilitation by carbonic anhydrase",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How do the principles of diffusion in chemistry explain the movement of oxygen molecules across a cell membrane in biology?",
+        "answer": "Oxygen moves from higher to lower concentration through the membrane",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.54,
+          "biology": 0.46
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the chemical structure of hemoglobin in biology, specifically its iron-containing heme group, facilitate the transport of oxygen molecules explained by diffusion principles in chemistry?",
+        "answer": "Iron in heme binds and releases oxygen molecules via reversible attachment",
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "chemistry": 0.52,
+          "biology": 0.48
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "Explain the bicarbonate buffering system's chemical equation in blood, its role in pH homeostasis, and how disruptions in this equilibrium impact cellular respiration at the molecular level?",
+        "answer": "CO2 + H2O ↔ H2CO3 ↔ H+ + HCO3-; maintains blood pH; imbalances affect cellular respiration efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "chemistry": 0.54,
+          "biology": 0.46
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the interaction between carbonic anhydrase (chemistry) and red blood cell membranes (biology) facilitate CO2 transport and pH regulation?",
+        "answer": "Carbonic anhydrase catalyzes CO2 conversion, aiding its transport and pH balance in blood",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.59,
+          "biology": 0.41
+        },
+        "theme_consistency_score": 0.51
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the chemical equilibrium of carbonic acid (H2CO3) in blood plasma, influenced by carbonic anhydrase activity, affect oxygen delivery to tissues through hemoglobin's allosteric regulation?",
+        "answer": "Carbonic anhydrase speeds up CO2 conversion, affecting hemoglobin's oxygen release",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "chemistry": 0.55,
+          "biology": 0.45
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_biology_chemistry_18469",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "biology",
+      "chemistry"
+    ],
+    "cross_domain_id": [
+      1,
+      2
+    ],
+    "topic_description": "The pH-dependent regulation of sucrose synthase and its impact on enzyme kinetics, sucrose formation, solubility, osmoregulation, and energy storage in plant metabolic pathways",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the enzyme-catalyzed dehydration reaction that forms sucrose from glucose and fructose relate to energy storage in plants?",
+        "answer": "Sucrose storage in plants provides energy reserves",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "chemistry": 0.54,
+          "biology": 0.46
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the pH-dependent activity of sucrose synthase influence both the biochemical equilibrium and plant metabolic pathways during sucrose formation?",
+        "answer": "Shifts enzyme activity and sucrose synthesis rates, affecting metabolic flux and pathway efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "chemistry": 0.6,
+          "biology": 0.4
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the effect of pH on the reaction rate of sucrose synthase, and how does this influence both enzyme kinetics and plant metabolic efficiency?",
+        "answer": "pH determines reaction direction and rate, optimizing plant metabolic efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "chemistry": 0.51,
+          "biology": 0.49
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the chemical structure of sucrose affect its solubility in water, and how does this solubility influence plant cell osmoregulation?",
+        "answer": "Its many polar hydroxyl groups increase solubility, lowering water potential for osmoregulation",
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "chemistry": 0.62,
+          "biology": 0.38
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the pH-dependent protonation of sucrose synthase’s active site residues affect both enzyme catalysis efficiency and the biochemical regulation of sucrose metabolism in plants?",
+        "answer": "Alters enzyme activity and sucrose synthesis regulation by changing residue charge",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "chemistry": 0.47,
+          "biology": 0.53
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  }
+]

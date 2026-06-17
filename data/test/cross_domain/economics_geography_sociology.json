@@ -1,0 +1,773 @@
+[
+  {
+    "scenario_id": "cross3_economics_geography_sociology_14090",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay between economic policies, geographic trade routes, resource distribution, and sociocultural integration in a state with the \"Piapa\" alphabet, focusing on sustainability and centenary historical milestones",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which state, known for its unique alphabet \"Piapa,\" shares a historical milestone with Idaho and Wyoming in celebrating their centenary of joining the Union in 1990?",
+        "answer": "Hawaii",
+        "task_type": "factual",
+        "difficulty": 0.75,
+        "domain_weights": {
+          "geography": 0.56,
+          "economics": 0.1,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the economic policies of the state with \"Piapa\" alphabet influence its geographic trade routes and sociocultural integration?",
+        "answer": [
+          "Enhanced trade, cultural exchange",
+          "Trade routes adapt socioculturally"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.25,
+          "economics": 0.31,
+          "sociology": 0.44
+        },
+        "theme_consistency_score": 0.53
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the state with \"Piapa\" alphabet's geographic location and sociocultural practices influence its economic sustainability?",
+        "answer": [
+          "Enhances cultural tourism revenue",
+          "Geographic isolation and cultural cohesion hinder economic sustainability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.39,
+          "economics": 0.3,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic policies could a state with \"Piapa\" alphabet adopt to balance geographic trade routes and sociocultural integration?",
+        "answer": [
+          "Infrastructure investment, cultural exchanges",
+          "Adopt trade-friendly policies, invest in infrastructure, promote cultural exchange programs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.34,
+          "economics": 0.41,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_22551",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The impact of Arizona's 1912 statehood on its economic development, geographic patterns, and social integration, including resource allocation, migration trends, and community cohesion",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Arizona's admission as the 48th state in 1912 impact its economic development, regional identity, and social integration?",
+        "answer": [
+          "Boosted economic growth, identity",
+          "Arizona's statehood boosted economic growth, shaped regional identity, and fostered social integration"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.3,
+          "economics": 0.38,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Arizona's statehood in 1912 influence its economic policies, geographic resource distribution, and social class structures?",
+        "answer": [
+          "Boosted infrastructure, diversified economy",
+          "Boosted mining, reshaped land use, diversified classes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.29,
+          "economics": 0.44,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Arizona's statehood alter its economic priorities, geographic settlement patterns, and social mobility opportunities?",
+        "answer": [
+          "Boosted mining, urbanization, mobility opportunities",
+          "Shifted priorities, settlement patterns, and mobility opportunities"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "geography": 0.26,
+          "economics": 0.36,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Arizona's statehood influence its urbanization patterns, economic resource allocation, and social cohesion among diverse communities?",
+        "answer": [
+          "Boosted urbanization, diversified economy",
+          "Urbanization surged, resources reallocated, communities diversified"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "geography": 0.34,
+          "economics": 0.32,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Arizona's statehood impact its economic trade routes, geographic migration trends, and social integration policies?",
+        "answer": [
+          "Enhanced trade, migration, integration policies",
+          "Boosted trade, drew migrants, unified policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.36,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_37407",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay between economic policies, geographic trade routes, and social structures in shaping Burma's historical and future regional influence and resilience in the Bay of Bengal",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did social hierarchies and geographic barriers shape Burma's trade policy effectiveness in the Bay of Bengal region?",
+        "answer": [
+          "Reduced trade efficiency",
+          "Social hierarchies limited trade policy effectiveness"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "geography": 0.18,
+          "economics": 0.44,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 2,
+        "prompt": "How might shifts in social hierarchies and geographic trade routes influence Burma's future economic policy effectiveness in the Bay of Bengal region?",
+        "answer": [
+          "Adjust policies, enhance adaptability",
+          "Trade route shifts and social hierarchy changes could enhance economic policy adaptability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.29,
+          "economics": 0.49,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 3,
+        "prompt": "How might economic policies, geographic trade routes, and social structures interact to influence Burma's regional power dynamics in the Bay of Bengal?",
+        "answer": [
+          "Enhances strategic economic leverage",
+          "Trade routes bolster economic influence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "geography": 0.28,
+          "economics": 0.32,
+          "sociology": 0.4
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "What economic policy adjustments might Burma need to make in response to evolving social structures and geographic trade dynamics in the Bay of Bengal region?",
+        "answer": [
+          "Enhance trade liberalization policies",
+          "Promote regional trade agreements"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "geography": 0.22,
+          "economics": 0.51,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_40827",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay between geographic, social, and economic factors in a Bay of Bengal country and their impact on trade routes, regional stability, and global economic integration",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does social unrest in a Bay of Bengal country impact its trade routes and regional economic stability?",
+        "answer": [
+          "Disrupts trade, destabilizes economy",
+          "Disrupts trade, destabilizes region"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.33,
+          "economics": 0.42,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 2,
+        "prompt": "How do geographic features and social dynamics in a Bay of Bengal country affect its trade policies and global economic integration?",
+        "answer": [
+          "Influences trade barriers, integration",
+          "Geographic isolation and social diversity shape trade policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.37,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How do social movements in a Bay of Bengal nation influence its geographic trade routes and economic agreements?",
+        "answer": [
+          "Redirect or renegotiate routes",
+          "Social movements reshape trade routes and economic agreements through geographic and societal pressures"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.33,
+          "economics": 0.35,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_72783",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay of geographic factors, social movements, and economic policies in shaping Burma's development trajectory throughout the 20th century",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did geographic trade routes and social movements influence Burma's economic policy shifts in the mid-20th century?",
+        "answer": [
+          "Promoted economic liberalization",
+          "Trade routes and social reforms shaped Burma's mid-20th-century economic shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "geography": 0.35,
+          "economics": 0.31,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 2,
+        "prompt": "How did geographic isolation and social hierarchies shape Burma's economic resilience in the late 20th century?",
+        "answer": [
+          "Limited economic development",
+          "Geographic isolation limited trade, social hierarchies restricted economic mobility, fostering resilience through localized self-sufficiency"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.2,
+          "economics": 0.46,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How did economic reforms, geographic trade routes, and social mobility interact to shape Burma's late 20th-century development trajectory?",
+        "answer": [
+          "Stimulated economic growth",
+          "Economic reforms, trade routes, and social mobility intertwined to shape Burma's development trajectory"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.37,
+          "economics": 0.44,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_28717",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay of geographic trade routes, social movements, and isolation in shaping Burma's economic policies and resilience throughout the 20th century",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did geographic trade routes and social movements influence Burma's economic policy shifts in the mid-20th century?",
+        "answer": [
+          "Promoted economic nationalism",
+          "Trade routes and social movements reshaped Burma's economic policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.33,
+          "economics": 0.44,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 2,
+        "prompt": "How did geographic trade routes and social movements in Burma influence its economic policy adaptation in the late 20th century?",
+        "answer": [
+          "Promoted economic liberalization",
+          "Trade routes and social movements shaped Burma's economic reforms"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "geography": 0.43,
+          "economics": 0.3,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 3,
+        "prompt": "How did geographic isolation and social structures shape Burma's late 20th-century economic resilience?",
+        "answer": [
+          "Limited economic integration",
+          "Geographic isolation limited trade, social structures preserved resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.32,
+          "economics": 0.33,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_60090",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "Arizona's statehood and regional identity shaped its urban development, economic policies, cultural evolution, and resilience amid sociopolitical changes, with lasting impacts on population distribution, tourism, and border communities",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Arizona's post-statehood economic policies affect its population distribution and regional cultural identity?",
+        "answer": [
+          "Boosted urbanization, diversified culture",
+          "Economic growth spurred urbanization, shaped cultural identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.31,
+          "economics": 0.45,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Arizona's economic reliance on tourism shape its urban geography and influence social behaviors in border communities?",
+        "answer": [
+          "Increased border tourism development",
+          "Tourism-driven urbanization altered border community dynamics"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.36,
+          "economics": 0.3,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Arizona's border geography and cultural identity influence its economic resilience during recent sociopolitical shifts?",
+        "answer": [
+          "Boosted trade and diversity",
+          "Border trade, cultural adaptability, geographic advantage"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.41,
+          "economics": 0.29,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 4,
+        "prompt": "How might Arizona's geographic features and cultural diversity sustain its economy amid future sociopolitical changes?",
+        "answer": [
+          "Tourism and multicultural workforce",
+          "Diverse landscapes and cultures drive resilient economic growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.34,
+          "economics": 0.33,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_23880",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The impact of Arizona's statehood in 1912 on its economic policies, geographic development, resource use, and social structures, including integration, mobility, and urbanization trends",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Arizona's admission as the 48th state in 1912 influence its economic development, geographic identity, and social integration within the Union?",
+        "answer": [
+          "Boosted mining, agriculture expansion",
+          "Arizona's statehood boosted economic growth, shaped its desert identity, and fostered social integration"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.33,
+          "economics": 0.4,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Arizona's statehood alter its economic policies, geographic resource use, and social dynamics in the early 20th century?",
+        "answer": [
+          "Boosted mining, agriculture, urbanization",
+          "Boosted mining, farming, and urbanization while integrating diverse cultures"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "geography": 0.26,
+          "economics": 0.37,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Arizona's economic policies post-statehood affect its geographic settlement patterns and social class structures?",
+        "answer": [
+          "Promoted urbanization, stratified society",
+          "Post-statehood policies boosted urbanization, diversified economies, and stratified social classes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "geography": 0.26,
+          "economics": 0.29,
+          "sociology": 0.45
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Arizona's post-statehood economic policies influence its urban geography and social mobility trends?",
+        "answer": [
+          "Boosted urbanization, increased mobility",
+          "Boosted urban hubs, enabled upward mobility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "geography": 0.32,
+          "economics": 0.33,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_geography_sociology_46870",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "geography",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      17
+    ],
+    "topic_description": "The interplay of geographic factors and social structures in shaping Burma's economic policies, trade effectiveness, and integration from the 20th century to the 21st century",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which economic policy, influenced by geographic trade routes and social movements, shaped Burma's economy in the 20th century?",
+        "answer": [
+          "Socialist economic policies",
+          "Burma's socialist economy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.27,
+          "economics": 0.56,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did geographic barriers and social structures influence Burma's trade policy effectiveness in the mid-20th century?",
+        "answer": [
+          "Reduced trade efficiency",
+          "Geographic isolation and ethnic divisions hindered trade policy effectiveness"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "geography": 0.36,
+          "economics": 0.45,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How did social hierarchies and geographic isolation impact Burma's economic trade agreements in the 1950s?",
+        "answer": [
+          "Limited trade opportunities",
+          "Social hierarchies and geographic isolation limited Burma's 1950s trade agreements"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.38,
+          "economics": 0.39,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How did geographic features and social dynamics in Burma influence its economic policy shifts post-1960s?",
+        "answer": [
+          "Isolationist, centralized economic policies",
+          "Geography and social dynamics shaped Burma's economic policy shifts post-1960s"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "geography": 0.44,
+          "economics": 0.28,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 5,
+        "prompt": "How did geographic diversity and social cohesion shape Burma's economic resilience in the late 20th century?",
+        "answer": [
+          "Enhanced economic adaptability",
+          "Geographic diversity and social cohesion bolstered Burma's economic resilience through resource adaptability and community solidarity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "geography": 0.33,
+          "economics": 0.37,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "How did geographic barriers and social structures influence Burma's economic integration in the 21st century?",
+        "answer": [
+          "Hindered economic integration",
+          "Geographic isolation and ethnic divisions hindered trade and investment"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.34,
+          "economics": 0.3,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.73
+      }
+    ]
+  }
+]

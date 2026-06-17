@@ -1,0 +1,160 @@
+[
+  {
+    "scenario_id": "cross_psychology_sociology_43119",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      17
+    ],
+    "topic_description": "The psychological and social factors influencing James's mental well-being, emotional responses, coping strategies, role adaptation, and community reintegration during and after prolonged social isolation",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might James's lack of social connections impact his mental well-being? A. Increased happiness B. Decreased loneliness C. Improved focus D. Heightened anxiety?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "psychology": 0.68,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might societal expectations, cognitive dissonance, and implicit bias collectively shape James's emotional response to social rejection?",
+        "answer": [
+          "Increased emotional distress and confusion",
+          "Emotional response shaped by internalized norms and biases"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "psychology": 0.62,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.58
+      },
+      {
+        "turn": 3,
+        "prompt": "How might James's psychological resilience and societal support systems interact to influence his coping strategies during prolonged social isolation?",
+        "answer": [
+          "Enhance adaptive coping mechanisms",
+          "Resilience and support shape coping"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "psychology": 0.58,
+          "sociology": 0.42
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "How do social identity theory, self-concept clarity, and role salience interact to influence James's adaptation to societal roles during prolonged isolation?",
+        "answer": [
+          "Enhances role adaptation and identity stability",
+          "Role clarity and social identity guide adaptation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "psychology": 0.56,
+          "sociology": 0.44
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 5,
+        "prompt": "How might James’s self-efficacy, moderated by reciprocal determinism, and his access to bridging social capital interact to influence community reintegration post-isolation?",
+        "answer": [
+          "Enhances successful community reintegration",
+          "Self-efficacy and social capital jointly shape reintegration outcomes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "psychology": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_psychology_sociology_77089",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      12,
+      17
+    ],
+    "topic_description": "The interplay between societal and cultural factors (sociology) and individual psychological processes, such as resilience, coping mechanisms, and emotional regulation, during stress or crises",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might societal pressures (sociology) influence an individual's perception of failure (psychology)? A. Increase resilience B. Decrease self-worth C. Promote adaptability D. Encourage risk-taking?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "psychology": 0.61,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do cultural norms (sociology) shape coping mechanisms (psychology) during societal crises?",
+        "answer": [
+          "Cultural norms guide crisis response strategies",
+          "Cultural norms guide psychological coping strategies during crises"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "psychology": 0.52,
+          "sociology": 0.48
+        },
+        "theme_consistency_score": 0.59,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.43 > 0.25"
+        ]
+      },
+      {
+        "turn": 3,
+        "prompt": "How do social institutions influence emotional regulation during stress?",
+        "answer": [
+          "Provide coping strategies and support systems",
+          "Social institutions shape norms and support systems that influence emotional regulation during stress"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "psychology": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.61
+      }
+    ]
+  }
+]

@@ -1,0 +1,859 @@
+[
+  {
+    "scenario_id": "cross_literature_philosophy_70019",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "An exploration of Kafka’s penguin as a symbol of existential absurdity, displacement, and identity, analyzed through philosophical lenses including Camus’ absurdism, Nietzsche’s eternal recurrence, Kierkegaard’s dread, and Sartre’s radical freedom",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the penguin’s journey in Paragraph 1 reflect both Kafka’s literary themes and Camus’ concept of the absurd?",
+        "answer": [
+          "Existential struggle, alienation, absurdity",
+          "Reflects existential struggle and absurdity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Kafka’s depiction of the penguin’s transformation parallel Sartre’s notion of radical freedom and existential choice?",
+        "answer": [
+          "Kafka wrote no penguin transformation",
+          "Penguin’s transformation mirrors radical freedom through existential choice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "What philosophical concept does Kafka’s penguin embody when viewed through Nietzsche’s idea of eternal recurrence?",
+        "answer": [
+          "Acceptance of inevitable repetition",
+          "The absurdity of eternal recurrence embodied"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.34,
+          "philosophy": 0.66
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_66956",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin's journey symbolizes existential struggles, reflecting absurdism, Kafkaesque dread, and philosophical parallels in Camus, Sartre, and Nietzsche’s works",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What philosophical concept in *The Myth of Sisyphus* parallels the penguin's recurring struggle in Kafka’s *The Trial*?",
+        "answer": [
+          "Absurdism and existential struggle",
+          "Absurdity of endless struggle"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 2,
+        "prompt": "Which existential dilemma in Kafka’s *The Trial* aligns with Camus’ notion of the absurd, and how does the penguin symbolize this struggle?",
+        "answer": [
+          "No penguin in The Trial",
+          "Kafka’s trial reflects Camus’ absurd; penguin symbolizes futile struggle"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "Which philosophical concept in Nietzsche’s *Thus Spoke Zarathustra* parallels the penguin’s role in Kafka’s *The Trial* as a symbol of existential ambiguity?",
+        "answer": [
+          "Eternal recurrence",
+          "Eternal recurrence mirrors existential ambiguity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "literature": 0.49,
+          "philosophy": 0.51
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_79728",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "An exploration of existential themes in Kafka’s *The Metamorphosis* and Camus’ absurdism, focusing on alienation, identity crises, and philosophical concepts of authenticity, freedom, and belonging",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the penguin's journey illustrate Camus' absurdism and echo themes from Kafka's *The Metamorphosis*?",
+        "answer": [
+          "Struggle against incomprehensible existence",
+          "Absurd struggle, isolated transformation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.61,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.28 > 0.25"
+        ]
+      },
+      {
+        "turn": 2,
+        "prompt": "Which literary device in Kafka’s *The Metamorphosis* parallels Camus’ philosophical concept of the absurd, and how does it shape the protagonist’s identity crisis?",
+        "answer": [
+          "Metamorphosis as existential absurdity",
+          "Metamorphosis absurdity defines identity crisis"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "literature": 0.53,
+          "philosophy": 0.47
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Gregor’s alienation in *The Metamorphosis* exemplify Sartrean existentialism, particularly the tension between bad faith and authenticity?",
+        "answer": [
+          "Struggle between isolation and self-identity",
+          "Gregor’s alienation reflects Sartrean tension between bad faith and authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.52,
+          "philosophy": 0.48
+        },
+        "theme_consistency_score": 0.52
+      },
+      {
+        "turn": 4,
+        "prompt": "Which existential philosopher’s concept of \"the \" aligns with Kafka’s portrayal of Gregor’s family dynamics in *The Metamorphosis*?",
+        "answer": [
+          "Jean-Paul Sartre's alienation",
+          "Sartre’s \"bad faith\" aligns with Gregor’s family dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "Which philosopher’s concept of \"the \" is echoed in Kafka’s depiction of Gregor’s transformation, and how does this reflect existential alienation?",
+        "answer": [
+          "Jean-Paul Sartre's existentialism",
+          "Sartre’s \"bad faith\" reflects Gregor’s existential alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 6,
+        "prompt": "How does Kafka’s depiction of Gregor’s existential alienation in *The Metamorphosis* reflect Heidegger’s ontological concept of \"thrownness\" and its implications for selfhood?",
+        "answer": [
+          "Alienation embodies existential \"thrownness.\"",
+          "Gregor’s plight mirrors \"thrownness\"—existence as alienated, pre-determined being"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 7,
+        "prompt": "Which philosopher’s notion of \"authenticity\" most closely parallels Kafka’s depiction of Gregor’s final moments in *The Metamorphosis*?",
+        "answer": [
+          "Martin Heidegger",
+          "Heidegger’s notion of authenticity parallels Gregor’s final moments"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_26077",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin's journey explores existential themes—freedom, belonging, absurdity, bad faith, Übermensch, and leap of faith—through literary devices like metaphor, allegory, irony, and symbolism",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the penguin's journey in Paragraph 1 illustrate Camus' concept of the absurd, and which literary device best conveys this? A. Metaphor B. Allegory C. Irony D. Symbolism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.6,
+          "philosophy": 0.4
+        },
+        "theme_consistency_score": 0.59,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.27 > 0.25"
+        ]
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the penguin's struggle in Paragraph 1 reflect Sartre's notion of bad faith, and which literary device primarily conveys this? A. Metaphor B. Allegory C. Irony D. Symbolism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the penguin's transformation in Paragraph 2 reflect Nietzsche's concept of the Übermensch, and which literary device primarily conveys this? A. Metaphor B. Allegory C. Irony D. Symbolism?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.57,
+          "philosophy": 0.43
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the penguin's final decision in Paragraph 5 reflect Kierkegaard's leap of faith, and which literary device best conveys this? A. Metaphor B. Allegory C. Irony D. Symbolism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.58,
+          "philosophy": 0.42
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_10584",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin’s journey explores existential themes of displacement, freedom, and alienation, interweaving Camus’ absurdity, Kafka’s literary paradoxes, and philosophical concepts from Nietzsche, Kierkegaard, and Sartre to reflect the tension between rebellion and resolution",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the penguin’s journey in Paragraph 1 reflect both Nietzsche’s concept of eternal recurrence and Kafka’s literary absurdism?",
+        "answer": [
+          "Cyclic struggle, existential absurdity",
+          "Eternal absurdity in motion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the penguin’s journey reflect Sartre’s existentialism and Kafka’s use of paradoxical freedom?",
+        "answer": [
+          "Struggle for authentic freedom",
+          "Penguin’s journey embodies paradoxical freedom and existential absurdity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the penguin’s final choice reflect Camus’ absurd hero while echoing Kafka’s unresolved tension?",
+        "answer": [
+          "Embraces absurdity, sustains ambiguity",
+          "Embraces absurdity, unresolved tension persists"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_96287",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The interplay of existential themes—freedom, despair, alienation, and absurdity—in Kafka’s and Camus’ works, analyzed through the penguin's journey and philosophical theories of determinism, \"bad faith,\" and Nietzsche’s \"Übermensch",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which philosophical concept of freedom is most directly challenged by the penguin's journey in Paragraph 1, and how does this relate to Camus' literary portrayal of existentialism?",
+        "answer": [
+          "Existential freedom, absurdity of existence",
+          "Existential freedom is challenged; Camus' absurdity reflected"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.5,
+          "philosophy": 0.5
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 2,
+        "prompt": "Which philosophical theory of determinism is challenged by the penguin's journey in Paragraph 1, and how does this relate to Kafka's literary exploration of existential constraints?",
+        "answer": [
+          "Hard determinism, challenges existential freedom",
+          "Hard determinism challenged; Kafka's constraints echo existential struggle"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.53,
+          "philosophy": 0.47
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the penguin’s journey reflect Kierkegaard’s concept of existential despair while echoing Kafka’s literary symbolism of isolation?",
+        "answer": [
+          "Isolation in existential struggle",
+          "Isolation mirrors despair; journey symbolizes existential struggle"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.57,
+          "philosophy": 0.43
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_19349",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin’s journey in literature as a lens for exploring existential and philosophical dilemmas, including freedom, absurdism, alienation, subjective truth, and connections to works by Camus, Kafka, Nietzsche, Sartre, Kierkegaard, Melville, and Dostoevsky",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In literature, how does the penguin’s journey symbolize existential dilemmas about freedom?",
+        "answer": [
+          "Exploring constraints of freedom",
+          "Penguin’s journey reflects constrained freedom, echoing existential dilemmas"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the penguin’s journey in literature embody Camus’ philosophy of the absurd while synthesizing existential isolation and metaphorical alienation?",
+        "answer": [
+          "Embraces existential struggle and isolation",
+          "Penguin’s journey mirrors absurdity, blending existential isolation and metaphorical alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "In literature, how does the penguin’s journey reflect Kierkegaard’s concept of subjective truth?",
+        "answer": [
+          "Personal existential exploration",
+          "Penguin’s journey embodies personal truth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the penguin’s journey illustrate Nietzsche’s concept of eternal recurrence while echoing themes from Kafka’s *The Metamorphosis*?",
+        "answer": [
+          "Endless struggle, existential transformation",
+          "Penguin’s cyclic struggle mirrors eternal recurrence, evokes Kafka’s alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "literature": 0.49,
+          "philosophy": 0.51
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 5,
+        "prompt": "Which literary work uses the penguin’s journey to explore Kierkegaard’s leap of faith while paralleling themes from Dostoevsky’s *The Brothers Karamazov*?",
+        "answer": [
+          "Mr. Popper's Penguins",
+          "*The Penguin’s Dostoevsky*"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.59,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.38 > 0.25"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_77227",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The interplay of philosophical concepts like existentialism, absurdism, and phenomenology in James Joyce's \"Ulysses,\" exploring their influence on narrative structure, character development, and themes of authenticity, freedom, and subjective truth",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the concept of distraction in philosophy influence the narrative structure of a literary work?",
+        "answer": [
+          "Shapes fragmented, nonlinear storytelling",
+          "Distraction shapes narrative focus"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.57,
+          "philosophy": 0.43
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "Which philosophical concept of distraction is most evident in the narrative structure of James Joyce's \"Ulysses\"? A. Existentialism B. Phenomenology C. Absurdism D. Pragmatism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.53,
+          "philosophy": 0.47
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the philosophical idea of existential authenticity influence character development in \"Ulysses\"?",
+        "answer": [
+          "Explores individual existential crises",
+          "Existential authenticity drives Bloom's self-discovery"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_52275",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin's journey explores existential themes of identity, alienation, and meaning through intertextual connections with Kafka, Camus, Sartre, Nietzsche, Kierkegaard, Heidegger, and Dostoevsky, using surrealism and symbolism to reflect philosophical concepts of selfhood, absurdity, and despair",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What philosophical concept of identity is explored through the penguin's transformation in Paragraph 2, and how does it parallel existential themes in Kafka’s *The Metamorphosis*?",
+        "answer": [
+          "Existential crisis and alienation",
+          "Identity crisis parallels existential alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.46,
+          "philosophy": 0.54
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the penguin’s existential crisis in Paragraph 3 relate to Camus’ philosophy of the absurd, and what literary motif underscores this connection?",
+        "answer": [
+          "Search for meaning, isolation motif",
+          "Absurdity mirrored through isolation motif"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the penguin’s search for meaning in Paragraph 4 synthesize Sartrean existentialism, Kafkaesque alienation, and Camusian absurdism through layered intertextual symbolism?",
+        "answer": [
+          "Embodying existential struggle",
+          "Existential quest mirrors absurd alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "In Paragraph 6, how does the penguin’s internal monologue reflect Kierkegaard’s concept of despair while employing Kafka’s use of surrealism?",
+        "answer": [
+          "Existential crisis, absurdly depicted",
+          "Penguin's surreal despair mirrors Kierkegaard’s existential angst"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.49,
+          "philosophy": 0.51
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 5,
+        "prompt": "In Paragraph 7, how does the penguin’s confrontation with its shadow symbolize Nietzsche’s concept of the Übermensch while echoing Dostoevsky’s narrative tension?",
+        "answer": [
+          "Self-confrontation and existential crisis",
+          "Shadow confrontation embodies self-overcoming, echoing existential tension"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 6,
+        "prompt": "In Paragraph 8, how does the penguin’s dialogue with the void reflect Heidegger’s concept of \"Being-toward-death\" while paralleling Kafka’s use of existential dread in *The Trial*?",
+        "answer": [
+          "Confronting inevitable existential crisis",
+          "Penguin’s dialogue mirrors Heidegger’s \"Being-toward-death\" and Kafka’s existential dread"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.49,
+          "philosophy": 0.51
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 7,
+        "prompt": "In what way does the penguin’s final silence in Paragraph 9 reflect Camus’ philosophy of absurdism while drawing from Beckett’s use of existential minimalism?",
+        "answer": [
+          "Embraces existential silence",
+          "Silence mirrors absurdism, echoes existential minimalism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.61
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_literature_philosophy_31219",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "literature",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      7,
+      13
+    ],
+    "topic_description": "The penguin's journey in Paragraph 1 serves as an allegory for existentialist philosophy, exploring themes of displacement, freedom, absurdism, bad faith, subjective truth, eternal recurrence, and philosophical paradoxes through layered symbolism and narrative techniques",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the penguin's journey in Paragraph 1 reflect existential themes of displacement and freedom?",
+        "answer": [
+          "Exploration of existential isolation",
+          "Displacement mirrors existential limits, freedom weighs equally"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.61,
+          "philosophy": 0.39
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the penguin’s journey in Paragraph 1 parallel Sartre’s concept of \"bad faith\" through its use of symbolism and narrative voice?",
+        "answer": [
+          "Penguin symbolizes self-deception",
+          "Penguin’s journey mirrors Sartre’s \"bad faith\" through denial symbolism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.57,
+          "philosophy": 0.43
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the penguin’s journey in Paragraph 1 reflect Kierkegaard’s concept of subjective truth through its narrative symbolism?",
+        "answer": [
+          "Symbolizes personal existential journey",
+          "Penguin’s journey symbolizes personal truth through existential struggle"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.53,
+          "philosophy": 0.47
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the penguin’s journey in Paragraph 1 illustrate Nietzsche’s concept of eternal recurrence through its use of cyclical narrative structure and symbolism?",
+        "answer": [
+          "Repeating cyclical existence symbolism",
+          "Cyclical journey mirrors eternal recurrence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.55,
+          "philosophy": 0.45
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the penguin’s journey in Paragraph 1 reflect Sartre’s existentialism through its narrative choices?",
+        "answer": [
+          "Emphasizes freedom and isolation",
+          "Penguin’s journey embodies existential freedom through narrative ambiguity and choice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.58,
+          "philosophy": 0.42
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 6,
+        "prompt": "What philosophical concept from Nietzsche’s \"Thus Spoke Zarathustra\" aligns with the penguin’s final act in Paragraph 1, and how does this reflect in its literary symbolism?",
+        "answer": [
+          "Eternal recurrence, self-overcoming symbolism",
+          "Eternal recurrence symbolizes the penguin's final act"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "literature": 0.53,
+          "philosophy": 0.47
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  }
+]

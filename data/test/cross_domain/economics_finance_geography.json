@@ -1,0 +1,174 @@
+[
+  {
+    "scenario_id": "cross3_economics_finance_geography_13474",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "finance",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      5
+    ],
+    "topic_description": "The interplay between Iran's economic policies, Ecbatana's historical trade routes, geographic shifts, and their collective impact on financial markets, regional stability, and global economic positioning",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did geographic shifts along Ecbatana's trade routes influence Iran's financial policies and economic stability?",
+        "answer": [
+          "Increased economic diversification",
+          "Trade route shifts boosted Iran's economic stability through diversified financial policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.26,
+          "economics": 0.45,
+          "finance": 0.29
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 2,
+        "prompt": "How might geographic changes along Ecbatana's trade routes affect Iran's financial strategies and global economic positioning?",
+        "answer": [
+          "Adjust investment and trade policies",
+          "Geographic shifts along Ecbatana's routes could alter Iran's trade costs, currency flows, and global market access"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.3,
+          "economics": 0.37,
+          "finance": 0.33
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 3,
+        "prompt": "How could Ecbatana's geographic vulnerabilities impact Iran's financial risk management and global trade positioning?",
+        "answer": [
+          "Increased trade and investment risks",
+          "Ecbatana's location increases Iran's financial risk and trade vulnerability"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "geography": 0.25,
+          "economics": 0.34,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 4,
+        "prompt": "How might Ecbatana's geographic features influence Iran's financial resilience and global economic partnerships?",
+        "answer": [
+          "Strategic trade routes",
+          "Ecbatana's mountainous terrain limits trade routes, affecting Iran's financial resilience and global economic partnerships"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "geography": 0.38,
+          "economics": 0.3,
+          "finance": 0.32
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_economics_finance_geography_82615",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "finance",
+      "geography"
+    ],
+    "cross_domain_id": [
+      3,
+      5,
+      5
+    ],
+    "topic_description": "The interplay between geographic factors, economic policies, and financial strategies shaping growth, trade, and risk management in the Bay of Bengal’s east coast country",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 1.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which economic policy, influenced by geographic trade routes and financial market stability, impacts GDP growth in the Bay of Bengal’s east coast country?",
+        "answer": [
+          "Trade liberalization policy",
+          "Export-led growth policy boosts GDP via trade routes and stable markets"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "geography": 0.16,
+          "economics": 0.47,
+          "finance": 0.37
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the geographic location of the Bay of Bengal’s east coast country influence its economic policies and financial market integration within regional trade agreements?",
+        "answer": [
+          "Enhances regional trade access",
+          "Geographic proximity boosts trade, economic policies favor integration, financial markets benefit"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.19,
+          "economics": 0.4,
+          "finance": 0.41
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "What financial instruments, influenced by geographic trade routes and economic policies, are most effective for managing currency risk in the Bay of Bengal’s east coast country?",
+        "answer": [
+          "Currency futures, options trading",
+          "Forward contracts and options, influenced by trade routes and policies, manage currency risk effectively"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "geography": 0.29,
+          "economics": 0.27,
+          "finance": 0.44
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How do geographic trade routes in the Bay of Bengal impact financial liquidity and economic stability in its east coast country?",
+        "answer": [
+          "Enhances liquidity, economic growth",
+          "Trade routes boost liquidity, stabilize economies through regional connectivity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "geography": 0.3,
+          "economics": 0.33,
+          "finance": 0.37
+        },
+        "theme_consistency_score": 0.73
+      }
+    ]
+  }
+]

@@ -1,0 +1,1165 @@
+[
+  {
+    "scenario_id": "sports_58663",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "Olympic silver medallists who appeared in James Bond films, particularly focusing on their roles as villains or supporting characters",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which Olympic silver medallist played Oddjob in Goldfinger?",
+        "answer": "Harold Sakata",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Olympic silver medallist appeared in a James Bond film as a villain?",
+        "answer": [
+          "Harold Sakata as Oddjob",
+          "Harold Sakata",
+          "Mark Spitz"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Olympic silver medallist played a villain in a James Bond film?",
+        "answer": [
+          "Harold Sakata as Oddjob",
+          "Harold Sakata",
+          "Mark Spitz"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Olympic silver medallist appeared in a James Bond film?",
+        "answer": [
+          "Harold Sakata in Goldfinger",
+          "Harold Sakata",
+          "Diana Rigg"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Olympic silver medallist appeared in a James Bond film as a supporting character?",
+        "answer": [
+          "Harold Sakata in \"Goldfinger\"",
+          "Harold Sakata",
+          "Diana Rigg"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Olympic silver medallist appeared in a James Bond film as a minor character?",
+        "answer": [
+          "Harold Sakata in Goldfinger",
+          "Harold Sakata",
+          "Duncan Goodhew"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_61599",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "A comprehensive analysis of Ant And Dec's Gameshow Marathon, focusing on the age, popularity, time slots, sports-themed challenges, endurance, runtime, entertainment value, difficulty, excitement, and family-friendliness of the revived gameshows",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Of all the gameshows that were revived for a series of one-off specials in Ant And Dec's Gameshow Marathon which was the oldest?",
+        "answer": [
+          "The Golden Shot",
+          "Take Your Pick!",
+          "Take Your Pick"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which gameshow from Ant And Dec's Gameshow Marathon had the highest viewer ratings?",
+        "answer": [
+          "Family Fortunes had the highest ratings",
+          "The Golden Shot",
+          "Play Your Cards Right"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which gameshow from Ant And Dec's Gameshow Marathon aired during the highest-rated time slot?",
+        "answer": [
+          "The Price is Right",
+          "Play Your Cards Right",
+          "Saturday Night Takeaway"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which gameshow from Ant And Dec's Gameshow Marathon featured a sports-themed challenge?",
+        "answer": [
+          "The Price is Right",
+          "The darts gameshow Bullseye"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which sports-themed challenge from Ant And Dec's Gameshow Marathon involved the most physical endurance?",
+        "answer": [
+          "Bullseye's darts challenge",
+          "Obstacle Course Challenge"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which sports-themed gameshow from Ant And Dec's marathon had the shortest runtime?",
+        "answer": [
+          "Ant vs. Dec: The Teams",
+          "\"Play to the Whistle\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_59331",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The connection between Persephone's seasonal return and the victories of ancient Greek athletes celebrated in various seasonal games, including Olympic, Pythian, and Nemean competitions",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Persephone is the Greek goddess of which season?",
+        "answer": [
+          "Spring and the underworld",
+          "The goddess of Spring",
+          "Spring"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which ancient Greek athlete is linked to Persephone's myth?",
+        "answer": [
+          "Milo of Croton",
+          "Euthymos of Locris"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which ancient Greek athlete is celebrated during Persephone's seasonal return?",
+        "answer": [
+          "No specific athlete celebrated",
+          "The athlete Hyacinthus"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which ancient Greek athlete is honored in seasonal games?",
+        "answer": [
+          "Heracles in the Olympic Games",
+          "The hero Pelops",
+          "Heracles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which ancient Greek athlete's victories are celebrated in both seasonal games and Persephone's return?",
+        "answer": [
+          "Milo of Croton",
+          "Hagesias of Syracuse"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which ancient Greek athlete's victories are linked to seasonal games?",
+        "answer": [
+          "Milo of Croton's victories",
+          "Milo of Croton",
+          "Milanion of Croton"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which ancient Greek athlete's victories are celebrated in both Olympic and Pythian games?",
+        "answer": [
+          "Milo of Croton",
+          "Hieron of Syracuse"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which ancient Greek athlete's victories are celebrated in both Olympic and Nemean games?",
+        "answer": [
+          "Milon of Croton",
+          "Diagoras of Rhodes",
+          "Leonidas of Rhodes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_15950",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "British sports commentators known for using animal-based analogies and vivid comparisons to describe athletes' performances or emotions",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which British sports commentator is famous for comparing athletes to animals?",
+        "answer": "David Coleman",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which British sports commentator is known for comparing athletes to penguins?",
+        "answer": [
+          "Sid Waddell",
+          "Sharron Davies",
+          "Barry Davies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which British sports commentator is known for comparing athletes to birds?",
+        "answer": [
+          "David Attenborough",
+          "David Coleman",
+          "Barry Davies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which British sports commentator is known for comparing athletes to animals?",
+        "answer": [
+          "David Coleman",
+          "David 'Bumble' Lloyd",
+          "Clive Tyldesley"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_13595",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The scenario explores various aspects of the Channel 4 TV show *The Games*, focusing on sports, events, and controversies, particularly within cycling disciplines and their outcomes in Sheffield",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which sport featured the most competitive events in the Channel 4 TV show The Games?",
+        "answer": [
+          "Athletics and swimming",
+          "Track and field athletics",
+          "Athletics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Sheffield-based event in The Games featured the most athletes?",
+        "answer": [
+          "World Student Games 1991",
+          "The athletics competition",
+          "Athletics events"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which sport in The Games had the highest viewership on Channel 4? A. Athletics B. Swimming C. Gymnastics D. Cycling?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which sport in The Games had the most upsets among top-ranked athletes? A. Athletics B. Swimming C. Gymnastics D. Cycling?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which cycling event in The Games saw the highest number of upsets among medal favorites? A. Road Race B. Time Trial C. Track Sprint D. BMX Racing?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which cycling event in The Games had the most unexpected victories by underdog athletes? A. Road Race B. Time Trial C. Track Sprint D. BMX Racing",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which cycling event in The Games had the most dramatic come-from-behind victory? A. Road Race B. Time Trial C. Track Sprint D. BMX Racing?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which cycling event in The Games had the most controversial judging decision? A. Road Race B. Time Trial C. Track Sprint D. BMX Racing?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_28937",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "This scenario explores various fencing techniques and maneuvers, focusing on actions involving leaps, lunges, and evasive steps to close distance, maximize reach, or evade attacks while maintaining balance",
+    "num_turns": 7,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Balestra, Derobement and Florentine are terms used in which sport?",
+        "answer": [
+          "Fencing",
+          "The sport of fencing"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which fencing move combines a leap and a lunge to maximize reach?",
+        "answer": [
+          "Fleche attack",
+          "Balestra lunge",
+          "Fleche"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which fencing technique combines a quick step to the side with a sudden leap to evade an attack? A. Fleche B. Lunge C. Ballestra D. Retreat?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What fencing technique combines a sudden leap with a quick step to the side? A. Fleche B. Lunge C. Ballestra D. Retreat?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What fencing maneuver involves a sudden leap combined with a quick step to the side? A. Fleche B. Lunge C. Ballestra D. Retreat?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What fencing action involves a sudden leap to evade an attack while maintaining balance? A. Fleche B. Lunge C. Ballestra D. Retreat?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What fencing action involves a sudden leap to evade while maintaining balance? A. Fleche B. Lunge C. Ballestra D. Retreat?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_64099",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The Saatchi brothers' shared history and achievements in a particular sport during their youth and school years",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What are the first names of the Saatchi brothers? (Both required for 1 point)?",
+        "answer": [
+          "Charles and Maurice Saatchi",
+          "Charles and Maurice"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which sport did both Saatchi brothers play at a competitive level?",
+        "answer": [
+          "Neither played competitive sports",
+          "Competitive chess"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which sport did the Saatchi brothers both excel in during their youth?",
+        "answer": [
+          "They did not excel in any sport",
+          "Table tennis",
+          "Tennis"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which sport did the Saatchi brothers both enjoy playing recreationally?",
+        "answer": [
+          "Tennis and squash",
+          "Table tennis",
+          "Tennis"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_46198",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "Rules and mechanics of Mahjong, focusing on tile counts, pung requirements, and game setup for players",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Pung and Chow are terms used in which game?",
+        "answer": [
+          "Mahjong",
+          "The game of Mahjong"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the maximum number of tiles a player can draw in one turn in Mahjong?",
+        "answer": [
+          "Four tiles per turn",
+          "Five tiles",
+          "Fourteen tiles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the minimum number of tiles a player needs to win in Mahjong?",
+        "answer": [
+          "Fourteen tiles",
+          "14 tiles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the minimum number of pungs required to win in Mahjong?",
+        "answer": [
+          "Four pungs or chows",
+          "Zero pungs",
+          "Four pungs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the maximum number of pungs a player can have in Mahjong?",
+        "answer": [
+          "Four pungs per player",
+          "Four pungs",
+          "Four"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the minimum number of tiles a player can have left to win in Mahjong?",
+        "answer": [
+          "Fourteen tiles",
+          "One tile",
+          "Zero tiles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the minimum number of tiles a player needs to form a pung in Mahjong?",
+        "answer": "Three tiles",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the maximum number of tiles a player can hold in Mahjong?",
+        "answer": [
+          "Thirteen tiles",
+          "18 tiles",
+          "14 tiles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the minimum number of players required to start a Mahjong game?",
+        "answer": [
+          "Three players",
+          "Four players"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_21084",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The scenario explores the rules, properties, and probabilities associated with dice in the game of ‘Craps,’ including dice configuration, sums, and player roles",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How many dice are used in a standard game of ‘Craps’?",
+        "answer": [
+          "Two dice",
+          "Two dice are used",
+          "Two"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In a standard game of ‘Craps’, what is the total number of dots on all dice used?",
+        "answer": [
+          "42 dots",
+          "Forty-two dots"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How many sides does a single die used in ‘Craps’ have?",
+        "answer": "Six sides",
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the sum of dots on a single die used in ‘Craps’?",
+        "answer": [
+          "21 dots",
+          "The sum of the dots is 21",
+          "21"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the probability of rolling a sum of 8 with two dice in ‘Craps’?",
+        "answer": [
+          "Probability is 13.89%",
+          "5 out of 36",
+          "5/36"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the name of the player who rolls the dice in ‘Craps’?",
+        "answer": [
+          "The shooter",
+          "Shooter"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_50486",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The scenario explores the background and primary focus of the first president of the National Football League, emphasizing his role in football and prior responsibilities",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who was the first president of the National Football League?",
+        "answer": "Jim Thorpe",
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which sport did the first president of the National Football League primarily oversee?",
+        "answer": [
+          "American professional football",
+          "American football"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which sport did the first president of the NFL primarily oversee?",
+        "answer": [
+          "American professional football",
+          "American football"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which sport did the first president of the NFL focus on before his role?",
+        "answer": [
+          "Baseball and college football",
+          "Track and field and baseball",
+          "American football"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was the first president of the NFL's primary role before leading the league?",
+        "answer": [
+          "Ohio League football manager",
+          "Professional football player"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_82036",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The history and key details of the inaugural 1983 World Athletics Championships, including its location, events, medalists, and notable achievements",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where were the first World Athletics Championships held?",
+        "answer": [
+          "Helsinki, Finland in 1983",
+          "Helsinki, Finland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which event was introduced for the first time at the inaugural World Athletics Championships?",
+        "answer": [
+          "Women's 400 meters hurdles",
+          "The women's marathon",
+          "Women's marathon"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which country hosted the first World Athletics Championships?",
+        "answer": [
+          "Helsinki, Finland",
+          "Finland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which city hosted the inaugural World Athletics Championships in 1983?",
+        "answer": [
+          "Helsinki, Finland",
+          "Helsinki"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which event did the first gold medal winner compete in at the 1983 Championships?",
+        "answer": [
+          "Men's 20 km race walk",
+          "Women's marathon"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which country hosted the 1983 World Athletics Championships?",
+        "answer": [
+          "Helsinki, Finland",
+          "Finland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which event did the 1983 World Athletics Championships host for the first time?",
+        "answer": [
+          "Women's 400 meters hurdles",
+          "The World Athletics Championships",
+          "Women's marathon"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "sports_79178",
+    "is_cross_domain": false,
+    "domain": "sports",
+    "domain_id": 18,
+    "topic_description": "The unique commentary style of ‘Whispering’ Ted Lowe, a legendary snooker broadcaster known for his hushed delivery and iconic phrases during matches, particularly at the World Snooker Championship",
+    "num_turns": 3,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "‘Whispering’ Ted Lowe was a commentator for which sport?",
+        "answer": [
+          "Snooker commentator",
+          "The sport of snooker",
+          "Snooker"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was ‘Whispering’ Ted Lowe’s nickname associated with in snooker commentary?",
+        "answer": [
+          "His hushed commentary style",
+          "Hushed tone"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was ‘Whispering’ Ted Lowe’s role during snooker matches?",
+        "answer": [
+          "Snooker commentator and presenter",
+          "BBC snooker commentator",
+          "Commentator"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "sports": 1.0
+        }
+      }
+    ]
+  }
+]

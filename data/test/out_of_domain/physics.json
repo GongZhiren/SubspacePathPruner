@@ -1,0 +1,1552 @@
+[
+  {
+    "scenario_id": "physics_44875",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the immense density of neutron stars, focusing on factors like gravitational collapse, neutron degeneracy pressure, and their role in determining stability, mass limits, and resistance to collapse",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.222,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which celestial object listed below has the greatest density? A. a planet B. a comet C. a nebula D. a neutron star?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary factor that determines the density of a neutron star compared to celestial objects?",
+        "answer": "Neutron degeneracy pressure",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What primarily determines the density of a neutron star compared to celestial objects? A. its mass B. its temperature C. its size D. its composition?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What primarily causes the immense density of a neutron star compared to celestial objects? A. gravitational collapse B. nuclear fusion C. electromagnetic force D. thermal expansion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What primarily determines the stability of a neutron star's density under extreme gravitational forces? A. neutron degeneracy pressure B. thermal radiation C. magnetic field strength D. rotational velocity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What primarily prevents a neutron star from collapsing further under its own gravity? A. neutron degeneracy pressure B. thermal radiation C. magnetic field strength D. rotational velocity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What primarily limits the maximum mass of a stable neutron star? A. gravitational collapse B. neutron degeneracy pressure C. magnetic field strength D. rotational velocity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the minimum mass of a neutron star? A. gravitational collapse B. neutron degeneracy pressure C. magnetic field strength D. rotational velocity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What primarily determines the stability of a neutron star against gravitational collapse? A. neutron degeneracy pressure B. thermal radiation C. magnetic field strength D. rotational velocity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What primarily determines the upper limit of a neutron star's mass? A. gravitational collapse B. neutron degeneracy pressure C. magnetic field strength D. rotational velocity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_10972",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "Conservation of momentum and other quantities in perfectly inelastic collisions, focusing on what remains constant despite reductions in kinetic energy",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A perfectly inelastic collision reduces internal kinetic energy to the minimum it can have while still conserving what?",
+        "answer": "momentum",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What quantity is conserved in a perfectly inelastic collision despite the reduction in kinetic energy?",
+        "answer": "momentum",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What quantity remains unchanged in a perfectly inelastic collision despite kinetic energy reduction?",
+        "answer": "momentum",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What quantity is still conserved in a system after a perfectly inelastic collision?",
+        "answer": "momentum",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What quantity, besides momentum, is conserved in a system undergoing a perfectly inelastic collision?",
+        "answer": "Total energy",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What quantity, than momentum, is still conserved in a system undergoing reduction of kinetic energy?",
+        "answer": "Total energy",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What quantity remains constant when kinetic energy is reduced in an inelastic collision?",
+        "answer": "momentum",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What quantity, than momentum, is still conserved when kinetic energy decreases in an inelastic collision?",
+        "answer": "Total energy",
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What quantity remains constant when energy is reduced in a closed system?",
+        "answer": "total energy",
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_18717",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The relationship between wave energy and amplitude squared, including its description, proportionality, and expression in simple terms and units",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "For most waves, energy is proportional to what, a term that describes the height of the wave?",
+        "answer": "amplitude",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What term describes the energy transfer in waves proportional to amplitude squared?",
+        "answer": "intensity",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What term describes the relationship between wave energy and amplitude squared?",
+        "answer": "Directly proportional",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes the proportional relationship between wave energy and amplitude squared?",
+        "answer": "energy proportionality",
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the proportional relationship between wave energy and amplitude squared in simpler terms?",
+        "answer": "energy proportionality",
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes the effect of amplitude on wave energy in simple terms?",
+        "answer": "amplitude-energy relationship",
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What term describes the proportional relationship between wave energy and amplitude squared in terms of units?",
+        "answer": "Wave intensity",
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_81332",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the relationships between mass, velocity, momentum, force, energy, and stopping dynamics in moving objects, focusing on how these factors interrelate to determine stopping requirements",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following has the least momentum? A. a 0.5 kg mass with a 1000 m/s velocity B. a 1 kg mass with a 100 m/s velocity C. a 10 kg mass with an 11 m/s velocity D. a 100 kg mass with a 2 m/s velocity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which object would require the least force to stop, given their momentum values? A. a 0.5 kg mass with a 1000 m/s velocity B. a 1 kg mass with a 100 m/s velocity C. a 10 kg mass with an 11 m/s velocity D. a 100 kg mass with a 2 m/s velocity?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the relationship between an object's mass and the force required to stop it? A. directly proportional B. inversely proportional C. no relation D. depends on velocity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the effect of an object's velocity on the force required to stop it? A. increases force B. decreases force C. no effect D. depends on mass?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the least force required to stop an object with a given mass and velocity? A. depends on mass only B. depends on velocity only C. depends on both D. independent of both?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What factor primarily determines the stopping distance of an object? A. mass B. velocity C. friction D. gravity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What primarily affects the time required to stop a moving object? A. mass B. velocity C. friction D. gravity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the least force needed to stop a moving object? A. mass only B. velocity only C. both mass and velocity D. neither mass nor velocity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What primarily determines the energy required to stop a moving object? A. mass B. velocity C. friction D. gravity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What primarily determines the least time required to stop a moving object? A. mass B. velocity C. friction D. gravity?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_43347",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The nuclear processes and gravitational forces governing energy production, element formation, and lifecycle stages in a star's core, focusing on fusion, helium synthesis, and heavier element creation",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the core of the sun radiate energy?",
+        "answer": "nuclear fusion реакцией",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What process in the sun's core is primarily responsible for producing energy? A. Nuclear fusion B. Nuclear fission C. Chemical combustion D. Gravitational collapse?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary element in the nuclear reactions within the sun's core? A. Hydrogen B. Helium C. Carbon D. Oxygen?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary source of energy that drives nuclear fusion in the sun's core? A. Gravitational potential energy B. Electromagnetic radiation C. Thermal energy D. Chemical energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does gravitational collapse play in the initiation of nuclear fusion within a star's core? A. Provides initial heat B. Supplies hydrogen C. Triggers fission D. Generates helium?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role does helium play in the later stages of a star's core fusion process? A. Provides fuel for further fusion B. Acts as a catalyst C. Triggers supernova D. Stops fusion entirely?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the primary process that leads to the formation of helium in a star's core? A. Nuclear fission B. Chemical bonding C. Nuclear fusion D. Gravitational collapse?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What process leads to the creation of heavier elements beyond helium in a star's core? A. Nuclear fission B. Chemical reactions C. Neutron capture D. Gravitational collapse?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What role does neutron capture play in the creation of elements heavier than iron in a star's core? A. Initiates fusion B. Enables fission C. Facilitates element synthesis D. Halts nuclear reactions?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What role does the balance between nuclear fusion and gravitational collapse play in a star’s lifecycle? A. Determines its color B. Regulates its temperature C. Dictates its ultimate fate D. Influences its orbital speed?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_12512",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the principles of buoyancy, thermal expansion, and density differences, explaining why warm or cool substances rise or sink in water and air due to forces like gravity and pressure",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What force explains why objects may float in water? A. warm force B. cool force C. gravity force D. buoyant force?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What principle explains why warm water rises and cool water sinks? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What explains why warm water rises and cool water sinks? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What explains why warm air rises and cool air sinks? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What explains why warm water rises and cool water sinks in terms of density differences? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What explains why warm air rises faster than warm water? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What explains why warm air rises faster than cool air? A. gravity force B. buoyant force C. thermal expansion D. pressure difference?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_12584",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "This scenario explores the nature, behavior, and transfer of thermal energy, including its relationship with molecular motion, temperature changes, phase transitions, thermal equilibrium, and energy transfer rates",
+    "num_turns": 10,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the type of energy that involves movement? A. molecular energy B. thermal energy C. light energy D. mechanical energy?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of energy is primarily involved when molecules vibrate and move within a substance? A. mechanical energy B. thermal energy C. light energy D. molecular energy?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of energy is transferred between objects due to a temperature difference? A. mechanical energy B. thermal energy C. light energy D. molecular energy?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What happens to molecular motion when thermal energy is removed? A. increases B. decreases C. stays constant D. reverses?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What happens to the temperature of a substance when thermal energy is added? A. increases B. decreases C. stays constant D. fluctuates?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What happens to the rate of thermal energy transfer between two objects when the temperature difference increases? A. decreases B. increases C. stays constant D. reverses?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What happens to the thermal energy of a substance when its temperature remains constant during a phase change? A. increases B. decreases C. stays constant D. fluctuates?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What happens to the thermal energy of an object when it reaches thermal equilibrium with its surroundings? A. increases B. decreases C. stays constant D. fluctuates?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What happens to the thermal energy transfer rate when two objects have the same temperature? A. stops B. increases C. decreases D. fluctuates?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What happens to the thermal energy of an object when it undergoes a reversible adiabatic process? A. increases B. decreases C. stays constant D. fluctuates?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_63237",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "This scenario explores the characteristics and behaviors of waves, including their energy transfer mechanisms, medium requirements, vacuum propagation, and interactions such as interference and diffraction",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the term for a disturbance in matter that causes the transfer of energy from place to place? A. nucleation B. flooding wave C. temperature wave D. mechanical wave?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of wave requires a medium for energy transfer? A. electromagnetic wave B. mechanical wave C. light wave D. radio wave?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of wave can travel through a vacuum? A. mechanical wave B. sound wave C. electromagnetic wave D. seismic wave",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of wave interaction occurs when two waves meet and their amplitudes combine? A. reflection B. refraction C. interference D. diffraction?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What phenomenon occurs when a wave bends around obstacles or spreads through an opening? A. reflection B. refraction C. diffraction D. interference",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_81996",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the factors influencing planetary orbital periods and shapes, focusing on gravity, distance, speed, and energy in simplified models of solar system dynamics",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which would a scientist use in trying to model the cause of planetary years?",
+        "answer": "gravitational force",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What factor primarily determines the length of a planet's year in a model?",
+        "answer": "The semi-major axis of its orbit",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What primarily determines the orbital period of a planet in a simplified model? A. Mass B. Distance C. Speed D. Gravity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What primarily causes the variation in orbital periods among planets in a solar system? A. Mass B. Distance C. Speed D. Gravity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What primarily determines the time it takes for a planet to complete one orbit? A. Mass B. Distance C. Speed D. Gravity?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What primarily determines the shape of a planet's orbit in a solar system? A. Mass B. Distance C. Speed D. Gravity?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What primarily keeps a planet in its orbit around the star? A. Mass B. Distance C. Speed D. Gravity?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What primarily determines the speed of a planet at any point in its orbit? A. Mass B. Distance C. Gravity D. Energy?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_61377",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The interaction between atoms and photons, focusing on energy absorption, emission, and the resulting changes in energy levels, photon frequency, and wavelength",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What happens to an atom's energy level when it collides with a photon of the right frequency? A. remains constant B. decreases C. increases D. fluctuates?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What occurs when an atom absorbs a photon of the correct frequency? A. emits light B. gains energy C. loses energy D. remains unchanged?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What happens to the energy level of an electron when it emits a photon? A. remains constant B. decreases C. increases D. fluctuates?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What happens to an atom when it releases a photon of specific frequency? A. gains energy B. loses energy C. remains unchanged D. absorbs light?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What happens to the frequency of a photon when an atom absorbs it? A. increases B. decreases C. remains constant D. becomes zero?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What happens to the wavelength of a photon when an atom emits it? A. increases B. decreases C. remains constant D. becomes zero?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What happens to the energy of an atom when it absorbs a photon? A. increases B. decreases C. remains constant D. becomes zero?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_63518",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the principles of solar energy absorption, focusing on how color and material properties affect heat absorption and emission in solar panels",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which object would be best at heating up in the sunlight? A. a clear solar panel B. a black solar panel C. a white solar panel D. an invisible solar panel?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What property makes a black solar panel better at absorbing sunlight than a white one? A. color absorption B. light reflection C. heat emission D. energy conversion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What principle explains why a black solar panel heats up more effectively than a white one? A. Color absorption B. Light reflection C. Heat emission D. Energy conversion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What happens to the temperature of a black solar panel compared to a white one under sunlight? A. increases more B. decreases more C. stays constant D. fluctuates wildly?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What factor primarily determines the rate at which a black solar panel radiates absorbed heat back into the environment? A. Surface texture B. Color absorption C. Temperature difference D. Panel thickness?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_46086",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The relationship between an object's kinetic energy, mass, and velocity, including proportional changes and their effects under various conditions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When an object moves, how will its kinetic energy be affected? A. lower B. reduced C. escalate D. lessen?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What happens to an object's kinetic energy if its velocity doubles? A. halves B. remains constant C. quadruples D. reduces slightly?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What happens to an object's kinetic energy if its mass is halved? A. doubles B. remains constant C. halves D. quadruples?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What happens to an object's kinetic energy if both its mass and velocity are doubled?",
+        "answer": "increases by a factor of 16",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What happens to an object's kinetic energy if its velocity is halved? A. doubles B. remains constant C. halves D. reduces to a quarter?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_46220",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores electric and magnetic forces, focusing on repulsion and attraction caused by charge interactions, field alignments, and the behavior of electric fields within conductors",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What can cause objects to repel each ?",
+        "answer": "like charges or magnetic poles",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What force can cause objects to repel each besides magnetic forces?",
+        "answer": "electric force",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What force besides magnetic forces can cause objects to repel each ?",
+        "answer": "electric force",
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What force besides magnetic forces can cause objects to repel each at a distance?",
+        "answer": "electric force",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What force besides magnetic forces can cause objects to repel each at a distance due to field interactions?",
+        "answer": "electric force",
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What force besides magnetic forces can cause objects to repel each due to charge interactions?",
+        "answer": "electric force",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What interaction besides magnetic forces can cause repulsion due to field alignment in charged particles?",
+        "answer": "electric forces",
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What type of force causes objects to repel due to like charges in an electric field?",
+        "answer": "Electrostatic force",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What type of force causes objects to attract due to opposite charges in an electric field?",
+        "answer": "Electrostatic force",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What phenomenon explains the reduction of electric field strength inside a conductor?",
+        "answer": "Electrostatic shielding",
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_99557",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "A comparison of the properties and behaviors of x-ray waves and sound waves, focusing on their similarities in propagation, energy transfer, interference, refraction, and absorption",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following is a similarity 20 between x-ray waves and sound waves?",
+        "answer": "both exhibit wave properties",
+        "task_type": "reasoning",
+        "difficulty": 0.35,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What property do x-ray waves and sound waves share regarding their ability to travel through a vacuum?",
+        "answer": "Neither can travel through a vacuum",
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What do x-ray waves and sound waves have in common regarding their need for a medium to propagate? A. Both require a medium B. Neither requires a medium C. Only sound waves require a medium D. Only x-ray waves require a medium?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What do x-ray waves and sound waves have in common regarding their ability to transfer energy?",
+        "answer": "both transfer energy through oscillations",
+        "task_type": "reasoning",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What do x-ray waves and sound waves have in common regarding their ability to exhibit interference patterns? A. Both exhibit interference B. Neither exhibits interference C. Only sound waves exhibit interference D. Only x-ray waves exhibit interference?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What do x-ray waves and sound waves have in common regarding their ability to be refracted? A. Both can be refracted B. Neither can be refracted C. Only sound waves can be refracted D. Only x-ray waves can be refracted?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What do x-ray waves and sound waves have in common regarding their ability to be absorbed? A. Both can be absorbed B. Neither can be absorbed C. Only sound waves can be absorbed D. Only x-ray waves can be absorbed?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_62257",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores energy types, conversions, and losses in car engines, focusing on mechanical energy, chemical energy, thermal energy, and factors influencing engine efficiency",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the type of energy that involves movement? A. molecular energy B. thermal energy C. light energy D. mechanical energy?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What type of energy is converted into mechanical energy during movement? A. chemical energy B. thermal energy C. light energy D. electrical energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of energy is primarily converted into mechanical energy in a car engine? A. chemical energy B. thermal energy C. light energy D. electrical energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of energy loss primarily occurs as thermal energy in a car engine? A. frictional energy B. chemical energy C. mechanical energy D. electrical energy?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What factor primarily determines the efficiency of energy conversion in a car engine? A. fuel type B. engine temperature C. mechanical load D. air resistance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary source of energy loss in a car engine? A. friction B. air resistance C. fuel inefficiency D. electrical resistance?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the main reason energy loss occurs in a car engine? A. heat transfer B. air resistance C. fuel combustion D. electrical discharge?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "physics_71976",
+    "is_cross_domain": false,
+    "domain": "physics",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the roles of gravity and inertia in planetary motion, focusing on how these forces determine orbits and prevent planets from drifting away or being pulled into the Sun",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which object has a gravitational force so strong that it forms the center of the solar system? A. Earth B. Pluto C. the Moon D. the Sun?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.15,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What keeps planets in orbit around the Sun despite its strong gravitational pull? A. inertia B. magnetism C. friction D. pressure?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What keeps the planets from being pulled into the Sun? A. gravity B. inertia C. magnetism D. pressure?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What primarily determines the shape of a planet's orbit around the Sun? A. gravity B. inertia C. magnetism D. pressure?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What primarily prevents planets from drifting away from their orbits? A. gravity B. inertia C. magnetism D. pressure?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "physics": 1.0
+        }
+      }
+    ]
+  }
+]

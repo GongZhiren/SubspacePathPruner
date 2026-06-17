@@ -1,0 +1,1530 @@
+[
+  {
+    "scenario_id": "literature_26139",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "An in-depth analysis of how Ridley's book develops its central themes through character arcs, literary devices, and structural elements, with a focus on symbolism, foreshadowing, and climactic reinforcement",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.571,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which character in Ridley's book most clearly embodies the theme?",
+        "answer": [
+          "Protagonist John Smith",
+          "The protagonist, Matt, embodies the theme"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which literary device does Ridley use most effectively to reinforce the theme in the climax?",
+        "answer": [
+          "Irony and symbolism",
+          "The use of symbolism"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Ridley's use of symbolism in the middle chapters affect the theme?",
+        "answer": [
+          "Enhances thematic complexity",
+          "Reinforces and complicates the theme",
+          "This deepens the theme's emotional impact"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which chapter in Ridley's book introduces the theme most clearly?",
+        "answer": [
+          "Chapter Three",
+          "Chapter 1",
+          "The third chapter introduces the theme most clearly"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which chapter in Ridley's book best demonstrates the use of foreshadowing?",
+        "answer": [
+          "Chapter Three",
+          "The first chapter",
+          "Chapter 3 best demonstrates foreshadowing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which literary device is most prominent in Ridley's final chapters?",
+        "answer": [
+          "Foreshadowing and suspense",
+          "The use of foreshadowing"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which theme in Ridley's book is least developed in the final chapters?",
+        "answer": [
+          "The theme of societal corruption",
+          "The theme of forgiveness"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What conclusion about Ridley's themes can be drawn from the final chapters?",
+        "answer": [
+          "Exploration of human resilience",
+          "The redemptive power of storytelling",
+          "This highlights the inevitability of fate"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_96986",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The impact of sponsorship changes on the Booker Prize's reputation, global recognition, selection criteria, literary influence, audience engagement, and long-term legacy",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which detail about the Booker Prize sponsorship is accurate?",
+        "answer": [
+          "Currently sponsored by Crankstart",
+          "Sponsored by Crankstart since 2019",
+          "The sponsorship is currently held by Cranes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the sponsorship changes impact the Booker Prize's reputation?",
+        "answer": [
+          "Enhanced global prestige and interest",
+          "Caused controversy over commercialization",
+          "This broadened its global literary influence"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the sponsorship changes affect the Booker Prize's global recognition?",
+        "answer": [
+          "Increased its international prestige",
+          "Expanded eligibility to global authors",
+          "This increased its global recognition"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.93,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the sponsorship changes influence the Booker Prize's selection criteria?",
+        "answer": [
+          "Broadened geographical eligibility",
+          "Increased emphasis on readability",
+          "This broadened its global author eligibility"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How did the sponsorship changes alter the Booker Prize's influence on literary trends?",
+        "answer": [
+          "Broadened global literary focus",
+          "It had little discernible effect",
+          "This expanded its global reach and diversity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How did the sponsorship changes impact the Booker Prize's reputation among readers?",
+        "answer": [
+          "Enhanced its global prestige",
+          "Caused controversy over corporate sponsorship",
+          "This increased its global recognition"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "How did the sponsorship changes affect the Booker Prize's ability to engage new audiences?",
+        "answer": [
+          "Broadened international interest",
+          "Expanded its reach to global audiences",
+          "This expanded its reach and appeal"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "How did the sponsorship changes influence the Booker Prize's long-term legacy among literary awards?",
+        "answer": [
+          "Increased prestige and global recognition",
+          "Ensured financial stability and global prestige",
+          "This expanded its global influence and prestige"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_66813",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The dynamics of power and control in character interactions, motivations, and relationships, and how these themes shape the story's resolution",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What we can infer from the Q&A?",
+        "answer": [
+          "Insights from interaction analysis",
+          "The author's intended meaning",
+          "the reader's interpretation is subjective"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What can we infer about the characters' relationships from their dialogue?",
+        "answer": [
+          "Complexity and emotional depth",
+          "Power dynamics, intimacy, and conflict",
+          "Their dialogue reveals underlying tensions and unspoken emotions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the resolution of the story reinforce or challenge the established themes of power and control?",
+        "answer": [
+          "Challenges traditional power dynamics",
+          "It ultimately defines their limits",
+          "This resolution challenges themes of power and control"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_92790",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "Mr. Paratico's latest book is analyzed for its thematic, narrative, and character connections to his earlier works, as well as its resolution of unresolved themes and storylines",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does Mr. Paratico's latest book reflect his previous literary themes?",
+        "answer": [
+          "Explores similar existential themes",
+          "It expands upon previous themes",
+          "This book revisits his recurring themes of identity and cultural displacement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How does Mr. Paratico's latest book connect to his earlier works thematically?",
+        "answer": [
+          "Exploration of human emotions",
+          "Continued exploration of identity",
+          "This book revisits his recurring themes of identity and cultural displacement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does Mr. Paratico's latest book expand on his earlier works' narrative techniques?",
+        "answer": [
+          "Incorporates multiple narrative perspectives",
+          "It introduces a polyphonic narrative",
+          "This book deepens his nonlinear storytelling approach"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How does Mr. Paratico's latest book reflect his earlier works' character development?",
+        "answer": [
+          "Consistent thematic exploration",
+          "It deepens his established archetypes",
+          "This book continues his focus on complex, evolving characters"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does Mr. Paratico's latest book conclude his earlier works' storylines?",
+        "answer": [
+          "Resolves all major plotlines",
+          "It resolves the central mystery",
+          "This ties up loose ends from previous books"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_17427",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "Watson's journey of self-reflection and growth, focusing on how his past decisions shaped his mindset, influenced his reaction to an unexpected second chance, and guided his future choices and lessons learned",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.6,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Why did Watson's second chance seem unexpected?",
+        "answer": [
+          "He was previously incompetent",
+          "He had already had many chances",
+          "This chance arose from an unforeseen turn of events"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might have influenced Watson's reaction to his second chance?",
+        "answer": [
+          "Gratitude and redemption opportunity",
+          "Guilt and the hope for redemption",
+          "his past experiences and growth"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Watson's second chance influence his future decisions?",
+        "answer": [
+          "Made more cautious decisions",
+          "He became more mature and responsible",
+          "It led to more cautious choices"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Watson's past decisions shape his current mindset?",
+        "answer": [
+          "Fostered caution and skepticism",
+          "His past instilled loyalty and pragmatism",
+          "His past decisions shaped his mindset"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How might Watson's future decisions reflect his current mindset?",
+        "answer": [
+          "Reflective of current mindset",
+          "Prioritizing friendship over personal safety",
+          "This depends on his current values and priorities"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.64,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What lesson did Watson ultimately learn about his past decisions?",
+        "answer": [
+          "Value of trust and observation",
+          "To trust Holmes's deductive reasoning",
+          "The importance of trust and loyalty"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_11888",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The role of alcohol in shaping a story's tone, mood, character development, pacing, decisions, resolution, and thematic depth",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the author's focus on alcohol affect character development?",
+        "answer": [
+          "Deepens emotional and psychological complexity",
+          "Reveals flaws and inner conflicts",
+          "This highlights characters' vulnerabilities"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the author's focus on alcohol affect the story's pacing?",
+        "answer": [
+          "Slows narrative progression",
+          "Slows and distorts narrative progression",
+          "It slows the narrative pace"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the author's focus on alcohol impact the story's mood?",
+        "answer": [
+          "Creates a somber, reflective atmosphere",
+          "Creates a bleak, hopeless mood",
+          "It creates a somber, reflective mood"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the author's focus on alcohol influence the characters' decisions?",
+        "answer": [
+          "Promotes poor judgment, risky behaviors",
+          "Clouds judgment, causing rash decisions",
+          "It clouds their judgment and leads to reckless choices"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the author's focus on alcohol affect the resolution?",
+        "answer": [
+          "Complicates or resolves conflicts",
+          "It complicates the resolution",
+          "This focus creates a tragic resolution"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the author's focus on alcohol relate to the story's overall theme?",
+        "answer": [
+          "Symbolizes character deterioration",
+          "Represents escapism and self-destruction",
+          "It highlights the theme of escapism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_54867",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "A German boy's act of throwing a bottle into the sea symbolizes his hopes, dreams, and emotional journey, reflecting both personal aspirations and the unpredictable nature of fate",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When the German boy threw the bottle into the sea, _ .",
+        "answer": [
+          "it drifted across the ocean",
+          "he hoped someone would find it",
+          "it carried a message across the ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might the German boy have hoped to achieve by throwing the bottle into the sea?",
+        "answer": [
+          "Communicate across distances",
+          "To connect with someone",
+          "A message to reach someone far away"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might the German boy's feelings about the bottle reveal about his hopes?",
+        "answer": [
+          "Desire for connection or rescue",
+          "This reveals his hope for connection"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might the bottle's journey reveal about the boy's hopes and dreams?",
+        "answer": [
+          "Aspirations for distant connection",
+          "A longing for connection and adventure",
+          "The boy's hopes and dreams"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might the bottle's final destination suggest about the boy's future?",
+        "answer": [
+          "Uncertain, potentially adventurous future",
+          "He will find his place",
+          "This suggests uncertainty about his future path"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_99985",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The explorers' discoveries about the moon people's knowledge, communication, values, daily routines, and social interactions reveal insights into their way of life and its impact on their cultural priorities",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What surprised the explorers most about the moon people's knowledge?",
+        "answer": [
+          "Their advanced astronomical knowledge",
+          "Its lack of practical application",
+          "Their advanced understanding of astronomy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What did the explorers learn about the moon people's communication methods?",
+        "answer": [
+          "Telepathic communication methods",
+          "They used a non-verbal language",
+          "The moon people used telepathy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What did the explorers conclude about the moon people's values?",
+        "answer": [
+          "Peaceful and technologically advanced",
+          "Valued the collective over the individual",
+          "The moon people valued peace and simplicity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What did the explorers find most surprising about the moon people's way of life?",
+        "answer": [
+          "Their advanced peaceful society",
+          "Their specialized, caste-based society",
+          "Their peaceful coexistence with nature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What did the explorers observe about the moon people's daily routines?",
+        "answer": [
+          "Varied, complex social behaviors",
+          "They lived and worked underground",
+          "The moon people worked and rested in harmony"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What did the explorers conclude about the moon people's values based on their observations?",
+        "answer": [
+          "Moon people value peace and simplicity",
+          "They valued conformity over individuality",
+          "The moon people valued peace and harmony"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What conclusion might the explorers draw about the moon people’s routines influencing their values?",
+        "answer": [
+          "Routines reflect cultural values",
+          "Their values arise from daily routines",
+          "their routines reflect communal values"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_29116",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The scenario explores the use of literary devices, particularly irony, to effectively express and enhance complaints in English, focusing on their impact on communication skills",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which literary device is most effective for expressing complaints in English? A. Metaphor B. Simile C. Irony D. Hyperbole?",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which aspect of English is most improved by using irony effectively? A. Vocabulary B. Grammar C. Complaints D. Pronunciation?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which literary device is often used to enhance complaints in English? A. Metaphor B. Simile C. Irony D. Hyperbole?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which literary device is most often used to enhance irony in complaints? A. Metaphor B. Simile C. Irony D. Hyperbole?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_91484",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The role of symbolism, emotional impact, and thematic elements in crafting a story's title and its influence on reader interpretation and perception of conflict and meaning",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which element most directly influences a reader's emotional response to a story's title?",
+        "answer": [
+          "Word choice and connotations",
+          "The words' connotations",
+          "The title's emotional tone"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which element most directly influences a story's symbolic meaning?",
+        "answer": [
+          "Symbolism and thematic elements",
+          "Recurring motifs and imagery",
+          "The story's central theme or motif"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does a story's title influence the reader's perception of its central conflict?",
+        "answer": [
+          "Sets expectations and tone",
+          "It frames the central conflict",
+          "It sets the tone and hints at the central conflict"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How does a story's title typically affect its overall theme?",
+        "answer": [
+          "Frames and emphasizes key ideas",
+          "It encapsulates or suggests the theme",
+          "It often hints at or reflects the central theme"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does a story's title typically influence its symbolic elements?",
+        "answer": [
+          "Guides interpretation and meaning",
+          "Introduces or highlights key symbols",
+          "It often reflects or enhances the story's central themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How does a story's title typically influence its emotional impact on readers?",
+        "answer": [
+          "Sets tone and expectations",
+          "Creates emotional expectations and tone",
+          "It sets the tone and evokes curiosity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_24221",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The symbolic role and evolving perception of the \"shadow land\" in shaping the protagonist's journey, thematic contrasts, and ultimate realization",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What does the repeated use of \"shadow land\" suggest about the theme?",
+        "answer": [
+          "Exploration of uncertainty and mystery",
+          "A realm between life and death",
+          "This suggests a theme of uncertainty or transition"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does the \"shadow land\" play in the protagonist's journey?",
+        "answer": [
+          "Symbolizes personal growth and transformation",
+          "A trial of the protagonist's soul",
+          "It represents the protagonist's inner struggles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which element of the \"shadow land\" is most symbolic in the story?",
+        "answer": [
+          "Darkness and obscurity",
+          "The perpetual twilight",
+          "The darkness represents fear and uncertainty"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does the \"shadow land\" play in the story's resolution?",
+        "answer": [
+          "Catalyst for protagonist's transformation",
+          "Crucible for final transformation",
+          "It symbolizes the protagonist's inner conflict"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_52702",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "Rocky's reaction upon waking is analyzed to understand his character, emotional state, past experiences, resilience, and how these factors shape his present and future actions",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When he woke up,Rocky _ .",
+        "answer": [
+          "felt confused and disoriented",
+          "called for Adrian",
+          "he was confused about his surroundings"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might Rocky's reaction reveal about his character when he woke up?",
+        "answer": [
+          "Resilient and determined",
+          "His resilience and fighting spirit",
+          "This might show Rocky's resilience and determination"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might Rocky's reaction suggest about his emotional state when he woke up?",
+        "answer": [
+          "Confused and disoriented",
+          "A state of shock and confusion",
+          "This might suggest Rocky felt disoriented or anxious"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What might Rocky's initial reaction upon waking suggest about his personality?",
+        "answer": [
+          "Impulsive and reactive",
+          "Peaceful, intelligent, and curious",
+          "This suggests Rocky is alert and curious"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What might Rocky's reaction upon waking reveal about his past experiences?",
+        "answer": [
+          "Trauma or distress from past experiences",
+          "A history of trauma or violence",
+          "This might show his past trauma"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How might Rocky's past experiences influence his reaction upon waking?",
+        "answer": [
+          "Heightened caution or fear",
+          "Reacts with caution and suspicion",
+          "This depends on Rocky's specific past experiences"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_45501",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The scenario explores Shakespeare's linguistic choices in his works, focusing on the languages used in his plays, poems, and sonnets, as well as the primary language spoken by his characters",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which language did Shakespeare primarily use in his plays and poems? A. Latin B. French C. English D. Italian?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which language did Shakespeare use less frequently in his works? A. Latin B. French C. English D. Italian?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which language did Shakespeare rarely use in his plays? A. Latin B. French C. English D. Italian?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which language did Shakespeare use in his sonnets? A. Latin B. French C. English D. Italian?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which language did Shakespeare use most distinctively in his tragedies? A. Latin B. French C. English D. Italian?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.22,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_85063",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The phrase \"Go for it!\" is analyzed for its origins, implications, and effects on attitudes, emotions, risk perception, urgency, and literary symbolism, exploring its role in decision-making and thematic contrasts",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The expression \"Go for it!\" comes from _ .",
+        "answer": [
+          "20th-century colloquial English",
+          "*The Right Stuff* by Tom Wolfe",
+          "the phrase originates from sports commentary"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What does the phrase \"Go for it!\" imply about the speaker's attitude?",
+        "answer": [
+          "Encouragement, supportive attitude",
+          "Encouraging and supportive",
+          "The speaker is encouraging and supportive"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What does the phrase \"Go for it!\" reveal about the speaker's emotional state?",
+        "answer": [
+          "Encouraging, enthusiastic support",
+          "Enthusiastic, supportive, and encouraging",
+          "The speaker feels encouraging and supportive"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What literary device is often used to convey the urgency in phrases like \"Go for it!\"?",
+        "answer": "Imperative mood",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the urgency in \"Go for it!\" affect character decisions in literature?",
+        "answer": [
+          "Prompts decisive, bold actions",
+          "Encourages impulsive, risky actions",
+          "This urgency often drives characters to act impulsively"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which literary work contrasts \"Go for it!\" with hesitation to highlight a theme?",
+        "answer": [
+          "Hamlet by William Shakespeare",
+          "Shakespeare's Hamlet",
+          "This contrast appears in \"Hamlet.\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_68242",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The role of tone in shaping reader perception, emotional response, character development, and narrative engagement, and how literary devices enhance its impact throughout a story",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.667,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What role does tone play in shaping the reader's emotional response?",
+        "answer": [
+          "Elicits emotional engagement",
+          "Sets the emotional mood",
+          "It evokes specific feelings in readers"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary purpose of using tone in literature?",
+        "answer": [
+          "Convey emotions and atmosphere",
+          "To convey the author's attitude",
+          "to convey the author's attitude or mood"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the interplay between tone and emotional response influence character development?",
+        "answer": [
+          "Shapes emotional character arcs",
+          "Shapes character arc through empathy",
+          "This interplay reveals deeper character motivations"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which element most directly affects a reader's emotional connection to tone?",
+        "answer": [
+          "Author's choice of words",
+          "Author's word choice",
+          "The author's choice of words and phrasing"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which literary device enhances tone to deepen emotional engagement?",
+        "answer": [
+          "Imagery and tone",
+          "Imagery and connotative diction",
+          "Imagery enhances tone to deepen emotional engagement"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the evolution of tone throughout a narrative impact character development and reader engagement?",
+        "answer": [
+          "Enhances empathy, maintains interest",
+          "Reflects growth, deepens reader investment",
+          "This evolution deepens engagement and reveals character growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which aspect of tone most directly influences a character's perceived growth?",
+        "answer": [
+          "Character's emotional development tone",
+          "Shift in narrative attitude",
+          "The character's emotional depth"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "literature_70775",
+    "is_cross_domain": false,
+    "domain": "literature",
+    "domain_id": 7,
+    "topic_description": "The enduring drama and thematic richness of Shakespeare's works, particularly focusing on their timeless relevance and the celebration of his contributions to literature",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is a key reason Shakespeare's works remain dramatic over time?",
+        "answer": [
+          "Universal themes and emotions",
+          "Timeless exploration of human nature",
+          "This exploration of universal human themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is a common theme in Shakespeare's birthday celebrations over time?",
+        "answer": [
+          "Literary appreciation and performances",
+          "Celebration of national identity",
+          "a celebration of his plays and sonnets"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which theme is most commonly celebrated during Shakespeare's birthday events?",
+        "answer": [
+          "Shakespeare's literary legacy",
+          "His life and works",
+          "the theme of love and romance"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which aspect of Shakespeare's works is often highlighted during birthday celebrations?",
+        "answer": [
+          "Genius and linguistic mastery",
+          "The immortality of his verse",
+          "his plays and sonnets are celebrated"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Shakespearean theme is simplest to identify in his plays?",
+        "answer": [
+          "Love and betrayal",
+          "Love and its consequences",
+          "The theme of love is simplest to identify"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "literature": 1.0
+        }
+      }
+    ]
+  }
+]

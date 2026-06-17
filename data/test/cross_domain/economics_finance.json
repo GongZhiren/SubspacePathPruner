@@ -1,0 +1,201 @@
+[
+  {
+    "scenario_id": "cross_economics_finance_46621",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "finance"
+    ],
+    "cross_domain_id": [
+      3,
+      5
+    ],
+    "topic_description": "The economic and fiscal policies of Otto von Bismarck post-unification and their impact on Germany’s financial markets, trade balance, capital flows, and long-term economic stability",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Otto von Bismarck's economic policies influence Germany's financial markets post-unification?",
+        "answer": [
+          "Strengthened industrial growth",
+          "Unified and stabilized markets",
+          "Bismarck's policies stabilized markets, fostering industrial growth and financial integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "economics": 0.44,
+          "finance": 0.56
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Bismarck's tariff policies impact Germany’s capital inflows and economic stability post-unification?",
+        "answer": [
+          "Increased capital inflows, enhanced stability",
+          "Increased capital and stability",
+          "Bismarck's tariff policies boosted capital inflows and stabilized the economy by protecting domestic industries"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "economics": 0.54,
+          "finance": 0.46
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Bismarck's tariff policies affect Germany’s foreign investment and trade balance post-unification?",
+        "answer": [
+          "Increased foreign investment, worsened trade balance",
+          "Positive trade balance, increased investment",
+          "Boosted industrial growth, improved trade balance, attracted foreign investment through protectionist tariffs"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "economics": 0.53,
+          "finance": 0.47
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "What was the impact of Bismarck’s debt issuance on Germany’s equity market valuation and inflation expectations post-unification?",
+        "answer": [
+          "Increased valuations, higher inflation",
+          "Increased valuations and inflation",
+          "Bismarck’s debt issuance stabilized equity valuations and anchored inflation expectations post-unification"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "economics": 0.47,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Bismarck’s fiscal policies influence Germany’s risk premium and long-term capital allocation efficiency post-unification?",
+        "answer": [
+          "Reduced risk, improved efficiency",
+          "Lowered risk, distorted capital allocation",
+          "Bismarck’s fiscal policies reduced Germany’s risk premium and improved capital allocation efficiency through stable unification-driven economic reforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "economics": 0.47,
+          "finance": 0.53
+        },
+        "theme_consistency_score": 0.6
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_finance_32831",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "finance"
+    ],
+    "cross_domain_id": [
+      3,
+      5
+    ],
+    "topic_description": "The impact of fiscal policy adjustments during economic expansions on bond yields, liquidity premiums, and yield curves through interest rate expectations, market liquidity, and inflation effects",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does fiscal policy impact bond yields during economic expansions?",
+        "answer": [
+          "Increases bond yields",
+          "Expansionary fiscal policy raises bond yields by increasing demand and inflation expectations"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "domain_weights": {
+          "economics": 0.49,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do changes in fiscal policy during economic expansions affect bond yields through both interest rate expectations and market liquidity?",
+        "answer": [
+          "Increase bond yields",
+          "Raises yields via crowding out",
+          "Higher fiscal spending raises yields via rate hike expectations and reduced liquidity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "economics": 0.49,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How do fiscal policy adjustments during expansions influence bond yields through interest rate expectations and liquidity premiums?",
+        "answer": [
+          "Increase bond yields",
+          "Lowers yields, reduces premiums",
+          "Higher fiscal spending raises rate expectations and liquidity premiums, lifting bond yields"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "economics": 0.49,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 4,
+        "prompt": "How do liquidity premiums and fiscal policy adjustments during expansions jointly affect bond pricing models?",
+        "answer": [
+          "Increase bond prices",
+          "Flattens the yield curve",
+          "Liquidity premiums rise, fiscal easing boosts demand, jointly lifting bond prices"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "economics": 0.49,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "How do fiscal policy-driven shifts in aggregate demand influence bond yield curves through liquidity and inflation expectations?",
+        "answer": [
+          "Increase yields, steeper curve",
+          "Steepens the yield curve",
+          "Fiscal policy shifts affect bond yields via liquidity and inflation expectations"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "economics": 0.49,
+          "finance": 0.51
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  }
+]

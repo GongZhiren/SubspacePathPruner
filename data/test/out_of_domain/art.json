@@ -1,0 +1,1152 @@
+[
+  {
+    "scenario_id": "art_14774",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores artistic techniques and concepts across ballet, Renaissance art, and their stylistic representations, focusing on collaboration, depth, moral ambiguity, exaggeration, harmony, and emotion",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Ballet dancers Margot Fonteyn and Rudolph Nureyev first danced together at the 1962 Royal Ballet performance of which ballet?",
+        "answer": [
+          "Giselle",
+          "The ballet Giselle"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Renaissance art technique uses light and shadow to create depth? A. Chiaroscuro B. Cross-hatching C. Stippling D. Hatching?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What term describes the artistic representation of moral ambiguity in Renaissance art? A. Symbolism B. Realism C. Romanticism D. Classicism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What term describes the use of exaggerated features in Renaissance art? A. Realism B. Symbolism C. Classicism D. Romanticism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What term describes the Renaissance focus on balanced and harmonious composition? A. Realism B. Classicism C. Romanticism D. Symbolism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What term describes the Renaissance emphasis on human emotion and individualism? A. Classicism B. Romanticism C. Realism D. Symbolism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_93344",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The heraldic symbol of a bar sinister, a diagonal stripe on a shield, traditionally signifies illegitimacy in lineage or inheritance",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In heraldry, a bar sinister, a broad diagonal stripe from top right to bottom left on a shield, was supposed to signify what?",
+        "answer": "Illegitimacy or bastardy",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What does the bar sinister represent in terms of lineage or inheritance? A. Legitimacy B. Illegitimacy C. Royalty D. Nobility?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What does the bar sinister signify about a family’s lineage in heraldic terms? A. Legitimacy B. Illegitimacy C. Royalty D. Nobility?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the term for a heraldic symbol indicating illegitimacy, often depicted as a diagonal stripe? A. Fess B. Pale C. Bend D. Bar Sinister?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the heraldic term for a diagonal stripe representing illegitimacy? A. Fess B. Pale C. Bend D. Bar Sinister?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.53,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_84720",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores impasto painting techniques, focusing on how different brush strokes like Butt, Barrel, and Butterfly enhance texture and depth in artworks",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Butt, Barrel and Butterfly are all types of what?",
+        "answer": [
+          "Hinges",
+          "Types of hinges",
+          "Butt, Barrel and Butterfly are all types of knots"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What do the terms Butt, Barrel, and Butterfly refer to in art? A. Painting techniques B. Sculpture tools C. Types of brush strokes D. Art movement names?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of art tool is primarily used to create Butt, Barrel, and Butterfly strokes? A. Palette knife B. Brush C. Chisel D. Sponge?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which painting technique uses Butt, Barrel, and Butterfly strokes to create dynamic textures? A. Impasto B. Glazing C. Stippling D. Cross-hatching?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which stroke technique is best for creating bold textures in impasto? A. Butt stroke B. Barrel stroke C. Butterfly stroke D. Cross-hatching?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which stroke is ideal for blending colors smoothly in impasto? A. Butt stroke B. Barrel stroke C. Butterfly stroke D. Stippling?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What effect does layering impasto strokes create in a painting? A. Smooth gradients B. Textured depth C. Blurred outlines D. Uniform tones?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_15252",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores Savini's artistic presence across global cities, focusing on exhibition locations, themes, audience engagement techniques, and the factors influencing his artistic choices",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Savini's works of art can be seen in all the cities EXCEPT _ . A. London B. Rome C. New York D. Paris",
+        "answer": "D",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which city does not host a public exhibition of Savini's sculptures? A. London B. Rome C. New York D. Paris?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which city might host a future Savini exhibition based on current trends? A. London B. Rome C. New York D. Paris?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What factor most influences the selection of cities for Savini's exhibitions? A. Population size B. Cultural heritage C. Economic status D. Political climate?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What theme dominates Savini's upcoming exhibition in Rome? A. Nature B. Urban life C. Historical figures D. Abstract concepts?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What impact does Savini's choice of themes have on audience engagement? A. Increases interest B. Reduces attendance C. Limits accessibility D. Enhances understanding?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What technique did Savini use to enhance audience engagement in his Rome exhibition? A. Chiaroscuro B. Cross-hatching C. Stippling D. Hatching",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the primary medium Savini used in his Rome exhibition? A. Oil paint B. Watercolor C. Charcoal D. Acrylic?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_55044",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The analysis of Victoria Adam's wedding dress design, focusing on its Gothic and Victorian inspirations, particularly through lace detailing and stylistic contrasts",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "\"Who designed Posh \"\"Spice Victoria Adam's wedding dress?\"?",
+        "answer": [
+          "Vera Wang designed the dress",
+          "Vera Wang",
+          "Diane von Furstenberg"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What style inspired Victoria Adam's wedding dress design? A. Victorian B. Modern C. Gothic D. Baroque?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What element of Victoria Adam's wedding dress reflects Gothic inspiration? A. Lace detailing B. Bold colors C. Minimalist design D. Floral patterns?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What feature of Victoria Adam's wedding dress highlights its Gothic inspiration? A. Lace detailing B. Bold colors C. Minimalist design D. Floral patterns?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What Gothic element in Victoria Adam's wedding dress contrasts with Victorian styles? A. Lace detailing B. Bold colors C. Minimalist design D. Floral patterns?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What role does lace play in blending Gothic and Victorian styles in wedding dresses? A. Symbolic contrast B. Textural harmony C. Historical accuracy D. Minimalist focus?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_20928",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores potential reasons and explanations for why stolen art pieces remain missing or undiscovered, focusing on their fate and the factors contributing to their continued absence",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What might have happened to the stolen art pieces that were not recovered?",
+        "answer": [
+          "Sold, destroyed, or hidden indefinitely",
+          "Destroyed or held in private collections",
+          "They might have been sold illegally"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What might explain why some stolen art pieces remain missing?",
+        "answer": [
+          "Illegal possession, difficult recovery, hidden ownership",
+          "Hidden, destroyed, or held for ransom",
+          "The art is kept hidden or destroyed"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What might be a common reason stolen art pieces remain undiscovered?",
+        "answer": [
+          "Illegal private collections and black markets",
+          "Hidden in private collections"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_91474",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores the characteristics, techniques, and subjects of Impressionist art, emphasizing light, color, loose brushwork, and everyday scenes, with a focus on artists like Claude Monet",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the primary focus of Impressionist paintings? A. Historical events B. Light and color C. Religious themes D. Political statements?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is a key characteristic of Impressionist brushwork? A. Smooth and blended B. Loose and visible C. Precise and detailed D. Geometric and structured?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Impressionist artist is known for painting water lilies? A. Claude Monet B. Edgar Degas C. Pierre-Auguste Renoir D. Camille Pissarro?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary subject of Claude Monet's \"Haystacks\" series? A. Urban landscapes B. Rural life C. Light and atmosphere D. Portraits of farmers?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the main focus of Impressionist art? A. Historical events B. Everyday scenes C. Religious themes D. Abstract concepts?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_98657",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores the intersection of neorealism in film, its characteristics, influences, and reactions, with a focus on Oscar-winning female directors and their use of the style to address social issues",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who was the first woman to win a Best Director 'Oscar'?",
+        "answer": [
+          "Kathryn Bigelow in 2010",
+          "Kathryn Bigelow"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which film features a neorealist style and a fragmented timeline? A. Nomadland B. The Hurt Locker C. Million Dollar Baby D. Chicago?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which director used neorealism to highlight social issues in their Oscar-winning film? A. Kathryn Bigelow B. Chloé Zhao C. Jane Campion D. Sofia Coppola?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is a key characteristic of neorealism in film? A. Use of professional actors B. Focus on urban settings C. Emphasis on social issues D. High-budget production?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What technique in neorealism emphasizes authentic settings? A. Studio backdrops B. CGI effects C. Location shooting D. Animated sequences?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What movement influenced neorealism's focus on everyday life? A. Romanticism B. Realism C. Surrealism D. Modernism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What movement is often seen as a reaction against neorealism's focus on social issues? A. Romanticism B. Surrealism C. Modernism D. Classicism?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_62358",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores art movements, focusing on Fauvism's bold colors and emotional expression, Surrealism's dream-like imagery, and their connections to artists like Matisse and Miró",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which art movement is Henri Matisse most closely associated with? A. Cubism B. Fauvism C. Surrealism D. Impressionism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is a key characteristic of Fauvism? A. Bold colors B. Dream-like images C. Geometric shapes D. Soft brushstrokes?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is a common feature of Surrealism? A. Bold colors B. Dream-like images C. Geometric shapes D. Soft brushstrokes?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which artist is known for combining Fauvism's bold colors with dream-like Surrealist elements? A. Salvador Dalí B. André Derain C. Joan Miró D. Georges Braque?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which art movement often uses bold colors and dream-like imagery together? A. Cubism B. Fauvism C. Surrealism D. Impressionism?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which art movement is Joan Miró most associated with? A. Cubism B. Fauvism C. Surrealism D. Impressionism?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which art movement often combines bold colors with dream-like imagery? A. Cubism B. Fauvism C. Surrealism D. Impressionism?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which art movement is known for its use of bold colors and emotional expression? A. Cubism B. Fauvism C. Surrealism D. Impressionism?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_97067",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "Picasso's artistic innovations, focusing on his use of Cubism, abstract forms, and the thematic and stylistic elements of his Blue and Rose Periods",
+    "num_turns": 8,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What aspect of Picasso's paintings does the writer find most innovative? A. Use of color B. Abstract forms C. Emotional depth D. Realistic detail?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What technique did Picasso use to create abstract forms? A. Collage B. Sculpture C. Cubism D. Impressionism",
+        "answer": "C",
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Picasso's use of Cubism influence modern art?",
+        "answer": [
+          "Revolutionized abstraction and visual representation",
+          "It shattered traditional perspective, leading to abstraction",
+          "This revolutionized perspective"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is a common feature of Cubist art? A. Detailed realism B. Geometric shapes C. Bright colors D. Smooth textures?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is a key characteristic of Picasso's Blue Period? A. Joyful themes B. Monochromatic tones C. Abstract forms D. Geometric patterns?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is a primary color used in Picasso's Rose Period? A. Blue B. Green C. Pink D. Yellow?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What theme did Picasso explore in his Blue Period? A. Celebration B. Melancholy C. Nature D. Conflict",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is a common feature of both Picasso's Blue and Rose Periods? A. Use of bright colors B. Focus on melancholy themes C. Emphasis on human figures D. Abstract forms?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_60426",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The scenario explores Jane Fonda's role in the 1971 psychological thriller *Klute*, focusing on her character, the film's themes of identity and vulnerability, and its atmospheric techniques like low-key lighting",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What film earned Jane Fonda an Academy Award for Best Actress? A. Klute B. Coming Home C. Julia D. They Shoot Horses, Don’t They?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which film marked Jane Fonda's first collaboration with director Alan J. Pakula? A. Klute B. The Parallax View C. All the President's Men D. Sophie's Choice?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the name of the lead character in the film *Klute*? A. Bree Daniels B. Jane Fonda C. Sally Hyde D. Karen Silkwood?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.77,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary theme explored in the film *Klute*? A. Love and betrayal B. Power and corruption C. Identity and vulnerability D. Crime and justice?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What type of film is *Klute*? A. Romantic comedy B. Psychological thriller C. Science fiction D. Historical drama?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What film technique in *Klute* enhances its psychological thriller atmosphere? A. Fast-paced editing B. Minimalist score C. Low-key lighting D. Wide-angle shots?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_74905",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "An exploration of Federico Fellini's \"La Dolce Vita,\" focusing on its director, central themes, visual style, characters, settings, and societal critiques, particularly Marcello's pursuit of fame and the film's symbolic final scene",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who directed the movie La Dolce Vita?",
+        "answer": [
+          "Federico Fellini directed La Dolce Vita",
+          "Federico Fellini"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the central theme explored in Fellini's movie La Dolce Vita? A. Love and loss B. The search for meaning C. Political revolution D. Family dynamics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is a key visual style used in Fellini's La Dolce Vita? A. Surrealism B. Neorealism C. Expressionism D. Minimalism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the primary setting of Fellini's La Dolce Vita? A. Rome B. Milan C. Venice D. Florence?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does the character Sylvia play in Fellini's La Dolce Vita? A. A symbol of innocence B. A representation of decadence C. A voice of reason D. A figure of authority?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary focus of Marcello's character in Fellini's La Dolce Vita? A. Pursuing love B. Seeking fame C. Chasing happiness D. Exploring morality?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is Marcello's profession in Fellini's La Dolce Vita? A. Journalist B. Painter C. Musician D. Actor?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What does Marcello’s pursuit of fame reveal about Fellini’s critique of society? A. Superficiality B. Materialism C. Isolation D. Ambition?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the final scene of Fellini's La Dolce Vita symbolizing? A. Hope B. Despair C. Redemption D. Ambition?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "art_51742",
+    "is_cross_domain": false,
+    "domain": "art",
+    "domain_id": 0,
+    "topic_description": "The 1992 film *Unforgiven*, directed by and starring Clint Eastwood, explores themes of revenge, redemption, and morality within a lawless frontier town, highlighting its Western genre through frontier landscapes and a reformed outlaw protagonist",
+    "num_turns": 8,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who directed and starred in the 1992 film ‘Unforgiven’?",
+        "answer": [
+          "Clint Eastwood directed and starred",
+          "Clint Eastwood"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the main setting of the 1992 film ‘Unforgiven’? A. A bustling city B. A quiet countryside C. A lawless frontier town D. A coastal fishing village?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does the character William Munny play in ‘Unforgiven’? A. A vengeful sheriff B. A reformed outlaw C. A greedy bounty hunter D. A righteous preacher?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the name of the actor who plays William Munny in ‘Unforgiven’? A. Clint Eastwood B. Morgan Freeman C. Gene Hackman D. Richard Harris?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the central theme of the 1992 film ‘Unforgiven’? A. Redemption and morality B. Love and betrayal C. Power and corruption D. Adventure and discovery?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the primary setting of the film ‘Unforgiven’? A. A bustling city B. A quiet countryside C. A lawless frontier town D. A coastal fishing village?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What role does the character William Munny play in the film’s resolution? A. A redeemed hero B. A vengeful outlaw C. A conflicted anti-hero D. A passive observer?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "art": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What element of ‘Unforgiven’ reflects its Western genre most clearly? A. Urban settings B. Samurai influences C. Frontier landscapes D. Futuristic themes?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "art": 1.0
+        }
+      }
+    ]
+  }
+]

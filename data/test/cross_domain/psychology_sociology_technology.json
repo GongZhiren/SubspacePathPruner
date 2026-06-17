@@ -1,0 +1,529 @@
+[
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_48969",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between AI-driven digital platforms, societal norms, and psychological effects on post-divorce family dynamics, particularly focusing on children’s emotional development and parental behavior in online communication",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological effects of parental social media behavior post-divorce, combined with societal norms around digital communication, influence children’s emotional development and what role could algorithmic content personalization play in shaping these dynamics?",
+        "answer": [
+          "Increased emotional instability, personalized content risks",
+          "Parental social media behavior post-divorce can heighten children’s anxiety due to psychological stressors, societal norms amplifying digital comparisons, and algorithmic content personalization reinforcing negative emotional patterns"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.26,
+          "psychology": 0.47,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do AI-driven content recommendation systems play in shaping societal norms around post-divorce digital communication, and how might these norms influence children’s psychological adaptation to family restructuring?",
+        "answer": [
+          "Influences norms, affects children's adaptation",
+          "AI-driven systems shape norms, influencing children’s adaptation through curated content"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.34,
+          "psychology": 0.32,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How might AI-driven algorithms (technology) amplify or mitigate societal pressures (sociology) on divorced parents to maintain a positive online image, and what psychological effects could this have on their ability to manage stress and self-esteem (psychology)?",
+        "answer": [
+          "Increases stress, lowers self-esteem",
+          "AI-driven algorithms may amplify societal pressures by promoting curated online personas, increasing stress and lowering self-esteem for divorced parents"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.44,
+          "psychology": 0.24,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the psychological impact of prolonged exposure to AI-curated social media content (psychology) be influenced by societal norms around digital privacy (sociology) and the technological design of personalized recommendation algorithms (technology)?",
+        "answer": [
+          "Increased anxiety and privacy concerns",
+          "Prolonged exposure to AI-curated content may heighten anxiety and self-esteem issues due to societal privacy norms amplifying user data exploitation, while algorithmic design reinforces echo chambers"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.48,
+          "psychology": 0.31,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological effects of using AI-mediated conflict resolution tools (psychology) be shaped by societal expectations of fairness in post-divorce negotiations (sociology) and the technological limitations of current natural language processing systems (technology)?",
+        "answer": [
+          "Increased mistrust and dissatisfaction",
+          "Psychological stress from AI tools may increase due to societal fairness norms and NLP's inability to fully grasp nuanced emotions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.42,
+          "psychology": 0.4,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_34063",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay of psychological needs, sociological dynamics, and technological affordances in shaping online engagement and contribution within a Mars colonization forum",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might James's psychological need for belonging, combined with the sociological dynamics of online communities and the technological affordances of forum platforms, influence his engagement and identity formation in discussions about Mars colonization?",
+        "answer": [
+          "Enhances engagement and identity exploration",
+          "James's need for belonging drives engagement, shaped by social norms in online communities and enabled by forum features"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.2,
+          "psychology": 0.5,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do psychological factors, sociological group dynamics, and technological platform design play in determining whether James's contributions to Mars colonization discussions are perceived as credible by other forum members?",
+        "answer": [
+          "Influence perception and trustworthiness",
+          "James's credibility depends on his psychological confidence, sociological group alignment, and platform design features"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.22,
+          "psychology": 0.35,
+          "sociology": 0.43
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How might James's psychological resilience, the sociological influence of group hierarchies, and the technological limitations of asynchronous communication platforms interact to affect his ability to resolve conflicts within Mars colonization discussions?",
+        "answer": [
+          "Complicates effective conflict resolution",
+          "James's resilience aids conflict resolution despite group hierarchy pressures and async communication delays"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.19,
+          "psychology": 0.46,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_47126",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between societal expectations, psychological concepts, and technology in shaping emotional recovery, coping mechanisms, and social role renegotiation after marital abandonment",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the feeling of isolation after a spouse abandons you, as understood through psychological concepts, be influenced by societal expectations of marriage, and what role could technology play in either alleviating or exacerbating this emotional state? A. Technology provides constant social connection B. Society views marriage as permanent C. Isolation is solely a personal experience D. Technology replaces human interaction",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.21,
+          "psychology": 0.44,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role do online communities (technology) play in reshaping societal perceptions of post-divorce identity, and how might psychological theories of self-concept clarify the influence of these digital interactions on an individual’s social reintegration?",
+        "answer": [
+          "Facilitates positive self-redefinition, social support",
+          "Online communities reshape post-divorce identity by offering social support and shared narratives, while psychological self-concept theories explain how digital interactions influence personal growth and societal reintegration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "technology": 0.51,
+          "psychology": 0.3,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 3,
+        "prompt": "What psychological factors might explain how individuals use technology-mediated communication to renegotiate their social roles after marital abandonment, and how do societal norms influence the effectiveness of these digital interactions in rebuilding identity?",
+        "answer": [
+          "Seeking validation, social support, identity reconstruction",
+          "Digital tools enable identity rebuilding by addressing psychological needs, reshaping societal roles, and leveraging tech-mediated support"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.35,
+          "psychology": 0.33,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological mechanisms explain how individuals leverage technology to rebuild trust in social relationships after marital abandonment, and how do societal expectations shape the effectiveness of these digital tools in fostering long-term emotional recovery?",
+        "answer": [
+          "Online communication and societal validation",
+          "Digital tools aid emotional recovery by rebuilding trust through psychological safety, societal validation, and accessible communication"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.2,
+          "psychology": 0.48,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_16072",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The integration of psychological, sociological, and technological principles in designing virtual reality systems to enhance social skills, group dynamics, and user engagement while ensuring inclusivity and ethical AI moderation",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might someone who struggles with forming friendships due to a lack of social skills use virtual reality simulations to practice interactions and explore psychological strategies for becoming more approachable?",
+        "answer": [
+          "Practice social interactions in controlled environments",
+          "Use VR to simulate social scenarios, practice approachability strategies, and build confidence in interactions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.35,
+          "psychology": 0.41,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What psychological factors influence the effectiveness of virtual reality systems in fostering sociological group cohesion, and how can technological design principles like immersive environments and real-time analytics be leveraged to optimize these outcomes?",
+        "answer": [
+          "Presence, interactivity, shared goals",
+          "Immersive VR designs leverage psychological presence and social identity to enhance group cohesion through real-time analytics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.37,
+          "psychology": 0.33,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 3,
+        "prompt": "How can virtual reality systems balance psychological needs for autonomy with sociological demands for structured group interactions, while leveraging technological advancements like AI-driven personalization and dynamic content adaptation?",
+        "answer": [
+          "Adaptive AI-driven personalized environments",
+          "AI-driven VR systems can personalize autonomy while adapting to group dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "technology": 0.34,
+          "psychology": 0.34,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "What specific psychological triggers and sociological norms must be considered when designing AI-driven moderation tools in virtual reality systems to ensure ethical technology use while maintaining user engagement? A. Psychological triggers only B. Sociological norms only C. Ethical technology principles only D. A combination of psychological triggers, sociological norms, and ethical technology principles?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "technology": 0.3,
+          "psychology": 0.36,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.61
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_59980",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The integration of AI-driven virtual coaching and real-time feedback in group fitness settings, examining psychological, sociological, and technological impacts on motivation, dynamics, and cohesion",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the use of social media platforms during group fitness classes satisfy psychological needs for connection while influencing social dynamics and leveraging technological features like competitive tracking?",
+        "answer": [
+          "Enhances connectivity, competition, and motivation",
+          "Social media satisfies connection needs, fosters group dynamics, and enhances competition through tracking features"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "technology": 0.22,
+          "psychology": 0.44,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the integration of real-time feedback features in fitness apps during group workouts impact psychological motivation, alter group social hierarchies, and utilize technological advancements like AI-driven performance analytics?",
+        "answer": [
+          "Enhances motivation, reshapes social dynamics",
+          "Boosts motivation via AI feedback, reshapes hierarchies through shared data, enhances engagement with tech-driven insights"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.25,
+          "psychology": 0.43,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the use of AI-driven virtual coaching in group fitness settings influence psychological resilience, reshape sociological patterns of leadership within the group, and rely on technological innovations like adaptive algorithms?",
+        "answer": [
+          "Enhances resilience, shifts leadership dynamics, utilizes adaptive technology",
+          "AI-driven virtual coaching can enhance psychological resilience through personalized feedback, reshape leadership by redistributing authority to adaptive algorithms, and rely on technological innovations like machine learning to tailor group dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.33,
+          "psychology": 0.39,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological factors might influence how individuals perceive AI-driven virtual coaching in group fitness, how do these perceptions affect sociological dynamics like trust and authority within the group, and what technological features are critical for enhancing user acceptance?",
+        "answer": [
+          "Trust, familiarity, and interface usability",
+          "Perceived competence and relatability shape trust, authority emerges through shared AI reliance, and customizable, responsive interfaces boost acceptance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.34,
+          "psychology": 0.34,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological concept of \"flow\" be influenced by AI-driven virtual coaching in group fitness, what sociological implications could arise from differing levels of engagement within the group, and which technological features are critical to sustaining both individual and collective motivation?",
+        "answer": [
+          "Enhanced motivation, variable group dynamics, interactive feedback features",
+          "AI-driven coaching enhances flow, group dynamics shape engagement, and real-time feedback sustains motivation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "technology": 0.31,
+          "psychology": 0.33,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross3_psychology_sociology_technology_74155",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology"
+    ],
+    "cross_domain_id": [
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between technology, psychology, and sociology in shaping online behavior, community dynamics, and individual decision-making through anonymity, algorithms, AI moderation, and curated content",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of online anonymity (technology) influence group behavior in social movements (sociology) and affect an individual's decision-making process (psychology)? A. Increased conformity B. Reduced accountability C. Enhanced creativity D. Heightened aggression?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "technology": 0.33,
+          "psychology": 0.3,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the design of social media algorithms (technology) amplify psychological tendencies like confirmation bias (psychology) and shape collective behavior in online communities (sociology)? A. Increased polarization B. Enhanced collaboration C. Reduced misinformation D. Greater individualism?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "technology": 0.52,
+          "psychology": 0.22,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the integration of AI-driven content moderation tools (technology) influence psychological responses to perceived fairness (psychology) and alter social dynamics within online communities (sociology)? A. Increased trust B. Reduced engagement C. Enhanced inclusivity D. Heightened conflict?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "technology": 0.27,
+          "psychology": 0.36,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological factors influence how individuals perceive AI moderation in online groups, and how do these perceptions affect sociological dynamics like trust or conflict within those communities? A. Cognitive biases B. Social identity C. Algorithmic transparency D. Emotional contagion?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.17,
+          "psychology": 0.43,
+          "sociology": 0.4
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological impact of prolonged exposure to AI-curated content (psychology) interact with sociological shifts in community norms (sociology) and the technical design of recommendation systems (technology) to influence user engagement patterns? A. Increased dependency B. Decreased trust C. Enhanced critical thinking D. Social fragmentation?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.4,
+          "psychology": 0.3,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.62
+      }
+    ]
+  }
+]

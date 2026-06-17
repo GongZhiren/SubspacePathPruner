@@ -1,0 +1,192 @@
+[
+  {
+    "scenario_id": "cross_history_music_79751",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "history",
+      "music"
+    ],
+    "cross_domain_id": [
+      6,
+      9
+    ],
+    "topic_description": "The influence of the Tonkin Gulf incident and its geopolitical consequences on the lyrical themes, musical style, and emotional tone of Vietnam War-era protest songs",
+    "num_turns": 4,
+    "difficulty_pattern": "spike",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the historical context of the Tonkin Gulf incident shape the lyrical themes and musical style of protest songs in the 1960s?",
+        "answer": [
+          "Anti-war sentiment, increased political activism",
+          "Escalation of Vietnam War inspired anti-war protest songs with raw emotion and folk-rock fusion"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Tonkin Gulf Resolution's legislative impact and geopolitical ramifications shape lyrical themes, harmonic dissonance, and countercultural messaging in 1960s protest music?",
+        "answer": [
+          "Inspired anti-war and countercultural music themes",
+          "War's shadow fueled protest music's rise"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "music": 0.45,
+          "history": 0.55
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the harmonic structure of protest songs evolve in response to the escalation of the Vietnam War post-Tonkin Gulf Resolution?",
+        "answer": [
+          "Increased use of dissonance and minor keys",
+          "Protest songs adopted darker harmonies and dissonance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the fall of Saigon in 1975 influence the use of minor keys and tempo in protest songs reflecting post-war disillusionment?",
+        "answer": [
+          "Increased minor keys, slower tempos",
+          "Darker tones, slower tempos reflected disillusionment"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.61
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_history_music_56273",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "history",
+      "music"
+    ],
+    "cross_domain_id": [
+      6,
+      9
+    ],
+    "topic_description": "The influence of the Tonkin Gulf Resolution and Vietnam War-era political climate on musical elements, lyrical themes, and emotional expression in 1960s protest songs",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Tonkin Gulf incident influence the musical themes in protest songs during the Vietnam War era?",
+        "answer": [
+          "Intensified anti-war sentiment and criticism",
+          "Tonkin Gulf incident inspired anti-war protest songs"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "music": 0.36,
+          "history": 0.64
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Tonkin Gulf Resolution influence the tempo and rhythm choices in protest songs of the 1960s?",
+        "answer": [
+          "Increased intensity and urgency in lyrics",
+          "Intensified urgency and defiance in protest rhythms"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "music": 0.45,
+          "history": 0.55
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Tonkin Gulf Resolution impact the lyrical themes and chord progressions in 1960s protest songs?",
+        "answer": [
+          "Intensified anti-war sentiment and themes",
+          "Escalated war themes, minor chords intensified emotional protest"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "music": 0.45,
+          "history": 0.55
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Tonkin Gulf Resolution influence the harmonic structure and historical messaging in protest songs of the 1960s?",
+        "answer": [
+          "Escalated anti-war sentiment and themes",
+          "Escalated war themes, dissonance reflected protest"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How did the historical context of the Vietnam War influence the use of modal scales in 1960s protest music?",
+        "answer": [
+          "Expressed anti-war sentiments and emotions",
+          "Modal scales expressed anti-war sentiment through haunting, timeless melodies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.6
+      },
+      {
+        "turn": 6,
+        "prompt": "How did the historical events surrounding the Vietnam War influence the use of dissonance in protest songs to convey emotional tension?",
+        "answer": [
+          "Amplified emotional expression and resistance",
+          "Dissonance mirrored war's chaos, amplified emotional protest"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "music": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  }
+]

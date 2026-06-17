@@ -1,0 +1,2248 @@
+[
+  {
+    "scenario_id": "history_72256",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The succession of leadership in Kenya, focusing on Jomo Kenyatta's presidency, his vice president, and the subsequent leaders who became president after him",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who was the first president of independent Kenya?|",
+        "answer": "Jomo Kenyatta",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which African leader succeeded Jomo Kenyatta as president of Kenya?",
+        "answer": "Daniel arap Moi",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which African leader became the second president of Kenya after Jomo Kenyatta?",
+        "answer": "Daniel arap Moi",
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which African leader served as vice president under Jomo Kenyatta?",
+        "answer": "Daniel arap Moi",
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.95,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Who succeeded Jomo Kenyatta as the leader of Kenya?",
+        "answer": "Daniel arap Moi",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_32139",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The portrayal and evolution of Matt Dillon in Gunsmoke, exploring its actors, debut year, thematic influences, and the historical figure inspiring the character",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who was the voice of Matt Dillon for 11 years on radio's Gunsmoke?",
+        "answer": "William Conrad",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which actor portrayed Matt Dillon in the television adaptation of Gunsmoke?",
+        "answer": "James Arness",
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which actor became famous for portraying Matt Dillon in the television adaptation of Gunsmoke?",
+        "answer": "James Arness",
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which year did the television adaptation of Gunsmoke first air?",
+        "answer": [
+          "1955",
+          "The year 1955"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which historical event influenced the themes of law and order in Gunsmoke?",
+        "answer": [
+          "Post-Civil War American West",
+          "The Cold War",
+          "American Old West"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_96509",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The historical use and significance of Buckingham Palace as a royal residence, official venue, and its association with British monarchs, including Camilla's title change",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the official title of Camilla now that she has married Prince Charles?",
+        "answer": [
+          "Queen Consort of the United Kingdom",
+          "The Duchess of Cornwall",
+          "Queen Camilla"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which British monarch was the first to reside in Buckingham Palace after Camilla’s official title change?",
+        "answer": "King Charles III",
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which British monarch first used Buckingham Palace as their official residence?",
+        "answer": "Queen Victoria",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which British monarch first opened Buckingham Palace to the public?",
+        "answer": [
+          "Queen Elizabeth II in 1993",
+          "Queen Elizabeth II",
+          "Queen Victoria"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which British monarch first hosted a garden party at Buckingham Palace?",
+        "answer": [
+          "Queen Victoria in 1868",
+          "Queen Victoria",
+          "King George VI"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which British monarch first used Buckingham Palace as a royal residence?",
+        "answer": "Queen Victoria",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_96978",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The scenario examines the 1986 Challenger space shuttle disaster, its investigation by the Rogers Commission, and related historical space exploration milestones, such as the first American woman in space",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What is the name of the space shuttle destroyed in midair 28 Jan 1986?",
+        "answer": [
+          "Space Shuttle Challenger",
+          "Challenger"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which space shuttle disaster occurred on 28 Jan 1986?",
+        "answer": [
+          "Space Shuttle Challenger disaster",
+          "Challenger disaster"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which space shuttle broke apart shortly after launch on 28 Jan 1986?",
+        "answer": [
+          "Space Shuttle Challenger",
+          "Challenger"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which space shuttle disaster led to the creation of the Rogers Commission?",
+        "answer": [
+          "Space Shuttle Challenger disaster",
+          "The Space Shuttle Challenger disaster",
+          "Challenger disaster"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which commission investigated the Challenger disaster in 1986? A. Warren Commission B. Rogers Commission C. Kerner Commission D. Pecora Commission?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was the name of the first American woman in space? A. Sally Ride B. Mae Jemison C. Eileen Collins D. Judith Resnik",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_94109",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The rise of Idi Amin to power in Uganda, focusing on his coup against Milton Obote, motivations for the overthrow, his military background, and his public persona during rule",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who did Idi Amin depose in 1971?",
+        "answer": "Milton Obote",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the primary reason Idi Amin gave for deposing Milton Obote in 1971?",
+        "answer": [
+          "Corruption and mismanagement allegations",
+          "Obote's corruption and political repression",
+          "Corruption and mismanagement"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What was the main justification Idi Amin provided for overthrowing Milton Obote in 1971?",
+        "answer": [
+          "Corruption and mismanagement allegations",
+          "Government corruption and political repression",
+          "Corruption and mismanagement"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What was Idi Amin's military rank at the time of the coup in 1971?",
+        "answer": "Major General",
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was the name of the military unit Idi Amin led before the coup?",
+        "answer": [
+          "Uganda Army's Commander",
+          "Uganda Armed Forces",
+          "Uganda Army Corps"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was the nickname given to Idi Amin during his rule?",
+        "answer": [
+          "\"The Butcher of Uganda\"",
+          "The Butcher of Uganda"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_84580",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The topic explores Sean Connery's career as James Bond, including his birth year, debut, final appearance, and the actors who succeeded him in the role",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which year was actor Sean Connery born?",
+        "answer": [
+          "1930",
+          "In the year 1930"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which year did Sean Connery first portray James Bond on screen?",
+        "answer": [
+          "1962 in \"Dr. No\"",
+          "In 1962",
+          "1962"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.16,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In which year did Sean Connery first appear as James Bond in a film?",
+        "answer": [
+          "1962 in \"Dr. No\"",
+          "1962"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which film marked Sean Connery's final appearance as James Bond?",
+        "answer": "Never Say Never Again",
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which actor succeeded Sean Connery in portraying James Bond?",
+        "answer": "George Lazenby",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_61787",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The independence history of the Baltic states, focusing on their declarations of independence from the Soviet Union and subsequent international recognition",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How many independent 'Baltic states' are there?",
+        "answer": [
+          "Three independent Baltic states",
+          "There are three",
+          "Three"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which of the Baltic states was the first to declare independence from the Soviet Union?",
+        "answer": [
+          "Lithuania",
+          "Lithuania was the first"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Baltic state initiated the independence movement from the Soviet Union?",
+        "answer": [
+          "Estonia initiated the independence movement",
+          "Lithuania was the first to declare independence",
+          "Lithuania"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Baltic state joined the United Nations first after regaining independence?",
+        "answer": [
+          "Estonia joined first in 1991",
+          "All three joined on the same day",
+          "Estonia"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Baltic state was the first to declare independence from the Soviet Union?",
+        "answer": [
+          "Lithuania",
+          "Lithuania was the first"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_75083",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The rise of Adolf Hitler and the Nazi Party in Germany, fueled by the Treaty of Versailles' economic impact, and the events leading to and concluding World War II",
+    "num_turns": 8,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.286,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "\"\"\"What was the name of the Austrian-born dictator who succeeded Hindenburg as Germany's head of state?\"?",
+        "answer": "Adolf Hitler",
+        "task_type": "reasoning",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which political party did the Austrian-born dictator who succeeded Hindenburg lead?",
+        "answer": [
+          "National Socialist German Workers' Party",
+          "Nazi Party"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which event directly led to the Austrian-born dictator's rise to power in Germany?",
+        "answer": [
+          "Reichstag Fire Decree and Enabling Act",
+          "His appointment as Chancellor in 1933",
+          "Reichstag Fire"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which treaty ended the First World War and imposed heavy reparations on Germany?",
+        "answer": [
+          "Treaty of Versailles, 1919",
+          "The Treaty of Versailles",
+          "Treaty of Versailles"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which German political party opposed the Treaty of Versailles and gained support in the 1920s?",
+        "answer": [
+          "National Socialist German Workers' Party (Nazi Party)",
+          "National Socialist German Workers' Party",
+          "Nazi Party"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which German leader exploited the economic turmoil caused by the Treaty of Versailles?",
+        "answer": "Adolf Hitler",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which event directly followed the economic turmoil in Germany caused by the Treaty of Versailles?",
+        "answer": [
+          "Rise of Adolf Hitler and Nazism",
+          "The rise of the Nazi Party",
+          "Rise of Adolf Hitler"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which event marked the end of World War II in Europe? A. D-Day invasion B. Fall of Berlin C. Signing of the Treaty of Versailles D. Atomic bombing of?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_41215",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "Traditional gemstone and material associations for milestone wedding anniversaries, focusing on ruby, sapphire, emerald, and diamond",
+    "num_turns": 9,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "After how many years of marriage would you celebrate your ruby anniversary?",
+        "answer": [
+          "40 years",
+          "After forty years"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which anniversary is celebrated after 40 years of marriage?",
+        "answer": [
+          "Ruby wedding anniversary",
+          "Ruby Anniversary"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which material is traditionally associated with a 40th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which gemstone is traditionally associated with a 50th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which gemstone is associated with the 60th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which gemstone is traditionally linked to the 30th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which gemstone is traditionally linked to the 40th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which gemstone is traditionally associated with the 50th wedding anniversary? A. Ruby B. Sapphire C. Emerald D. Diamond?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which gemstone symbolizes the 60th wedding anniversary? A. Ruby B. Sapphire C. Diamond D. Emerald?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_61010",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The introduction and impact of Birdseye's 1930 frozen food innovation, including its preservation methods, market success factors, and influence on food quality and convenience",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.4,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "When Birdseye introduced the first frozen food in 1930, what did the company call it/",
+        "answer": [
+          "Birds Eye Frosted Foods",
+          "\"Frosted Food\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.36,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which innovation did Birdseye introduce to preserve frozen food quality in 1930?",
+        "answer": [
+          "Quick-freezing method for foods",
+          "Flash freezing",
+          "Flash-freezing process"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What method did Birdseye use to freeze food quickly in 1930?",
+        "answer": [
+          "Multiplate freezing under pressure",
+          "Multiplate quick freezing",
+          "Blast freezing"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which product did Birdseye first introduce to the market in 1930? A. Frozen peas B. Frozen fish C. Frozen meat D. Frozen vegetables",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What impact did Birdseye's 1930 innovation have on food preservation? A. Improved taste B. Extended shelf life C. Reduced cost D. Increased nutrition",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was the primary reason Birdseye's frozen food innovation succeeded in the market? A. Improved taste B. Lower cost C. Convenience D. Health benefits",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_14678",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The marital history and professional backgrounds of Nelson Mandela's wives, focusing on their roles in politics, social work, and healthcare",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which world leader married Graca Machel in 1998?",
+        "answer": "Nelson Mandela",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Who was the first wife of Nelson Mandela?",
+        "answer": "Evelyn Mase",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Who was the second wife of Nelson Mandela?",
+        "answer": "Winnie Madikizela-Mandela",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which wife of Nelson Mandela was a member of the ANC Women's League? A. Evelyn Mase B. Winnie Madikizela C. Graca Machel D. Albertina Sis",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which wife of Nelson Mandela was a social worker before their marriage? A. Evelyn Mase B. Winnie Madikizela C. Graca Machel D. Albertina Sis",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.74,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which wife of Nelson Mandela was a trained nurse? A. Evelyn Mase B. Winnie Madikizela C. Graca Machel D. Albertina Sis",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_71630",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The ambush and death of Bonnie & Clyde in 1934, including the location, date, individuals involved, and the law enforcement agency responsible for ending their crime spree",
+    "num_turns": 7,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which state were Bonnie & Clyde killed?",
+        "answer": [
+          "Louisiana",
+          "The state of Louisiana"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which year were Bonnie & Clyde ambushed and killed?",
+        "answer": [
+          "1934",
+          "In 1934"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In which month were Bonnie & Clyde ambushed and killed in 1934?",
+        "answer": [
+          "May 1934",
+          "The month was May",
+          "May"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Who ambushed Bonnie & Clyde in 1934?",
+        "answer": [
+          "Texas and Louisiana state officers",
+          "Law enforcement officers"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Where did the ambush of Bonnie & Clyde take place in 1934?",
+        "answer": "Bienville Parish, Louisiana",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which law enforcement agency was primarily responsible for ending Bonnie & Clyde's crime spree in 1934?",
+        "answer": [
+          "Texas and Louisiana state police",
+          "Texas and Louisiana law enforcement",
+          "Texas Rangers"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which law enforcement officer led the team that ambushed Bonnie & Clyde in 1934?",
+        "answer": [
+          "Frank Hamer led the ambush team",
+          "Frank Hamer"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_64311",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The scenario examines Joseph Stalin's reign of terror in the 1930s, focusing on its impact on military officers, civilian populations, forced labor, famine, and the establishment of a powerful secret police force",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which Russian imposed a reign of terror during the 30s and 40s?",
+        "answer": [
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Russian leader's reign of terror targeted military officers in the 1930s?",
+        "answer": [
+          "Joseph Stalin's Great Purge",
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.59,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Russian leader's reign of terror included the execution of high-ranking military officers?",
+        "answer": [
+          "Joseph Stalin's Great Purge",
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Russian leader's reign of terror also impacted civilian populations in the 1930s?",
+        "answer": [
+          "Joseph Stalin's Great Purge",
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Russian leader's reign of terror led to widespread civilian arrests in the 1930s?",
+        "answer": [
+          "Joseph Stalin's Great Purge",
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Russian leader's reign of terror caused fear among both military and civilian populations?",
+        "answer": "Joseph Stalin",
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which Russian leader's reign of terror caused civilian populations to face forced labor in the 1930s?",
+        "answer": [
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which Russian leader's reign of terror caused widespread famine in the 1930s?",
+        "answer": [
+          "Joseph Stalin's policies",
+          "Joseph Stalin",
+          "Stalin"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which Russian leader's reign of terror caused the establishment of a powerful secret police force?",
+        "answer": "Joseph Stalin",
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_31039",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The political journey and party affiliations of an MP who transitioned from the Tories to becoming a Liberal prime minister in 1868, examining shifts between Conservatives, Whigs, Radicals, and Liberals",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which political party did the MP belong to before becoming Liberal prime minister in 1868?",
+        "answer": [
+          "Conservative Party",
+          "The Conservative Party"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which political group did the MP originally align with before switching to Liberal?",
+        "answer": [
+          "Conservative Party",
+          "Conservative"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which political party did the MP support after opposing the Liberals?",
+        "answer": [
+          "Conservatives or Conservative Party",
+          "The Conservative Party",
+          "Conservatives"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which political party did the MP oppose before aligning with the Liberals? A. Conservatives B. Whigs C. Radicals D. Tories",
+        "answer": "D",
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which political party did the MP ultimately align with after opposing the Liberals? A. Conservatives B. Whigs C. Radicals D. Tories",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_30655",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The historical legislative acts that shaped the political status of Ireland, including its partition, the incorporation of Northern Ireland into the UK, and the establishment of Home Rule and independence",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which year was Ulster incorporated into the UK, under the Home Rule Act?",
+        "answer": [
+          "1920, under the Government of Ireland Act",
+          "Northern Ireland was created in 1921",
+          "1920"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which act led to Ulster being incorporated into the UK?",
+        "answer": [
+          "Act of Union 1800",
+          "Government of Ireland Act 1920"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which act formally established the partition of Ireland in 1920?",
+        "answer": "Government of Ireland Act 1920",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which act formally established Northern Ireland as part of the UK in 1920?",
+        "answer": [
+          "Government of Ireland Act 1920",
+          "The Government of Ireland Act 1920"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which act granted Home Rule to Northern Ireland in 1920?",
+        "answer": "Government of Ireland Act 1920",
+        "task_type": "factual",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which act formally ended the partition of Ireland in 1949?",
+        "answer": [
+          "Ireland Act 1949",
+          "No act ended the partition of Ireland",
+          "Republic of Ireland Act 1948"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which act formally granted independence to the Irish Free State in 1922?",
+        "answer": [
+          "Anglo-Irish Treaty of 1921",
+          "Irish Free State (Constitution) Act 1922",
+          "Irish Free State Act"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_50965",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The naming inspiration and historical milestones of a famous British ship built in 1869, drawing its name from a traditional Scottish garment",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Built in 1869, which famous British ship was named after a Scottish undergarment?",
+        "answer": [
+          "Cutty Sark",
+          "The Cutty Sark"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Scottish undergarment inspired the name of a famous British ship built in 1869?",
+        "answer": [
+          "Cutty Sark",
+          "The cutty-sark"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which British ship inspired by a Scottish garment was launched in 1869?",
+        "answer": [
+          "HMS Tartan",
+          "Cutty Sark",
+          "HMS Kilt"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_57904",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The sequence explores key Apollo missions, focusing on lunar exploration milestones such as the first Moon landing, use of the Lunar Roving Vehicle, and subsequent manned Moon landings",
+    "num_turns": 5,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which mission allowed the first two men to drive on the Moon?",
+        "answer": [
+          "Apollo 15 mission",
+          "Apollo 15",
+          "Apollo 17"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which mission followed the first manned Moon landing?",
+        "answer": "Apollo 12",
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which mission first used the Lunar Roving Vehicle?",
+        "answer": [
+          "Apollo 15 mission",
+          "Apollo 15"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which mission was the last to land humans on the Moon?",
+        "answer": [
+          "Apollo 17 mission",
+          "Apollo 17"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.18,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which mission first landed humans on the Moon?",
+        "answer": [
+          "Apollo 11 mission",
+          "Apollo 11"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.15,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_67409",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The systematic persecution and genocide of Jews by Nazi Germany, including policies of deportation, isolation, and citizenship stripping, culminating in the Final Solution",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In Nazi Germany, what was Endloslung?",
+        "answer": [
+          "Final Solution to the Jewish Question",
+          "The Final Solution to the Jewish Question",
+          "Final Solution"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Nazi official was primarily responsible for implementing the Endloslung policy?",
+        "answer": "Heinrich Himmler",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Nazi leader organized the Wannsee Conference to plan Endloslung?",
+        "answer": [
+          "Reinhard Heydrich organized the Wannsee Conference",
+          "Reinhard Heydrich"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Nazi policy was officially coordinated at the Wannsee Conference in 1942?",
+        "answer": [
+          "Final Solution to the Jewish Question",
+          "The Final Solution",
+          "Final Solution"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Nazi policy aimed to systematically deport Jews to concentration camps?",
+        "answer": [
+          "Final Solution",
+          "The Final Solution to the Jewish Question"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Nazi policy officially coordinated the deportation of Jews to concentration camps?",
+        "answer": [
+          "Final Solution",
+          "The Final Solution to the Jewish Question"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which Nazi policy involved the use of ghettos before deportation?",
+        "answer": [
+          "Final Solution Policy",
+          "The Final Solution",
+          "Jewish ghettoization policy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which Nazi policy focused on isolating Jews economically before deportation? A. Aryanization B. Final Solution C. Nuremberg Laws D. Kristallnacht?",
+        "answer": "A",
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which Nazi policy aimed at stripping Jews of German citizenship? A. Aryanization B. Nuremberg Laws C. Final Solution D. Kristallnacht?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_90051",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The 1998 cable car accident in Italy caused by a US military aircraft, focusing on its location, regional impact, primary cause, and the affected cable car system",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Where in Italy did a US military aircraft slice through the steel wire of a cable car in 1998?",
+        "answer": [
+          "Cavalese, Trentino-Alto Adige region",
+          "Mount Cermis in the Dolomites",
+          "Cavalese"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Italian region was affected by the 1998 cable car accident involving a US military aircraft?",
+        "answer": [
+          "Trentino-Alto Adige region",
+          "Trentino-Alto Adige"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Italian region was impacted by the 1998 cable car accident involving a US military aircraft?",
+        "answer": [
+          "Trentino-Alto Adige region",
+          "Trentino-Alto Adige",
+          "Dolomites region"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Italian region was impacted by the 1998 cable car accident? A. Lombardy B. Tuscany C. Trentino-Alto Adige D. Veneto",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What was the primary cause of the 1998 cable car accident in Italy? A. Mechanical failure B. Human error C. Weather conditions D. Aircraft collision",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What was the name of the cable car system involved in the 1998 accident? A. Stresa-Alpino B. Mottarone C. Monte Bianco D. Val di Fassa",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which Italian region was most impacted by the 1998 cable car accident? A. Lombardy B. Tuscany C. Trentino-Alto Adige D. Veneto",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_54662",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The historical development of geographic and astronomical knowledge, focusing on ancient civilizations' contributions to understanding Earth's shape, size, and systems",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Who first argued that the world was not flat?",
+        "answer": [
+          "Pythagoras of Samos",
+          "Ancient Greek philosophers",
+          "Pythagoras"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which ancient civilization first proposed the idea of a spherical Earth?",
+        "answer": [
+          "Ancient Greek philosophers",
+          "The ancient Greeks",
+          "Ancient Greeks"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which ancient Greek philosopher first calculated the Earth's circumference?",
+        "answer": [
+          "Eratosthenes of Cyrene",
+          "Eratosthenes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Who first used the term \"geography\" to describe the study of Earth?",
+        "answer": [
+          "Eratosthenes of Cyrene",
+          "Eratosthenes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Who first introduced the concept of latitude and longitude?",
+        "answer": [
+          "Ancient Greek scholar Hipparchus",
+          "Eratosthenes of Cyrene",
+          "Eratosthenes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which ancient civilization first divided the Earth into climatic zones?",
+        "answer": [
+          "Ancient Greeks",
+          "The ancient Greeks"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which ancient civilization first introduced the concept of time zones?",
+        "answer": [
+          "No ancient civilization introduced time zones",
+          "Ancient Greeks"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which ancient civilization first recorded the Earth's circumference?",
+        "answer": [
+          "Ancient Greek civilization",
+          "Ancient Greece"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which ancient civilization first created a calendar based on the Earth's movement?",
+        "answer": "Ancient Egyptians",
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_65265",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The scenario explores Thomas Marshall's Vice Presidency, focusing on his President, their political parties, and a predecessor who served non-consecutive terms",
+    "num_turns": 6,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Thomas Marshal was Vice President to which US President?",
+        "answer": "Woodrow Wilson",
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Who served as President during Thomas Marshall's Vice Presidency?",
+        "answer": "Woodrow Wilson",
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Who was the President when Thomas Marshall served as Vice President?",
+        "answer": "Woodrow Wilson",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which political party did Thomas Marshall belong to during his Vice Presidency?",
+        "answer": "Democratic Party",
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which political party did Thomas Marshall's President belong to during his Vice Presidency?",
+        "answer": "Democratic Party",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which U.S. President served two non-consecutive terms before Thomas Marshall's Vice Presidency?",
+        "answer": "Grover Cleveland",
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_91220",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The life and career of Wyatt Earp, focusing on his journey to becoming a legendary figure in the American West through key events in law enforcement and historical incidents",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Gunn-toting Wyatt Earp survived to what age?",
+        "answer": [
+          "Wyatt Earp died at age 80",
+          "80 years old",
+          "80 years"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which event made Wyatt Earp a legendary figure in the American West?",
+        "answer": "Gunfight at the O.K. Corral",
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What event solidified Wyatt Earp's status as a legendary figure in the American West?",
+        "answer": [
+          "Gunfight at the O.K. Corral",
+          "The Gunfight at the O.K. Corral"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.67,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which event first brought Wyatt Earp to national attention?",
+        "answer": [
+          "Gunfight at the O.K. Corral",
+          "The Gunfight at the O.K. Corral"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which event marked Wyatt Earp's first involvement in law enforcement?",
+        "answer": [
+          "Appointed constable in Lamar, Missouri, 1870",
+          "Constable of Lamar, Missouri",
+          "Lamar deputy marshal appointment"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which event marked Wyatt Earp's final notable involvement in law enforcement?",
+        "answer": [
+          "Vendetta Ride of 1882",
+          "The Earp Vendetta Ride",
+          "Tombstone's Gunfight at the O.K. Corral"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_78818",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "John Calvin's theological concepts of salvation, emphasizing predestination, divine foreknowledge, and the elect, and their influence on Protestant Reformation views and terminology",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did John Calvin's theological works influence the Protestant Reformation's view on salvation?",
+        "answer": [
+          "Emphasized predestination and individual faith",
+          "He systematized the doctrine of predestination",
+          "Predestination doctrine"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What term did John Calvin use to describe God's foreknowledge of salvation?",
+        "answer": [
+          "Predestination",
+          "The doctrine of predestination"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which term did John Calvin use to describe the certainty of salvation for the elect?",
+        "answer": [
+          "Perseverance of the saints",
+          "Assurance of salvation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which term did John Calvin use to describe the process of salvation?",
+        "answer": [
+          "Predestination and Election",
+          "The doctrine of predestination",
+          "Predestination"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.91,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "history_97909",
+    "is_cross_domain": false,
+    "domain": "history",
+    "domain_id": 6,
+    "topic_description": "The historical names and ancient kingdoms associated with the region now known as Ethiopia, including its previous name Abyssinia and the influential Kingdom of Axum",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Abyssinia has become known as what?",
+        "answer": [
+          "Ethiopia",
+          "Modern-day Ethiopia"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the ancient name of the region now called Ethiopia?",
+        "answer": [
+          "Abyssinia or Axum",
+          "Abyssinia or the Kingdom of Aksum",
+          "Abyssinia"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which ancient kingdom is often associated with the region now called Ethiopia? A. Nubia B. Axum C. Kush D. Punt?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "history": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which ancient kingdom's capital was located in present-day Ethiopia? A. Nubia B. Axum C. Kush D. Punt",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "history": 1.0
+        }
+      }
+    ]
+  }
+]

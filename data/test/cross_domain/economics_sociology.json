@@ -1,0 +1,786 @@
+[
+  {
+    "scenario_id": "cross_economics_sociology_15409",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The Treaty of Rome's economic policies and their impact on social integration, mobility, class structures, identity, cultural cohesion, and stratification in Europe",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did economic policies post-Treaty of Rome influence social class structures in Europe?",
+        "answer": [
+          "Increased middle class growth",
+          "Economic integration widened class disparities"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 2,
+        "prompt": "What role did economic policies post-Treaty of Rome play in shaping social identity and cultural cohesion in Europe?",
+        "answer": [
+          "Enhanced economic integration",
+          "Economic integration fostered cultural unity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "What economic policies post-Treaty of Rome most significantly influenced social stratification in Europe?",
+        "answer": [
+          "Common Agricultural Policy, Structural Funds",
+          "Common Agricultural Policy and social welfare reforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.76
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_85991",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The Treaty of Rome's economic policies and integration efforts reshaped social structures, class mobility, identity, trust, inequality, and labor markets within the European Economic Community",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Treaty of Rome's economic policies influence social class mobility within the European Economic Community?",
+        "answer": [
+          "Increased mobility opportunities",
+          "Enhanced mobility through economic integration"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Treaty of Rome's economic integration policies affect social cohesion and class mobility within the European Economic Community?",
+        "answer": [
+          "Improved social mobility, cohesion",
+          "Boosted integration, mixed social impacts"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Treaty of Rome's economic policies influence social identity formation within the European Economic Community?",
+        "answer": [
+          "Promoted economic integration",
+          "Economic integration fostered shared identity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Treaty of Rome's economic policies influence social trust and collective identity within the European Economic Community?",
+        "answer": [
+          "Boosted economic integration",
+          "Fostered economic interdependence, strengthening social trust and collective identity"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 5,
+        "prompt": "How did post-Treaty of Rome economic policies affect social mobility and labor market structures across member states?",
+        "answer": [
+          "Increased labor mobility, improved equality",
+          "Enhanced mobility, diversified labor structures"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "economics": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_74431",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The Treaty of Rome's impact on social structures, economic inequality, cultural identity, and social trust within European Economic Community member states through its economic and integration policies",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Treaty of Rome's economic policies alter class structures within member states?",
+        "answer": [
+          "Increased middle-class growth",
+          "Shifted economic power, altered class dynamics"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Treaty of Rome's trade liberalization policies influence social mobility and economic inequality within member states?",
+        "answer": [
+          "Increased social mobility, reduced inequality",
+          "Boosted mobility, reduced inequality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Treaty of Rome's economic integration policies influence cultural identity and social cohesion within member states?",
+        "answer": [
+          "Strengthened cultural unity",
+          "Economic integration fostered cultural exchange and social cohesion through shared policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Treaty of Rome's economic policies affect social trust and collective action within member states?",
+        "answer": [
+          "Increased cooperation and trust",
+          "Boosted trust, enabled cooperation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_58236",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The Treaty of Rome's influence on European social structures, class mobility, income distribution, social cohesion, trust, and market efficiency through economic policies and integration",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Treaty of Rome affect social class mobility in Europe?",
+        "answer": [
+          "Increased economic integration",
+          "Increased economic opportunities facilitated upward mobility"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "economics": 0.36,
+          "sociology": 0.64
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 2,
+        "prompt": "How did economic policies post-Treaty of Rome influence social class mobility in Europe?",
+        "answer": [
+          "Increased social mobility opportunities",
+          "Economic integration boosted mobility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 3,
+        "prompt": "How did post-Treaty of Rome economic policies alter social cohesion and income distribution in Europe?",
+        "answer": [
+          "Improved economic integration, reduced disparities",
+          "Economic integration strengthened social cohesion but widened income inequality"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "How did post-Treaty of Rome economic integration impact social trust and market efficiency in Europe?",
+        "answer": [
+          "Increased trust, improved efficiency",
+          "Boosted trust, enhanced efficiency"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_38870",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The Treaty of Rome's economic and social policies reshaped integration, mobility, inequality, trust, and identity within the European Economic Community, influencing both socioeconomic structures and collective dynamics",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Treaty of Rome impact social integration within the European Economic Community?",
+        "answer": [
+          "Enhanced economic cooperation",
+          "Fostered economic and social cohesion"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "economics": 0.39,
+          "sociology": 0.61
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Treaty of Rome's economic policies influence social class structures within the European Economic Community?",
+        "answer": [
+          "Increased economic mobility",
+          "Integrated economic growth reduced class disparities"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.82,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.26 > 0.25"
+        ]
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Treaty of Rome's harmonization of fiscal and trade policies influence intergenerational income elasticity within the EEC?",
+        "answer": [
+          "Reduced income elasticity",
+          "Reduced income inequality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "economics": 0.65,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How did the Treaty of Rome's economic policies alter social mobility patterns within the EEC?",
+        "answer": [
+          "Increased labor market fluidity",
+          "Increased labor mobility, reduced inequality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How did the Treaty of Rome's economic integration policies influence social cohesion and income inequality within the EEC?",
+        "answer": [
+          "Improved social cohesion, reduced inequality",
+          "Boosted cohesion, reduced inequality"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "economics": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 6,
+        "prompt": "How did the Treaty of Rome's economic policies affect social trust and collective action within the EEC?",
+        "answer": [
+          "Increased cooperation and trust",
+          "Boosted economic cooperation, strengthened social trust, enabled collective action"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_58071",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The impact of the Treaty of Rome's economic policies on social integration, class mobility, cultural identity, cohesion, inequality, and trust in European societies",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did economic policies post-Treaty of Rome affect social class mobility in Europe?",
+        "answer": [
+          "Increased mobility opportunities",
+          "Economic integration boosted mobility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "economics": 0.47,
+          "sociology": 0.53
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 2,
+        "prompt": "How did post-Treaty of Rome economic policies alter social class structures and cultural identity in Europe?",
+        "answer": [
+          "Increased economic integration",
+          "Economic integration reshaped class and identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "economics": 0.42,
+          "sociology": 0.58
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 3,
+        "prompt": "How did economic integration post-Treaty of Rome influence social cohesion in European communities?",
+        "answer": [
+          "Improved economic cooperation",
+          "Strengthened social ties through economic interdependence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "economics": 0.45,
+          "sociology": 0.55
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How did post-Treaty of Rome economic policies influence social inequality and cultural adaptation in European labor markets?",
+        "answer": [
+          "Reduced inequality, enhanced integration",
+          "Economic growth widened inequality, prompting cultural shifts in labor markets"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "economics": 0.47,
+          "sociology": 0.53
+        },
+        "theme_consistency_score": 0.76
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_22855",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The impact of the Treaty of Rome's economic policies on European social structures, including class dynamics, mobility, inequality, trust, identity, and cohesion, particularly within marginalized communities",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the Treaty of Rome's economic integration policies affect social mobility and class structures in Europe?",
+        "answer": [
+          "Increased social mobility opportunities",
+          "Boosted mobility, reshaped classes"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "economics": 0.37,
+          "sociology": 0.63
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 2,
+        "prompt": "How did economic integration post-Treaty of Rome influence social class dynamics in Europe?",
+        "answer": [
+          "Increased middle class mobility",
+          "Economic integration post-Treaty of Rome reshaped social class dynamics in Europe"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "economics": 0.43,
+          "sociology": 0.57
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 3,
+        "prompt": "What role did economic inequality play in shaping social trust and collective identity in post-Treaty of Rome Europe?",
+        "answer": [
+          "Undermined social trust",
+          "Economic inequality eroded social trust and fragmented collective identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "economics": 0.35,
+          "sociology": 0.65
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "How did post-Treaty of Rome economic policies influence social cohesion and identity renegotiation in marginalized communities?",
+        "answer": [
+          "Enhanced integration, identity shifts",
+          "Economic integration reshaped identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "economics": 0.41,
+          "sociology": 0.59
+        },
+        "theme_consistency_score": 0.69
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_90650",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The interplay between economic inequality, social structures, and institutional frameworks in Rhode Island, and their collective impact on social mobility, economic stability, and resilience",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does economic inequality in Rhode Island influence social mobility and community trust?",
+        "answer": [
+          "Reduces mobility, lowers trust",
+          "Inequality limits mobility, erodes trust"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do Gini coefficients and marginal propensity to consume interact to influence social cohesion and economic stability in Rhode Island?",
+        "answer": [
+          "Influences economic inequality",
+          "Income inequality and spending habits affect social bonds and economic resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "economics": 0.53,
+          "sociology": 0.47
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How does economic capital influence the formation and evolution of social networks and cultural norms in Rhode Island, considering intergenerational wealth transfer and institutional frameworks?",
+        "answer": [
+          "Shapes social structures, norms",
+          "Wealth shapes networks, norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 4,
+        "prompt": "How do economic incentives, social norms, and institutional policies interact to influence labor force participation elasticity in Rhode Island’s regional economy?",
+        "answer": [
+          "Shape labor participation rates",
+          "Economic incentives and social norms shape labor participation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "economics": 0.59,
+          "sociology": 0.41
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_economics_sociology_17824",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "economics",
+      "sociology"
+    ],
+    "cross_domain_id": [
+      3,
+      17
+    ],
+    "topic_description": "The impact of post-Treaty of Rome economic policies and integration on social dynamics, including class mobility, identity formation, cohesion, trust, and market efficiency within the EEC",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did economic policies post-Treaty of Rome influence social class mobility within the EEC?",
+        "answer": [
+          "Increased social mobility opportunities",
+          "Economic growth enabled upward mobility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.73
+      },
+      {
+        "turn": 2,
+        "prompt": "How did post-Treaty of Rome economic policies affect social stratification and class mobility within the EEC?",
+        "answer": [
+          "Improved economic integration, mobility",
+          "Economic growth widened income gaps, limiting class mobility"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 3,
+        "prompt": "How did economic integration post-Treaty of Rome influence social identity formation within the EEC?",
+        "answer": [
+          "Strengthened collective European identity",
+          "Economic integration fostered shared identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "economics": 0.46,
+          "sociology": 0.54
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 4,
+        "prompt": "How did economic policies post-Treaty of Rome impact social cohesion within the EEC?",
+        "answer": [
+          "Enhanced economic integration",
+          "Strengthened social cohesion through economic integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 5,
+        "prompt": "How did economic policies post-Treaty of Rome alter social trust and market efficiency within the EEC?",
+        "answer": [
+          "Increased trust, improved efficiency",
+          "Boosted trust, improved efficiency"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "economics": 0.56,
+          "sociology": 0.44
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 6,
+        "prompt": "What role did economic disparities play in shaping social identity movements within the EEC post-Treaty of Rome?",
+        "answer": [
+          "Fueled regional identity movements",
+          "Economic disparities fueled identity-based movements within the EEC post-Treaty of Rome"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "economics": 0.49,
+          "sociology": 0.51
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  }
+]

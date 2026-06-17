@@ -1,0 +1,861 @@
+[
+  {
+    "scenario_id": "medical_19711",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores mechanisms, agents, and adaptations influencing hepatic glucose output and insulin sensitivity during pharmacotherapy for glycemic control in a patient with diabetes",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which mechanism primarily explains the reduction in hepatic glucose output observed in this patient after four weeks of pharmacotherapy? A. Increased insulin secretion B. Inhibition of gluconeogenesis C. Enhanced glycogenolysis D. Decreased glucose absorption?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which process is primarily responsible for the decreased hepatic glucose output in this patient after four weeks of treatment? A. Increased insulin sensitivity B. Inhibition of glycogenolysis C. Enhanced glycolysis D. Suppression of gluconeogenesis?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which pharmacological agent is most likely responsible for the observed reduction in hepatic glucose output in this patient? A. Metformin B. Insulin C. Glipizide D. Pioglitazone?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which secondary effect is most likely contributing to the sustained reduction in hepatic glucose output after four weeks of treatment? A. Increased insulin sensitivity B. Enhanced glycolysis C. Reduced lipolysis D. Decreased glucagon secretion?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which mechanism primarily explains the improvement in insulin sensitivity observed in this patient after sustained treatment? A. Increased GLUT4 translocation B. Enhanced beta-cell function C. Reduced inflammation D. Improved mitochondrial function?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which long-term metabolic adaptation is most likely responsible for maintaining reduced hepatic glucose output in this patient after eight weeks of treatment? A. Increased glycogen storage B. Enhanced fatty acid oxidation C. Upregulated gluconeogenesis D. Decreased insulin clearance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which factor most likely explains the sustained improvement in glycemic control after long-term treatment? A. Persistent beta-cell recovery B. Chronic reduction in insulin resistance C. Continuous suppression of hepatic gluconeogenesis D. Enhanced glucose uptake in adipose tissue?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_64165",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "Cushing's response, characterized by hypertension, bradycardia, and irregular breathing, is a physiological reaction to increased intracranial pressure, often triggered by conditions like brain herniation",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following represents Cushing's response? A. Low blood pressure, tachycardia. B. High blood pressure, tachycardia. C. Low blood pressure, bradycardia. D. High blood pressure, bradycardia.",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which physiological mechanism explains the relationship between hypertension and bradycardia in Cushing's response? A. Increased intracranial pressure B. Decreased intracranial pressure C. Peripheral vasodilation D. Cardiac arrhythmia?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which condition is most directly responsible for triggering Cushing's response? A. Hypoxia B. Increased intracranial pressure C. Hypoglycemia D. Cardiac failure?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which symptom is commonly associated with increased intracranial pressure in Cushing's response? A. Hypertension B. Tachycardia C. Hypoxia D. Bradycardia?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which physiological change is most likely to accompany bradycardia in Cushing's response? A. Hypertension B. Tachypnea C. Hypoglycemia D. Vasodilation?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which mechanism primarily explains the relationship between increased intracranial pressure and bradycardia in Cushing's response? A. Vagal stimulation B. Sympathetic activation C. Hypothalamic dysfunction D. Baroreceptor reflex?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which condition is most likely to trigger Cushing's response? A. Hypertension B. Brain herniation C. Hypoglycemia D. Vasodilation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which symptom is most commonly associated with the onset of Cushing's response? A. Headache B. Bradycardia C. Hypertension D. Nausea?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which clinical sign is most directly associated with the progression of Cushing's response? A. Tachycardia B. Hypotension C. Irregular breathing D. Pupillary dilation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which intervention is most effective in managing hypertension during Cushing's response? A. Fluid resuscitation B. Beta-blockers C. Corticosteroids D. Mannitol?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.65,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_76125",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the glossopharyngeal nerve's sensory and functional roles, including innervation of pharyngeal arch-derived structures, taste sensation, reflex involvement, and potential deficits from nerve damage",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The glossopharyngeal nerve also provides sensory innervation to which structure derived from the third pharyngeal arch? A. Tonsils B. Epiglottis C. Thyroid cartilage D. Palatine uvula?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "The glossopharyngeal nerve provides sensory innervation to which structure derived from the third pharyngeal arch? A. Tonsils B. Epiglottis C. Thyroid cartilage D. Palatine uvula?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "The glossopharyngeal nerve also carries taste sensations from which specific region? A. Anterior tongue B. Posterior tongue C. Soft palate D. Hard palate?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "The glossopharyngeal nerve is involved in the afferent pathway of which reflex that protects the airway during swallowing? A. Gag reflex B. Cough reflex C. Swallowing reflex D. Valsalva maneuver?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Damage to the glossopharyngeal nerve would most likely result in loss of which function? A. Salivation from parotid gland B. Sensation from anterior tongue C. Movement of tongue D. Vision clarity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_42860",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the diagnostic and clinical implications of acid-fast staining in identifying mycobacterial infections, particularly focusing on variable staining patterns, mixed infections, and their impact on treatment strategies",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "A patient undergoing chemotherapy develops a cough. Acid-fast stain of his sputum shows rods and slightly longer forms, with some branching; they vary in their acid-fast reaction from one area of the slide to the next. The acid-fast stain?",
+        "answer": [
+          "Nocardia",
+          "Nocardia asteroides"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the primary purpose of performing an acid-fast stain on a sputum sample? A. Detect fungal infections B. Identify mycobacteria C. Assess viral load D. Measure pH levels?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which characteristic of mycobacteria is primarily responsible for their variable acid-fast staining in sputum samples? A. Cell wall composition B. Growth rate C. Oxygen requirement D. Temperature sensitivity?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the clinical significance of variable acid-fast staining in mycobacterial infections? A. Indicates drug resistance B. Suggests mixed infection C. Reflects staining artifact D. Confirms fungal co-infection?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the presence of mixed mycobacterial infections impact the interpretation of acid-fast staining results? A. Indicates contamination B. Suggests dual infection C. Reflects staining error D. Confirms antibiotic resistance?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the presence of mixed mycobacterial infections influence treatment strategy selection? A. Requires broader antibiotic coverage B. Necessitates antifungal therapy C. Indicates need for single-drug therapy D. Suggests immediate surgical intervention?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_98338",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the diagnosis, neurobiology, and treatment of obsessive-compulsive disorder, focusing on symptoms, neurotransmitter involvement, pharmacological interventions, brain regions, imaging techniques, and long-term effects on brain plasticity",
+    "num_turns": 8,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following symptoms is most indicative of an anxiety disorder in this patient? A. Decreased appetite B. Difficulty falling asleep C. Frequent crying D. Ritualistic behaviors?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which neurotransmitter is primarily associated with the pathophysiology of obsessive-compulsive disorder in this patient? A. Dopamine B. Glutamate C. Norepinephrine D. Serotonin?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which pharmacological agent targeting serotonin is most appropriate for treating obsessive-compulsive disorder in this patient? A. Fluoxetine B. Haloperidol C. Lorazepam D. Valproate?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which brain region is most implicated in the pathophysiology of obsessive-compulsive disorder? A. Amygdala B. Frontal cortex C. Hippocampus D. Thalamus?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "How does long-term use of serotonin-targeting pharmacological agents affect brain plasticity in patients with obsessive-compulsive disorder? A. Increases neurogenesis B. Decreases synaptic strength C. Enhances dendritic branching D. Reduces neurotransmitter release?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which neurotransmitter's dysregulation is most closely associated with the pathophysiology of obsessive-compulsive disorder? A. Dopamine B. Serotonin C. GABA D. Glutamate?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which brain imaging technique is most commonly used to study structural abnormalities in obsessive-compulsive disorder? A. MRI B. CT C. PET D. EEG?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which brain region's hyperactivity is most consistently observed in patients with obsessive-compulsive disorder during neuroimaging studies? A. Amygdala B. Hippocampus C. Prefrontal cortex D. Basal ganglia?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_28111",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario examines methodological aspects and challenges of case-control studies in investigating diet-cancer links, focusing on reliability, biases, temporal relationships, and statistical analysis",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which is the most reliable type of observational study for investigating the link between diet and cancer? A. Randomised controlled trial B. Prospective study C. Ecological study D. Case-control study?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.5,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which factor most significantly limits the reliability of case-control studies in investigating diet-cancer links? A. Recall bias B. Small sample size C. Short duration D. Lack of blinding?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In case-control studies investigating diet-cancer links, what is the primary challenge in establishing temporal relationships? A. Recall bias B. Selection bias C. Confounding variables D. Reverse causality?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "In case-control studies, what is the primary method used to reduce selection bias? A. Randomization B. Matching C. Blinding D. Stratification?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "In case-control studies, what is the primary statistical method used to assess the strength of association between exposure and outcome? A. Chi-square test B. T-test C. Odds ratio D. ANOVA?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_42755",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores factors influencing an athlete's training response, physiological adaptations, recovery processes, and energy system regulation during exercise",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which factor is most critical for an athlete's response to training stimuli? A. Genetic predisposition B. Nutritional intake C. Psychological resilience D. Coaching expertise?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which physiological adaptation primarily enhances an athlete's response to endurance training stimuli? A. Increased muscle glycogen storage B. Enhanced oxygen delivery to tissues C. Improved anaerobic threshold D. Reduced resting heart rate?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which factor most directly influences an athlete's recovery rate after intense training? A. Sleep quality B. Hydration levels C. Protein intake D. Stretching routine?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which process is most responsible for removing metabolic waste during recovery? A. Sweating B. Urination C. Breathing D. Defecation?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.35,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which physiological mechanism primarily regulates the balance between aerobic and anaerobic energy systems during prolonged exercise? A. Lactate threshold B. Oxygen uptake C. Heart rate variability D. Muscle fiber type distribution?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_55364",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the hormonal regulation of calcium levels in the blood, focusing on the roles of calcitonin, parathyroid hormone, and vitamin D in bone resorption, intestinal absorption, and overall calcium balance",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which of the following mechanisms contributes to a decrease in plasma calcium concentration? A. The action of vitamin D on the intestine B. The action of parathyroid hormone on the intestine C. The action of parathyroid hormone on the kidney D. The action of calcitonin on the kidney?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Calcitonin primarily helps regulate which mineral's levels in the body? A. Sodium B. Calcium C. Potassium D. Magnesium?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which hormone's action on bone tissue is most directly opposed by calcitonin? A. Parathyroid hormone B. Vitamin D C. Insulin D. Thyroxine",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which hormone works alongside calcitonin to regulate calcium levels in the blood? A. Parathyroid hormone B. Insulin C. Thyroxine D. Vitamin D?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which hormone primarily increases calcium absorption in the intestines? A. Parathyroid hormone B. Calcitonin C. Vitamin D D. Insulin?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which hormone primarily regulates calcium levels by influencing bone resorption? A. Parathyroid hormone B. Calcitonin C. Vitamin D D. Insulin",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_21230",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "The scenario explores the physiological and pharmacological mechanisms of neurotransmitters, receptors, and enzymes in regulating smooth muscle tone in the iris and airways",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which neurotransmitter is primarily responsible for the dilation of the pupil in response to sympathetic activation? A. Acetylcholine B. Norepinephrine C. Serotonin D. Dopamine?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which receptor subtype on the iris is primarily activated by norepinephrine to cause pupil dilation? A. Alpha-1 B. Beta-2 C. Muscarinic D. Nicotinic",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which effect would alpha-1 receptor activation have on bronchial smooth muscle tone? A. Contraction B. Relaxation C. No change D. Variable response?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which neurotransmitter primarily mediates smooth muscle relaxation in the bronchi? A. Acetylcholine B. Norepinephrine C. Serotonin D. Dopamine?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which mechanism explains the contrasting effects of alpha-1 and beta-2 receptor activation on smooth muscle tone? A. Receptor location B. G-protein coupling C. Enzyme activity D. Ion channel interaction?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which enzyme is primarily responsible for the breakdown of acetylcholine in the synaptic cleft? A. Acetylcholinesterase B. Monoamine oxidase C. Catalase D. Lipase?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which receptor subtype predominantly regulates airway smooth muscle contraction during an asthma attack? A. Alpha-1 B. Beta-2 C. Muscarinic M3 D. Dopamine D2?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which neurotransmitter is primarily responsible for activating muscarinic M3 receptors in airway smooth muscle during an asthma attack? A. Acetylcholine B. Epinephrine C. Serotonin D. Dopamine?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which pharmacological agent specifically inhibits acetylcholinesterase to prolong acetylcholine action in the synaptic cleft? A. Atropine B. Neostigmine C. Propranolol D. Albuterol?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "medical_75263",
+    "is_cross_domain": false,
+    "domain": "medical",
+    "domain_id": 11,
+    "topic_description": "Cranial nerve innervation of the pharyngeal mucosa and muscles, focusing on sensory and motor functions related to swallowing and pharyngeal control",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The pharyngeal mucosa receives its primary sensory innervation from which cranial nerve? A. Trigeminal nerve B. Facial nerve C. Glossopharyngeal nerve D. Vagus nerve?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "The sensory innervation of the pharyngeal mucosa is primarily carried by which cranial nerve? A. Trigeminal nerve B. Facial nerve C. Glossopharyngeal nerve D. Vagus nerve",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which cranial nerve also contributes to the sensory innervation of the pharyngeal mucosa? A. Hypoglossal nerve B. Accessory nerve C. Vagus nerve D. Olfactory nerve?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which cranial nerve provides motor innervation to the pharyngeal muscles? A. Trigeminal nerve B. Facial nerve C. Glossopharyngeal nerve D. Vagus nerve?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.89,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "The vagus nerve provides motor innervation to which muscles involved in swallowing? A. Pharyngeal muscles B. Tongue muscles C. Facial muscles D. Laryngeal muscles?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "medical": 1.0
+        }
+      }
+    ]
+  }
+]

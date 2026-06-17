@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_id": "cross_geography_history_70145",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      6
+    ],
+    "topic_description": "Connecticut’s coastal geography and maritime trade networks influenced its economic evolution, trade policies, and roles in the American Revolution and triangular trade, shaping its post-war recovery and long-term development",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Connecticut's geography influence its role in the American Revolution?",
+        "answer": [
+          "Strategic location for military operations",
+          "Connecticut's location facilitated trade and military movement"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "geography": 0.39,
+          "history": 0.61
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Connecticut’s coastal geography shape its trade policies during the colonial era?",
+        "answer": [
+          "Promoted maritime and trade focus",
+          "Coastal access fostered maritime trade policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "geography": 0.48,
+          "history": 0.52
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Connecticut’s coastal geography and colonial trade policies influence its role in the triangular trade during the 18th century?",
+        "answer": [
+          "Facilitated maritime trade routes",
+          "Coastal access enabled trade; policies supported commerce"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "geography": 0.45,
+          "history": 0.55
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Connecticut’s physiographic attributes, maritime engagements, and post-War of 1812 trade policies interconnect to shape its economic evolution?",
+        "answer": [
+          "Boosted maritime trade and industry growth",
+          "Connecticut’s coastal geography and maritime trade policies boosted post-1812 economic growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "geography": 0.31,
+          "history": 0.69
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Connecticut’s coastal geography, maritime trade networks, and Revolutionary War contributions interrelate to shape its post-war economic recovery?",
+        "answer": [
+          "Boosted maritime trade and industry",
+          "Coastal geography and maritime trade fueled post-war recovery"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.28,
+          "history": 0.72
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_geography_history_32244",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "geography",
+      "history"
+    ],
+    "cross_domain_id": [
+      5,
+      6
+    ],
+    "topic_description": "The historical and geographical influence of the Mississippi River on U.S. expansion, trade, conflict, and economic development from the Louisiana Purchase through the 20th century",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did the 1803 Louisiana Purchase alter the geography and political history of the United States?",
+        "answer": [
+          "Doubled U.S. territory, expanded influence",
+          "Doubled U.S. size, shifted political power westward"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "geography": 0.49,
+          "history": 0.51
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the Mississippi River’s geomorphology and hydrology influence Reconstruction-era economic policies post-Civil War?",
+        "answer": [
+          "Promoted agricultural development policies",
+          "Mississippi’s fertile floodplains and trade routes shaped Reconstruction policies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "geography": 0.48,
+          "history": 0.52
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How did the Mississippi River’s role as a natural boundary influence post-Reconstruction migration and settlement patterns in the late 19th century?",
+        "answer": [
+          "Facilitated westward expansion",
+          "Mississippi River guided westward migration and settlement patterns post-Reconstruction"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "geography": 0.43,
+          "history": 0.57
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  }
+]

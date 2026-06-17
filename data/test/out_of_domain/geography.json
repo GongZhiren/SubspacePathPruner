@@ -1,0 +1,1955 @@
+[
+  {
+    "scenario_id": "geography_15447",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "Charles de Gaulle's views on governing diverse nations and their impact on French regional policies, particularly regarding cultural identity and governance challenges",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Former French President Charles de Gaulle said ‘How can you govern a country which has 246 varieties of ‘what’?",
+        "answer": [
+          "246 varieties of cheese",
+          "French cheese",
+          "cheese"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What did Charles de Gaulle imply about governing a diverse country?",
+        "answer": [
+          "Governing is like herding cats",
+          "It is extremely difficult",
+          "A diverse country is hard to govern"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Charles de Gaulle's view on diversity influence France's regional policies?",
+        "answer": [
+          "Promoted centralized national unity",
+          "Favored centralization over regionalism",
+          "This promoted centralized regional policies"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which French region was most directly impacted by Charles de Gaulle's policies on diversity?",
+        "answer": [
+          "Île-de-France region",
+          "Île-de-France"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which French region's cultural identity was most strengthened by Charles de Gaulle's policies?",
+        "answer": [
+          "Brittany and Corsica",
+          "Brittany"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_28727",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores connections between Jasper Carrott's association with an English football club, its city and county locations, nearby rivers, and historical landmarks",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "British comedian Jasper Carrott was a director of which English football club?",
+        "answer": [
+          "Birmingham City Football Club",
+          "Birmingham City"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which English city is the football club Jasper Carrott directed located?",
+        "answer": [
+          "Birmingham",
+          "City of Birmingham"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.62,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In which English county is the football club Jasper Carrott directed located?",
+        "answer": [
+          "West Midlands",
+          "The West Midlands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the name of the river that runs through the county where Jasper Carrott's football club is located?",
+        "answer": [
+          "River Rea",
+          "River Tame",
+          "The River Tame"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which English city near the river mentioned in step 3 is known for its historical castle?",
+        "answer": [
+          "Durham",
+          "The city is Durham"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which English county is known for its historical landmarks near the river mentioned in step 2?",
+        "answer": [
+          "North Yorkshire",
+          "Yorkshire"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which river near the historical landmarks in step 3 flows through a famous English city?",
+        "answer": [
+          "River Thames",
+          "The River Thames"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_52512",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The historical progression of countries introducing and mandating driving tests for various vehicle types, including motorcycles, commercial vehicles, passenger cars, and electric vehicles",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which country was the first in the world to introduce a driving test?",
+        "answer": [
+          "United Kingdom in 1934",
+          "France was the first country",
+          "France"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which country first implemented a driving test for motorcycles?",
+        "answer": [
+          "United Kingdom in 1935",
+          "The French Republic",
+          "The United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which country first required a driving test for motorcycles?",
+        "answer": [
+          "United Kingdom in 1935",
+          "The French Republic",
+          "The United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which country first mandated a driving test for commercial vehicles?",
+        "answer": [
+          "United Kingdom in 1935",
+          "The United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which country first introduced a driving test for passenger cars?",
+        "answer": [
+          "United Kingdom in 1935",
+          "France was the first country",
+          "The United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which country first implemented a driving test for electric vehicles?",
+        "answer": [
+          "United Kingdom in 1935",
+          "United Kingdom",
+          "The Netherlands"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.72,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which country was the first to require a driving test for motorcycles?",
+        "answer": [
+          "United Kingdom in 1935",
+          "The French Republic",
+          "The United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which country was the first to introduce a driving test for commercial trucks?",
+        "answer": [
+          "United Kingdom in 1935",
+          "United Kingdom"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which country was the first to require a driving test for all vehicles combined?",
+        "answer": [
+          "United Kingdom in 1934",
+          "France, in 1899",
+          "France"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.8,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_88373",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores the location, geographical features, and national context of the largest tank battle of World War II, focusing on the proximity of cities, rivers, and countries to the battle site",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.125,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Near which city in Russia did the greatest tank battle of World War II take place in July 1943?",
+        "answer": [
+          "Kursk, Russia",
+          "Near the city of Kursk",
+          "Kursk"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which river is nearest to the site of the greatest tank battle of World War II in July 1943?",
+        "answer": [
+          "Don River",
+          "Psel River",
+          "The Don River"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which city in Russia is closest to the site of the greatest tank battle of World War II?",
+        "answer": [
+          "Belgorod, Russia",
+          "The city of Belgorod"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.83,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which river flows near the site of the largest tank battle in World War II?",
+        "answer": [
+          "Psel River",
+          "The Dnieper River"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.57,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which river is closest to the site of the largest tank battle in World War II?",
+        "answer": [
+          "Don River",
+          "Psel River",
+          "The Don River"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which country hosted the largest tank battle near a major river?",
+        "answer": [
+          "Russia during the Battle of Kursk",
+          "The Soviet Union"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which major river is closest to the site of a famous tank battle?",
+        "answer": [
+          "Don River",
+          "Psel River",
+          "The Volga River"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which country hosted the largest tank battle near a major river? A. Russia B. Germany C. Ukraine D. Belarus?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which country is home to the river near the largest tank battle site? A. Russia B. Germany C. Ukraine D. Belarus?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 0.75,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_40077",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The historical, industrial, and engineering significance of Glasgow, Scotland, particularly its \"Clockwork Orange\" underground railway system and its role in the Industrial Revolution and global innovations",
+    "num_turns": 8,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.143,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "‘The Clockwork Orange’ is the nickname of which British city’s underground railway system?",
+        "answer": [
+          "Glasgow's underground system",
+          "Glasgow Subway",
+          "Glasgow"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which British city, known for its ‘Clockwork Orange’ underground system, is nicknamed the \"Second City of the Empire\"?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, was once called the \"Second City of the Empire\"?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, was a major shipbuilding hub during the Industrial Revolution?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.76,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, played a key role in transatlantic trade during the 19th century?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland",
+          "Liverpool"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.73,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, was a key site for the Industrial Revolution's technological innovations?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, was central to 19th-century engineering education?",
+        "answer": "Glasgow",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.66,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which British city, known for its \"Clockwork Orange\" railway, was a key hub for 19th-century urban planning?",
+        "answer": [
+          "Glasgow",
+          "Glasgow, Scotland"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_64426",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores Captain Nathan Bridger's missions on \"SeaQuest DSV,\" focusing on the Pacific Ocean's unique and emphasized features while contrasting them with less highlighted or overlooked aspects",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "On which 1990s TV show would you find Captain Nathan Bridger?",
+        "answer": "SeaQuest DSV",
+        "task_type": "reasoning",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the name of the ocean where Captain Nathan Bridger's adventures primarily take place?",
+        "answer": [
+          "The North Pacific Ocean",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In which ocean do Captain Nathan Bridger's adventures mainly occur?",
+        "answer": [
+          "Pacific Ocean",
+          "No single specific ocean",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which ocean's unique features are highlighted in Captain Nathan Bridger's adventures?",
+        "answer": [
+          "Pacific Ocean's marine life",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which ocean's unique features are most crucial to Captain Nathan Bridger's missions?",
+        "answer": [
+          "Atlantic and Pacific Oceans",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which ocean's features are most emphasized in Captain Nathan Bridger's missions?",
+        "answer": [
+          "Pacific Ocean features",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which ocean's features are least emphasized in Captain Nathan Bridger's missions?",
+        "answer": [
+          "Indian Ocean",
+          "The Arctic Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which ocean's features are most familiar to Captain Nathan Bridger?",
+        "answer": [
+          "Atlantic Ocean",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.87,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which ocean's features are most overlooked in Captain Nathan Bridger's missions?",
+        "answer": [
+          "Indian Ocean features",
+          "The Southern Ocean",
+          "The Arctic Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which ocean's features are most recognized in Captain Nathan Bridger's missions?",
+        "answer": [
+          "Atlantic and Pacific Oceans",
+          "The world's oceans",
+          "The Pacific Ocean"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_36800",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores connections between country music, the Cueva de las Manos site in Argentina, its ancient hand-painted art, and the nearby geographical features",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which country is home to the famous \"Cueva de las Manos\" known for ancient hand paintings?",
+        "answer": [
+          "Argentina",
+          "The country of Argentina"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which geographical feature is closest to the Cueva de las Manos site?",
+        "answer": [
+          "Pinturas River Canyon",
+          "The Pinturas River峡谷"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What type of ancient art is predominantly featured in Cueva de las Manos?",
+        "answer": [
+          "Prehistoric hand paintings",
+          "Stenciled hand paintings",
+          "Cave paintings"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_84021",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores characteristics of landlocked seas, focusing on their geographical features, lack of coastline, high salinity, and unique coloration due to environmental conditions",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which sea has no coast?",
+        "answer": [
+          "Sargasso Sea",
+          "The Sargasso Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which sea is known for having no coastline but is surrounded by land?",
+        "answer": [
+          "The Caspian Sea",
+          "The Sargasso Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which sea is completely surrounded by land and has no coastline?",
+        "answer": [
+          "Caspian Sea",
+          "The Caspian Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.54,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which sea is entirely landlocked and lacks any coastline?",
+        "answer": [
+          "Caspian Sea",
+          "Sargasso Sea",
+          "The Caspian Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which landlocked sea is completely surrounded by mountains?",
+        "answer": [
+          "Caspian Sea",
+          "The Dead Sea",
+          "The Caspian Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which landlocked sea is known for its high salinity and lacks any outlet to the ocean?",
+        "answer": [
+          "Dead Sea",
+          "The Dead Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which landlocked sea is famous for its unique pink color due to high salinity?",
+        "answer": [
+          "Lake Hillier, Australia",
+          "Lake Retba",
+          "The Dead Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_42356",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The historical and cultural connections of South African cities, particularly East London, to motorsport events and Formula One racing heritage",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Formula One racing driver Jody Scheckter was born in the city of East London in which country?",
+        "answer": "South Africa",
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which country is home to both East London and a famous Formula One racing driver?",
+        "answer": "South Africa",
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which South African city is closest to the Formula One circuit?",
+        "answer": [
+          "Cape Town",
+          "Midrand, Johannesburg",
+          "Johannesburg"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which South African city is recognized for hosting early motorsport events?",
+        "answer": "East London",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which South African city is known for its historical landmarks?",
+        "answer": "Cape Town",
+        "task_type": "factual",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which South African city is known for its historical connection to cultural landmarks?",
+        "answer": [
+          "Cape Town",
+          "Cape Town, the Mother City"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_10815",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The cultural and historical significance of the Rapa Nui people, their iconic stone statues (moai), and the volcanic materials and quarries used to create them on Easter Island",
+    "num_turns": 9,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The Rapa Nui are the native Polynesian inhabitants of which island?",
+        "answer": "Easter Island",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is the name of the famous stone statues created by the Rapa Nui on Easter Island?",
+        "answer": [
+          "Moai statues",
+          "The Moai statues"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the primary material used by the Rapa Nui to carve the famous stone statues on Easter Island?",
+        "answer": [
+          "Volcanic tuff stone",
+          "Volcanic tuff"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.71,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What is the name of the island where the Rapa Nui created famous stone statues?",
+        "answer": "Easter Island",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What is the name of the quarry where the Rapa Nui sourced stone for their statues?",
+        "answer": [
+          "Rano Raraku quarry",
+          "Rano Raraku"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.36,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the name of the largest stone statue created by the Rapa Nui on Easter Island?",
+        "answer": [
+          "Paro Moai statue",
+          "The Moai statues"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.92,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the name of the island where the Rapa Nui culture originated?",
+        "answer": "Easter Island",
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the name of the volcanic crater that provided the stone for Rapa Nui statues?",
+        "answer": [
+          "Rano Raraku quarry",
+          "Rano Raraku"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "What is the name of the volcanic crater that provided stone for Rapa Nui statues?",
+        "answer": [
+          "Rano Raraku quarry",
+          "Rano Raraku"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_43174",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores the English county of Kent, highlighting its landmarks such as Margate, the White Cliffs of Dover, Canterbury Cathedral, St Augustine's Abbey, and Richborough Castle",
+    "num_turns": 9,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which seaside resort is the setting for the Only Fools And Horses 'Jolly Boys Outing'?",
+        "answer": [
+          "Margate, Kent",
+          "Margate"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which county in England is the seaside resort of Margate located?",
+        "answer": [
+          "Kent County",
+          "Kent, England",
+          "Kent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which English county is known for its chalk cliffs and includes Margate?",
+        "answer": [
+          "Kent",
+          "Kent, England"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which English county features both Margate and the scenic White Cliffs of Dover?",
+        "answer": [
+          "Kent",
+          "The county of Kent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.2,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which English county is home to both Margate and the historic Canterbury Cathedral?",
+        "answer": [
+          "Kent",
+          "The county of Kent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which English county includes both Margate and the historic St Augustine's Abbey?",
+        "answer": [
+          "Kent",
+          "Kent County"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which English county is known for both Margate and the historic Richborough Castle?",
+        "answer": [
+          "Kent",
+          "County of Kent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which English county includes the historic site of Richborough Castle?",
+        "answer": [
+          "Kent",
+          "The county of Kent"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which English county is home to both Margate and St Augustine's Abbey?",
+        "answer": [
+          "Kent",
+          "Kent, England"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.56,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_68591",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The historical significance and innovations of Mesopotamia, including its contributions to agriculture, writing, timekeeping, navigation, and administration, highlighting the region's foundational role in human civilization",
+    "num_turns": 10,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.444,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which modern-day country was previously known as Mesopotamia?",
+        "answer": [
+          "Iraq",
+          "Primarily modern-day Iraq"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What ancient civilization is often associated with Mesopotamia?",
+        "answer": [
+          "Sumerians, Akkadians, Babylonians, Assyrians",
+          "Sumerian civilization",
+          "The Sumerians"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which ancient civilization is credited with inventing the wheel in Mesopotamia?",
+        "answer": [
+          "Sumerians in Mesopotamia",
+          "Sumerian civilization",
+          "The Sumerians"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which ancient Mesopotamian invention is considered crucial for early writing systems?",
+        "answer": [
+          "Cuneiform writing system",
+          "Cuneiform script"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.31,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which ancient Mesopotamian invention helped improve agricultural efficiency?",
+        "answer": [
+          "Irrigation systems",
+          "The seed plow",
+          "The plow"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Mesopotamian invention is considered essential for record-keeping?",
+        "answer": [
+          "Cuneiform writing system",
+          "Cuneiform writing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.48,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What Mesopotamian invention helped track time and seasons?",
+        "answer": [
+          "Water clocks and calendars",
+          "The lunisolar calendar",
+          "The calendar"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which Mesopotamian invention helped improve navigation and trade?",
+        "answer": [
+          "The wheel",
+          "The sailboat"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.51,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which Mesopotamian invention significantly improved agricultural efficiency?",
+        "answer": [
+          "Plow and irrigation systems",
+          "The seeder plow",
+          "The plow"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "What Mesopotamian invention helped improve record-keeping and administration?",
+        "answer": [
+          "Cuneiform writing system",
+          "Cuneiform writing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.68,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_59213",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The historical and geographical connections between Caen, William the Conqueror's tomb, Mont Saint-Michel, and their shared location in the Normandy region of France",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The tomb of William the Conqueror is in which French city?",
+        "answer": [
+          "Caen, Normandy",
+          "Caen, France",
+          "Caen"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which region of France is the city containing William the Conqueror's tomb located?",
+        "answer": [
+          "Normandy region",
+          "Normandy, France",
+          "Normandy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "In which French region is the city of Caen located?",
+        "answer": [
+          "Normandy region",
+          "Normandy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which French region is known for its historical significance and contains both Caen and William the Conqueror's tomb?",
+        "answer": [
+          "Normandy",
+          "Normandy region"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.84,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which French region is home to both the Bay of Mont Saint-Michel and historical significance?",
+        "answer": "Normandy",
+        "task_type": "reasoning",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which French region contains both Caen and Mont Saint-Michel?",
+        "answer": [
+          "Normandy region",
+          "Normandy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the name of the island near Mont Saint-Michel?",
+        "answer": [
+          "Tombelaine Island",
+          "Mont Saint-Michel",
+          "The island near Mont Saint-Michel is Tombelaine"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.17,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_38404",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores identifying European cities based on landmarks, focusing on Brussels, known for the Atomium and the historic Grand Place",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In which European city is the Atomium?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "In which European city is the Atomium located?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.14,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which European city is home to both the Atomium and the Grand Place?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.19,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which European city features both the Atomium and a famous square known as the Grand Place?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.85,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which European city is known for both the Atomium and a historic square called the Grand Place?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which European city is known for its historic Grand Place and Atomium?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which European city is home to both a famous atom-shaped structure and a historic central square?",
+        "answer": [
+          "Brussels",
+          "Brussels, Belgium"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which European city features both a grand historic square and a modern atomic landmark?",
+        "answer": [
+          "Brussels, Belgium",
+          "Brussels"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which European city is known for its historic central square?",
+        "answer": [
+          "Prague's Old Town Square",
+          "Prague, Czech Republic",
+          "Prague"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_55359",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The scenario explores various geographical and natural features of Exmoor National Park, including its highest point, valleys, rivers, woodlands, coastline, and landmarks",
+    "num_turns": 10,
+    "difficulty_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Dunkery Beacon is the highest point in which English National Park?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.26,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which English National Park features Dunkery Beacon as its highest point?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which national park in England includes Dunkery Beacon?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.69,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which English National Park is known for its highest point, Dunkery Beacon?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which English National Park contains the valley of Exmoor?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.43,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which river flows through the Exmoor National Park?",
+        "answer": [
+          "River Exe, River Barle",
+          "The River Exe"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.22,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which English National Park features the ancient woodland of Horner Woods?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which English National Park is known for its dramatic coastline and contains the Valley of Rocks?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which English National Park is home to the Tarr Steps?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.21,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which English National Park contains the ancient woodland of Horner Woods and the Valley of Rocks?",
+        "answer": "Exmoor National Park",
+        "task_type": "factual",
+        "difficulty": 0.33,
+        "theme_consistency_score": 0.7,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "geography_29321",
+    "is_cross_domain": false,
+    "domain": "geography",
+    "domain_id": 5,
+    "topic_description": "The rise, expansion, and administration of the 13th-century Mongol Empire under key rulers like Genghis Khan, Kublai Khan, and Hulagu Khan, focusing on their conquests, governance, and cultural impact",
+    "num_turns": 9,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.375,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What was the primary language spoken in the Mongol Empire during the 13th century?",
+        "answer": [
+          "Middle Mongolian",
+          "Middle Mongol",
+          "Mongolian"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.27,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What was the administrative center of the Mongol Empire during the 13th century?",
+        "answer": [
+          "Karakorum",
+          "The city of Karakorum"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Mongol ruler established the Yuan Dynasty in China during the 13th century?",
+        "answer": "Kublai Khan",
+        "task_type": "factual",
+        "difficulty": 0.25,
+        "theme_consistency_score": 0.61,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Mongol ruler expanded the empire’s western borders into modern-day Hungary and Poland?",
+        "answer": "Batu Khan",
+        "task_type": "reasoning",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Mongol leader's campaigns reached as far west as the Adriatic Sea?",
+        "answer": [
+          "Genghis Khan's grandson Batu",
+          "Batu Khan",
+          "The Adriatic Sea"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Mongol ruler is credited with establishing the postal relay system?",
+        "answer": [
+          "Genghis Khan",
+          "Ögedei Khan"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which Mongol ruler is associated with the expansion into Persia and the Caucasus region?",
+        "answer": "Hulagu Khan",
+        "task_type": "factual",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which Mongol ruler's conquests led to the eventual decline of the Abbasid Caliphate?",
+        "answer": [
+          "Hulagu Khan's invasions",
+          "Hulagu Khan"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which Mongol ruler is associated with the conquest of Baghdad in 1258?",
+        "answer": "Hulagu Khan",
+        "task_type": "factual",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "geography": 1.0
+        }
+      }
+    ]
+  }
+]

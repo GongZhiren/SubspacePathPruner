@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_id": "cross_engineering_physics_43760",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      11,
+      19
+    ],
+    "topic_description": "The scenario explores photovoltaic cell efficiency, focusing on energy transfer, semiconductor doping effects, photon absorption, quantum efficiency, and thermal impacts on performance",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the sun’s energy transfer through photovoltaic cells to power engineering systems?",
+        "answer": "Solar radiation converts to electricity",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "engineering": 0.51,
+          "physics": 0.49
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can the efficiency of photovoltaic cells be optimized using semiconductor doping while considering photon absorption rates?",
+        "answer": "Optimize doping profiles, materials",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "engineering": 0.56,
+          "physics": 0.44
+        },
+        "theme_consistency_score": 0.55
+      },
+      {
+        "turn": 3,
+        "prompt": "How does varying semiconductor doping levels affect electron-hole pair generation rates and photovoltaic efficiency under different photon energy spectra?",
+        "answer": "Increases efficiency, varies rates",
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "engineering": 0.45,
+          "physics": 0.55
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the quantum efficiency of a photovoltaic cell depend on its bandgap energy and doping profile?",
+        "answer": "Increases with lower bandgap",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "engineering": 0.4,
+          "physics": 0.6
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 5,
+        "prompt": "How does thermal expansion of semiconductor materials affect photovoltaic cell efficiency, considering both carrier mobility and heat dissipation mechanisms?",
+        "answer": "Reduces efficiency, increases resistance",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "engineering": 0.53,
+          "physics": 0.47
+        },
+        "theme_consistency_score": 0.57
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_engineering_physics_46064",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "engineering",
+      "physics"
+    ],
+    "cross_domain_id": [
+      11,
+      19
+    ],
+    "topic_description": "The interplay between solar energy characteristics, material properties, and thermal dynamics in optimizing photovoltaic cell efficiency and performance under varying irradiance and thermal conditions",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the Sun’s energy output influence the design of solar panel efficiency in engineering applications?",
+        "answer": "Optimizes panel absorption rates",
+        "task_type": "reasoning",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "engineering": 0.4,
+          "physics": 0.6
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the spectral distribution of solar radiation affect the choice of semiconductor materials in photovoltaic cell design?",
+        "answer": "Bandgap energy optimization",
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "engineering": 0.49,
+          "physics": 0.51
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the thermal expansion of photovoltaic materials affect their electrical efficiency under varying solar irradiance levels?",
+        "answer": "Decreases efficiency with heat",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.59,
+          "physics": 0.41
+        },
+        "theme_consistency_score": 0.61
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the quantum efficiency of a photovoltaic cell depend on the doping concentration and the photon energy distribution?",
+        "answer": "Increases with both factors",
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "engineering": 0.43,
+          "physics": 0.57
+        },
+        "theme_consistency_score": 0.52
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the interplay between electron-phonon coupling and heat dissipation engineering affect the efficiency limits of photovoltaic cells under concentrated sunlight?",
+        "answer": "Reduces overall efficiency",
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "engineering": 0.59,
+          "physics": 0.41
+        },
+        "theme_consistency_score": 0.63
+      }
+    ]
+  }
+]

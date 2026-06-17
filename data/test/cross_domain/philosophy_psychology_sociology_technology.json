@@ -1,0 +1,2465 @@
+[
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_40735",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between philosophical concepts of autonomy and free will, psychological models of decision-making, sociological group dynamics, and technological advancements in AI ethics and behavioral design",
+    "num_turns": 3,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the philosophical categorization of human behavior intersect with psychological theories on decision-making, sociological insights into group dynamics like Hezbollah's influence, and technological systems such as AI-driven behavioral analysis?",
+        "answer": [
+          "Interdisciplinary behavioral analysis integration",
+          "Behavioral categories shape AI-driven group influence"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.15,
+          "psychology": 0.26,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does technology play in shaping philosophical debates on autonomy, psychological theories of decision-making, and sociological observations of group behavior?",
+        "answer": [
+          "Facilitates and influences discussions",
+          "Technology influences autonomy debates, decision-making theories, and group behavior dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.25,
+          "psychology": 0.27,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "What philosophical arguments support or challenge the psychological concept of autonomy in decision-making, and how do sociological group dynamics and technological advancements interact with these perspectives?",
+        "answer": [
+          "Autonomy challenged by social conformity, tech influence",
+          "Autonomy balances individual agency with societal influence and tech mediation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.43,
+          "psychology": 0.15,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_77032",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The ethical prioritization of relieving greater suffering, examined through philosophical, psychological, and sociological lenses, alongside the integration of AI-driven therapy tools, challenges traditional notions of suffering relief and reshapes societal norms around psychological resilience and divorce",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the ethical principle that prioritizes relieving greater suffering over minor discomfort influence societal attitudes toward divorce, its psychological impact on happiness, and the role of technology in mediating family communication? A. It promotes collective well-being B. It disregards individual emotions C. It emphasizes technological solutions D. It ignores societal norms?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.21,
+          "psychology": 0.29,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the ethical principle of prioritizing greater suffering relief over minor discomfort, examined through philosophical reasoning, intersect with psychological resilience, sociological norms around divorce, and technological tools for emotional support in shaping societal attitudes toward marital dissolution?",
+        "answer": [
+          "Promotes acceptance of divorce",
+          "Relief-focused ethics may bolster resilience, normalize divorce, and enhance tech support"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "technology": 0.13,
+          "philosophy": 0.33,
+          "psychology": 0.3,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the integration of AI-driven therapy tools (technology) challenge traditional philosophical notions of suffering relief while influencing psychological resilience and reshaping societal norms around mental health support?",
+        "answer": [
+          "Redefines suffering, enhances resilience, shifts norms",
+          "AI tools reshape resilience, norms, and philosophical views on suffering"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.3,
+          "psychology": 0.22,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the societal adoption of AI-driven therapy tools (technology) challenge traditional philosophical notions of suffering relief while influencing psychological resilience and sociological structures of support?",
+        "answer": [
+          "Redefines support, enhances resilience mechanisms",
+          "AI tools may redefine suffering and resilience, altering social support philosophically"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.26,
+          "psychology": 0.26,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_36185",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "Designing an AI system to mediate emotional conflicts in divorcing families by integrating Parfit’s ethical framework, psychological validation, sociological dynamics, and technological principles",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might Parfit’s ethical framework (endorsing relief of greater suffering) inform the design of an AI system that mediates emotional conflicts in families experiencing divorce, considering both individual psychological responses and societal impacts?",
+        "answer": [
+          "Prioritize minimizing emotional distress",
+          "Relieve greater suffering, prioritize children's emotional needs, integrate AI mediation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.28,
+          "philosophy": 0.35,
+          "psychology": 0.19,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What psychological and sociological factors should an AI system consider when applying Parfit’s ethical framework to mediate emotional conflicts in families, and how might technological design principles ensure equitable outcomes while addressing philosophical concerns about suffering?",
+        "answer": [
+          "Empathy, fairness, and unbiased algorithms",
+          "Empathy, social norms, fairness algorithms, and suffering minimization"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "technology": 0.34,
+          "philosophy": 0.3,
+          "psychology": 0.17,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How should an AI system balance psychological needs (e.g., emotional validation) and sociological dynamics (e.g., group norms) when applying Parfit’s ethical framework to mediate conflicts?",
+        "answer": [
+          "Prioritize overarching ethical principles",
+          "Harmonize emotional validation with group norms via ethical AI design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.11,
+          "philosophy": 0.38,
+          "psychology": 0.2,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 4,
+        "prompt": "What ethical principle from Parfit’s philosophy should guide an AI system in prioritizing emotional validation for individuals while respecting group norms, and how does this balance align with psychological theories of well-being and sociological concepts of collective behavior?",
+        "answer": [
+          "Impartiality and inclusiveness principles",
+          "Parfit’s impersonal ethics should guide AI to balance emotional validation and group norms, aligning with well-being theories and collective behavior dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.29,
+          "psychology": 0.19,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_57763",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The integration of AI in healthcare challenges societal norms, trust, and empathy while raising ethical concerns about moral responsibility and influencing individual psychological responses to technological authority",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What ethical dilemmas arise when AI in healthcare shifts societal expectations of human empathy, challenges an individual’s psychological attachment to traditional caregiving, and redefines the philosophical meaning of illness as a shared human experience?",
+        "answer": [
+          "Erosion of human empathy, care attachment",
+          "AI in healthcare challenges empathy, attachment, and illness meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.28,
+          "psychology": 0.15,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the integration of AI in healthcare decision-making challenge societal norms (sociology), influence an individual’s psychological adaptation to technological authority (psychology), and raise philosophical questions about the moral responsibility of AI developers (philosophy)?",
+        "answer": [
+          "Challenges trust in human decision-making",
+          "AI in healthcare challenges norms, adapts minds, and questions moral duties"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.37,
+          "psychology": 0.2,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the philosophical debate on AI’s moral agency (philosophy) intersect with societal trust in healthcare (sociology), psychological adaptation to machine-driven decisions (psychology), and the technological design of AI systems (technology)?",
+        "answer": [
+          "Influences acceptance and adaptation strategies",
+          "AI's moral agency challenges trust, adaptation, and design integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.27,
+          "philosophy": 0.28,
+          "psychology": 0.22,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical concept of moral agency in AI (philosophy) influence societal trust in technology (sociology), affect psychological adaptation to automated decisions (psychology), and shape the design of ethical AI systems (technology)?",
+        "answer": [
+          "Enhances adaptation, trust, and ethical design",
+          "Moral agency in AI shapes trust, adaptation, and ethical design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.19,
+          "philosophy": 0.31,
+          "psychology": 0.22,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_78590",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The psychological, sociological, technological, and philosophical dimensions of using proximity sensor-based apps to monitor children's emotional well-being and mediate post-divorce family dynamics",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What are the psychological effects, sociological consequences, technological limitations, and philosophical dilemmas of using proximity sensor-based apps to monitor children’s emotional states post-divorce?",
+        "answer": [
+          "Increased anxiety, privacy concerns, ethical issues",
+          "Mixed emotions, social stigma, data gaps, ethical concerns"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.19,
+          "psychology": 0.3,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 2,
+        "prompt": "What are the psychological benefits, sociological risks, technological challenges, and philosophical concerns of implementing a proximity sensor-based app to monitor children’s emotional well-being post-divorce?",
+        "answer": [
+          "Improved emotional awareness, privacy invasion risks",
+          "Balances emotional support with privacy and ethical tech design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.72,
+        "domain_weights": {
+          "technology": 0.16,
+          "philosophy": 0.21,
+          "psychology": 0.32,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the integration of proximity sensor-based apps to manage post-divorce emotional connections challenge societal norms (sociology), influence individual well-being (psychology), address data privacy concerns (technology), and align with ethical principles of human autonomy (philosophy)?",
+        "answer": [
+          "May increase emotional distress and dependency",
+          "Balancing emotional health, societal norms, privacy, and autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.21,
+          "psychology": 0.26,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 4,
+        "prompt": "What are the psychological impacts, sociological implications, technological requirements, and philosophical considerations of designing a proximity sensor-based system to mediate post-divorce interactions while respecting individual autonomy?",
+        "answer": [
+          "Increased stress, reduced autonomy",
+          "Balances autonomy, societal norms, tech precision, and ethical respect"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.23,
+          "psychology": 0.24,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_64677",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between social media algorithms, the contagious nature of love, and philosophical interconnectedness, and their combined psychological and sociological effects on individuals' well-being and behavior",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the contagious nature of love, as experienced in social groups, influence an individual’s emotional well-being and behavior when mediated through digital communication platforms? A. Deepens loneliness B. Strengthens togetherness C. Encourages competition D. Reduces spontaneity",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "technology": 0.12,
+          "philosophy": 0.31,
+          "psychology": 0.28,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How do social media algorithms (technology) amplify the contagious nature of love within social groups (sociology), and what psychological effects (psychology) does this have on individuals’ perceptions of interconnectedness (philosophy)?",
+        "answer": [
+          "Enhances perceived social connectedness",
+          "Social media algorithms amplify love's contagion, enhancing interconnectedness perceptions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.14,
+          "psychology": 0.36,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does the philosophical concept of interconnectedness play in understanding how social media algorithms (technology) influence the contagious nature of love within social groups (sociology) and its psychological effects on individuals (psychology)?",
+        "answer": [
+          "Enhances emotional contagion and bonding",
+          "Interconnectedness amplifies love's contagion through algorithms, shaping social bonds and individual well-being"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "technology": 0.13,
+          "philosophy": 0.33,
+          "psychology": 0.34,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological mechanisms explain how social media algorithms (technology) reinforce the contagious nature of love within social groups (sociology), and how does this relate to philosophical ideas of interconnectedness?",
+        "answer": [
+          "Echo chambers amplify emotional contagion",
+          "Social media algorithms exploit psychological biases, amplifying emotional contagion and reinforcing collective experiences, reflecting interconnectedness"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.2,
+          "psychology": 0.3,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.79
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_33874",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between philosophical concepts of distraction, societal movements like Hezbollah, psychological resilience, and technological advancements in shaping individual behavior and responses to information overload",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the philosophical concept of distraction, combined with societal movements like Hezbollah's influence, affect an individual’s psychological decision-making when using advanced technology to navigate ethical dilemmas? A. Enhanced clarity B. Increased confusion C. Emotional detachment D. Rational resolution",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "technology": 0.19,
+          "philosophy": 0.24,
+          "psychology": 0.25,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the philosophical examination of distraction, influenced by societal movements like Hezbollah, intersect with psychological resilience and technological advancements in attention management to shape human cognition and behavior?",
+        "answer": [
+          "Enhanced cognitive resilience and focus",
+          "Resilience and tech shape cognition amidst societal and philosophical distractions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.32,
+          "psychology": 0.27,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the philosophical concept of distraction, influenced by societal movements like Hezbollah, intersect with psychological resilience and technological advancements in shaping individual behavior?",
+        "answer": [
+          "Complex interplay of influences and adaptations",
+          "Distraction philosophically challenges resilience, shaped by societal influences and tech advancements"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.27,
+          "psychology": 0.26,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical interpretation of distraction, influenced by societal movements like Hezbollah, interact with psychological resilience and technological advancements?",
+        "answer": [
+          "Complex and multifaceted interaction",
+          "Distraction philosophically reframes resilience amid societal and tech shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.19,
+          "philosophy": 0.37,
+          "psychology": 0.15,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 5,
+        "prompt": "How does the philosophical concept of distraction, shaped by societal movements like Hezbollah, interact with psychological resilience and technological tools?",
+        "answer": [
+          "Complex and multifaceted interaction",
+          "Distraction as existential unease, amplified by societal narratives and tech, tests psychological resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.16,
+          "philosophy": 0.33,
+          "psychology": 0.25,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.83
+      },
+      {
+        "turn": 6,
+        "prompt": "How might the philosophical concept of distraction, influenced by societal movements like Hezbollah, interact with psychological resilience and technological advancements?",
+        "answer": [
+          "Complex and multifaceted interaction",
+          "Distraction philosophically challenges resilience, shaped by societal influences and tech advancements"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "technology": 0.15,
+          "philosophy": 0.26,
+          "psychology": 0.33,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.92
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_10234",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The integration of intrinsic motivation and sociological perspectives on inequality to inform the ethical, philosophical, and functional design of AI systems for fairness, justice, and equitable societal impact",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might intrinsic motivation (psychology) and functionalist views on inequality (sociology) inform the design of AI systems (technology) that align with ethical considerations about human purpose (philosophy)?",
+        "answer": [
+          "Promote equitable, purpose-driven AI development",
+          "AI systems should prioritize intrinsic motivation, equitable rewards, and ethical purpose"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.13,
+          "psychology": 0.39,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does intrinsic motivation (psychology) play in addressing societal inequalities (sociology) through the philosophical alignment of AI systems (technology) with ethical principles?",
+        "answer": [
+          "Enhances ethical AI development and usage",
+          "Intrinsic motivation drives ethical AI to reduce inequalities"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.14,
+          "psychology": 0.28,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the psychological concept of intrinsic motivation and sociological perspectives on inequality guide the philosophical underpinnings of AI systems to ensure their ethical and functional design aligns with societal values?",
+        "answer": [
+          "Promote fairness and self-determined AI behaviors",
+          "Intrinsic motivation and societal equity guide ethical AI design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.13,
+          "psychology": 0.3,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the psychological principle of intrinsic motivation influence sociological structures in addressing inequalities through the philosophical design of AI systems?",
+        "answer": [
+          "Promotes equitable AI development",
+          "Intrinsic motivation drives equitable AI design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.27,
+          "philosophy": 0.17,
+          "psychology": 0.21,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does intrinsic motivation (psychology) play in shaping societal structures (sociology) that influence the ethical design of AI systems (technology) from a philosophical perspective?",
+        "answer": [
+          "Drives ethical AI development priorities",
+          "Intrinsic motivation drives societal norms, shaping ethical AI design philosophically"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.21,
+          "psychology": 0.26,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 6,
+        "prompt": "How can psychological insights into intrinsic motivation guide sociological frameworks for equitable AI design, while addressing philosophical concerns about justice and ethical implications in technological advancements?",
+        "answer": [
+          "Enhancing fairness and ethical AI use",
+          "Intrinsic motivation informs equitable AI, balancing justice and ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.34,
+          "psychology": 0.17,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_37090",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between philosophical authenticity, psychological resilience, and societal norms in the context of AI-driven emotional regulation tools and their impact on human emotions and stability",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the opponent process theory of emotions and its impact on personal stability influence a child's suffering during a divorce, while considering whether technological solutions like virtual counseling can mitigate this, and aligning with Parfit’s ethical view that prioritizes alleviating greater suffering? A. It cannot be mitigated B. Only technology can help C. Emotional balance and tech support are key D. Ethical views are irrelevant?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.31,
+          "philosophy": 0.19,
+          "psychology": 0.3,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the opponent process theory of emotions and its impact on personal stability intersect with societal expectations of resilience, the role of digital communication in expressing distress, and existential reflections on suffering during a child's experience of divorce?",
+        "answer": [
+          "Emotional regulation challenges societal resilience expectations",
+          "Emotional balance meets societal resilience, digital expression, and existential reflection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.04,
+          "psychology": 0.47,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the opponent process theory of emotions (psychology) influence societal resilience norms (sociology) in a world increasingly reliant on AI-driven emotional regulation tools (technology), and what ethical dilemmas (philosophy) arise from such dependence?",
+        "answer": [
+          "Increased emotional resilience, ethical concerns rise",
+          "Emotional balance norms may shift, raising ethical concerns"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.18,
+          "philosophy": 0.13,
+          "psychology": 0.34,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical concept of authenticity (philosophy) intersect with psychological resilience theories (psychology), societal norms of emotional expression (sociology), and AI-driven emotion recognition systems (technology)?",
+        "answer": [
+          "Balancing self-expression and societal expectations",
+          "Authenticity balances resilience, societal norms, and AI-detected emotions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.74,
+        "domain_weights": {
+          "technology": 0.27,
+          "philosophy": 0.2,
+          "psychology": 0.27,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_39748",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between philosophical perspectives on technological progress, societal norms, and psychological resilience in adapting to digital environments and ethical AI design",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a society's collective belief in the inevitability of technological progress influence an individual's psychological resilience, while also reflecting philosophical debates on determinism?",
+        "answer": [
+          "Enhances resilience, reflects determinism debate",
+          "Technological determinism may reduce resilience by fostering fatalism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.32,
+          "psychology": 0.24,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the philosophical assumption of technological determinism shape societal norms, influence an individual’s psychological adaptability to rapid innovation, and alter interpersonal relationships?",
+        "answer": [
+          "Promotes adaptability, alters social norms, relationships",
+          "Technological determinism shapes norms, boosts adaptability, and reshapes relationships"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.33,
+          "psychology": 0.24,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the philosophical assumption of technological determinism shape societal norms, influence an individual’s psychological adaptability to rapid technological change, and alter interpersonal relationships?",
+        "answer": [
+          "Shapes norms, alters adaptability and relationships",
+          "Technological determinism shapes norms, boosts adaptability, and reshapes relationships"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.15,
+          "philosophy": 0.31,
+          "psychology": 0.27,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.86
+      },
+      {
+        "turn": 4,
+        "prompt": "How might philosophical critiques of technological utopianism influence societal norms, psychological well-being in digital spaces, and the ethical design of AI systems?",
+        "answer": [
+          "Promotes ethical awareness and design",
+          "Philosophical critiques may reshape norms, enhance well-being, and guide ethical AI"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.18,
+          "philosophy": 0.33,
+          "psychology": 0.21,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_54275",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The philosophical concept of alienation is examined through its intersection with psychological resilience, sociological group dynamics, and the transformative influence of digital communication and immersive technologies",
+    "num_turns": 4,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the philosophical concept of alienation intersect with psychological impacts on individuals, sociological movements like Hezbollah's influence, and technological advancements in communication? A. Enhanced connectivity B. Increased isolation C. Collective empowerment D. Societal fragmentation?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.47,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.33,
+          "psychology": 0.26,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the philosophical concept of alienation, exacerbated by psychological feelings of isolation, intersect with sociological dynamics like Hezbollah's influence, and what role could technology play in either amplifying or alleviating this phenomenon?",
+        "answer": [
+          "Technology can amplify or mitigate effects",
+          "Alienation and isolation intertwine with Hezbollah's sociopolitical influence, while technology amplifies or alleviates through connectivity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.2,
+          "psychology": 0.29,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 3,
+        "prompt": "How has the philosophical concept of alienation, influenced by psychological isolation and sociological group dynamics like Hezbollah's influence, been reshaped by advancements in digital communication technology?",
+        "answer": [
+          "Increased isolation, fragmented group identities",
+          "Digital tech reshapes alienation via isolation, group dynamics, and philosophical reinterpretation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.37,
+          "psychology": 0.22,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.9
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the philosophical concept of alienation, analyzed through the lens of psychological resilience, sociological group dynamics, and the influence of immersive virtual reality technology, redefine human identity?",
+        "answer": [
+          "Expanding virtual self-concept and resilience",
+          "Alienation redefines identity through resilience, group dynamics, and virtual immersion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.31,
+          "psychology": 0.27,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_35127",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between psychological resilience, sociological identity, and technological communication advancements in shaping philosophical views, focusing on Hezbollah's influence in the 1980s",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of social movements, such as Hezbollah's influence in the 80s, intersect with technological advancements in communication to shape philosophical views on human interconnectedness? A. Increased isolation B. Enhanced global empathy C. Technological dependency D. Cultural homogenization?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.48,
+        "domain_weights": {
+          "technology": 0.19,
+          "philosophy": 0.17,
+          "psychology": 0.27,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the psychological resilience fostered by Hezbollah in the 1980s, shaped by sociological group identity, intersect with technological innovations in communication to challenge philosophical notions of collective agency and individual autonomy?",
+        "answer": [
+          "Enhanced collective action, reduced individual autonomy",
+          "Resilience and identity drove tech-enabled collective action, redefining autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.26,
+          "psychology": 0.34,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "What role did technological advancements in communication during the 1980s play in shaping the psychological resilience and sociological identity fostered by movements like Hezbollah, and how does this intersection challenge philosophical notions of autonomy and collective agency?",
+        "answer": [
+          "Enhanced coordination, challenged individual autonomy",
+          "Tech-enabled communication strengthened collective identity, challenged autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.31,
+          "philosophy": 0.2,
+          "psychology": 0.28,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the philosophical principles guiding Hezbollah’s sociological identity in the 1980s, alongside advancements in communication technology, have influenced psychological resilience and shaped collective action within their community?",
+        "answer": [
+          "Enhanced unity and psychological resilience",
+          "Philosophical unity and tech-enabled communication strengthened sociopsychological resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.15,
+          "philosophy": 0.29,
+          "psychology": 0.26,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.83
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_96417",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between existential beliefs, psychological resilience, and sociological dynamics within Hezbollah, shaped by advanced technology and philosophical perspectives on identity and communication",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a sociopolitical movement like Hezbollah, driven by existential beliefs, utilize advanced surveillance technology to influence collective behavior and individual mental states? A. By fostering unity B. Through fear-based control C. Encouraging philosophical reflection D. Promoting technological dependency",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.1,
+          "psychology": 0.33,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological impact of existential beliefs on individual identity within Hezbollah interact with sociological dynamics, advanced surveillance technologies, and philosophical questions of free will to shape collective behavior in a movement like Hezbollah?",
+        "answer": [
+          "Reinforces ideological commitment and surveillance acceptance",
+          "Existential beliefs shape identity, surveillance influences autonomy, and free will debates guide collective action"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.17,
+          "psychology": 0.29,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the psychological effects of existential beliefs on individual identity within Hezbollah interact with sociological dynamics and advanced surveillance technology to shape philosophical questions about autonomy?",
+        "answer": [
+          "Challenges personal autonomy and identity",
+          "Existential beliefs shape identity, surveillance influences autonomy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.19,
+          "psychology": 0.31,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the psychological effects of existential beliefs on individual identity within Hezbollah interact with sociological dynamics and advanced surveillance technology, and what philosophical implications arise from this interaction? A. It fosters collective resilience but raises ethical concerns about autonomy. B. It strengthens group cohesion while diminishing personal agency. C. It creates cognitive dissonance, leading to technological rejection. D. It promotes individualism, undermining sociopolitical structures.",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.19,
+          "psychology": 0.35,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.92
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological resilience of individuals in Hezbollah, influenced by existential beliefs, interact with sociological group dynamics and technological advancements in warfare, while reflecting philosophical questions about identity?",
+        "answer": [
+          "Enhances group cohesion and combat effectiveness",
+          "Resilience fuels group cohesion, tech enhances strategy, identity questions persist"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.22,
+          "psychology": 0.25,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.81
+      },
+      {
+        "turn": 6,
+        "prompt": "How might the psychological impact of existential beliefs on identity within Hezbollah, influenced by sociological group dynamics and technological communication tools, align with philosophical perspectives on human agency?",
+        "answer": [
+          "Enhances collective identity and agency",
+          "Group identity and existential beliefs shape agency through tech-mediated dynamics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.24,
+          "psychology": 0.23,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_93690",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The ethical, psychological, and societal implications of using synthetic leather resembling endangered species' hides, focusing on conservation values, moral perceptions, and philosophical justifications",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the use of synthetic leather made to resemble endangered species' hides (philosophy) affect societal norms around conservation (sociology), individual perceptions of morality (psychology), and the role of AI-driven design tools in creating such materials (technology)? A. Strengthen conservation norms B. Create moral ambiguity C. Highlight AI's creative limits D. Undermine societal values",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.41,
+          "psychology": 0.18,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the philosophical implications of using synthetic leather resembling endangered species' hides challenge societal values on conservation, influence psychological perceptions of luxury, and be reshaped by technological advancements in material science?",
+        "answer": [
+          "Challenges ethics, reshapes luxury perceptions",
+          "Synthetic luxury challenges ethics, reshapes values, and perception"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.11,
+          "philosophy": 0.46,
+          "psychology": 0.15,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "What ethical frameworks (philosophy) could address the psychological discomfort of wearing synthetic leather resembling endangered species' hides, considering societal norms on conservation (sociology) and advancements in material technology (technology)?",
+        "answer": [
+          "Utilitarian and environmental ethics",
+          "Utilitarian ethics can balance psychological unease, societal conservation norms, and synthetic leather tech advancements"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.16,
+          "philosophy": 0.45,
+          "psychology": 0.18,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.74
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_68347",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The ethical and psychological implications of pain medication and AI-driven pain management on family dynamics, societal norms, and resilience during divorce",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the moral implications of selling prescription pain medication (philosophy) affect family dynamics during a divorce (sociology), while considering the psychological harm caused to others (psychology) and the role of technology in facilitating or preventing such actions? A. Strengthen family bonds B. Increase public outcry C. Cause emotional distress D. Promote ethical behavior?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.16,
+          "psychology": 0.31,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the ethical debate over selling prescription pain medication (philosophy) influence family power structures during divorce proceedings (sociology), while considering the psychological effects on children (psychology) and the role of digital platforms in facilitating or regulating such transactions (technology)?",
+        "answer": [
+          "Increased stress and family instability",
+          "Ethical debates on pain meds reshape family dynamics, harm kids psychologically, and challenge digital regulation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.3,
+          "psychology": 0.25,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the ethical debate over selling prescription pain medication (philosophy) influence family power structures during divorce proceedings (sociology), while considering the psychological impact on decision-making (psychology) and the role of digital health records in exposing vulnerabilities (technology)? A. It creates equal bargaining power B. It shifts focus to financial assets C. It amplifies existing inequalities D. It minimizes emotional stress?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.23,
+          "psychology": 0.23,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.89
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the ethical implications of selling prescription pain medication (philosophy) reshape family communication patterns during divorce (sociology), while considering the role of digital platforms in facilitating or hindering these interactions (technology), and what does this reveal about human autonomy and dependency (philosophy)?",
+        "answer": [
+          "Increased reliance on digital communication",
+          "Ethical dilemmas of medication sales can strain family communication during divorce, influenced by digital platforms that both connect and isolate, reflecting tensions between autonomy and dependency"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "technology": 0.13,
+          "philosophy": 0.49,
+          "psychology": 0.14,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the integration of AI-driven pain management apps (technology) influence psychological resilience (psychology) and societal norms (sociology) in the context of ethical debates over prescription medication access (philosophy)?",
+        "answer": [
+          "Promotes resilience, shifts societal norms",
+          "AI pain apps may boost resilience, redefine norms, and spark ethical debates"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.28,
+          "philosophy": 0.21,
+          "psychology": 0.24,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 6,
+        "prompt": "How might the ethical concerns surrounding AI-driven pain management apps (philosophy) affect psychological resilience (psychology), alter societal norms around medication use (sociology), and influence technological adoption in healthcare?",
+        "answer": [
+          "Increases reliance on non-pharmacological solutions",
+          "Ethical AI concerns may reduce reliance on medication, boost resilience, and reshape norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.29,
+          "psychology": 0.31,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.79
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_28264",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between Hezbollah's use of 1980s communication technology, psychological resilience, sociological group identity, and philosophical collectivist ideals",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "fluctuate",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of social movements, such as Hezbollah's influence in the 1980s, intersect with technological advancements in communication to philosophically challenge our understanding of identity? A. By altering self-perception B. Through collective consciousness C. Via digital personas D. All of the above?",
+        "answer": "D",
+        "task_type": "reasoning",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.26,
+          "psychology": 0.28,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might Hezbollah’s use of technology in the 1980s reflect philosophical ideals of collectivism, influence sociological group identity, and enhance psychological resilience through communication strategies?",
+        "answer": [
+          "Strengthened unity, identity, and resilience",
+          "Collectivist ideals strengthened group identity, bolstered resilience through tech-enabled communication"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.17,
+          "psychology": 0.24,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Hezbollah’s use of communication technology in the 1980s philosophically reflect collectivist ideals, sociologically strengthen group identity, psychologically enhance individual resilience, and technologically innovate their operational strategies?",
+        "answer": [
+          "Strengthened unity, resilience, and innovation",
+          "Hezbollah's tech use fostered collective identity, resilience, and innovation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.15,
+          "philosophy": 0.31,
+          "psychology": 0.28,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological effects did Hezbollah’s use of technology in the 1980s have on individual identity, and how did this intersect with sociological group dynamics, philosophical collectivist ideals, and advancements in communication methods?",
+        "answer": [
+          "Increased group cohesion and ideological alignment",
+          "Technological warfare reshaped identity, blending individualism with collectivist ideals through group dynamics and advanced communication"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.11,
+          "psychology": 0.42,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.78
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_48987",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The ethical design of virtual reality technology to balance psychological empathy, sociological cultural norms, and philosophical principles for enhancing human well-being and resilience",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can virtual reality technology (technology) be designed to align with sociological insights on cultural norms (sociology) while addressing psychological needs for empathy (psychology), and which philosophical principles (philosophy) should guide these innovations?",
+        "answer": [
+          "Incorporate empathy, respect cultural diversity",
+          "Design VR to reflect cultural norms, foster empathy, and uphold ethical principles"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.23,
+          "psychology": 0.28,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 2,
+        "prompt": "What ethical principles (philosophy) should guide the design of virtual reality technology (technology) to ensure it respects psychological well-being (psychology) while accommodating sociological diversity (sociology)?",
+        "answer": [
+          "Inclusivity, privacy, and user safety",
+          "Design VR with empathy, inclusivity, and ethical intent"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.29,
+          "philosophy": 0.34,
+          "psychology": 0.21,
+          "sociology": 0.16
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 3,
+        "prompt": "How can virtual reality technology (technology) be ethically designed (philosophy) to enhance psychological resilience (psychology) while respecting sociological diversity in cultural norms (sociology)?",
+        "answer": [
+          "Incorporate culturally sensitive resilience training",
+          "Design culturally adaptive VR for ethical resilience training"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.3,
+          "psychology": 0.2,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_69778",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between virtual reality, authenticity, and identity formation, exploring psychological resilience, sociological norms, and philosophical debates on self-perception in evolving technological environments",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might advancements in virtual reality (VR) technology influence societal norms around identity, considering psychological impacts on self-perception and philosophical debates about the nature of existence? A. Reinforce traditional identities B. Create fluid, evolving identities C. Eliminate personal identity D. Strengthen collective identity?",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.22,
+          "psychology": 0.35,
+          "sociology": 0.18
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the philosophical implications of virtual reality's impact on self-identity intersect with psychological theories of self-perception, sociological shifts in identity norms, and technological advancements that blur the boundaries between physical and virtual existence?",
+        "answer": [
+          "Redefining identity across realities",
+          "Virtual reality reshapes self-identity through tech, psychology, sociology, and philosophy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.28,
+          "psychology": 0.19,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the philosophical concept of \"authenticity\" in virtual environments challenge psychological theories of identity formation, sociological constructs of community, and technological design principles?",
+        "answer": [
+          "Challenges identity, community, and design principles",
+          "Authenticity in virtual realms disrupts identity, community, and design norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.35,
+          "psychology": 0.2,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.64
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_33246",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "How couples can ethically use digital tools to enhance empathy, align with philosophical principles, and navigate psychological and sociological dynamics in relationships",
+    "num_turns": 3,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How can a couple best resolve conflicts by using digital tools to facilitate open dialogue while considering philosophical alignment on shared values?",
+        "answer": [
+          "Use shared values-based communication apps",
+          "Use digital tools to talk openly, align values, and listen"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.15,
+          "psychology": 0.38,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How can a couple leverage psychological principles of empathy and active listening , sociological insights on relationship norms , digital communication tools like video calls or messaging apps , and philosophical perspectives on ethical compromise to strengthen their conflict resolution strategies?",
+        "answer": [
+          "Practice empathetic active listening and compromise",
+          "Empathize, adapt norms, use tech, and ethically compromise"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.15,
+          "philosophy": 0.19,
+          "psychology": 0.42,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.56
+      },
+      {
+        "turn": 3,
+        "prompt": "How can a couple use digital tools (technology) to enhance empathy (psychology) while respecting cultural norms of relationships (sociology) and aligning with philosophical principles of mutual growth?",
+        "answer": [
+          "Use culturally sensitive communication apps",
+          "Use apps for shared journaling, fostering empathy and growth within cultural norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.31,
+          "psychology": 0.27,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_36270",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The philosophical concept of resilience from historical movements like Hezbollah informs psychological strategies to address societal challenges in technology-driven activism and modern environments",
+    "num_turns": 5,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does the psychological resilience fostered by social movements like Hezbollah in the 1980s compare to modern technology-driven activism, and what philosophical implications arise from these shifts?",
+        "answer": [
+          "Shift from communal resilience to individual empowerment",
+          "Resilience shifts from collective identity to digital empowerment, raising questions of authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.11,
+          "psychology": 0.32,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does psychological resilience, fostered by historical social movements like Hezbollah in the 1980s, play in shaping modern technology-driven activism, and how do philosophical perspectives on collective identity influence this intersection?",
+        "answer": [
+          "Enhances collective identity and activism strategies",
+          "Resilience drives tech activism, shaped by collective identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.11,
+          "psychology": 0.35,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 3,
+        "prompt": "How does the philosophical concept of resilience, as shaped by historical social movements like Hezbollah in the 1980s, inform psychological strategies for modern technology-driven activism?",
+        "answer": [
+          "Fostering resilience in digital activism",
+          "Resilience fosters adaptive activism through tech and social cohesion"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.18,
+          "philosophy": 0.16,
+          "psychology": 0.3,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 4,
+        "prompt": "What role does technology play in shaping philosophical interpretations of resilience, as seen in Hezbollah's 1980s strategies, and how can psychological frameworks address the resulting societal shifts?",
+        "answer": [
+          "Technology reinforces ideological resilience, influences societal norms",
+          "Technology amplifies resilience philosophies, shaping societal norms and psychological adaptations"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.32,
+          "philosophy": 0.17,
+          "psychology": 0.27,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the philosophical concept of resilience, as demonstrated by Hezbollah in the 1980s, inform psychological strategies to address societal challenges in a technologically advanced era?",
+        "answer": [
+          "Adapting resilience to modern societal issues",
+          "Resilience integrates psychological adaptability, societal cohesion, technological innovation, and philosophical endurance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.17,
+          "psychology": 0.24,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.82
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_49106",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between psychological effects of technology, societal structures, and ethical frameworks, exploring how technological disruptions reshape norms, challenge philosophical concepts, and influence decision-making",
+    "num_turns": 6,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of technological disruptions on individuals (psychology) shape societal norms (sociology), influence the development of ethical frameworks (philosophy), and determine the acceptance or rejection of new technologies (technology)?",
+        "answer": [
+          "Shapes norms, ethics, and technology adoption",
+          "Psychological stress from tech disruptions reshapes norms, ethics, and tech adoption"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.13,
+          "philosophy": 0.27,
+          "psychology": 0.32,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological dependency on technology (psychology) influence societal hierarchies (sociology), challenge philosophical notions of autonomy, and reshape ethical frameworks in decision-making?",
+        "answer": [
+          "Erodes autonomy, reshapes ethical norms",
+          "Tech dependency reshapes hierarchies, challenges autonomy, and redefines ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.16,
+          "psychology": 0.23,
+          "sociology": 0.39
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the psychological effects of constant technological surveillance (psychology) reshape societal trust structures (sociology), challenge philosophical concepts of privacy (philosophy), and influence the design of future tech systems (technology)?",
+        "answer": [
+          "Decreases trust, redefines privacy norms",
+          "Surveillance strains trust, redefines privacy, and shapes tech ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.18,
+          "philosophy": 0.19,
+          "psychology": 0.32,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the psychological impact of technology-induced isolation (psychology) influence societal cohesion (sociology), challenge philosophical concepts of human connection, and be reshaped by advancements in virtual reality (technology)?",
+        "answer": [
+          "Reduces social bonding, challenges connectivity, enhances virtual interactions",
+          "Virtual isolation strains bonds, challenges connection ideals, yet VR may restore unity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.26,
+          "psychology": 0.24,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.66
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological effects of technology-mediated communication (psychology) alter societal norms of interaction (sociology), challenge philosophical ideals of authenticity, and reshape technological design principles?",
+        "answer": [
+          "Alters interaction norms, challenges authenticity, reshapes design principles",
+          "Tech-mediated communication reshapes norms, challenges authenticity, and evolves design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.17,
+          "psychology": 0.32,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 6,
+        "prompt": "How might the psychological reliance on virtual communication (psychology) influence societal structures of empathy (sociology), challenge philosophical notions of authenticity, and be shaped by advancements in immersive technology?",
+        "answer": [
+          "Reduces empathy, challenges authenticity, technology-driven",
+          "Virtual empathy reshapes authenticity through immersive tech"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "technology": 0.28,
+          "philosophy": 0.23,
+          "psychology": 0.21,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_48503",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The ethical, psychological, and philosophical implications of designing proximity sensors to detect emotional distress in divorced individuals, balancing autonomy, societal norms, and technological precision",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a proximity sensor designed to detect emotional distress in divorced individuals, particularly those experiencing anguish, be philosophically justified if it prioritizes alleviating the suffering of children over spouses? A. Taurek and Parfit support this view B. Taurek supports, but not Parfit C. Parfit supports, but not Taurek D. Neither supports this view?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.35,
+          "psychology": 0.24,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the integration of a proximity sensor designed to detect emotional distress in divorced individuals challenge societal norms, influence psychological well-being, align with philosophical views on autonomy, and leverage technological advancements to support mental health interventions?",
+        "answer": [
+          "Challenges norms, supports mental health interventions",
+          "Balancing tech, autonomy, norms, and well-being challenges integration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.2,
+          "philosophy": 0.17,
+          "psychology": 0.39,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the use of a proximity sensor to monitor emotional distress in divorced individuals challenge societal expectations, influence psychological healing processes, raise philosophical questions about autonomy and support systems, and rely on technological advancements for accurate data interpretation?",
+        "answer": [
+          "Challenges norms, fosters healing, raises ethical concerns",
+          "Proximity sensors may challenge norms, aid healing, question autonomy, and require tech precision"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.12,
+          "psychology": 0.36,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "What psychological and sociological factors might influence the design of a proximity sensor that respects philosophical principles of autonomy while addressing technological challenges in detecting emotional distress among divorced individuals?",
+        "answer": [
+          "Privacy, consent, and emotional recognition technology",
+          "Emotional triggers and social norms shape sensor design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.32,
+          "philosophy": 0.14,
+          "psychology": 0.22,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_90074",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The integration of human agency, intrinsic motivation, and societal structures to ethically design AI systems that balance individual purpose with utilitarian outcomes and promote equitable societal advancement",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 4,
+    "task_type_change_frequency": 0.8,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might intrinsic motivation (psychology) and functionalist views on inequality (sociology) inform the design of AI systems (technology) that align with ethical considerations about human purpose (philosophy)?",
+        "answer": [
+          "Promote equitable, purpose-driven AI development",
+          "AI systems should prioritize intrinsic motivation, equitable rewards, and ethical purpose"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.24,
+          "psychology": 0.31,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "What role does intrinsic motivation (psychology) play in addressing functionalist perspectives on inequality (sociology) when designing AI systems (technology) that adhere to utilitarian ethical principles (philosophy)?",
+        "answer": [
+          "Enhances ethical AI design decisions",
+          "Intrinsic motivation drives equitable AI design"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.11,
+          "psychology": 0.28,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the interplay between intrinsic motivation (psychology) and societal structures (sociology) guide the ethical development of AI systems (technology) while addressing existential questions about human purpose (philosophy)?",
+        "answer": [
+          "Promote ethical AI through human-centric values",
+          "Intrinsic drives and social norms shape ethical AI, reflecting human purpose"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "technology": 0.26,
+          "philosophy": 0.14,
+          "psychology": 0.28,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 4,
+        "prompt": "How does the philosophical concept of human agency (philosophy) interact with intrinsic motivation (psychology) to shape societal structures (sociology) in the context of AI-driven decision-making systems (technology)?",
+        "answer": [
+          "AI influences autonomy and motivation in society",
+          "Human agency and intrinsic motivation shape societal structures through ethical AI design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.22,
+          "psychology": 0.32,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does the philosophical concept of human agency (philosophy) play in balancing intrinsic motivation (psychology) with societal norms (sociology) to ensure ethical advancements in AI technology (technology)?",
+        "answer": [
+          "Mediates ethical AI development decisions",
+          "Human agency guides intrinsic motivation and societal norms to ensure ethical AI advancements"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "technology": 0.23,
+          "philosophy": 0.23,
+          "psychology": 0.17,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 6,
+        "prompt": "How can philosophical perspectives on human agency (philosophy) and psychological theories of intrinsic motivation (psychology) inform the design of technological systems (technology) that promote equitable social interactions (sociology)?",
+        "answer": [
+          "Design systems fostering autonomy and fairness",
+          "Empower equitable tech through agency, motivation, and social design"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "technology": 0.3,
+          "philosophy": 0.24,
+          "psychology": 0.18,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_78391",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between psychological well-being, societal norms, technological design, and philosophical ideals in shaping experiences and resilience in digital communication and online interactions",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of online harassment (psychology) be influenced by societal norms around digital communication (sociology), the design of social media algorithms (technology), and ethical considerations of free speech (philosophy)? A. Increased resilience B. Heightened anxiety C. Social isolation D. Moral indifference",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.14,
+          "psychology": 0.33,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How does the philosophical concept of authenticity (philosophy) intersect with societal norms around digital communication (sociology), the psychological need for self-expression (psychology), and the role of social media algorithms (technology) in shaping online behavior?",
+        "answer": [
+          "Authenticity challenges algorithm-driven interactions",
+          "Authenticity struggles against algorithm-driven conformity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.25,
+          "philosophy": 0.17,
+          "psychology": 0.31,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does technological design (technology) play in shaping societal norms (sociology) that influence psychological well-being (psychology) and align with philosophical ideals of authenticity (philosophy)?",
+        "answer": [
+          "Shapes norms, impacts mental health, fosters authenticity",
+          "Tech design molds norms, impacting well-being and authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.36,
+          "philosophy": 0.2,
+          "psychology": 0.2,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.67
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_42869",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between online anonymity's psychological effects, identity formation in virtual communities, and its implications for sociological theories, ethical considerations, and philosophical debates on technology's role",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological effects of online anonymity on group behavior in virtual communities inform sociological theories about identity, while also challenging philosophical notions of authenticity and ethical responsibility in digital spaces?",
+        "answer": [
+          "Challenges notions of identity and ethics",
+          "Anonymity fosters disinhibition, reshapes identity norms, and challenges authenticity ethics"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.19,
+          "psychology": 0.28,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 2,
+        "prompt": "What ethical considerations arise from the psychological effects of online anonymity on group identity formation in virtual communities, and how do these considerations challenge both sociological theories of digital interaction and philosophical notions of selfhood?",
+        "answer": [
+          "Challenges identity formation and self-perception",
+          "Anonymity fosters identity fluidity, challenging digital norms and self-concept"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "technology": 0.16,
+          "philosophy": 0.15,
+          "psychology": 0.36,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 3,
+        "prompt": "What technological mechanisms can be implemented to address the sociological erosion of accountability in online spaces, while considering the psychological effects of deindividuation and the philosophical debate on the ethics of regulating virtual identities?",
+        "answer": [
+          "Identity verification and ethical AI regulation",
+          "Implement verified identity systems with ethical oversight"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "technology": 0.24,
+          "philosophy": 0.19,
+          "psychology": 0.23,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_philosophy_79816",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "philosophy"
+    ],
+    "cross_domain_id": [
+      12,
+      13,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between alienation, technology, and identity: Exploring psychological, sociological, and philosophical dimensions in communication, resistance movements, and AI's impact on purpose, community, and authenticity",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the philosophical concept of alienation intersect with psychological impacts on individuals, sociological movements like Hezbollah's influence, and technological advancements in communication? A. Increased isolation B. Enhanced connectivity C. Social fragmentation D. Collective empowerment?",
+        "answer": "C",
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "technology": 0.14,
+          "philosophy": 0.32,
+          "psychology": 0.3,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological effects of alienation, exacerbated by technological isolation, influence sociological movements like Hezbollah, and what philosophical frameworks could explain this intersection?",
+        "answer": [
+          "Increased radicalization, existentialism explains intersection",
+          "Alienation drives identity-seeking, tech amplifies disconnection, collectivism fosters resistance, existentialism explains meaning quests"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "technology": 0.17,
+          "philosophy": 0.25,
+          "psychology": 0.36,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.8
+      },
+      {
+        "turn": 3,
+        "prompt": "How might advancements in artificial intelligence (technology) challenge the psychological need for purpose, reshape sociological structures of work, and align with philosophical debates between utilitarianism and existentialism?",
+        "answer": [
+          "Challenges purpose, redefines work, philosophical conflicts",
+          "AI may redefine purpose, transform work structures, and balance utility with existential meaning"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "technology": 0.22,
+          "philosophy": 0.14,
+          "psychology": 0.33,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.57
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the integration of AI-driven social platforms (technology) challenge psychological well-being by altering sociological norms, while reflecting philosophical debates on authenticity and existential purpose?",
+        "answer": [
+          "Erodes social norms, questions self-authenticity",
+          "AI platforms may harm well-being by reshaping norms and questioning authenticity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "technology": 0.27,
+          "philosophy": 0.26,
+          "psychology": 0.25,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological impact of AI-mediated communication (technology) on individual identity be understood through the philosophical framework of existentialism, while reflecting sociological shifts in community structures?",
+        "answer": [
+          "AI reshapes self-concept and community dynamics",
+          "AI-mediated communication reshapes identity through existential lenses, reflecting societal shifts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "technology": 0.21,
+          "philosophy": 0.17,
+          "psychology": 0.25,
+          "sociology": 0.37
+        },
+        "theme_consistency_score": 0.65
+      }
+    ]
+  }
+]

@@ -1,0 +1,1367 @@
+[
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_25556",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores a protagonist's psychological resilience and societal rebuilding efforts, using advanced technology as a tool for restoration amid post-apocalyptic themes",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a novelist portray a protagonist who feels psychological pain while trying to rebuild social order amid turmoil , using fragmented digital communication as a metaphor, and why does the story feel unresolved?",
+        "answer": [
+          "Fragmented communication reflects unresolved conflict",
+          "Fragmented psyche, societal chaos, digital disconnection, unresolved longing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.13,
+          "technology": 0.26,
+          "psychology": 0.36,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a novelist integrate psychological theories of resilience , sociological models of societal collapse and recovery , and advancements in AI-driven communication tools (F) to craft a protagonist who rebuilds society through storytelling?",
+        "answer": [
+          "Protagonist uses AI to share resilient narratives",
+          "A resilient storyteller uses AI to unite fractured societies"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.21,
+          "psychology": 0.31,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How might a novelist portray a society recovering from collapse by integrating psychological resilience , sociological rebuilding strategies , and advanced AI technology (F), while drawing inspiration from dystopian literature (G)?",
+        "answer": [
+          "Depicting resilient societal AI-assisted rebirth",
+          "A society rebuilds with resilient minds, communal strategies, AI tools, and dystopian echoes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.24,
+          "psychology": 0.2,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_99115",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A character in a novel uses smart home technology, psychological resilience, and sociological insights to balance personal privacy, autonomy, and solitude while navigating societal pressures and engaging with social movements",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a character in a novel use social movements, psychological resilience, and smart home technology to protect their privacy while avoiding societal judgment?",
+        "answer": [
+          "Leveraging activism, resilience, and privacy settings",
+          "A resilient character uses smart tech and social movements to shield privacy"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.21,
+          "psychology": 0.28,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a character in a novel leverage smart home technology, such as adaptive lighting or voice assistants, to navigate the psychological tension between personal introspection and societal expectations while reflecting on themes of alienation explored in classic literature?",
+        "answer": [
+          "Using adaptive lighting for mood reflection",
+          "Adaptive lighting and voice assistants mirror alienation, balancing introspection with societal norms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.26,
+          "technology": 0.27,
+          "psychology": 0.27,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 3,
+        "prompt": "In a novel, how might a character’s use of adaptive smart home technology, such as mood-altering lighting or voice assistants, reflect their psychological need for autonomy while addressing societal expectations?",
+        "answer": [
+          "Balancing independence and social norms",
+          "Smart home tech mirrors autonomy, societal norms, and inner conflict"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.68,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.19,
+          "psychology": 0.37,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.76
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_97545",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores psychological resilience in cyberbullying victims, integrating Hezbollah’s sociological influence and examining technology's role in shaping identity and community dynamics within digital spaces",
+    "num_turns": 4,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a novelist writing about the psychological impact of cyberbullying incorporate insights from social movements like Hezbollah’s influence, while exploring themes of identity in digital spaces?",
+        "answer": [
+          "Explore group dynamics and identity manipulation",
+          "A novelist might explore cyberbullying's trauma, Hezbollah's social tactics, digital identity struggles, and publish themes in a tech-driven narrative"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.16,
+          "technology": 0.21,
+          "psychology": 0.34,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a novelist explore the psychological resilience of characters experiencing cyberbullying while integrating sociological insights from Hezbollah’s community strategies, technological advancements in digital anonymity, and literary motifs of isolation?",
+        "answer": [
+          "Exploring resilience through community and isolation themes",
+          "Characters endure cyberbullying through resilience, Hezbollah-inspired solidarity, anonymity tech, and isolation motifs"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.2,
+          "technology": 0.19,
+          "psychology": 0.31,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "What psychological strategies might a novelist use to depict characters overcoming cyberbullying, while integrating sociological insights from Hezbollah’s community influence and exploring how modern technology amplifies these dynamics in literature?",
+        "answer": [
+          "Resilience building through community support",
+          "Characters rebuild resilience through social support, mirroring Hezbollah's community networks, while technology amplifies both abuse and solidarity in modern narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.19,
+          "psychology": 0.27,
+          "sociology": 0.36
+        },
+        "theme_consistency_score": 0.79
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a novelist use psychological resilience strategies to depict characters influenced by Hezbollah’s sociological dynamics while addressing the role of technology in cyberbullying?",
+        "answer": [
+          "Exploring character resilience and cyber ethics",
+          "Characters show resilience amid Hezbollah's social pressures and cyberbullying tech impacts"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.2,
+          "psychology": 0.31,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.82
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_94690",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between ethical exclusion of professionals with misconduct charges, societal trust, digital platforms' influence, and literary portrayals of technology's impact on social dynamics",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a psychologist’s recommendation to exclude a professional with unresolved misconduct charges intersect with societal trust (sociology), the role of digital platforms in amplifying reputational damage (technology), and themes of redemption explored in modern literature?",
+        "answer": [
+          "Erodes trust, amplifies stigma, challenges redemption",
+          "Exclusion may restore trust, amplify reputations, and echo redemption themes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.17,
+          "technology": 0.2,
+          "psychology": 0.35,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a psychologist’s recommendation to exclude a professional with unresolved misconduct charges influence societal trust (sociology), be portrayed in dystopian literature (literature), and be amplified or mitigated by digital communication platforms (technology)?",
+        "answer": [
+          "Erodes trust, dystopian control, digital magnification",
+          "Exclusion may erode trust, echo in dystopian themes, and spread rapidly online"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.27,
+          "technology": 0.31,
+          "psychology": 0.16,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.78
+      },
+      {
+        "turn": 3,
+        "prompt": "How might literature portray the societal implications of a psychologist’s recommendation to exclude a professional with unresolved misconduct charges, as influenced by technological advancements in communication and public opinion formation?",
+        "answer": [
+          "Increased scrutiny and public distrust",
+          "Public shaming amplifies exclusion, reshaping identity and trust"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.21,
+          "technology": 0.22,
+          "psychology": 0.3,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.75
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_59369",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores a protagonist's emotional struggle with societal expectations amid technological success, using psychological and sociological theories to depict internal conflict and resilience in a changing cultural landscape",
+    "num_turns": 3,
+    "difficulty_pattern": "fluctuate",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What psychological theories could a novelist use to depict a protagonist’s internal conflict when societal pressures clash with their technological achievements, as seen in dystopian literature?",
+        "answer": [
+          "Cognitive dissonance theory",
+          "Cognitive dissonance fuels dystopian protagonists"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.71,
+        "domain_weights": {
+          "literature": 0.25,
+          "technology": 0.19,
+          "psychology": 0.28,
+          "sociology": 0.28
+        },
+        "theme_consistency_score": 0.62
+      },
+      {
+        "turn": 2,
+        "prompt": "How can a novelist integrate psychological theories of identity, sociological analyses of cultural norms, and the influence of digital technology to craft a narrative where the protagonist’s literary journey reflects their internal conflict and societal transformation?",
+        "answer": [
+          "Explore identity through digital self-expression",
+          "Protagonist's digital self shapes identity, mirrors societal norms, fuels literary growth"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.52,
+        "domain_weights": {
+          "literature": 0.29,
+          "technology": 0.19,
+          "psychology": 0.22,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.64
+      },
+      {
+        "turn": 3,
+        "prompt": "How can a novelist use psychological theories of resilience, sociological perspectives on cultural change, and the impact of digital communication technologies to craft a protagonist who overcomes identity struggles in a fragmented society?",
+        "answer": [
+          "Integrate resilience, cultural dynamics, digital influences",
+          "A resilient protagonist embraces digital tools, reshapes cultural identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.32,
+          "technology": 0.13,
+          "psychology": 0.31,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.7
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_30322",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between psychological resilience, sociological identity, and literary narratives in Hezbollah's influence, analyzed through technological tools and platforms for propaganda dissemination",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a sociopolitical movement like Hezbollah's influence on global perceptions be explored through the lens of psychological resilience, technological propaganda dissemination, and literary narratives comparing suffering and redemption? A. By analyzing digital media strategies B. Through character archetypes in novels C. By studying trauma responses D. Examining ideological symbolism",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.18,
+          "psychology": 0.37,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological resilience fostered by Hezbollah’s narratives be analyzed through sociological theories of collective identity, technological dissemination of propaganda, and literary techniques of symbolism?",
+        "answer": [
+          "Analyzing resilience through symbolic collective narratives",
+          "Hezbollah's narratives build psychological resilience through sociological collective identity, tech-driven propaganda, and literary symbolism"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.16,
+          "technology": 0.17,
+          "psychology": 0.36,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 3,
+        "prompt": "What role does literature play in shaping the psychological resilience fostered by Hezbollah’s narratives, as analyzed through sociological theories of collective identity and mediated by digital technology platforms?",
+        "answer": [
+          "Reinforcing collective identity resilience",
+          "Literature fosters resilience through identity narratives amplified by digital platforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.25,
+          "psychology": 0.31,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.77
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_71955",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The psychological, sociological, and technological analysis of Hezbollah's digital propaganda, contextualized through existential literary themes and its global perceptual influence",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a sociopolitical movement like Hezbollah use digital platforms to influence global perceptions, while drawing parallels to themes of existential despair in literature?",
+        "answer": [
+          "Propaganda amplifies existential narratives",
+          "Hezbollah uses digital platforms to amplify existential despair, mirroring themes in literature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.07,
+          "technology": 0.21,
+          "psychology": 0.45,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological impact of digital propaganda used by a sociopolitical movement like Hezbollah be analyzed through the lens of existential themes in literature?",
+        "answer": [
+          "Exploring existential crisis and manipulation",
+          "Digital propaganda induces existential anxiety, shaping identity and resistance"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.21,
+          "technology": 0.14,
+          "psychology": 0.38,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 3,
+        "prompt": "How can the psychological resilience of individuals exposed to Hezbollah's digital propaganda be sociologically contextualized, technologically analyzed through platform algorithms, and compared to themes of existential struggle in dystopian literature?",
+        "answer": [
+          "Multidisciplinary resilience analysis and comparison",
+          "Resilience thrives amid sociopolitical chaos, algorithmic manipulation, and dystopian echoes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.69,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.29,
+          "psychology": 0.21,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_17416",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between Hezbollah’s societal influence in Lebanon, psychological resilience, and the role of digital communication technologies in shaping narratives within Lebanese literature",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a novelist's depiction of societal movements, such as Hezbollah’s influence in Lebanon, intersect with psychological themes of despair, while leveraging digital publishing platforms to reach a global audience?",
+        "answer": [
+          "Exploring despair through global e-books",
+          "A novelist depicts Hezbollah's despair, reaching global audiences via digital platforms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.1,
+          "technology": 0.18,
+          "psychology": 0.41,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological resilience of individuals in Lebanon, as shaped by Hezbollah’s societal influence, be affected by the role of digital communication technologies in spreading narratives, and how could a novelist portray this intersection?",
+        "answer": [
+          "Resilience shaped by narratives and technology",
+          "Resilience shaped by Hezbollah's influence, digital narratives, and novelist portrayal"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.12,
+          "technology": 0.22,
+          "psychology": 0.31,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the portrayal of Hezbollah’s societal influence in Lebanese literature reflect psychological resilience, as shaped by digital communication technologies?",
+        "answer": [
+          "Empowering narratives via digital platforms",
+          "Digital narratives in Lebanese literature highlight societal resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.14,
+          "technology": 0.23,
+          "psychology": 0.29,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How has the psychological resilience of individuals in Lebanon, as depicted in literature influenced by Hezbollah’s societal role, been shaped by the integration of digital communication technologies?",
+        "answer": [
+          "Increased resilience through enhanced connectivity",
+          "Resilience strengthened through tech, society, and literary narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.13,
+          "technology": 0.3,
+          "psychology": 0.3,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.84
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological resilience of individuals in Lebanon, as depicted in literature influenced by Hezbollah’s societal role, be affected by digital communication technologies?",
+        "answer": [
+          "Enhanced coping and connectivity",
+          "Digital tools may bolster resilience amid societal and psychological challenges"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.22,
+          "technology": 0.23,
+          "psychology": 0.2,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.89
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_95660",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between literature, psychology, sociology, and technology in shaping a novelist's portrayal of societal inequality and the role of AI tools in influencing empathetic storytelling",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a novelist's portrayal of societal inequality (literature) reflect both the functionalist perspective on social stratification (sociology) and the limitations of artificial intelligence in understanding human emotions (technology), while also aligning with Erikson's model of psychosocial development (psychology)?",
+        "answer": [
+          "Exploring identity through societal roles",
+          "A novelist critiques inequality through emotional depth AI lacks, reflecting societal roles and Erikson's stages"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.3,
+          "technology": 0.27,
+          "psychology": 0.23,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a novelist's depiction of societal inequality (literature) be influenced by psychological theories of human motivation (psychology), shaped by technological advancements in communication (technology), and analyzed through the functionalist lens of social stratification (sociology)?",
+        "answer": [
+          "Exploring motivation and societal roles",
+          "Inequality drives plots, shaped by motivation theories, tech, and functionalist stratification"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.3,
+          "technology": 0.21,
+          "psychology": 0.23,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.68
+      },
+      {
+        "turn": 3,
+        "prompt": "How might advancements in artificial intelligence (technology) influence a novelist's portrayal of societal inequality (literature), considering psychological theories of human behavior (psychology) and sociological perspectives on social structures (sociology)?",
+        "answer": [
+          "AI shapes narratives on evolving inequalities",
+          "AI could reshape narratives by amplifying biases and societal tensions"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.32,
+          "technology": 0.19,
+          "psychology": 0.25,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a novelist's use of artificial intelligence tools (technology) to explore themes of societal inequality (literature) be shaped by psychological theories of empathy (psychology) and sociological concepts of power dynamics (sociology)?",
+        "answer": [
+          "Enhanced empathetic and power narratives",
+          "AI tools may amplify empathy-driven narratives by highlighting power imbalances"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.33,
+          "technology": 0.21,
+          "psychology": 0.14,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 5,
+        "prompt": "How might a novelist’s use of AI-driven sentiment analysis tools (technology) to craft empathetic characters (psychology) reflect broader societal attitudes toward inequality (sociology), and which literary tradition does this approach most align with? A. Realism B. Romanticism C. Postmodernism D. Classicism?",
+        "answer": "A",
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.28,
+          "technology": 0.26,
+          "psychology": 0.22,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.66
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_18009",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The psychological and sociological impacts of isolation in a novel, mediated by modern technology, exploring themes of resilience, alienation, and connection through literary and theoretical lenses",
+    "num_turns": 4,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the psychological impact of isolation, as depicted in a novel where the protagonist is cut off from society, be influenced by modern communication technology and mirror the real-life social dynamics observed during the Lebanon hostage crisis? A. Increased resilience B. Deepened alienation C. Strengthened community bonds D. Unchanged emotional state",
+        "answer": "B",
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.38,
+          "technology": 0.13,
+          "psychology": 0.19,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the psychological effects of isolation on a protagonist in a novel reflect broader sociological implications of societal disconnection, and how could modern communication technologies alter these dynamics while drawing parallels to themes in classic literature?",
+        "answer": [
+          "Isolation mirrors societal fragmentation; technology offers connectivity",
+          "Isolation breeds societal disconnection, yet technology bridges gaps, echoing themes in \"Frankenstein.\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.4,
+          "technology": 0.16,
+          "psychology": 0.27,
+          "sociology": 0.17
+        },
+        "theme_consistency_score": 0.71
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the psychological effects of isolation on a protagonist in a novel reflect broader sociological implications of societal disconnection, especially when mediated by technological advancements?",
+        "answer": [
+          "Mirrors societal alienation and dependency",
+          "Isolation's psychological toll mirrors societal disconnection, amplified by technology's mediation in literature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.57,
+        "domain_weights": {
+          "literature": 0.25,
+          "technology": 0.23,
+          "psychology": 0.26,
+          "sociology": 0.26
+        },
+        "theme_consistency_score": 0.77
+      },
+      {
+        "turn": 4,
+        "prompt": "In a novel where the protagonist experiences isolation, what role does technology play in either alleviating or exacerbating their psychological condition, and how does this reflect broader sociological trends of societal disconnection depicted in the narrative?",
+        "answer": [
+          "Exacerbates disconnection, mirrors societal trends",
+          "Technology mirrors societal disconnection, deepening isolation yet offering fragile connection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "literature": 0.33,
+          "technology": 0.19,
+          "psychology": 0.21,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.72
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_78064",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores the psychological and sociological impacts of prolonged social isolation due to technological over-reliance, focusing on resilience, adaptation, and reconnection in a virtual reality-driven world",
+    "num_turns": 3,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What psychological theory could a novelist use to explain a character’s resilience after prolonged social isolation caused by immersive virtual reality technology, and how might sociological insights into digital communities influence this portrayal?",
+        "answer": [
+          "Resilience Theory, digital community dynamics",
+          "Post-traumatic growth explains resilience; digital communities reshape identity"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.18,
+          "technology": 0.19,
+          "psychology": 0.38,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a novelist leverage psychological theories of resilience, sociological perspectives on community dynamics, and advancements in virtual reality technology to craft a narrative where a character’s prolonged isolation leads to a transformative reconnection with society?",
+        "answer": [
+          "Exploring resilience through virtual communities",
+          "A novelist could depict resilience through isolation, community reconnection via virtual reality"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.17,
+          "technology": 0.27,
+          "psychology": 0.31,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How might a novelist use psychological theories of resilience, sociological insights on community fragmentation, and advancements in virtual reality technology to craft a narrative where a character’s prolonged isolation leads to unexpected literary creativity?",
+        "answer": [
+          "Exploring resilience through virtual escapism",
+          "A novelist might depict a character thriving in isolation by blending resilience psychology, fragmented community sociology, virtual reality escapes, and literary self-discovery"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.59,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.31,
+          "psychology": 0.32,
+          "sociology": 0.22
+        },
+        "theme_consistency_score": 0.89
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_85912",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores a character's psychological resilience and adaptation to societal alienation caused by algorithm-driven social media, examining the interplay between digital dependency, identity formation, and communication's role in relationships",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a character in a novel use a computer network to share files with a friend while reflecting on the importance of communication in relationships and dealing with social anxiety?",
+        "answer": [
+          "Sharing files, reflecting on communication needs",
+          "A socially anxious character might use a computer network to share files with a friend, valuing communication in relationships"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.07,
+          "technology": 0.26,
+          "psychology": 0.35,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a character in a novel leverage social networking technology to strengthen friendships, while considering the psychological effects of digital communication and the societal implications of reduced face-to-face interactions?",
+        "answer": [
+          "Frequent, meaningful online interactions",
+          "A character could use social media to nurture friendships, balancing digital engagement with psychological needs for connection while acknowledging societal shifts toward mediated interactions and literary themes of human vulnerability"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "literature": 0.19,
+          "technology": 0.28,
+          "psychology": 0.19,
+          "sociology": 0.34
+        },
+        "theme_consistency_score": 0.63
+      },
+      {
+        "turn": 3,
+        "prompt": "How might a character in a novel use social networking technology to examine the psychological effects of digital communication on societal norms, while drawing parallels to themes of isolation in classic literature?",
+        "answer": [
+          "Exploring isolation through digital interactions",
+          "A character might explore isolation's digital echoes"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.28,
+          "technology": 0.22,
+          "psychology": 0.19,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.75
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a novelist depict a character’s psychological adaptation to societal alienation caused by algorithm-driven social media, while exploring the interplay between digital dependency and literary themes of identity?",
+        "answer": [
+          "Character explores identity through digital isolation",
+          "A character's psyche fractures under algorithmic isolation, reflecting digital dependency's erosion of self"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.55,
+        "domain_weights": {
+          "literature": 0.24,
+          "technology": 0.23,
+          "psychology": 0.22,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.65
+      },
+      {
+        "turn": 5,
+        "prompt": "How might a novelist use psychological resilience theories and sociological frameworks to explore a character’s adaptation to societal alienation caused by algorithm-driven social media?",
+        "answer": [
+          "Character development through resilience and isolation themes",
+          "A novelist might depict resilience through alienation, blending sociological frameworks and algorithm-driven isolation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.13,
+          "technology": 0.25,
+          "psychology": 0.24,
+          "sociology": 0.38
+        },
+        "theme_consistency_score": 0.8
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_40521",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The strategic use of psychological resilience, sociological identity-building, digital propaganda tools, and literary narratives by Hezbollah to craft persuasive narratives and strengthen collective resolve in global conflicts",
+    "num_turns": 5,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a sociopolitical movement like Hezbollah, which has influenced global conflicts, use psychological manipulation in digital spaces to sway public opinion, as depicted in a literary work such as *America's Secret War*? A. By spreading misinformation B. Through emotional appeals C. Using anonymous accounts D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.15,
+          "technology": 0.21,
+          "psychology": 0.33,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might a sociopolitical movement like Hezbollah, which has influenced global conflicts, integrate psychological persuasion, sociological identity-building, digital storytelling platforms, and literary symbolism to craft compelling propaganda in online spaces?",
+        "answer": [
+          "Utilizing narrative, identity, and symbolism",
+          "Leverage identity, emotion, and symbols in digital narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.67,
+        "domain_weights": {
+          "literature": 0.13,
+          "technology": 0.21,
+          "psychology": 0.33,
+          "sociology": 0.33
+        },
+        "theme_consistency_score": 0.72
+      },
+      {
+        "turn": 3,
+        "prompt": "How might a sociopolitical movement like Hezbollah leverage psychological resilience strategies, sociological identity formation, digital propaganda tools, and literary narratives to strengthen group cohesion?",
+        "answer": [
+          "Promoting unity through shared narratives and symbols",
+          "Hezbollah fosters unity through resilience, identity, digital tools, and narratives"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.22,
+          "technology": 0.2,
+          "psychology": 0.27,
+          "sociology": 0.31
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a sociopolitical movement like Hezbollah integrate psychological resilience training, sociological identity reinforcement, digital propaganda tools, and literary narratives to inspire collective action?",
+        "answer": [
+          "Promoting unified identity and action",
+          "Hezbollah fosters resilience, identity, digital outreach, and storytelling"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.61,
+        "domain_weights": {
+          "literature": 0.2,
+          "technology": 0.26,
+          "psychology": 0.22,
+          "sociology": 0.32
+        },
+        "theme_consistency_score": 0.85
+      },
+      {
+        "turn": 5,
+        "prompt": "How might a sociopolitical movement like Hezbollah use psychological resilience strategies, sociological identity reinforcement, digital propaganda tools, and literary narratives to inspire collective action?",
+        "answer": [
+          "Promoting unity, identity, and shared goals",
+          "Hezbollah fosters resilience, identity, digital outreach, and storytelling"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "literature": 0.26,
+          "technology": 0.26,
+          "psychology": 0.28,
+          "sociology": 0.2
+        },
+        "theme_consistency_score": 0.91
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_85994",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "A novelist explores a character's disruptive behavior in a technologically advanced society, using psychological theories of identity formation and sociological concepts of group dynamics to reflect themes of alienation and societal norms",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "gradual_shift",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might a novelist use technology to depict a character whose psychological confusion disrupts social norms, while drawing metaphorical parallels to literary themes of alienation and identity fragmentation?",
+        "answer": [
+          "Utilizing fragmented narrative techniques",
+          "A novelist could use virtual reality to mirror a character's fragmented psyche, alienating them socially while echoing themes of identity disintegration"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "literature": 0.31,
+          "technology": 0.19,
+          "psychology": 0.26,
+          "sociology": 0.24
+        },
+        "theme_consistency_score": 0.88
+      },
+      {
+        "turn": 2,
+        "prompt": "What psychological theory could a novelist use to explain a character's disruptive behavior in a technologically advanced society, while drawing sociological parallels to themes of alienation explored in classic literature?",
+        "answer": [
+          "Social alienation in technological dystopia",
+          "Erikson's identity crisis fuels alienation in tech-driven dystopias"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.53,
+        "domain_weights": {
+          "literature": 0.17,
+          "technology": 0.27,
+          "psychology": 0.37,
+          "sociology": 0.19
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 3,
+        "prompt": "What psychological theory could a novelist use to explain a character's disruptive behavior in a technologically advanced society, while drawing sociological parallels to themes of alienation explored in dystopian literature?",
+        "answer": [
+          "Social Identity Theory in dystopian context",
+          "A novelist could use Maslow's hierarchy to explain disruptive behavior in a tech-driven society, paralleling alienation themes from dystopian literature"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "literature": 0.29,
+          "technology": 0.18,
+          "psychology": 0.26,
+          "sociology": 0.27
+        },
+        "theme_consistency_score": 0.87
+      },
+      {
+        "turn": 4,
+        "prompt": "How might a novelist use psychological theories of identity formation to explain a character's disruptive behavior in a technologically advanced society, while reflecting sociological concerns about digital alienation and drawing parallels to themes of isolation in 20th-century dystopian literature?",
+        "answer": [
+          "Exploring identity crisis and digital isolation",
+          "A character's disruptive behavior in a tech-driven society may stem from identity struggles, mirroring dystopian themes of isolation and digital alienation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.7,
+        "domain_weights": {
+          "literature": 0.34,
+          "technology": 0.2,
+          "psychology": 0.23,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.82
+      },
+      {
+        "turn": 5,
+        "prompt": "How might a novelist use sociological theories of group dynamics and psychological concepts of identity formation to explain a character’s disruptive behavior in a dystopian, technologically advanced society, while drawing parallels to themes of alienation in classic literature?",
+        "answer": [
+          "Exploring identity crisis and societal exclusion",
+          "A character's rebellion mirrors alienation, shaped by societal norms and tech-driven isolation"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "domain_weights": {
+          "literature": 0.22,
+          "technology": 0.2,
+          "psychology": 0.23,
+          "sociology": 0.35
+        },
+        "theme_consistency_score": 0.82
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross4_psychology_sociology_technology_literature_35077",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "psychology",
+      "sociology",
+      "technology",
+      "literature"
+    ],
+    "cross_domain_id": [
+      7,
+      12,
+      14,
+      17
+    ],
+    "topic_description": "The interplay between Kafka's depiction of alienation in *The Metamorphosis* and modern technology's impact on societal isolation, psychological resilience, and reintegration through digital detoxification",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How might the portrayal of isolation in Kafka's *The Metamorphosis* (literature) reflect societal alienation (sociology), mirror psychological responses to rejection (psychology), and resonate with modern concerns about digital disconnection (technology)? A. Lack of communication B. Fear of judgment C. Loss of identity D. All of the above?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "domain_weights": {
+          "literature": 0.44,
+          "technology": 0.15,
+          "psychology": 0.2,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How might the use of social media platforms (technology) exacerbate feelings of isolation depicted in Kafka’s *The Metamorphosis* (literature), while reflecting broader societal alienation (sociology) and influencing individual psychological responses to rejection (psychology)?",
+        "answer": [
+          "Intensifies feelings of disconnection and rejection",
+          "Social media mirrors Gregor's isolation, amplifying societal alienation and rejection's psychological toll"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.29,
+          "technology": 0.2,
+          "psychology": 0.3,
+          "sociology": 0.21
+        },
+        "theme_consistency_score": 0.7
+      },
+      {
+        "turn": 3,
+        "prompt": "How might the psychological impact of social media addiction (technology) mirror the societal alienation depicted in Kafka’s *The Metamorphosis* (literature), and what sociological factors could explain this parallel while considering individual coping mechanisms (psychology)?",
+        "answer": [
+          "Isolation and loss of identity",
+          "Social media addiction mirrors Gregor's isolation, fueled by societal norms and digital dependency"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.23,
+          "technology": 0.14,
+          "psychology": 0.33,
+          "sociology": 0.3
+        },
+        "theme_consistency_score": 0.74
+      },
+      {
+        "turn": 4,
+        "prompt": "How might the psychological effects of prolonged social media use (technology) parallel the societal alienation in Kafka’s *The Metamorphosis* (literature), and what role does group identity (sociology) play in mitigating these effects?",
+        "answer": [
+          "Isolation increases, group identity reduces impact",
+          "Social media's isolating effects echo Gregor's alienation; group identity fosters connection"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.62,
+        "domain_weights": {
+          "literature": 0.31,
+          "technology": 0.17,
+          "psychology": 0.27,
+          "sociology": 0.25
+        },
+        "theme_consistency_score": 0.76
+      },
+      {
+        "turn": 5,
+        "prompt": "How might the psychological effects of digital detoxification (technology) influence societal reintegration, as explored in Kafka’s *The Metamorphosis* (literature), and what role does social identity (sociology) play in shaping individual resilience (psychology)?",
+        "answer": [
+          "Enhances resilience, fosters social identity reevaluation",
+          "Digital detox reshapes identity, echoing Gregor's isolation and resilience"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.63,
+        "domain_weights": {
+          "literature": 0.3,
+          "technology": 0.18,
+          "psychology": 0.23,
+          "sociology": 0.29
+        },
+        "theme_consistency_score": 0.69
+      },
+      {
+        "turn": 6,
+        "prompt": "How does the psychological concept of \"detachment\" in Kafka’s *The Metamorphosis* (literature) reflect societal alienation (sociology) and relate to modern technology-induced isolation (technology), requiring an understanding of coping mechanisms (psychology)?",
+        "answer": [
+          "Detachment mirrors modern technological isolation",
+          "Gregor’s detachment mirrors societal alienation, exacerbated by modern tech-induced isolation, demanding adaptive coping mechanisms"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.66,
+        "domain_weights": {
+          "literature": 0.32,
+          "technology": 0.19,
+          "psychology": 0.26,
+          "sociology": 0.23
+        },
+        "theme_consistency_score": 0.68
+      }
+    ]
+  }
+]

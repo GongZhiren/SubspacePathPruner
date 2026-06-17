@@ -1,0 +1,940 @@
+[
+  {
+    "scenario_id": "music_46793",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The scenario explores the interconnected history of Brit-pop bands in the 1990s, focusing on key milestones such as acting debuts, album releases, chart performance, and collaborations with renowned producers",
+    "num_turns": 6,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 3,
+    "task_type_change_frequency": 0.6,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which Brit-pop band featured the singer from Step 1 before his acting debut? A. Oasis B. Blur C. Pulp D. Suede?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.55,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Brit-pop band featured the singer from Step 1 and released their debut album in 1993? A. Oasis B. Blur C. Pulp D. Suede?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which Brit-pop band from Step 3 collaborated with a renowned producer on their debut album?",
+        "answer": [
+          "Oasis and producer Mark Coyle",
+          "Blur and producer Stephen Street",
+          "Oasis collaborated with Noel Gallagher"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.58,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Brit-pop band from Step 3 had their debut album peak highest on the UK charts? A. Oasis B. Blur C. Pulp D. Suede?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.96,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Brit-pop band from Step 3 had their debut single reach the top 10 in the UK? A. Oasis B. Blur C. Pulp D. Suede?",
+        "answer": "D",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Brit-pop band from Step 3 had the most top 10 singles in their debut album's release year?",
+        "answer": "Oasis",
+        "task_type": "reasoning",
+        "difficulty": 0.5,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_59996",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "West explores how music instills the value of time and patience, linking these to the pursuit of truth in music and its societal impact, emphasizing patience as key to evolving musical truth",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.25,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How does West suggest music teaches the value of time?",
+        "answer": [
+          "Through rhythm and duration management",
+          "It organizes our experience of time",
+          "Through rhythm and timing"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.37,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "How does West explain the role of patience in learning from music?",
+        "answer": [
+          "Patience fosters deeper understanding",
+          "Unlocks music's emotional and intellectual depth",
+          "Patience allows deeper musical understanding"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "How does West connect the concept of truth in music to its impact on society?",
+        "answer": [
+          "Truth in music fosters societal reflection",
+          "Prophetic witness for social change",
+          "Truth in music inspires societal change"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "How does West illustrate the relationship between patience and truth in music's societal role?",
+        "answer": [
+          "Music reflects societal truths patiently",
+          "Patiently bearing witness to truth",
+          "Patience reveals truth in music's societal role"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.6,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What role does West attribute to patience in the evolution of musical truth?",
+        "answer": [
+          "Patience is fundamental",
+          "Patience allows musical truth to unfold naturally"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.82,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_77297",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The scenario explores which car brand's advertisement features a song by Danny Kaye, focusing on identifying the manufacturer associated with his musical work",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which car brand used Danny Kaye's song in their advert? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.42,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which car brand's advert features Danny Kaye's song? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 0.79,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which car brand's advert features a song by Danny Kaye? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which car brand's advert features a song sung by Danny Kaye? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which car brand's advert features a song written by Danny Kaye? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which car brand's advert features a song performed by Danny Kaye? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which car brand's advert includes a song associated with Danny Kaye? A. Toyota B. Ford C. Volkswagen D. BMW?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.49,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_94624",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The scenario explores connections between a short papacy, themes of mortality in classical music, and innovative orchestration, focusing on composers like Mahler and their September symphony premieres",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_increase",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.2,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "In September 1978, which Pope died after only 33 days of Papacy?",
+        "answer": "Pope John Paul I",
+        "task_type": "factual",
+        "difficulty": 0.35,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which composer's symphony premiered in September and reflects themes of mortality? A. Beethoven B. Mahler C. Tchaikovsky D. Brahms?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.44,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which composer's work premiered in September and is known for its themes of mortality? A. Beethoven B. Mahler C. Tchaikovsky D. Brahms?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.46,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which composer's September premiere is often associated with themes of mortality? A. Beethoven B. Mahler C. Tchaikovsky D. Brahms?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which composer's symphony premiered in September and is often linked to themes of mortality? A. Beethoven B. Mahler C. Tchaikovsky D. Brahms?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.45,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which composer's September premiere is known for its innovative orchestration? A. Beethoven B. Mahler C. Tchaikovsky D. Brahms?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.54,
+        "theme_consistency_score": 0.63,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_46923",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The inspiration behind the name of a famous music band linked to a Dutch professor's laboratory drink, exploring connections between science, beverages, and music culture",
+    "num_turns": 6,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What Dutch professor’s laboratory drink inspired a famous music band's name? A. Gin B. Vodka C. Jenever D. Rum?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which music band was named after the Dutch professor's laboratory drink? A. The Beatles B. Jenever C. The Rolling Stones D. Rum?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.57,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which band was inspired by a Dutch professor’s laboratory drink? A. The Beatles B. Jenever C. The Rolling Stones D. Rum?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.48,
+        "theme_consistency_score": 0.94,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which band’s name was inspired by a Dutch professor’s lab drink? A. The Beatles B. Jenever C. The Rolling Stones D. Rum?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which band’s name was inspired by a drink linked to a Dutch professor? A. The Beatles B. Jenever C. The Rolling Stones D. Rum?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.47,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which band’s name was inspired by a drink? A. The Beatles B. Jenever C. The Rolling Stones D. Rum?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_49051",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The scenario explores Gertrude Lawrence's career, focusing on her roles in musicals by Rodgers and Hammerstein, particularly \"The King and I,\" and distinguishing between her performances in their works and others",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 2,
+    "task_type_change_frequency": 0.333,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which Rodgers and Hammerstein musical was written for actress Gertrude Lawrence, who died a year later halfway through the show’s run?",
+        "answer": [
+          "The King and I",
+          "\"The King and I\""
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.43,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which Rodgers and Hammerstein musical featured Gertrude Lawrence in a leading role?",
+        "answer": "The King and I",
+        "task_type": "factual",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which musical featured Gertrude Lawrence and was composed by Rodgers and Hammerstein?",
+        "answer": [
+          "The King and I",
+          "\"The King and I\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which musical did Gertrude Lawrence perform in that was not composed by Rodgers and Hammerstein?",
+        "answer": [
+          "Lady in the Dark",
+          "\"The King and I\""
+        ],
+        "task_type": "factual",
+        "difficulty": 0.59,
+        "theme_consistency_score": 0.81,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which role did Gertrude Lawrence play in \"The King and I\"?",
+        "answer": [
+          "Anna Leonowens",
+          "Anna Leonowens (original production)"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.45,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which musical did Gertrude Lawrence star in besides \"The King and I\"? A. Oklahoma! B. South Pacific C. Cinderella D. Carousel",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which musical did Gertrude Lawrence perform in before \"The King and I\"? A. Oklahoma! B. South Pacific C. Cinderella D. Carousel",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.51,
+        "theme_consistency_score": 0.6,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_16807",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "This scenario explores fundamental concepts in music, including performance essentials, theory, harmony, chord progressions, musical forms, and key terminology, emphasizing their interconnected roles in creating and understanding music",
+    "num_turns": 8,
+    "difficulty_pattern": "spike",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "What element is essential for a successful music performance? A. Timing B. Costumes C. Lighting D. Venue size?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.21,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which aspect of music theory is most crucial for understanding harmony? A. Scales B. Chords C. Rhythm D. Dynamics?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.4,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "What is the most basic element of music? A. Melody B. Harmony C. Rhythm D. Dynamics?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.41,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which musical form often features a repeating theme with variations? A. Sonata B. Fugue C. Rondo D. Symphony?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which chord progression is commonly used in classical sonata form? A. I-IV-V-I B. I-V-vi-IV C. ii-V-I D. I-iii-vi-ii?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is the term for a musical phrase that repeats throughout a piece? A. Motif B. Cadence C. Ostinato D. Sequence?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "What is the term for a repeated rhythmic pattern in music? A. Harmony B. Melody C. Ostinato D. Syncopation?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "What is the term for a sudden change in dynamics? A. Crescendo B. Adagio C. Sforzando D. Staccato?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_76690",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "Larry Adler's professional musical career and his specialization in playing the chromatic harmonica, particularly within the jazz genre, including techniques like vibrato for expressive performance",
+    "num_turns": 10,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.111,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "American Larry Adler was known for playing which musical instrument?",
+        "answer": [
+          "harmonica",
+          "The harmonica",
+          "Harmonica player Larry Adler"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.23,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What is Larry Adler's primary instrument? A. Piano B. Harmonica C. Violin D. Guitar?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.3,
+        "theme_consistency_score": 0.44,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which instrument is Larry Adler famous for playing? A. Piano B. Harmonica C. Violin D. Guitar?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.88,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "What type of harmonica did Larry Adler specialize in playing? A. Diatonic B. Chromatic C. Tremolo D. Octave",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.5,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "What genre of music is Larry Adler most associated with? A. Classical B. Jazz C. Blues D. Rock?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "What is a common technique used in jazz harmonica playing? A. Vibrato B. Tremolo C. Glissando D. Staccato?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.37,
+        "theme_consistency_score": 0.46,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which harmonica technique is often used to add expression in jazz? A. Vibrato B. Tremolo C. Glissando D. Staccato?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 8,
+        "prompt": "Which instrument is Larry Adler famous for playing? A. Piano B. Guitar C. Harmonica D. Violin?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.27,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 9,
+        "prompt": "Which instrument did Larry Adler play professionally? A. Piano B. Guitar C. Harmonica D. Violin?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.24,
+        "theme_consistency_score": 0.47,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 10,
+        "prompt": "Which instrument did Larry Adler use to perform professionally? A. Piano B. Guitar C. Harmonica D. Violin?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.26,
+        "theme_consistency_score": 0.52,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_17894",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The 1968 film \"Head,\" featuring The Monkees, explores its connections to famous filmmakers, cameo appearances, and songs contributed by notable artists like Jack Nicholson, Carole King, Harry Nilsson, and Gerry Goffin",
+    "num_turns": 7,
+    "difficulty_pattern": "fluctuate",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "Which 60s pop band made an unsuccessful movie called Head?",
+        "answer": [
+          "The Monkees",
+          "The Monkees made the movie Head"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.32,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "Which 60s pop band's movie \"Head\" featured a cameo by a famous filmmaker?",
+        "answer": [
+          "The Monkees, Frank Zappa",
+          "The Monkees",
+          "The Monkees' movie \"Head\" featured Stanley Kubrick"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.53,
+        "theme_consistency_score": 0.55,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which 60s pop band's movie \"Head\" included a cameo by Jack Nicholson? A. The Beatles B. The Monkees C. The Beach Boys D. The Rolling Stones",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which 60s band's \"Head\" movie featured a song co-written by Nicholson? A. The Beatles B. The Monkees C. The Beach Boys D. The Rolling Stones",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.43,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which 60s band's \"Head\" movie featured a song written by Carole King? A. The Beatles B. The Monkees C. The Beach Boys D. The Rolling Stones",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.41,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which 60s band's \"Head\" movie featured a song written by Harry Nilsson? A. The Beatles B. The Monkees C. The Beach Boys D. The Rolling Stones",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.38,
+        "theme_consistency_score": 0.97,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which 60s band's \"Head\" movie featured a song written by Gerry Goffin? A. The Beatles B. The Monkees C. The Beach Boys D. The Rolling Stones",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.39,
+        "theme_consistency_score": 0.98,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "music_43487",
+    "is_cross_domain": false,
+    "domain": "music",
+    "domain_id": 9,
+    "topic_description": "The scenario explores connections between Italian cities, their cultural and industrial associations, and car models mentioned in a 1978 song by the Tom Robinson Band",
+    "num_turns": 7,
+    "difficulty_pattern": "gradual_decrease",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.167,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "The Tom Robinson Band sang about what colour Cortina in 1978?",
+        "answer": [
+          "Grey Cortina",
+          "2-tone Cortina"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.52,
+        "theme_consistency_score": 1.0,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 2,
+        "prompt": "What model of car, mentioned in the song, shares its name with a famous Italian city? A. Milano B. Torino C. Cortina D. Venezia?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.42,
+        "theme_consistency_score": 0.49,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 3,
+        "prompt": "Which car model mentioned in the song is named after a famous Italian city? A. Milano B. Torino C. Cortina D. Venezia?",
+        "answer": "B",
+        "task_type": "multiple_choice",
+        "difficulty": 0.4,
+        "theme_consistency_score": 0.58,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 4,
+        "prompt": "Which Italian city, associated with a car model in the song, is known for its fashion industry? A. Milano B. Torino C. Cortina D. Venezia?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.34,
+        "theme_consistency_score": 0.9,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 5,
+        "prompt": "Which Italian city, mentioned in the song, is home to Ferrari? A. Milano B. Torino C. Modena D. Venezia?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.23,
+        "theme_consistency_score": 0.65,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 6,
+        "prompt": "Which Italian city, mentioned in the song, is known for its luxury sports car industry? A. Milano B. Torino C. Modena D. Venezia?",
+        "answer": "C",
+        "task_type": "multiple_choice",
+        "difficulty": 0.28,
+        "theme_consistency_score": 0.78,
+        "domain_weights": {
+          "music": 1.0
+        }
+      },
+      {
+        "turn": 7,
+        "prompt": "Which Italian city, mentioned in the song, is known for its opera heritage? A. Milano B. Torino C. Modena D. Venezia?",
+        "answer": "A",
+        "task_type": "multiple_choice",
+        "difficulty": 0.29,
+        "theme_consistency_score": 0.86,
+        "domain_weights": {
+          "music": 1.0
+        }
+      }
+    ]
+  }
+]

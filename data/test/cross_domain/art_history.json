@@ -1,0 +1,174 @@
+[
+  {
+    "scenario_id": "cross_art_history_98070",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "history"
+    ],
+    "cross_domain_id": [
+      0,
+      6
+    ],
+    "topic_description": "Andy Warhol's art is analyzed to explore how his techniques and stylistic choices reflect economic policies, cultural shifts, historical events, industrialization, political climates, and consumerism across different eras",
+    "num_turns": 5,
+    "difficulty_pattern": "gradual_decrease",
+    "weight_pattern": "stable",
+    "task_type_change_count": 0,
+    "task_type_change_frequency": 0.0,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Andy Warhol's art reflect the economic policies debated during Benjamin Franklin's testimony on taxation?",
+        "answer": [
+          "No direct reflection observed",
+          "Warhol's art did not reflect those policies",
+          "Warhol’s art critiqued consumerism, echoing debates on taxation and representation"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "history": 0.54,
+          "art": 0.46
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did Andy Warhol's use of color in his portraits reflect the cultural shifts during the American Revolution?",
+        "answer": [
+          "Warhol was not active during that period",
+          "His art did not reflect that period",
+          "Warhol's bold colors mirrored revolutionary cultural vibrancy"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.65,
+        "domain_weights": {
+          "history": 0.54,
+          "art": 0.46
+        },
+        "theme_consistency_score": 0.59,
+        "validation_warning": 1,
+        "validation_issues": [
+          "Knowledge shift too abrupt: weight change 0.44 > 0.25"
+        ]
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Andy Warhol’s silkscreen technique reflect both the industrialization of the 1960s and the historical influence of mass production during the Industrial Revolution?",
+        "answer": [
+          "Emphasized mass production and repetition",
+          "By mechanizing art with assembly-line methods",
+          "Warhol’s silkscreen technique mirrored industrialization and mass production"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.64,
+        "domain_weights": {
+          "history": 0.51,
+          "art": 0.49
+        },
+        "theme_consistency_score": 0.59
+      },
+      {
+        "turn": 4,
+        "prompt": "How did Andy Warhol’s depiction of historical figures in his art reflect both the artistic trends of his era and the political climate of their respective time periods?",
+        "answer": [
+          "Pop art aesthetic; critiqued mass culture, politics",
+          "He commodified political figures as celebrity icons",
+          "Warhol’s portraits mirrored Pop Art trends and Cold War tensions"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.54,
+        "domain_weights": {
+          "history": 0.51,
+          "art": 0.49
+        },
+        "theme_consistency_score": 0.67
+      },
+      {
+        "turn": 5,
+        "prompt": "How did Andy Warhol’s use of historical imagery in his art reflect both the Pop Art movement’s focus on consumerism and the cultural shifts during the Cold War era?",
+        "answer": [
+          "Highlighted mass-produced cultural icons and commodities",
+          "Commodified history, reflecting media-saturated Cold War culture",
+          "Warhol’s art reflected consumerism and Cold War anxieties through mass media imagery"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.49,
+        "domain_weights": {
+          "history": 0.47,
+          "art": 0.53
+        },
+        "theme_consistency_score": 0.71
+      }
+    ]
+  },
+  {
+    "scenario_id": "cross_art_history_47854",
+    "is_cross_domain": true,
+    "cross_domains": [
+      "art",
+      "history"
+    ],
+    "cross_domain_id": [
+      0,
+      6
+    ],
+    "topic_description": "The intersection of art and historical context, exploring how artistic techniques and symbolism reflect economic, cultural, and political themes across revolutions and eras",
+    "num_turns": 3,
+    "difficulty_pattern": "stable",
+    "weight_pattern": "stable",
+    "task_type_change_count": 1,
+    "task_type_change_frequency": 0.5,
+    "turns": [
+      {
+        "turn": 1,
+        "prompt": "How did Andy Warhol's art reflect the economic concerns of Benjamin Franklin's era regarding taxation and commerce?",
+        "answer": [
+          "Warhol's art did not address these issues",
+          "It did not reflect those concerns",
+          "Warhol’s art critiqued consumerism, echoing Franklin’s commerce concerns"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "history": 0.56,
+          "art": 0.44
+        },
+        "theme_consistency_score": 1.0
+      },
+      {
+        "turn": 2,
+        "prompt": "How did the symbolism in Delacroix's \"Liberty Leading the People\" reflect both artistic techniques and historical events of the French Revolution?",
+        "answer": [
+          "Allegory of revolutionary ideals and victory",
+          "Romantic allegory commemorated the July Revolution's ideals",
+          "Symbolism reflects revolution's chaos and hope through dynamic composition and allegorical figures"
+        ],
+        "task_type": "factual",
+        "difficulty": 0.6,
+        "domain_weights": {
+          "history": 0.51,
+          "art": 0.49
+        },
+        "theme_consistency_score": 0.49
+      },
+      {
+        "turn": 3,
+        "prompt": "How did Jacques-Louis David's \"The Death of Marat\" use artistic techniques to reflect revolutionary ideals and political martyrdom?",
+        "answer": [
+          "Simplified composition, somber colors, focused lighting",
+          "Idealization and stark lighting created a revolutionary martyr",
+          "Neoclassical simplicity, dramatic lighting, and Marat's Christ-like pose symbolized revolutionary sacrifice"
+        ],
+        "task_type": "reasoning",
+        "difficulty": 0.56,
+        "domain_weights": {
+          "history": 0.51,
+          "art": 0.49
+        },
+        "theme_consistency_score": 0.59
+      }
+    ]
+  }
+]
