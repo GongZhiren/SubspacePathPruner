@@ -2,6 +2,9 @@
 
 **Inference-time, training-free structured pruning for LLMs via probe-based representation–parameter coupling.**
 
+- **Paper:** [OpenReview (ICML 2026)](https://openreview.net/forum?id=fvkCjFvWKf)
+- **Project Page:** [https://gongzhiren.github.io/SubspacePathPruner-website/](https://gongzhiren.github.io/SubspacePathPruner-website/)
+
 SubspacePath Pruner compiles a *scenario-specific* pruned subnetwork of a frozen
 large language model at inference time — **no fine-tuning, no gradient updates, no
 scenario training data**. It exploits a simple observation: representation
