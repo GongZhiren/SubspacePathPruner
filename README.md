@@ -8,6 +8,10 @@
 LLM at inference time — no fine-tuning, no gradient updates, no scenario training
 data — by mapping a scenario's domain mixture onto the attention heads that matter.**
 
+<p align="center">
+  <a href="https://gongzhiren.github.io/personal-website/"><strong>Zhiren Gong</strong></a>, Yikun Hou, Fan Wu, Che Wang, Fuyao Zhang, Tiantong Wu, Yurong Hao, Jiaming Zhang, Yiyang Duan, Tiantong Wang, Fei Huang, Chau Yuen, Wei Yang Bryan Lim
+</p>
+
 <table>
   <tr>
     <td align="center">
