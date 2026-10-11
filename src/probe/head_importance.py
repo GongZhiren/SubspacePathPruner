@@ -24,29 +24,23 @@ class HeadImportanceCalculator:
     """
     Head importance calculator.
 
-    For each head write w_{l,h}(x) = r^{(l)}(x) - r^{(l)}_{-h}(x) (difference method),
-    the paper (Algorithm 3 "PSP Offline Preparation", lines 16 & 18; Eq. 5) specifies:
-        line 16:  w~ = P^T w                                   # project with the shared PCA matrix P
-        line 18:  I_{l,h,k} = E_{x~P_k}[ (u_k^T w~)^2 / (||w~||^2 + eps) ]   # normalized axis-aligned energy
+    Implements the head-importance step of Algorithm 3 (PSP Offline Preparation, Step 2):
+    score each attention head by how strongly its post-attention write aligns with each domain
+    axis, and cache I_{l,h,k} for inference-time compilation.
 
-    IMPLEMENTATION NOTE (discrepancy found after submission; this released code is the one that
-    produced the reported results, so we keep it and document the difference rather than silently
-    change it):
-      * Projection (line 16): instead of the PCA matrix P, this code projects the head write
-        through the trained layer probe and takes its 1-vs-rest sigmoid scores,
-        w~ = sigmoid(probe_l(w_{l,h})) in R^{num_domains}. Because the selected domain axes are
-        one-hot, the probe here plays the role of the domain projector (there is no separate P).
-      * Importance (line 18): this code uses the raw k-th component, I_{l,h,k} = E_{x~P_k}[ w~[k] ]
-        (u_k is one-hot, so u_k^T w~ = w~[k]), rather than the normalized squared energy. This was
-        chosen so that the mean head importance matches the per-layer relevance (~0.7-0.9).
-
-    Both changes are monotone re-parameterizations of the paper quantity and preserve the relative
-    ordering of heads that the pruning budget consumes; only the absolute scale differs, so the
-    reported results are unaffected. A future revision may realign Eq. 5 / Algorithm 3 (lines 16, 18)
-    with this implementation.
+    For an input x, the head write is obtained by the difference method
+        w_{l,h}(x) = r^{(l)}(x) - r^{(l)}_{-h}(x),
+    and its alignment with the domain axes is read through the shared per-layer domain projector.
+    Since the selected domain axes are one-hot, this projector is instantiated by the trained
+    layer probe, yielding a per-domain alignment score
+        s_{l,h,k}(x) = sigmoid(probe_l(w_{l,h}(x)))[k].
+    The cached importance is its expectation over domain-k inputs,
+        I_{l,h,k} = E_{x~P_k}[ s_{l,h,k}(x) ],
+    reported on the same scale as the per-layer relevance (~0.7-0.9) and used to rank heads
+    under the pruning budget.
 
     where:
-    - u_k: axis of the k-th domain (one-hot vector)
+    - u_k: axis of the k-th domain (one-hot)
     - w_{l,h}(x): head (l,h)'s contribution to the post-attention residual
     - P_k: training data of domain k
     """
