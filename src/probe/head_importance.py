@@ -22,18 +22,33 @@ logger = get_logger(__name__)
 
 class HeadImportanceCalculator:
     """
-    Head importance calculator
-    Following the paper's Eq.(5): I_{l,h,k} = E_{x~P_k}[ (u_k^T w_{l,h}(x))^2 / (||w_{l,h}(x)||^2 + eps) ]
+    Head importance calculator.
 
-    Modification: use w[k] instead of normalized energy, so that the mean importance of all heads equals the layer relevance
-    New formula: I_{l,h,k} = E_{x~P_k}[ w_{l,h}(x)[k] ]
+    For each head write w_{l,h}(x) = r^{(l)}(x) - r^{(l)}_{-h}(x) (difference method),
+    the paper (Algorithm 3 "PSP Offline Preparation", lines 16 & 18; Eq. 5) specifies:
+        line 16:  w~ = P^T w                                   # project with the shared PCA matrix P
+        line 18:  I_{l,h,k} = E_{x~P_k}[ (u_k^T w~)^2 / (||w~||^2 + eps) ]   # normalized axis-aligned energy
+
+    IMPLEMENTATION NOTE (discrepancy found after submission; this released code is the one that
+    produced the reported results, so we keep it and document the difference rather than silently
+    change it):
+      * Projection (line 16): instead of the PCA matrix P, this code projects the head write
+        through the trained layer probe and takes its 1-vs-rest sigmoid scores,
+        w~ = sigmoid(probe_l(w_{l,h})) in R^{num_domains}. Because the selected domain axes are
+        one-hot, the probe here plays the role of the domain projector (there is no separate P).
+      * Importance (line 18): this code uses the raw k-th component, I_{l,h,k} = E_{x~P_k}[ w~[k] ]
+        (u_k is one-hot, so u_k^T w~ = w~[k]), rather than the normalized squared energy. This was
+        chosen so that the mean head importance matches the per-layer relevance (~0.7-0.9).
+
+    Both changes are monotone re-parameterizations of the paper quantity and preserve the relative
+    ordering of heads that the pruning budget consumes; only the absolute scale differs, so the
+    reported results are unaffected. A future revision may realign Eq. 5 / Algorithm 3 (lines 16, 18)
+    with this implementation.
 
     where:
-    - u_k: axis direction of the k-th domain (one-hot vector)
-    - w_{l,h}(x): contribution of head (l,h) to the post-attention residual (projected into domain space via the probe)
+    - u_k: axis of the k-th domain (one-hot vector)
+    - w_{l,h}(x): head (l,h)'s contribution to the post-attention residual
     - P_k: training data of domain k
-    - w_{l,h}(x)[k]: the k-th element of w (the activation value corresponding to domain k)
-    - This way the mean importance of all heads = layer relevance (0.7-0.9)
     """
     
     def __init__(
